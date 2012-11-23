@@ -1,0 +1,131 @@
+Resolved conversion options
+calibre version: 0.9.2
+{'asciiize': False,
+ 'author_sort': None,
+ 'authors': None,
+ 'base_font_size': 0,
+ 'book_producer': None,
+ 'change_justification': 'original',
+ 'chapter': None,
+ 'chapter_mark': 'pagebreak',
+ 'comments': None,
+ 'cover': None,
+ 'debug_pipeline': None,
+ 'dehyphenate': True,
+ 'delete_blank_paragraphs': True,
+ 'disable_font_rescaling': False,
+ 'dont_download_recipe': False,
+ 'duplicate_links_in_toc': False,
+ 'enable_heuristics': False,
+ 'extra_css': None,
+ 'filter_css': None,
+ 'fix_indents': True,
+ 'font_size_mapping': None,
+ 'format_scene_breaks': True,
+ 'html_unwrap_factor': 0.4,
+ 'input_encoding': None,
+ 'input_profile': <calibre.customize.profiles.InputProfile object at 0x021FBCD0>,
+ 'insert_blank_line': False,
+ 'insert_blank_line_size': 0.5,
+ 'insert_metadata': False,
+ 'isbn': None,
+ 'italicize_common_cases': True,
+ 'keep_ligatures': False,
+ 'language': None,
+ 'level1_toc': None,
+ 'level2_toc': None,
+ 'level3_toc': None,
+ 'line_height': 0,
+ 'linearize_tables': False,
+ 'lrf': False,
+ 'margin_bottom': 5.0,
+ 'margin_left': 5.0,
+ 'margin_right': 5.0,
+ 'margin_top': 5.0,
+ 'markup_chapter_headings': True,
+ 'max_toc_links': 50,
+ 'minimum_line_height': 120.0,
+ 'no_chapters_in_toc': False,
+ 'no_inline_navbars': False,
+ 'output_profile': <calibre.customize.profiles.OutputProfile object at 0x021FBEB0>,
+ 'page_breaks_before': None,
+ 'prefer_metadata_cover': False,
+ 'pretty_print': True,
+ 'pubdate': None,
+ 'publisher': None,
+ 'rating': None,
+ 'read_metadata_from_opf': None,
+ 'remove_fake_margins': True,
+ 'remove_first_image': False,
+ 'remove_paragraph_spacing': False,
+ 'remove_paragraph_spacing_indent_size': 1.5,
+ 'renumber_headings': True,
+ 'replace_scene_breaks': '',
+ 'search_replace': None,
+ 'series': None,
+ 'series_index': None,
+ 'smarten_punctuation': False,
+ 'sr1_replace': '',
+ 'sr1_search': '',
+ 'sr2_replace': '',
+ 'sr2_search': '',
+ 'sr3_replace': '',
+ 'sr3_search': '',
+ 'start_reading_at': None,
+ 'tags': None,
+ 'test': True,
+ 'timestamp': None,
+ 'title': None,
+ 'title_sort': None,
+ 'toc_filter': None,
+ 'toc_threshold': 6,
+ 'unsmarten_punctuation': False,
+ 'unwrap_lines': True,
+ 'use_auto_toc': False,
+ 'verbose': 2}
+1% Converting input to HTML...
+InputFormatPlugin: Recipe Input running
+Using custom recipe
+1% Fetching feeds...
+1% Fetching feed Bioinformatics...
+Failed feed: Bioinformatics
+Traceback (most recent call last):
+  File "site-packages\calibre\web\feeds\news.py", line 1491, in parse_feeds
+  File "site-packages\mechanize-0.2.4-py2.7.egg\mechanize\_mechanize.py", line 203, in open
+  File "site-packages\mechanize-0.2.4-py2.7.egg\mechanize\_mechanize.py", line 216, in _mech_open
+BrowserStateError: can't fetch relative reference: not viewing any document
+
+1% Trying to download cover...
+1% Generating masthead...
+Synthesizing mastheadImage
+1% Starting download [4 thread(s)]...
+34% Feeds downloaded to C:\Users\rmflight\AppData\Local\Temp\calibre_0.9.2_tmp_1jbnka\ig8dlr_plumber\index.html
+34% Download finished
+Parsing all content...
+Parsing index.html ...
+Forcing index.html into XHTML namespace
+Parsing feed_0/index.html ...
+Initial parse failed, using more forgiving parsers
+Parsing feed_0/index.html as HTML
+Reading TOC from NCX...
+34% Running transforms on ebook...
+Merging user specified metadata...
+Detecting structure...
+Flattening CSS and remapping font sizes...
+Source base font size is 12.00000pt
+Removing fake margins...
+Found 3 items of level: div_1
+Found 2 items of level: div_2
+Found 2 items of level: p_2
+Ignoring level p_2
+div_1  left margin stats: Counter()
+div_1  right margin stats: Counter()
+div_2  left margin stats: Counter()
+div_2  right margin stats: Counter()
+Cleaning up manifest...
+Trimming unused files from manifest...
+Creating OEB Output...
+67% Running OEB Output plugin
+The cover image has an id != "cover". Renaming to work around bug in Nook Color
+OEB output written to C:\Users\rmflight\Documents\coding_projects\calibre_rssJournal\test1
+Output saved to   C:\Users\rmflight\Documents\coding_projects\calibre_rssJournal\test1
