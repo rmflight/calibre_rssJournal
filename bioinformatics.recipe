@@ -1,0 +1,13 @@
+from calibre.web.feeds.news import BasicNewsRecipe
+from calibre.ebooks.BeautifulSoup import BeautifulSoup
+import re
+
+class BioinformaticsRecipe(BasicNewsRecipe):
+  
+    title = u'Bioinformatics Journal'
+    language = 'en'
+    feeds = [('Bioinformatics', 'bioinformatics_recent_test_nocgi_fullLink.rss')]
+
+    def get_article_url(self, article):
+        print article
+        return None
