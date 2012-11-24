@@ -6,7 +6,7 @@ class BioinformaticsRecipe(BasicNewsRecipe):
   
     title = u'Bioinformatics Journal'
     language = 'en'
-    feeds = [('Bioinformatics', 'bioinformatics_recent_test_nocgi_fullLink.rss')]
+    feeds = [('Bioinformatics', 'https://dl.dropbox.com/s/m16gxh35ekf4qkk/bioinformatics_recent_test.rss')]
 
     def get_article_url(self, article):
         print article
