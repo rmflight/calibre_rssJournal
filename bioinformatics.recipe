@@ -6,6 +6,7 @@ class BioinformaticsRecipe(BasicNewsRecipe):
   
     title = u'Bioinformatics Journal'
     language = 'en'
+    oldest_article = 365
     feeds = [('Bioinformatics', 'https://dl.dropbox.com/s/m16gxh35ekf4qkk/bioinformatics_recent_test.rss')]
     
     def print_version(self, url):
