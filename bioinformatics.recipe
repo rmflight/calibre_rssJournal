@@ -11,3 +11,7 @@ class BioinformaticsRecipe(BasicNewsRecipe):
     
     def print_version(self, url):
         return url.replace('short', 'long')
+        
+    def preprocess_html(self, soup):
+        print soup.prettify()
+        return soup
