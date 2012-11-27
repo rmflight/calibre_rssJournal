@@ -12,6 +12,22 @@ class BioinformaticsRecipe(BasicNewsRecipe):
     def print_version(self, url):
         return url.replace('short', 'long')
         
+#    def preprocess_raw_html(self, raw_html, url):
+#        subbed_html = re.sub('.small.gif', '.large.jpg', raw_html)
+#        return subbed_html
+        
+    # this switches to the large jpgs, and then sets a width limit on them
     def preprocess_html(self, soup):
-        print soup.prettify()
+        allImg = soup.findAll('img')
+        #print allImg
+        for imgTag in allImg:
+            tmpSrc = imgTag['src']
+            if re.search('.small.gif', tmpSrc):
+                imgTag['src'] = re.sub('.small.gif', '.large.jpg', tmpSrc)
+                imgTag['width'] = 600
+            
+            
+        #print allImg # check that things got changed
+        #print soup.prettify()
         return soup
+        
