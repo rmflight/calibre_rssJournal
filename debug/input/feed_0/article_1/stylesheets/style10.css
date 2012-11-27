@@ -1,0 +1,391 @@
+/****************************
+**
+** Primary Nav
+**
+****************************/
+
+#primary_nav {	
+    background-color: #b8aa9e;	
+    background-image: url( /resource/image/trim/nav_separator_dark_grey.gif );	
+    background-position: 264px 2px;	
+    background-repeat: no-repeat;	
+    padding-top: 8px;	
+    padding-bottom: 6px;
+}
+
+#primary_nav ul {	
+    float: left;	
+    margin-left: 4px;	
+    width: auto; /* [2] */
+}
+
+#primary_nav ul li {	
+    display: inline; /* [3] */	
+    float: left; 	
+    margin-left: 8px; /* [8] */	
+    margin-right: 8px;	
+    width: auto;
+}
+
+#primary_nav ul li.selected {	
+    background-image: url( /resource/image/trim/arrow_white.gif );	
+    background-position: 0 1px;	
+    background-repeat: no-repeat; 	
+    margin-left: 0px; /* [8] */ 	
+    padding-left: 8px; /* [8] */
+}
+
+#primary_nav ul li a:hover {	
+    background-position: -140px 0px;
+}
+
+#primary_nav ul li.separator_after {	
+    margin-right: 18px;
+}
+
+#primary_nav ul li a,
+#primary_nav ul li strong {	
+    background-repeat: no-repeat;	
+    float: left;	
+    height: 9px;
+}
+
+#primary_nav ul li#nav_our_journals a,
+#primary_nav ul li#nav_our_journals strong {    
+    background-image: url( /resource/image/nav/our_journals.gif );    
+    width: 93px;
+}   
+
+#primary_nav ul li#nav_access_purchase a,
+#primary_nav ul li#nav_access_purchase strong {    
+    background-image: url( /resource/image/nav/access_purchase.gif );    
+    width: 128px;
+}   
+
+#primary_nav ul li#nav_for_authors a,
+#primary_nav ul li#nav_for_authors strong {    
+    background-image: url( /resource/image/nav/for_authors.gif );    
+    width: 84px;
+}   
+
+#primary_nav ul li#nav_for_librarians a,
+#primary_nav ul li#nav_for_librarians strong {    
+    background-image: url( /resource/image/nav/for_librarians.gif );    
+    width: 97px;
+}   
+
+#primary_nav ul li#nav_for_societies a,
+#primary_nav ul li#nav_for_societies strong {    
+    background-image: url( /resource/image/nav/for_societies.gif );    
+    width: 88px;
+}   
+
+#primary_nav ul li#nav_corporate_services a,
+#primary_nav ul li#nav_corporate_services strong {   
+    background-image: url( /resource/image/nav/corporate_services.gif );    
+    width: 134px;
+}   
+
+#primary_nav ul li#nav_our_journals strong {   
+    background-image: url( /resource/image/nav/our_journals_selected.gif );
+}   
+
+#primary_nav ul li#nav_access_purchase strong {    
+    background-image: url( /resource/image/nav/access_purchase_selected.gif );
+}
+
+#primary_nav ul li#nav_buy_online {   
+    margin-right: 86px;
+}
+
+#primary_nav ul li#nav_for_authors strong {    
+    background-image: url( /resource/image/nav/for_authors_selected.gif );
+}   
+
+#primary_nav ul li#nav_for_librarians strong {  
+    background-image: url( /resource/image/nav/for_librarians_selected.gif );
+}   
+
+#primary_nav ul li#nav_for_societies strong {    
+    background-image: url( /resource/image/nav/for_societies_selected.gif );
+}
+
+#primary_nav ul li#nav_corporate_services strong {   
+    background-image: url( /resource/image/nav/corporate_services_selected.gif );
+}
+
+.journal #primary_nav {	
+    background-position: 495px 2px;
+}
+
+.journal #primary_nav ul li a:hover {	
+    background-position: -150px 0;
+}
+
+.journal #primary_nav ul li#nav_subscriptions {	
+    margin-right: 86px;
+}
+
+.journal #primary_nav ul li#nav_about_this_journal a,
+.journal #primary_nav ul li#nav_about_this_journal strong {
+    background-image: url( /resource/image/nav/journal/about_this_journal.gif );
+    width: 129px;
+}
+
+.journal #primary_nav ul li#nav_about_this_journal strong {
+    background-image: url( /resource/image/nav/journal/about_this_journal_selected.gif );
+}
+
+.journal #primary_nav ul li#nav_contact_this_journal a,
+.journal #primary_nav ul li#nav_contact_this_journal strong {
+    background-image: url( /resource/image/nav/journal/contact_this_journal.gif );
+    width: 144px;
+}
+
+.journal #primary_nav ul li#nav_contact_this_journal strong {
+    background-image: url( /resource/image/nav/journal/contact_this_journal_selected.gif );
+}
+
+.journal #primary_nav ul li#nav_subscriptions a,
+.journal #primary_nav ul li#nav_subscriptions strong {
+    background-image: url( /resource/image/nav/journal/subscriptions.gif );
+    width: 96px;
+}
+
+.journal #primary_nav ul li#nav_subscriptions strong {
+    background-image: url( /resource/image/nav/journal/subscriptions.gif );
+}
+
+.journal #primary_nav ul li#nav_current_issue a,
+.journal #primary_nav ul li#nav_current_issue strong {
+    background-image: url( /resource/image/nav/journal/current_issue.gif );
+    width: 96px;
+}
+
+.journal #primary_nav ul li#nav_current_issue strong {
+    background-image: url( /resource/image/nav/journal/current_issue_selected.gif );
+}
+
+.journal #primary_nav ul li#nav_archive a,
+.journal #primary_nav ul li#nav_archive strong {
+    background-image: url( /resource/image/nav/journal/archive.gif );
+    width: 53px;
+}
+
+.journal #primary_nav ul li#nav_archive strong {
+    background-image: url( /resource/image/nav/journal/archive_selected.gif );
+}
+
+.journal #primary_nav ul li#nav_search a,
+.journal #primary_nav ul li#nav_search strong {
+    background-image: url( /resource/image/nav/journal/search.gif );
+    width: 48px;
+}
+
+.journal #primary_nav ul li#nav_search strong {
+    background-image: url( /resource/image/nav/journal/search.gif );
+}
+
+/****************************
+**
+** Secondary Nav
+**
+****************************/
+
+#secondary_nav {	
+    background-color: #49382a;
+}
+
+#secondary_nav ul {	
+    float: right;	
+    padding-bottom: 4px;	
+    padding-top: 6px;	
+    width: auto; /* [2] */ 
+}
+
+#secondary_nav ul li {	
+    display: inline; /* [3] */	
+    float: left;	
+    margin-right: 12px; 	
+    padding-left: 8px;	
+    width: auto;
+}
+
+#secondary_nav ul li.selected {	
+    background-image: url( /resource/image/trim/arrow_white.gif );	
+    background-repeat: no-repeat;
+}
+
+#secondary_nav ul li a:hover {	
+    background-position: -80px 0px;
+}
+
+#secondary_nav ul li a,
+#secondary_nav ul li strong {	
+    background-repeat: no-repeat;	
+    float: left;	
+    height: 8px;
+}
+
+#secondary_nav ul li#nav_about_us a,
+#secondary_nav ul li#nav_about_us strong {	
+    background-image: url( /resource/image/nav/about_us.gif );	
+    width: 61px;
+}
+
+#secondary_nav ul li#nav_news a,
+#secondary_nav ul li#nav_news strong {	
+    background-image: url( /resource/image/nav/news.gif );	
+    width: 33px;
+}
+
+#secondary_nav ul li#nav_contact_us a,
+#secondary_nav ul li#nav_contact_us strong {	
+    background-image: url( /resource/image/nav/contact_us.gif );	
+    width: 74px;
+}
+
+#secondary_nav ul li#nav_my_account a,
+#secondary_nav ul li#nav_my_account strong {	
+    background-image: url( /resource/image/nav/my_account.gif );	
+    width: 78px;
+}
+
+#secondary_nav ul li#nav_my_basket a,
+#secondary_nav ul li#nav_my_basket strong {    
+    background-image: url( /resource/image/nav/my_basket.gif );    
+    width: 67px;
+}
+
+/****************************
+**
+** User Navigation/Authstring
+**
+****************************/
+
+#user_nav {    
+    background-color: #eeeeee;    
+    float: left;    
+    width: 100%;
+}
+
+#user_nav #authstring {    
+    display: inline; /* [3] */    
+    float: left;    
+    margin: 0 15px;    
+    padding: 4px 0 5px 0;    
+    width: auto;    
+    color: brown;    
+    font-size: 11px;
+    margin-bottom: 0em;
+}
+
+#user_nav #authstring li {
+    border-left: none;
+}
+
+#user_nav a {    
+    color: #000000;    
+    text-decoration: none;
+}
+
+#user_nav a:hover {    
+    color: #b57f0f;    
+    text-decoration: underline;
+}
+
+/****************************
+**
+** Header
+**
+****************************/
+
+#header {	
+    background-repeat: no-repeat;
+    height: 113px;
+    float: left;
+    width: 100%;
+}
+
+#header h1#page_title {	
+    background-repeat: no-repeat;	
+    display: block;	
+    height: 14px;	
+    margin: 12px 0 0 22px;   
+    font-weight: lighter;	
+    font-family: verdana, sans-serif;   
+    font-size: 130%;   
+    color: white;   
+    text-transform: uppercase;
+}
+
+#header ul.emphasised li {	
+    background-image: url( /resource/image/trim/arrow_black.gif );	
+    background-position: 0 5px;	
+    background-repeat: no-repeat;	
+    padding-left: 8px;
+}
+
+/****************************
+**
+** Breadcrumbs
+**
+****************************/
+
+ul#site-breadcrumbs {	
+    float: left;	
+    padding-left: 7px;	
+    width: 99%;  
+}
+
+ul#site-breadcrumbs li {	
+    background-image: url( /resource/image/trim/arrow_black.gif );	
+    background-position: 0 0.45em;	
+    background-repeat: no-repeat;	
+    float: left;	
+    margin-right: 4px;	
+    padding-left: 8px;	
+    width: auto;
+    margin-top: 10px;	
+    margin-bottom: 18px;
+    padding-bottom: 2px;
+}
+
+ul#site-breadcrumbs li.first {	
+    background-image: none;
+}
+
+
+/* ====================================== 
+
+
+Notes:
+
+
+[1] centers for IE5 Win, which happily ignores 'margin: auto' 
+
+[2] no effect in Opera 7.54 Win, which wants a value for width
+
+[3] fixes IE Win 'float/margin double-width bug' (should be: 'display: block')	
+
+[4] shifts it out of view, since 'background-image: none' here breaks IE Win
+
+[5] a twist on Dwyer image replacement (height: 0), that works correctly in IE5.5 Win.
+
+really should trademark this :)
+
+[6] improves alignment in IE Win
+
+[7] main col is 1px wider, and spacer 1px narrower than expected 
+- prevents third column dropping in IE5 Mac
+
+[8] avoiding padding on the list item containing a link prevents a nasty IE5 PC bug,
+ in which content mysteriously 'drops' down the screen on mouseover. 
+	
+Padding is reapplied for the selected (non-linked) navigation item 
+	
+to make space for the list bullet to the left.
+[9] this wrapper with reduced width prevents content overflow in IE5 Mac
+
+
+========================================== */

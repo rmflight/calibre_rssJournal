@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="eng">
+  <head>
+    <meta content="8c0589d6-aac6-4daa-be25-fccf2a8865f7" name="dtb:uid"/>
+    <meta content="2" name="dtb:depth"/>
+    <meta content="calibre (0.9.2)" name="dtb:generator"/>
+    <meta content="0" name="dtb:totalPageCount"/>
+    <meta content="0" name="dtb:maxPageNumber"/>
+  </head>
+  <docTitle>
+    <text>Bioinformatics Journal [Tue, 27 Nov 2012]</text>
+  </docTitle>
+  <navMap>
+    <navPoint class="chapter" id="66d140aa-5b0a-41a4-99f9-c9ef1edac266" playOrder="1">
+      <navLabel>
+        <text>Extra-binomial variation approach for analysis of pooled DNA sequencing data</text>
+      </navLabel>
+      <content src="feed_0/article_0/index.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="2d739244-dc7d-436c-a379-31bd5ffc5b8d" playOrder="2">
+      <navLabel>
+        <text>Application and evaluation of automated methods to extract neuroanatomical connectivity statements from free text</text>
+      </navLabel>
+      <content src="feed_0/article_1/index.html"/>
+    </navPoint>
+  </navMap>
+</ncx>

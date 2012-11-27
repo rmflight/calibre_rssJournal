@@ -1,0 +1,7 @@
+body {
+	font-family: serif;
+}
+
+p.hide, #primary_nav, #secondary_nav {
+	display: none;
+}

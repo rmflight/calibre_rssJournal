@@ -1,0 +1,1295 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Extra-binomial variation approach for analysis of pooled DNA sequencing data </title>
+<meta name="googlebot" content="NOODP" />
+<meta name="HW.ad-path" content="/cgi/content/full/28/22/2898" />
+<meta content="/bioinfo/28/22/2898.atom" name="HW.identifier" />
+<meta name="DC.Format" content="text/html" />
+<meta name="DC.Language" content="en" />
+<meta content="Extra-binomial variation approach for analysis of pooled DNA sequencing data" name="DC.Title" />
+<meta content="10.1093/bioinformatics/bts553" name="DC.Identifier" />
+<meta content="2012-11-15" name="DC.Date" />
+<meta content="Oxford University Press" name="DC.Publisher" />
+<meta content="Xin Yang" name="DC.Contributor" />
+<meta content="John A. Todd" name="DC.Contributor" />
+<meta content="David Clayton" name="DC.Contributor" />
+<meta content="Chris Wallace" name="DC.Contributor" />
+<meta content="Bioinformatics" name="citation_journal_title" />
+<meta content="Bioinformatics" name="citation_journal_abbrev" />
+<meta content="1367-4803" name="citation_issn" />
+<meta content="1460-2059" name="citation_issn" />
+<meta name="citation_author" content="Xin Yang" />
+<meta name="citation_author_institution" content="Juvenile Diabetes Research Foundation/Wellcome Trust Diabetes and Inflammation Laboratory, Department of Medical Genetics, Cambridge Institute for Medical Research, University of Cambridge, Wellcome Trust/MRC Building, Addenbrooke’s Hospital, Cambridge CB2 0XY, UK" />
+<meta name="citation_author" content="John A. Todd" />
+<meta name="citation_author_institution" content="Juvenile Diabetes Research Foundation/Wellcome Trust Diabetes and Inflammation Laboratory, Department of Medical Genetics, Cambridge Institute for Medical Research, University of Cambridge, Wellcome Trust/MRC Building, Addenbrooke’s Hospital, Cambridge CB2 0XY, UK" />
+<meta name="citation_author" content="David Clayton" />
+<meta name="citation_author_institution" content="Juvenile Diabetes Research Foundation/Wellcome Trust Diabetes and Inflammation Laboratory, Department of Medical Genetics, Cambridge Institute for Medical Research, University of Cambridge, Wellcome Trust/MRC Building, Addenbrooke’s Hospital, Cambridge CB2 0XY, UK" />
+<meta name="citation_author" content="Chris Wallace" />
+<meta name="citation_author_institution" content="Juvenile Diabetes Research Foundation/Wellcome Trust Diabetes and Inflammation Laboratory, Department of Medical Genetics, Cambridge Institute for Medical Research, University of Cambridge, Wellcome Trust/MRC Building, Addenbrooke’s Hospital, Cambridge CB2 0XY, UK" />
+<meta content="Extra-binomial variation approach for analysis of pooled DNA sequencing data" name="citation_title" />
+<meta content="11/15/2012" name="citation_date" />
+<meta content="28" name="citation_volume" />
+<meta content="22" name="citation_issue" />
+<meta content="2898" name="citation_firstpage" />
+<meta content="2904" name="citation_lastpage" />
+<meta content="28/22/2898" name="citation_id" />
+<meta content="bioinfo;28/22/2898" name="citation_mjid" />
+<meta content="10.1093/bioinformatics/bts553" name="citation_doi" />
+<meta content="http://bioinformatics.oxfordjournals.org/content/28/22/2898.abstract" name="citation_abstract_html_url" />
+<meta content="http://bioinformatics.oxfordjournals.org/content/28/22/2898.full" name="citation_fulltext_html_url" />
+<meta content="http://bioinformatics.oxfordjournals.org/content/28/22/2898.full.pdf" name="citation_pdf_url" />
+<meta content="http://bioinformatics.oxfordjournals.org/content/28/22/2898" name="citation_public_url" />
+<meta content="22976083" name="citation_pmid" />
+<meta name="citation_section" content="Original Paper" />
+<meta name="robots" content="noarchive,nofollow" />
+<meta name="googlebot" content="noarchive" />
+<link href="/content/28/22/2891.short" rel="prev" />
+<link href="/content/28/22/2905.short" rel="next" />
+<link rel="stylesheet" type="text/css" media="all" href="../article_1/stylesheets/style0.css" />
+<link rel="stylesheet" type="text/css" media="print" href="../article_1/stylesheets/style1.css" />
+<link rel="stylesheet" type="text/css" media="all" href="../article_1/stylesheets/style2.css" />
+<link rel="stylesheet" type="text/css" media="all" href="../article_1/stylesheets/style3.css" />
+<link rel="stylesheet" type="text/css" media="all" href="../article_1/stylesheets/style4.css" />
+<link rel="stylesheet" type="text/css" media="all" href="../article_1/stylesheets/style5.css" />
+<link rel="stylesheet" type="text/css" media="all" href="../article_1/stylesheets/style6.css" />
+<link rel="stylesheet" type="text/css" media="all" href="../article_1/stylesheets/style7.css" />
+<link rel="stylesheet" type="text/css" media="all" href="../article_1/stylesheets/style8.css" /><link rel="stylesheet" type="text/css" media="all" href="../article_1/stylesheets/style9.css" />
+<link rel="stylesheet" type="text/css" media="all" href="../article_1/stylesheets/style10.css" />
+<link rel="stylesheet" type="text/css" media="all" href="../article_1/stylesheets/style11.css" />
+<link rel="stylesheet" type="text/css" media="all" href="../article_1/stylesheets/style12.css" />
+<link type="text/css" media="all" rel="stylesheet" href="../article_1/stylesheets/style13.css" />
+<link rel="stylesheet" type="text/css" href="../article_1/stylesheets/style14.css" media="print" /><link rel="stylesheet" type="text/css" media="all" href="../article_1/stylesheets/style15.css" /><style type="text/css" title="override_css">
+            .article_date {
+                color: gray; font-family: monospace;
+            }
+
+            .article_description {
+                text-indent: 0pt;
+            }
+
+            a.article {
+                font-weight: bold; text-align:left;
+            }
+
+            a.feed {
+                font-weight: bold;
+            }
+
+            .calibre_navbar {
+                font-family:monospace;
+            }
+    
+
+</style></head>
+<body class="general_page journal bioinformatics"><div style="text-align:center" class="calibre_navbar calibre_rescale_70">| <a href="../article_1/index.html">Next</a> | <a href="../index.html#article_0">Section Menu</a> | <a href="../../index.html#feed_0">Main Menu</a> | <hr />
+</div>
+<div class="hw-gen-page pagetype-content hw-pub-id-article" id="pageid-content" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle">
+<p class="hide">
+<a href="#content">Skip Navigation</a>
+</p>
+<div id="secondary_nav">
+<strong id="page_logo" title="Oxford Journals"><a href="http://www.oxfordjournals.org/"><span>Oxford Journals</span></a></strong>
+<ul>
+<li id="nav_contact_us" title="Contact Us"><a href="http://www.oxfordjournals.org/contact_us.html"><span>Contact Us</span></a></li>
+<li id="nav_my_basket" title="My Basket"><a href="https://secure.oxfordjournals.org/basket.html"><span>My Basket</span></a></li>
+<li id="nav_my_account" title="My Account"><a href="http://services.oxfordjournals.org/cgi/tslogin?url=http://www.oxfordjournals.org/service/Register"><span>My 
+                        
+                        Account</span></a></li>
+</ul>
+</div>
+<div id="header">
+<h1 id="page_title" title="Bioinformatics"><a href="/"><span>
+                     Bioinformatics
+                     </span></a></h1>
+</div>
+<div id="primary_nav">
+<ul>
+<li id="nav_about_this_journal" title="About This Journal">
+<a href="http://www.oxfordjournals.org/bioinformatics/about.html">
+<span>About This Journal</span>
+</a>
+</li>
+<li id="nav_contact_this_journal" title="Contact This Journal"><a href="/cgi/feedback/"><span>Contact This Journal</span></a></li>
+<li id="nav_subscriptions" title="Subscriptions">
+<a href="http://www.oxfordjournals.org/bioinformatics/access_purchase/buy_online.html">
+<span>Subscriptions</span>
+</a>
+</li>
+<li id="nav_current_issue" title="Current"><a href="/content/current"><span>View Current Issue (Volume 28 Issue 22 November 15, 2012)</span></a></li>
+<li id="nav_archive" title="Archive"><a href="/content/by/year"><span>Archive</span></a></li>
+<li id="nav_search" title="Search"><a href="/search"><span>Search</span></a></li>
+</ul>
+</div>
+<div id="user_nav">
+<div class="header-ac-elements">
+<div id="authstring">
+<ul>
+<li class="subscr-ref">Institution:  Journals Dept</li>
+<li class="no-left-border">
+<a href="/login?uri=http%3A%2F%2Fbioinformatics.oxfordjournals.org%2Fcontent%2F28%2F22%2F2898.long%3Frss%3D1">
+                           Sign In as Personal Subscriber
+                           </a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<ul id="site-breadcrumbs">
+<li class="first"><a href="http://services.oxfordjournals.org/cgi/tslogin?url=http%3A%2F%2Fwww.oxfordjournals.org">Oxford Journals</a></li>
+<li><span class="breadcrumb_subjects"><a href="http://www.oxfordjournals.org/subject/life_sciences/" class="breadcrumb_subject">Life Sciences</a></span><span class="breadcrumb_subjects"><a href="http://www.oxfordjournals.org/subject/mathematics/" class="breadcrumb_subject">Mathematics &amp; Physical Sciences</a></span></li>
+<li><a href="/">Bioinformatics</a></li>
+<li><a href="/content/28/22.toc">
+<span xmlns="" class="volume-value">Volume 28</span>
+<span xmlns="" class="issue-value"> Issue 22</span></a></li>
+<li>Pp. <span class="slug-pages">
+                  2898-2904.
+                  </span></li>
+</ul>
+<div id="oas_top" class="ad_hidden">
+</div>
+<a name="content"></a>
+<div id="h20_page"></div>
+<div id="content-block">
+<div class="article fulltext-view" itemprop="articleBody"><span class="highwire-journal-article-marker-start"></span><h1 id="article-title-1" itemprop="headline">Extra-binomial variation approach for analysis of pooled DNA sequencing data</h1>
+<div class="contributors">
+<ol class="contributor-list" id="contrib-group-1">
+<li class="contributor" id="contrib-1" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span class="name" itemprop="name"><a class="name-search" href="/search?author1=Xin+Yang&amp;sortspec=date&amp;submit=Submit">Xin Yang</a></span>, 
+                     </li>
+<li class="contributor" id="contrib-2" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span class="name" itemprop="name"><a class="name-search" href="/search?author1=John+A.+Todd&amp;sortspec=date&amp;submit=Submit">John A. Todd</a></span>, 
+                     </li>
+<li class="contributor" id="contrib-3" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><span class="name" itemprop="name"><a class="name-search" href="/search?author1=David+Clayton&amp;sortspec=date&amp;submit=Submit">David Clayton</a></span> and 
+                     </li>
+<li class="last" id="contrib-4"><span class="name"><a class="name-search" href="/search?author1=Chris+Wallace&amp;sortspec=date&amp;submit=Submit">Chris Wallace</a></span><a id="xref-corresp-1-1" class="xref-corresp" href="#corresp-1">*</a></li>
+</ol>
+<ol class="affiliation-list">
+<li class="aff"><a id="aff-1" name="aff-1"></a><address>Juvenile Diabetes Research Foundation/Wellcome Trust Diabetes and Inflammation Laboratory, Department of Medical Genetics,
+                           Cambridge Institute for Medical Research, University of Cambridge, Wellcome Trust/MRC Building, Addenbrooke’s Hospital, Cambridge
+                           CB2 0XY, UK
+                        </address>
+</li>
+</ol>
+<ol class="corresp-list">
+<li class="corresp" id="corresp-1"><a class="rev-xref" href="#xref-corresp-1-1">↵</a>*To whom correspondence should be addressed.
+                     </li>
+</ol>
+<ul class="history-list">
+<li xmlns:hwp="http://schema.highwire.org/Journal" class="received" hwp:start="2011-11-16"><span class="received-label">Received </span>November 16, 2011.
+                     </li>
+<li xmlns:hwp="http://schema.highwire.org/Journal" class="rev-recd" hwp:start="2012-08-03"><span class="rev-recd-label">Revision received </span>August 3, 2012.
+                     </li>
+<li xmlns:hwp="http://schema.highwire.org/Journal" class="accepted" hwp:start="2012-09-05"><span class="accepted-label">Accepted </span>September 5, 2012.
+                     </li>
+</ul>
+</div>
+<div class="section abstract" id="abstract-1" itemprop="description">
+<div class="section-nav">
+<div class="nav-placeholder"> </div><a href="#sec-1" title="1 INTRODUCTION" class="next-section-link"><span>Next Section</span></a></div>
+<h2>Abstract</h2>
+<p id="p-3"><strong>Motivation</strong>: The invention of next-generation sequencing technology has made it possible to study the rare variants that are more likely
+                     to pinpoint causal disease genes. To make such experiments financially viable, DNA samples from several subjects are often
+                     pooled before sequencing. This induces large between-pool variation which, together with other sources of experimental error,
+                     creates over-dispersed data. Statistical analysis of pooled sequencing data needs to appropriately model this additional variance
+                     to avoid inflating the false-positive rate.
+                  </p>
+<p id="p-4"><strong>Results</strong>: We propose a new statistical method based on an extra-binomial model to address the over-dispersion and apply it to pooled
+                     case-control data. We demonstrate that our model provides a better fit to the data than either a standard binomial model or
+                     a traditional extra-binomial model proposed by Williams and can analyse both rare and common variants with lower or more variable
+                     pool depths compared to the other methods.
+                  </p>
+<p id="p-5"><strong>Availability</strong>: Package ‘extraBinomial’ is on <a href="http://cran.r-project.org/">http://cran.r-project.org/</a></p>
+<p id="p-6"><strong>Contact</strong>: <span class="em-link"><span class="em-addr">chris.wallace{at}cimr.cam.ac.uk</span></span></p>
+<p id="p-7"><strong>Supplementary information:</strong> <a href="http://bioinformatics.oxfordjournals.org/cgi/content/full/bts553/DC1">Supplementary data</a> are available at <em>Bioinformatics</em> Online.
+                  </p>
+</div>
+<div class="section intro" id="sec-1">
+<div class="section-nav"><a href="#abstract-1" title="Abstract" class="prev-section-link"><span>Previous Section</span></a><a href="#sec-2" title="2 METHODS" class="next-section-link"><span>Next Section</span></a></div>
+<h2>1 INTRODUCTION</h2>
+<p id="p-8">To date, numerous common genetic variants associated with common disease [e.g. Type 1 diabetes (T1D)] have been successfully
+                     discovered by genome-wide association studies (<a id="xref-ref-2-1" class="xref-bibr" href="#ref-2">Barrett <em>et al.</em>, 2009</a>; <a id="xref-ref-3-1" class="xref-bibr" href="#ref-3">Cooper <em>et al.</em>, 2008</a>; <a id="xref-ref-20-1" class="xref-bibr" href="#ref-20">Smyth <em>et al.</em>, 2006</a>; <a id="xref-ref-22-1" class="xref-bibr" href="#ref-22">Wellcome Trust Case Control Consortium, 2007</a>). However, linkage disequilibrium (LD) means these results may only be used to identify an associated region, which usually
+                     encompasses several genes. To pinpoint the exact causal genes, under the assumption that there may be multiple variants of
+                     common and low frequency which alter disease risk, attention has turned to low-frequency variants that are unlikely to be
+                     in LD with other variants. Associated low-frequency variants are considered more likely to be causal. For example, several
+                     independent rare risk variants with implied functional roles were recently associated with inflammatory bowel disease using
+                     next-generation sequencing of pooled samples (<a id="xref-ref-15-1" class="xref-bibr" href="#ref-15">Rivas <em>et al.</em>, 2011</a>), a design similar to that of <a id="xref-ref-13-1" class="xref-bibr" href="#ref-13">Nejentsev <em>et al.</em> (2009)</a> who undertook the first such study and whose data we re-examine here.
+                  </p>
+<p id="p-9"><a id="xref-ref-13-2" class="xref-bibr" href="#ref-13">Nejentsev <em>et al.</em> (2009)</a> re-sequenced 144 target regions covering exons and splice sites of 10 T1D candidate genes that were previously found to be
+                     associated with T1D or related diseases. The study used 454 sequencing of 20 pools of DNA from 480 patients and 480 healthy
+                     controls (48 samples per pool). Four rare variants, single-nucleotide polymorphisms (SNPs) located in the <em>interferon induced with helicase C domain 1</em> (<em>IFIH1</em>) and the <em>C-type lectin domain family 16, member A</em> (<em>CLEC16A</em>) genes, displayed different frequencies in cases and controls according to Fisher’s exact test, and evidence for association
+                     of two of these variants within the gene <em>IFIH1</em> was replicated in independent samples. This directly implicates <em>IFIH1</em> as causal in T1D.
+                  </p>
+<p id="p-10">A major concern with this study is that huge variation exists between pool depths and the variation is especially large for
+                     rare SNPs (<a id="xref-fig-1-1" class="xref-fig" href="#F1">Fig. 1</a>). The variation is derived from both the pooling and the sequencing, and this is not accounted for by Fisher’s exact test
+                     which assumes a binomial variance within pools and neglects between-pool variation.
+                     
+                  </p>
+<div id="F1" class="fig pos-float odd">
+<div class="fig-inline"><a href="2898/F1.expansion.html"><img alt="Fig. 1." src="images/img1.jpg" width="600" /></a><div class="callout"><span>View larger version:</span><ul class="callout-links">
+<li><a href="2898/F1.expansion.html">In this window</a></li>
+<li><a class="in-nw" href="2898/F1.expansion.html">In a new window</a></li>
+</ul>
+<ul class="fig-services">
+<li class="ppt-link"><a href="/powerpoint/28/22/2898/F1">Download as PowerPoint Slide</a></li>
+</ul>
+</div>
+</div>
+<div class="fig-caption"><span class="fig-label">Fig. 1.</span>
+<p id="p-11" class="first-child">Variance analysis of the SNPs detected in Nejentsev <em>et al.</em>’s article. (<strong>a</strong>) Variance–mean depth comparison. Variance of depth increases with mean depths. (<strong>b</strong>) Variance of depth can be extreme, particularly for low minor allele frequency
+                        </p>
+<div class="sb-div caption-clear"></div>
+</div>
+</div>
+<p id="p-12">The Poisson model has also been employed for sequence count data as well as analysis of differential gene expression (<a id="xref-ref-11-1" class="xref-bibr" href="#ref-11">Marioni <em>et al.</em>, 2008</a>). With only one parameter, the Poisson distribution assumes the variance of reads is equal to its mean. However, the variance
+                     may exceed the mean, requiring an over-dispersed model as in our data. A negative binomial model has been used as an alternative
+                     to model the larger variance, for example in testing differential expression for digital gene expression data (<a id="xref-ref-16-1" class="xref-bibr" href="#ref-16">Robinson and Smyth, 2007</a>), given it has one more parameter than the Poisson distribution. The addition of this parameter, however, means the negative
+                     binomial model requires a large number of replicates to estimate the two parameters properly.
+                  </p>
+<p id="p-13">Another fully mathematically specified over-dispersed model is the beta-binomial model, which, applied to variants derived
+                     from pooled case-control sequence data, would assume a binomial distribution within pools and that the expected allele frequency
+                     of each pool is beta-distributed. <a id="xref-ref-4-1" class="xref-bibr" href="#ref-4">Crowder (1978)</a> used this model and calculated maximized log-likelihoods to analyse the effects from seeds and extracts on germination. Other
+                     applications of this model include the analysis of false discovery rates (FDRs) in microarray data to model the number of
+                     false rejections, yielding a less biased FDR estimator than the empirical estimator following a binomial distribution (<a id="xref-ref-5-1" class="xref-bibr" href="#ref-5">Hunt <em>et al.</em>, 2009</a>). The advantage of this approach is obvious: meaningful parameters and a computable likelihood which could be maximized by
+                     standard methods to calculate the relating parameters. However, maximizing a beta-binomial likelihood can be computationally
+                     difficult.
+                  </p>
+<p id="p-14">An alternative is to use a model in which only the first two moments are defined. We propose to use and extend such an extra-binomial
+                     model originally described by <a id="xref-ref-23-1" class="xref-bibr" href="#ref-23">Williams (1982)</a>. The extra-binomial model still assumes the allele counts obey a binomial distribution within pools and also takes the between-pool
+                     variance into consideration. In this article, we compare the performance of statistical tests assuming simple binomial variation,
+                     Williams’ extra-binomial variation and our modified extra-binomial model using quantile–quantile (Q–Q) plots. We also extend
+                     our study beyond the original minor allele frequency (MAF) range used by Nejentsev <em>et al.</em> (1–3%) to include all observed single-nucleotide variation.
+                  </p>
+</div>
+<div class="section methods" id="sec-2">
+<div class="section-nav"><a href="#sec-1" title="1 INTRODUCTION" class="prev-section-link"><span>Previous Section</span></a><a href="#sec-10" title="3 RESULTS" class="next-section-link"><span>Next Section</span></a></div>
+<h2>2 METHODS</h2>
+<div id="sec-3" class="subsection">
+<h3>2.1 Experimental data pre-processing</h3>
+<p id="p-15">The experimental data used for the following analysis were drawn from the article by <a id="xref-ref-13-3" class="xref-bibr" href="#ref-13">Nejentsev <em>et al.</em> (2009)</a>. The sequencing data were processed using existing software or R (<a id="xref-ref-14-1" class="xref-bibr" href="#ref-14">R Development Core Team, 2010</a>) as described below. BWA-SW (<a id="xref-ref-9-1" class="xref-bibr" href="#ref-9">Li and Durbin, 2010</a>) was used to align query 454 sequences to the NCBI36 human assembly, yielding sam files which were processed by SAMtools
+                        (<a id="xref-ref-10-1" class="xref-bibr" href="#ref-10">Li <em>et al.</em>, 2009</a>) to remove duplicate reads. SNPs were identified and counted by VarScan (<a id="xref-ref-8-1" class="xref-bibr" href="#ref-8">Koboldt <em>et al.</em>, 2009</a>), filtered by minimum base quality (≥25) and minimum total read depth (≥8).
+                     </p>
+<p id="p-16">In the absence of a variant, errors should randomly distribute across multiple pools while for a genuine rare variant excess
+                        reads of the alternative allele are expected to concentrate in one or several pools. Thus, to distinguish the errors from
+                        the true SNPs, we first excluded the common variants with MAF<span class="inline-formula" id="inline-formula-1"><img class="inline-graphic" alt="Graphic" src="images/img2.jpg" /></span> and then compared the observed pool read distribution for each remaining rare SNP to that expected under a null hypothesis
+                        of random errors only (<a id="xref-ref-1-1" class="xref-bibr" href="#ref-1">Bansal, 2010</a>). We assumed variants to be true rare SNPs if (i) they were not consistent with a random error model with a significant <em>P</em>-value less than <span class="inline-formula" id="inline-formula-2"><img class="inline-graphic" alt="Graphic" src="images/img3.jpg" /></span> (Bonferroni correction with a prior significance level equal to 0.05) and (ii) there was at least one pool with more than
+                        two reads for the minor alleles.
+                     </p>
+<p id="p-17">For the binomial model only, SNPs and pools were further filtered by chromosome coverage—only pools with more than 80% probability
+                        to cover (include at least one read from) at least 80 out of 96 chromosomes were used. This reduced the variation between
+                        different pools by dropping pools with poor PCR or sequencing quality. SNPs were dropped if there were no valid pools for
+                        one group (case or control) at a position.
+                     </p>
+</div>
+<div id="sec-4" class="subsection">
+<h3>2.2 Statistical models</h3>
+<p id="p-18">Our aim is to identify the SNPs that are associated with T1D status. We define an observation as a success if it corresponds
+                        to the major allele, otherwise it is a failure. Let <span class="inline-formula" id="inline-formula-3"><img class="inline-graphic" alt="Graphic" src="images/img4.jpg" /></span> and <span class="inline-formula" id="inline-formula-4"><img class="inline-graphic" alt="Graphic" src="images/img5.jpg" /></span> denote the expected major allele frequency for SNP <em>i</em> in control and case chromosomes, respectively. Then our hypothesis is written as
+                        <span class="disp-formula" id="disp-formula-1"><img class="graphic" alt="Formula" src="images/img6.jpg" /><span class="disp-formula-label">(1)</span></span>
+<span class="disp-formula" id="disp-formula-2"><img class="graphic" alt="Formula" src="images/img7.jpg" /><span class="disp-formula-label">(2)</span></span>
+                        In the following models, we assume there is no systematic error in the sequencing.
+                     </p>
+<div id="sec-5" class="subsection">
+<h4>2.2.1 Binomial variation</h4>
+<p id="p-19">For significance testing, <a id="xref-ref-13-4" class="xref-bibr" href="#ref-13">Nejentsev <em>et al.</em> (2009)</a> assumed a simple binomial model within pools, estimated overall allele frequencies by treating each pool equally and used
+                           these estimated allele frequencies to estimate chromosome counts of each allele. Allele counts were compared in case and control
+                           groups in a <span class="inline-formula" id="inline-formula-5"><img class="inline-graphic" alt="Graphic" src="images/img8.jpg" /></span> table at each SNP by Fisher’s exact test (see Section A of the <a href="http://bioinformatics.oxfordjournals.org/cgi/content/full/bts553/DC1">Supplementary Material</a>).
+                        </p>
+</div>
+<div id="sec-6" class="subsection">
+<h4>2.2.2 Williams’ extra-binomial variation model (EB1)</h4>
+<p id="p-20">We can relax the assumptions above by considering an over-dispersed binomial model. Here, we applied an extra-binomial model
+                           proposed by <a id="xref-ref-23-2" class="xref-bibr" href="#ref-23">Williams (1982)</a> to our data. With the assumption that the variation within each pool is binomial unchanged, we introduce a continuous variable
+                           <span class="inline-formula" id="inline-formula-6"><img class="inline-graphic" alt="Graphic" src="images/img9.jpg" /></span> as the allele frequency of SNP <em>i</em> in pool <em>j</em> to reflect the discrepancy between different pools in allele frequency. <span class="inline-formula" id="inline-formula-7"><img class="inline-graphic" alt="Graphic" src="images/img10.jpg" /></span> is independently distributed on (0,1) and its first two moments are defined as
+                           <span class="disp-formula" id="disp-formula-3"><img class="graphic" alt="Formula" src="images/img11.jpg" /><span class="disp-formula-label">(3)</span></span>
+<span class="disp-formula" id="disp-formula-4"><img class="graphic" alt="Formula" src="images/img12.jpg" /><span class="disp-formula-label">(4)</span></span>
+</p>
+<p id="p-21">As shown below, the variance is over-dispersed when <span class="inline-formula" id="inline-formula-8"><img class="inline-graphic" alt="Graphic" src="images/img13.jpg" /></span>. Conditionally, in pool <em>j</em> when <span class="inline-formula" id="inline-formula-9"><img class="inline-graphic" alt="Graphic" src="images/img14.jpg" /></span>, the number of reads of the major allele <span class="inline-formula" id="inline-formula-10"><img class="inline-graphic" alt="Graphic" src="images/img15.jpg" /></span> follow Bin<span class="inline-formula" id="inline-formula-11"><img class="inline-graphic" alt="Graphic" src="images/img16.jpg" /></span> where <span class="inline-formula" id="inline-formula-12"><img class="inline-graphic" alt="Graphic" src="images/img17.jpg" /></span> is the depth of the <em>j</em>-th pool at the <em>i</em>-th SNP and <span class="inline-formula" id="inline-formula-13"><img class="inline-graphic" alt="Graphic" src="images/img18.jpg" /></span> is estimated by <span class="inline-formula" id="inline-formula-14"><img class="inline-graphic" alt="Graphic" src="images/img19.jpg" /></span>. Unconditionally, deriving from <a id="xref-disp-formula-4-1" class="xref-disp-formula" href="#disp-formula-4">Equation (4)</a>, the variance of <span class="inline-formula" id="inline-formula-15"><img class="inline-graphic" alt="Graphic" src="images/img20.jpg" /></span> can be written as
+                           <span class="disp-formula" id="disp-formula-5"></span>
+<span class="disp-formula" id="disp-formula-6"><img class="graphic" alt="Formula" src="images/img21.jpg" /><span class="disp-formula-label">(5)</span></span>
+                           Thus, the extra-binomial model allows for between-pool variation by scaling the variance by a heterogeneity factor, <span class="inline-formula" id="inline-formula-16"><img class="inline-graphic" alt="Graphic" src="images/img22.jpg" /></span>, which increases with read depth. We could choose a specific distribution for <span class="inline-formula" id="inline-formula-17"><img class="inline-graphic" alt="Graphic" src="images/img23.jpg" /></span> such as the beta-distribution which could induce <span class="inline-formula" id="inline-formula-18"><img class="inline-graphic" alt="Graphic" src="images/img24.jpg" /></span> to follow a beta-binomial distribution (<a id="xref-ref-24-1" class="xref-bibr" href="#ref-24">Zhou <em>et al.</em>, 2011</a>). Instead, we adopt a quasi-likelihood approach and follow Williams’ method to yield an estimator of allele frequency, <span class="inline-formula" id="inline-formula-19"><img class="inline-graphic" alt="Graphic" src="images/img25.jpg" /></span>, by first fitting it into a logistic linear model and then maximizing the quasi-likelihood by weighted least square iteration
+                           (see Section B of the <a href="http://bioinformatics.oxfordjournals.org/cgi/content/full/bts553/DC1">Supplementary Material</a>). The weighted sum of squares of residuals yields the goodness of fit statistic
+                           <span class="disp-formula" id="disp-formula-7"><img class="graphic" alt="Formula" src="images/img26.jpg" /><span class="disp-formula-label">(6)</span></span>
+                           where the weight <span class="inline-formula" id="inline-formula-20"><img class="inline-graphic" alt="Graphic" src="images/img27.jpg" /></span>. To test the significance of <span class="inline-formula" id="inline-formula-21"><img class="inline-graphic" alt="Graphic" src="images/img28.jpg" /></span>, we tested the increase in <span class="inline-formula" id="inline-formula-22"><img class="inline-graphic" alt="Graphic" src="images/img29.jpg" /></span> when deleting the case-control factor as suggested by Williams. This is distributed as a <span class="inline-formula" id="inline-formula-23"><img class="inline-graphic" alt="Graphic" src="images/img30.jpg" /></span> variable with one degree of freedom under the null hypothesis of no association.
+                        </p>
+</div>
+<div id="sec-7" class="subsection">
+<h4>2.2.3 Modified extra-binomial model (EB2)</h4>
+<p id="p-22">In Williams’ extra-binomial model, the parameter <span class="inline-formula" id="inline-formula-24"><img class="inline-graphic" alt="Graphic" src="images/img31.jpg" /></span> is specific to each SNP, which makes it difficult to estimate <span class="inline-formula" id="inline-formula-25"><img class="inline-graphic" alt="Graphic" src="images/img32.jpg" /></span> accurately given only 20 data points for each SNP. In contrast, we have many SNPs. We adopted two universal parameters <em>a</em> and <em>b</em> here instead of <span class="inline-formula" id="inline-formula-26"><img class="inline-graphic" alt="Graphic" src="images/img33.jpg" /></span> to scale the variance, such that
+                           <span class="disp-formula" id="disp-formula-8"><img class="graphic" alt="Formula" src="images/img34.jpg" /><span class="disp-formula-label">(7)</span></span>
+                           where <em>s</em> is the number of distinct chromosomes sampled in one pool, namely, 96 in this study. Ideally with no other over-dispersion,
+                           as <span class="inline-formula" id="inline-formula-27"><img class="inline-graphic" alt="Graphic" src="images/img35.jpg" /></span>. However, sequencing errors and additional variation described earlier mean <span class="inline-formula" id="inline-formula-28"><img class="inline-graphic" alt="Graphic" src="images/img36.jpg" /></span>. We write
+                           <span class="disp-formula" id="disp-formula-9"><img class="graphic" alt="Formula" src="images/img37.jpg" /><span class="disp-formula-label">(8)</span></span>
+                           and by comparing <a id="xref-disp-formula-8-1" class="xref-disp-formula" href="#disp-formula-8">Equation (7)</a> with a standard binomial variance function, we see that <span class="inline-formula" id="inline-formula-29"><img class="inline-graphic" alt="Graphic" src="images/img38.jpg" /></span> may be interpreted as the adjusted depth of pool <em>j</em> for SNP <em>i</em>.
+                        </p>
+<p id="p-23">Considering the quantities of this model,
+                           <span class="disp-formula" id="disp-formula-10"><img class="graphic" alt="Formula" src="images/img39.jpg" /><span class="disp-formula-label">(9)</span></span>
+                           where <em>n</em> is the number of pools, namely, 20 in this study, should have expectation [see <a id="xref-disp-formula-6-1" class="xref-disp-formula" href="#disp-formula-6">Equation (5)</a> in the <a href="http://bioinformatics.oxfordjournals.org/cgi/content/full/bts553/DC1">Supplementary Material</a>]:
+                           <span class="disp-formula" id="disp-formula-11"><img class="graphic" alt="Formula" src="images/img40.jpg" /><span class="disp-formula-label">(10)</span></span>
+                           We therefore estimate the parameters <em>a</em> and <em>b</em> by linear regression of <span class="inline-formula" id="inline-formula-30"><img class="inline-graphic" alt="Graphic" src="images/img41.jpg" /></span> on <span class="inline-formula" id="inline-formula-31"><img class="inline-graphic" alt="Graphic" src="images/img42.jpg" /></span>, yielding <span class="inline-formula" id="inline-formula-32"><img class="inline-graphic" alt="Graphic" src="images/img43.jpg" /></span> as the intercept and <span class="inline-formula" id="inline-formula-33"><img class="inline-graphic" alt="Graphic" src="images/img44.jpg" /></span> as the slope.
+                        </p>
+<p id="p-24">Given the interpretation of <span class="inline-formula" id="inline-formula-34"><img class="inline-graphic" alt="Graphic" src="images/img45.jpg" /></span> as an adjusted depth, the allele counts in pool <em>j</em> were estimated as <span class="inline-formula" id="inline-formula-35"><img class="inline-graphic" alt="Graphic" src="images/img46.jpg" /></span> and <span class="inline-formula" id="inline-formula-36"><img class="inline-graphic" alt="Graphic" src="images/img47.jpg" /></span>. These were summed over case and control pools to form a <span class="inline-formula" id="inline-formula-37"><img class="inline-graphic" alt="Graphic" src="images/img48.jpg" /></span> table on which a <span class="inline-formula" id="inline-formula-38"><img class="inline-graphic" alt="Graphic" src="images/img49.jpg" /></span> test was performed to test the significance of <span class="inline-formula" id="inline-formula-39"><img class="inline-graphic" alt="Graphic" src="images/img50.jpg" /></span>.
+                        </p>
+</div>
+<div id="sec-8" class="subsection">
+<h4>2.2.4 Accounting for sequencing error</h4>
+<p id="p-25">To examine the potential influence of sequencing errors on the models, a base-specific error rate,
+                           <span class="disp-formula" id="disp-formula-12"><img class="graphic" alt="Formula" src="images/img51.jpg" /><span class="disp-formula-label">(11)</span></span>
+                           where allele <em>a</em> is the reference allele and allele <span class="inline-formula" id="inline-formula-40"><img class="inline-graphic" alt="Graphic" src="images/img52.jpg" /></span> is the alternative allele was estimated by summing allele counts over all positions in our target sequence that were either
+                           not called as SNPs by VarScan or failed subsequent filtering.
+                        </p>
+<p id="p-26">We used these estimated error rates which were of the order 1–10 errors per 100 000 bases (see <a href="http://bioinformatics.oxfordjournals.org/cgi/content/full/bts553/DC1">Supplementary Table S1</a>) to adjust read counts of the major allele and fitted all models to the adjusted read counts
+                           <span class="disp-formula" id="disp-formula-13"><img class="graphic" alt="Formula" src="images/img53.jpg" /><span class="disp-formula-label">(12)</span></span>
+</p>
+</div>
+</div>
+<div id="sec-9" class="subsection">
+<h3>2.3 Simulation studies</h3>
+<p id="p-27">To further evaluate the statistical performance of our models, a series of simulation studies were carried out and both Type
+                        1 error and power under various situations were examined. The sample size was set as 500 cases and 500 controls divided into
+                        20 pools of 50 people. The allele counts of SNP <em>i</em> in pool <em>j</em> per person were assumed to follow a gamma distribution with shape <span class="inline-formula" id="inline-formula-41"><img class="inline-graphic" alt="Graphic" src="images/img54.jpg" /></span> and scale <span class="inline-formula" id="inline-formula-42"><img class="inline-graphic" alt="Graphic" src="images/img55.jpg" /></span> average coverage<span class="inline-formula" id="inline-formula-43"><img class="inline-graphic" alt="Graphic" src="images/img56.jpg" /></span> (<a id="xref-ref-17-1" class="xref-bibr" href="#ref-17">Sarin <em>et al.</em>, 2008</a>), where the average coverage per person was set at 40×.
+                     </p>
+<p id="p-28">We simulated three sets of 700 SNPs in each dataset (i.e. 2100 in total). The first was a set of ‘null’ SNPs, with MAF = 0;
+                        the second was a set of ‘neutral’ SNPs, with MAF in controls ranging from very rare (MAF = 0.005) to common (MAF = 0.5) and
+                        equal MAF in cases; the third was a set of ‘disease’ SNPs, with MAF in controls again ranging from 0.005 to 0.5 and in cases
+                        determined according to the control MAF and assuming a multiplicative genetic with an allele relative risk (rr) set at 1.5.
+                        As we specify our model with rr, we do not need to define the population disease rate. However, for a rare disease such as
+                        T1D, the rr is approximately equal to the odds ratio. A range of symmetric error rates (the chance of calling the alternative
+                        allele in error) from 0 to 5% was considered and applied to simulated data assuming a binomial distribution. We blinded the
+                        analysis to which SNPs were truly ‘null’ and applied the same analysis as described above for the 454 data to identify false
+                        SNPs. From these we estimated the error rates and corrected the read counts of the remaining SNPs according to <a id="xref-disp-formula-13-1" class="xref-disp-formula" href="#disp-formula-13">Equation (12)</a>.
+                     </p>
+<p id="p-29">We performed a total of 1000 simulations in this manner, and Type 1 error rates and power were estimated from the results
+                        for the ‘neutral’ and ‘disease’ SNPs, respectively.
+                     </p>
+</div>
+</div>
+<div class="section results" id="sec-10">
+<div class="section-nav"><a href="#sec-2" title="2 METHODS" class="prev-section-link"><span>Previous Section</span></a><a href="#sec-13" title="4 DISCUSSION" class="next-section-link"><span>Next Section</span></a></div>
+<h2>3 RESULTS</h2>
+<div id="sec-11" class="subsection">
+<h3>3.1 Simulation studies</h3>
+<p id="p-30">The first two moments of our simulated data were examined, resulting in a mean sequence depth of around 1950 reads per pool
+                        and variance of 12 026.
+                     </p>
+<p id="p-31"><a id="xref-fig-2-1" class="xref-fig" href="#F2">Figure 2</a> shows estimated Type 1 error rates and power from our simulated data at a significance level <span class="inline-formula" id="inline-formula-44"><img class="inline-graphic" alt="Graphic" src="images/img57.jpg" /></span>. Overall, the EB2 model maintains good control of Type 1 error, across allele frequencies and error rates although tends
+                        to be conservative for rare SNPs (MAF<span class="inline-formula" id="inline-formula-45"><img class="inline-graphic" alt="Graphic" src="images/img58.jpg" /></span>). On the other hand, under Fisher’s exact test, nominal Type 1 error rates may be exceeded by a factor of nine. Note that
+                        Fisher’s test is anti-conservative in this situation, in contrast with the typical behaviour of non-parametric tests. We found
+                        the expected conservative behaviour when we simulated under a simple binomial model (data not shown), so the anti-conservative
+                        behaviour shown here appears to result from the over-dispersion. We can also see that the Type 1 error rate for Fisher’s but
+                        not EB2 is affected by the sequencing error rate. This is likely because our error correction method does a good job of correcting
+                        the simple error on average, but at the expense of increasing the noise, which is correctly dealt with by EB2 but not Fisher’s
+                        test. Power appears slightly lower for EB2 compared to Fisher’s, but not substantially so, given the difference in Type 1
+                        error rate control. Some differentiation in power can be seen for our EB2 model with changes in sequencing error rates, with
+                        higher error rates having slightly lower power. However, the effect of sequencing error, once corrected, seems minimal given
+                        the relatively high coverage depth simulated.
+                        
+                     </p>
+<div id="F2" class="fig pos-float odd">
+<div class="fig-inline"><a href="2898/F2.expansion.html"><img alt="Fig. 2." src="images/img59.jpg" width="600" /></a><div class="callout"><span>View larger version:</span><ul class="callout-links">
+<li><a href="2898/F2.expansion.html">In this window</a></li>
+<li><a class="in-nw" href="2898/F2.expansion.html">In a new window</a></li>
+</ul>
+<ul class="fig-services">
+<li class="ppt-link"><a href="/powerpoint/28/22/2898/F2">Download as PowerPoint Slide</a></li>
+</ul>
+</div>
+</div>
+<div class="fig-caption"><span class="fig-label">Fig. 2.</span>
+<p id="p-32" class="first-child">Type 1 error rate (left) and power (right) for Fisher’s exact test (Fisher) and our proposed EB2 model with the significance
+                              level <span class="inline-formula" id="inline-formula-46"><img class="inline-graphic" alt="Graphic" src="images/img60.jpg" /></span>. The allelic relative risk is set at rr = 1.5 for the power calculation. Sequencing error rates vary from 0% to 5%
+                           </p>
+<div class="sb-div caption-clear"></div>
+</div>
+</div>
+</div>
+<div id="sec-12" class="subsection">
+<h3>3.2 Experimental data</h3>
+<p id="p-33">After initial filtering, 473 SNPs were selected for analysis. Our estimated error rates were of the order of one error per
+                        100 000 bases (see <a href="http://bioinformatics.oxfordjournals.org/cgi/content/full/bts553/DC1">Supplementary Table S1</a>), consistent with previous observations (<a id="xref-ref-6-1" class="xref-bibr" href="#ref-6">Huse <em>et al.</em>, 2007</a>), and had a negligible impact on association results; only the results without error correction are shown.
+                     </p>
+<p id="p-34">Although we expect many SNPs will be associated with T1D, given their location in established T1D-associated regions, we still
+                        expect them to show only limited departure from the null hypothesis due to the sample size available (even for genuinely associated
+                        SNPs, odds ratios for T1D are in the range 1–2). In contrast, a Q–Q plot of the Fisher’s exact test results (<a id="xref-fig-3-1" class="xref-fig" href="#F3">Fig. 3</a>a) shows a large slope (slope = 2.481) and observed maximum <span class="inline-formula" id="inline-formula-47"><img class="inline-graphic" alt="Graphic" src="images/img61.jpg" /></span> value, <span class="inline-formula" id="inline-formula-48"><img class="inline-graphic" alt="Graphic" src="images/img62.jpg" /></span>, around 600 suggesting that the simple binomial model does not provide a good fit to the data. Although the slope decreases
+                        to 1.285 and <span class="inline-formula" id="inline-formula-49"><img class="inline-graphic" alt="Graphic" src="images/img63.jpg" /></span> to about 150 (<a id="xref-fig-3-2" class="xref-fig" href="#F3">Fig. 3</a>b) by filtering pools and SNPs to include only those with higher coverage (<em>n</em> = 431), this improvement was achieved at the cost of discarding data—only pools and SNPs passing the filters were counted
+                        in the test.
+                        
+                     </p>
+<div id="F3" class="fig pos-float odd">
+<div class="fig-inline"><a href="2898/F3.expansion.html"><img alt="Fig. 3." src="images/img64.jpg" width="600" /></a><div class="callout"><span>View larger version:</span><ul class="callout-links">
+<li><a href="2898/F3.expansion.html">In this window</a></li>
+<li><a class="in-nw" href="2898/F3.expansion.html">In a new window</a></li>
+</ul>
+<ul class="fig-services">
+<li class="ppt-link"><a href="/powerpoint/28/22/2898/F3">Download as PowerPoint Slide</a></li>
+</ul>
+</div>
+</div>
+<div class="fig-caption"><span class="fig-label">Fig. 3.</span>
+<p id="p-35" class="first-child">Fisher’s exact test statistics. The observed <span class="inline-formula" id="inline-formula-50"><img class="inline-graphic" alt="Graphic" src="images/img65.jpg" /></span> values were calculated by using Fisher’s <em>P</em>-value to calculate quantiles of <span class="inline-formula" id="inline-formula-51"><img class="inline-graphic" alt="Graphic" src="images/img66.jpg" /></span> distribution. Expected values were random quantiles in <span class="inline-formula" id="inline-formula-52"><img class="inline-graphic" alt="Graphic" src="images/img67.jpg" /></span> distribution with df = 1. In this and subsequent quantile–quantile plots, the shaded region is the 95% concentration band.
+                              (<strong>a</strong>) 473 SNPs after initial filtering. (<strong>b</strong>) 431 SNPs after further filtering by chromosome coverage
+                           </p>
+<div class="sb-div caption-clear"></div>
+</div>
+</div>
+<p id="p-36"><a id="xref-fig-4-1" class="xref-fig" href="#F4">Figure 4</a> shows the Q–Q plot result based on Williams’ extra-binomial model. Despite most observed <span class="inline-formula" id="inline-formula-53"><img class="inline-graphic" alt="Graphic" src="images/img68.jpg" /></span> values dropping below 30, the slope remained large (slope = 24.88). Note that because variance of reads is required to estimate
+                        the over-dispersion parameter <span class="inline-formula" id="inline-formula-54"><img class="inline-graphic" alt="Graphic" src="images/img69.jpg" /></span>, SNPs with total minor allele counts equal to zero in either cases or controls were excluded, leaving 420 SNPs to test.
+                        
+                     </p>
+<div id="F4" class="fig pos-float odd">
+<div class="fig-inline"><a href="2898/F4.expansion.html"><img alt="Fig. 4." src="images/img70.jpg" width="600" /></a><div class="callout"><span>View larger version:</span><ul class="callout-links">
+<li><a href="2898/F4.expansion.html">In this window</a></li>
+<li><a class="in-nw" href="2898/F4.expansion.html">In a new window</a></li>
+</ul>
+<ul class="fig-services">
+<li class="ppt-link"><a href="/powerpoint/28/22/2898/F4">Download as PowerPoint Slide</a></li>
+</ul>
+</div>
+</div>
+<div class="fig-caption"><span class="fig-label">Fig. 4.</span>
+<p id="p-37" class="first-child">Q–Q plots were drawn by plotting observed <span class="inline-formula" id="inline-formula-55"><img class="inline-graphic" alt="Graphic" src="images/img71.jpg" /></span> values against expected quantiles in <span class="inline-formula" id="inline-formula-56"><img class="inline-graphic" alt="Graphic" src="images/img72.jpg" /></span> distribution with df = 1 based on Williams’ extra-binomial model (EB1). The triangles in the charts stand for the SNPs with
+                              extremely large <span class="inline-formula" id="inline-formula-57"><img class="inline-graphic" alt="Graphic" src="images/img73.jpg" /></span> values beyond the boundary shown in vertical axis
+                           </p>
+<div class="sb-div caption-clear"></div>
+</div>
+</div>
+<p id="p-38">The Q–Q plot in <a id="xref-fig-5-1" class="xref-fig" href="#F5">Figure 5</a>a illustrates that EB2 model suits our data better with slope equal to 1.26, but the maximum sample quantile, although lower
+                        than the EB1 model, is still above 100. We recognize that despite filtering and improved models, sequencing data are still
+                        noisy and a proportion of SNPs identified may be errors. If we restrict to 270 non-novel SNPs [those in dbSNP version 128
+                        (<a id="xref-ref-19-1" class="xref-bibr" href="#ref-19">Sherry <em>et al.</em>, 2001</a>)] which are less likely to be errors, all sample quantiles drop below 40 (<a id="xref-fig-5-2" class="xref-fig" href="#F5">Fig. 5</a>b). The dominance of the EB2 model does not depend on MAF, as can be seen when SNPs are divided according to MAF (<a href="http://bioinformatics.oxfordjournals.org/cgi/content/full/bts553/DC1">Supplementary Fig. 1</a>).
+                        
+                     </p>
+<div id="F5" class="fig pos-float odd">
+<div class="fig-inline"><a href="2898/F5.expansion.html"><img alt="Fig. 5." src="images/img74.jpg" width="600" /></a><div class="callout"><span>View larger version:</span><ul class="callout-links">
+<li><a href="2898/F5.expansion.html">In this window</a></li>
+<li><a class="in-nw" href="2898/F5.expansion.html">In a new window</a></li>
+</ul>
+<ul class="fig-services">
+<li class="ppt-link"><a href="/powerpoint/28/22/2898/F5">Download as PowerPoint Slide</a></li>
+</ul>
+</div>
+</div>
+<div class="fig-caption"><span class="fig-label">Fig. 5.</span>
+<p id="p-39" class="first-child">Q–Q plots of the results using EB2 model. (<strong>a</strong>) 473 SNPs after initial filtering were employed in the test with estimated over-dispersion parameters <em>a</em> = 0.40, <em>b</em> = 13.66. (<strong>b</strong>) 270 db SNPs within our target regions; <em>a</em> = 0.59, <em>b</em> = 1.27
+                           </p>
+<div class="sb-div caption-clear"></div>
+</div>
+</div>
+<p id="p-40">Compared with Nejentsev <em>et al.</em>’s results, the exact values of our Fisher’s <em>P</em>-values were slightly different due to different alignment software and filters used in this article to process data. However,
+                        Nejentsev <em>et al.</em> identified four SNPs with Fisher’s <em>P</em>-values &lt; 0.05, consistent with our results (both Fisher’s exact test and EB2 model; <a id="xref-table-wrap-1-1" class="xref-table" href="#T1">Table 1</a>).
+                        
+                     </p>
+<div class="table pos-float" id="T1">
+<div class="table-inline">
+<div class="callout"><span>View this table:</span><ul class="callout-links">
+<li><a href="2898/T1.expansion.html">In this window</a></li>
+<li><a class="in-nw" href="2898/T1.expansion.html">In a new window</a></li>
+</ul>
+</div>
+</div>
+<div class="table-caption"><span class="table-label">Table 1.</span>
+<p id="p-41" class="first-child">Comparison of different approaches on the four SNPs identified in Nejentsev <em>et al.</em>’s article of which the first two SNPs within <em>IFIH1</em> gene were replicated in their follow-up genotyping experiment
+                           </p>
+<div class="sb-div caption-clear"></div>
+</div>
+</div>
+<p id="p-43">Apart from the SNPs identified by Nejentsev <em>et al.</em> previously, there were 85 new SNPs in the EB2 model with <span class="inline-formula" id="inline-formula-63"><img class="inline-graphic" alt="Graphic" src="images/img75.jpg" /></span>. After examining the flanking 5′- and 3′-sequences (to see whether there were base repeats that are associated with erroneous
+                        SNP calls), read distribution across all pools and base qualities, seven SNPs listed in <a id="xref-table-wrap-2-1" class="xref-table" href="#T2">Table 2</a> were considered most likely to be real.
+                        
+                     </p>
+<div class="table pos-float" id="T2">
+<div class="table-inline">
+<div class="callout"><span>View this table:</span><ul class="callout-links">
+<li><a href="2898/T2.expansion.html">In this window</a></li>
+<li><a class="in-nw" href="2898/T2.expansion.html">In a new window</a></li>
+</ul>
+</div>
+</div>
+<div class="table-caption"><span class="table-label">Table 2.</span>
+<p id="p-44" class="first-child">The SNPs identified by EB2 model after initial filtering</p>
+<div class="sb-div caption-clear"></div>
+</div>
+</div>
+<p id="p-46">Six of these seven reside in known T1D regions, while rs1800521 (<em>AIRE</em>) is in a T1D candidate region. rs3184504 (<em>SH2B3</em>) and rs2476601 (<em>PTPN22</em>) are known T1D marker SNPs and rs28360489 (<em>IL2RA</em>) is in LD with a known T1D marker SNP (rs12722495, <em>r</em><sup>2 </sup>= 0.62) (<a href="http://www.t1dbase.org/page/Regions">http://www.t1dbase.org/page/Regions</a>). Two of the remaining four, rs8052325 (<em>CLEC16A</em>) and rs1800521 (<em>AIRE</em>), are not in tight LD with known T1D SNPs (correlation coefficient <span class="inline-formula" id="inline-formula-84"><img class="inline-graphic" alt="Graphic" src="images/img76.jpg" /></span>), while the final two, rs72650660 (<em>CLEC16A</em>) and rs3827734 (<em>PTPN22</em>), were not found by 1000 genomes presumably due to the small MAF (<a id="xref-table-wrap-2-2" class="xref-table" href="#T2">Table 2</a>), which prevents us from calculating LD.
+                     </p>
+</div>
+</div>
+<div class="section discussion" id="sec-13">
+<div class="section-nav"><a href="#sec-10" title="3 RESULTS" class="prev-section-link"><span>Previous Section</span></a><a href="#ack-1" title="ACKNOWLEDGEMENTS" class="next-section-link"><span>Next Section</span></a></div>
+<h2>4 DISCUSSION</h2>
+<p id="p-47">All statistical analysis models for pooled case-control data are built on the probability distribution of allele frequency
+                     <span class="inline-formula" id="inline-formula-85"><img class="inline-graphic" alt="Graphic" src="images/img77.jpg" /></span> which depends upon depth (<span class="inline-formula" id="inline-formula-86"><img class="inline-graphic" alt="Graphic" src="images/img78.jpg" /></span>), chromosome number per pool (<em>s</em>) and treatment group. Different assumptions about the distribution of <span class="inline-formula" id="inline-formula-87"><img class="inline-graphic" alt="Graphic" src="images/img79.jpg" /></span> lead to different statistical tests. The binomial model used in Fisher’s exact test assumes <span class="inline-formula" id="inline-formula-88"><img class="inline-graphic" alt="Graphic" src="images/img80.jpg" /></span> is constant across pools within the same treatment group [see <a id="xref-disp-formula-2-1" class="xref-disp-formula" href="#disp-formula-2">Equation (2)</a> in the <a href="http://bioinformatics.oxfordjournals.org/cgi/content/full/bts553/DC1">Supplementary Material</a>], while the extra-binomial variation models used in this article assume <span class="inline-formula" id="inline-formula-89"><img class="inline-graphic" alt="Graphic" src="images/img81.jpg" /></span> is a continuous variable that varies from pool to pool.
+                  </p>
+<p id="p-48">Note that allele frequencies estimated by sequencing pools of PCR-amplified DNA may be biased, as the PCR may preferentially
+                     amplify one allele compared to the other (<a id="xref-ref-18-1" class="xref-bibr" href="#ref-18">Sham <em>et al.</em>, 2002</a>). This means that allele frequencies presented in <a id="xref-table-wrap-1-2" class="xref-table" href="#T1">Tables</a> 1 and <a id="xref-table-wrap-2-3" class="xref-table" href="#T2">2</a> may deviate from the true population frequency, which can be an issue when considering the sample size required to replicate
+                     findings for rare SNPs, in particular. As this bias is likely to affect cases and controls equally when there is no underlying
+                     difference in allele frequency, it cannot be expected to inflate Type 1 error, although it may act to amplify or depress any
+                     true difference between cases and controls depending on which allele is subject to bias.
+                  </p>
+<p id="p-49">Other methods allowing for the variance in pooled sequencing have been explored. <a id="xref-ref-21-1" class="xref-bibr" href="#ref-21">Wang <em>et al.</em> (2010)</a> estimated allele frequencies by weighting sequencing read counts using a weight inversely proportional to the variance of
+                     the allele frequency estimate and compared these weighted estimates between cases and controls. However, no published software
+                     is available to implement this approach. An alternative approach adopted by <a id="xref-ref-7-1" class="xref-bibr" href="#ref-7">Kim <em>et al.</em> (2010)</a> is to estimate allele frequency by maximum likelihood and then use a likelihood ratio test to test the MAF difference between
+                     cases and controls. However, this method is affected heavily by pool size. As the authors pointed out, their approach is not
+                     applicable to pools with more than five individuals per pool. Given the main purpose of pooled sequencing is to decrease the
+                     experimental cost, a large pool size may be expected in real experimental data.
+                  </p>
+<p id="p-50">Here, instead of specifying the statistical distribution of <span class="inline-formula" id="inline-formula-90"><img class="inline-graphic" alt="Graphic" src="images/img82.jpg" /></span>, we propose a ‘quasi-likelihood’ approach which only defines the mean and variance of <span class="inline-formula" id="inline-formula-91"><img class="inline-graphic" alt="Graphic" src="images/img83.jpg" /></span>. The two EB models in this article share the same mean functions of <span class="inline-formula" id="inline-formula-92"><img class="inline-graphic" alt="Graphic" src="images/img84.jpg" /></span> with different variance functions where Williams’ EB1 model adopted one parameter, <span class="inline-formula" id="inline-formula-93"><img class="inline-graphic" alt="Graphic" src="images/img85.jpg" /></span>, for each SNP <em>i</em> and our EB2 model adopted two universal parameters, <em>a</em> and <em>b</em>, for all SNPs.
+                  </p>
+<p id="p-51">The EB models have the advantage of including between-pool variation, compared to the standard binomial model which ignores
+                     heterogeneity of pools and thus provides a poor fit of our sequencing data (<a id="xref-fig-3-3" class="xref-fig" href="#F3">Fig. 3</a>). However, several shortcomings are exposed in EB1: (i) the significance test is based on increases in the <span class="inline-formula" id="inline-formula-94"><img class="inline-graphic" alt="Graphic" src="images/img86.jpg" /></span> statistic, not a statistically powerful approach (<a id="xref-ref-12-1" class="xref-bibr" href="#ref-12">McCullagh, 1983</a>); (ii) parameter estimation is complicated requiring iteratively re-weighted least squares (see Section C of the <a href="http://bioinformatics.oxfordjournals.org/cgi/content/full/bts553/DC1">Supplementary Material</a>) and (iii) the small sample size (only 20 data points for each SNP <em>i</em>) means <span class="inline-formula" id="inline-formula-95"><img class="inline-graphic" alt="Graphic" src="images/img87.jpg" /></span> cannot be estimated precisely.
+                  </p>
+<p id="p-52">In EB2, we assumed that the parameters in the variance function are constant across all SNPs tested. By doing this, we expanded
+                     the number of data points for parameter estimation which allowed more efficient estimation and our use of GLM means it may
+                     be fitted in standard software. This could, of course, be extended to include other SNP-specific features by changing the
+                     form of <a id="xref-disp-formula-9-1" class="xref-disp-formula" href="#disp-formula-9">Equation (8)</a>, but no other features were found to be predictive of error structure in our 454 dataset.
+                  </p>
+<p id="p-53">The improvement of EB2 over EB1 is obvious in the Q–Q plot—the slope declines to 1.26 (<a id="xref-fig-4-2" class="xref-fig" href="#F4">Fig. 4</a> versus <a id="xref-fig-5-3" class="xref-fig" href="#F5">Fig. 5</a>a). Given the fact that of the 10 re-sequenced genes, 6 were in known T1D regions, we expect some SNPs would be genuinely
+                     associated with T1D and therefore expect the slope to be greater than one.
+                  </p>
+<p id="p-54">The simulation results showed that across different situations, our preferred EB2 model has an overall excellent control of
+                     Type 1 error rate. This is in contrast to Fisher’s exact test, where the observed Type 1 error rate may be as much as 9-fold
+                     the nominal rate at <span class="inline-formula" id="inline-formula-96"><img class="inline-graphic" alt="Graphic" src="images/img88.jpg" /></span>.
+                  </p>
+<p id="p-55">In our 454 data, base error rates were very low. However, we included a wider range of errors in our simulations to allow
+                     us to examine the potential for our model to be applied to other technologies. Because our model only deals with increased
+                     variance, and not systematic bias induced by base calling errors, we undertake a separate error correction step which should
+                     correct the error in expectation, but may itself increase variance. This can be seen in the dependence of Type 1 error rate
+                     on the sequencing error for Fisher’s exact test, whereas our model appears to have a good control of Type 1 error rates across
+                     the range of sequencing errors considered, despite both methods being applied to the same, error-corrected, data. Note that
+                     any estimates of error rates are likely to be uncertain. Our experience is that the effect of correcting for a poorly estimated
+                     error rate in simulated data depends on MAF, the magnitude of the true error and how poorly it is estimated. In the case of
+                     our 454 data, we are lucky to be dealing with low estimated error rates which are consistent with previous estimates for this
+                     technology. Correction for these estimated error rates made no substantial difference to our conclusions. However, if the
+                     estimated error rates in other applications were larger, it might be wise to conduct some sensitivity analysis, varying the
+                     estimated error rate by factors of two or more, to examine whether associations identified are robust to misspecification
+                     of error rates.
+                  </p>
+<p id="p-56">A shortage of any model used here is the assumption of binomial error within each pool, which allows a zero count for major
+                     alleles. This is in contrast to our SNP detection principle which requires at least two supporting reads at a position to
+                     call a SNP (i.e. we should model <span class="inline-formula" id="inline-formula-97"><img class="inline-graphic" alt="Graphic" src="images/img89.jpg" /></span> for some <em>k</em>, <span class="inline-formula" id="inline-formula-98"><img class="inline-graphic" alt="Graphic" src="images/img90.jpg" /></span>). When we removed our detection criteria and instead examined all SNPs in dbSNPs version 128 (<a id="xref-ref-19-2" class="xref-bibr" href="#ref-19">Sherry <em>et al.</em>, 2001</a>) within our 144 target regions, the Q–Q plot showed further improvement (<a id="xref-fig-5-4" class="xref-fig" href="#F5">Fig. 5</a>b). Additionally, a much smaller maximum sample quantile was observed in dbSNP Q–Q plot, indicating there are still errors
+                     among the full set of 473 called SNPs.
+                  </p>
+<p id="p-57">Overall, extra-binomial models appear to have better properties than the naive binomial model. They could analyse a larger
+                     range of variants with lower or more variant pool depths and our new EB2 model is more appropriate and easier to apply compared
+                     with the EB1 model proposed by <a id="xref-ref-23-3" class="xref-bibr" href="#ref-23">Williams (1982)</a>. Work such as this is used as the basis for further confirmatory experiments and we intend to follow up the four new SNPs
+                     identified in <a id="xref-table-wrap-2-4" class="xref-table" href="#T2">Table 2</a>. More accurate results lead to better targeting of these experiments and thus faster and more efficient progress to identify
+                     the causal genes in T1D.
+                  </p>
+</div>
+<div class="section ack" id="ack-1">
+<div class="section-nav"><a href="#sec-13" title="4 DISCUSSION" class="prev-section-link"><span>Previous Section</span></a><a href="#fn-group-1" title="Footnotes" class="next-section-link"><span>Next Section</span></a></div>
+<h2>ACKNOWLEDGEMENTS</h2>
+<p id="p-58">The data used in this work were generated by Sergey Nejentsev. I would like to thank colleagues in the Juvenile Diabetes Research
+                     Foundation/Wellcome Trust Diabetes and Inflammation Laboratory (DIL) for helpful comments on the work and earlier drafts.
+                  </p>
+<p id="p-59"><em>Funding:</em> X.Y. was supported by Human Molecular Genetics Course in Imperial College London and the Juvenile Diabetes Research Foundation/Wellcome
+                     Trust Diabetes and Inflammation Laboratory (DIL). The DIL is funded by the Juvenile Diabetes Research Foundation (9-2011-253),
+                     the Wellcome Trust (091157/Z/10/Z) and the National Institute for Health Cambridge Biomedical Research Centre. The Cambridge
+                     Institute for Medical Research is in receipt of a Wellcome Trust Strategic Award (079895). D.C. is supported by a Wellcome
+                     Trust Principal Research Fellowship (091388/Z/10/Z) and C.W. is supported by a Wellcome Trust Research Career Development
+                     Fellowship (089989/Z/09/Z).
+                  </p>
+<p id="p-60"><em>Conflict of Interest</em>: none declared.
+                  </p>
+</div>
+<div class="section fn-group" id="fn-group-1">
+<div class="section-nav"><a href="#ack-1" title="ACKNOWLEDGEMENTS" class="prev-section-link"><span>Previous Section</span></a><a href="#ref-list-1" title="REFERENCES" class="next-section-link"><span>Next Section</span></a></div>
+<h2>Footnotes</h2>
+<ul>
+<li class="fn" id="fn-1">
+<p id="p-1">Associate Editor: Michael Brudno</p>
+</li>
+</ul>
+</div>
+<ul class="copyright-statement">
+<li class="fn" id="copyright-statement-1">© The Author 2012. Published by Oxford University Press.</li>
+</ul>
+<div class="license" id="license-1">
+<p id="p-2">This is an Open Access article distributed under the terms of the Creative Commons Attribution License (http://creativecommons.org/licenses/by/3.0/),
+                     which permits unrestricted reuse, distribution, and reproduction in any medium, provided the original work is properly cited.
+                  </p>
+</div>
+<div class="section ref-list" id="ref-list-1">
+<div class="section-nav"><a href="#fn-group-1" title="Footnotes" class="prev-section-link"><span>Previous Section</span></a><div class="nav-placeholder"> </div>
+</div>
+<h2>REFERENCES</h2>
+<ol class="cit-list ref-use-labels">
+<li><span class="ref-label ref-label-empty"></span><a class="rev-xref-ref" href="#xref-ref-1-1" title="View reference in text" id="ref-1">↵</a><div class="cit ref-cit ref-journal" id="cit-28.22.2898.1">
+<div class="cit-metadata">
+<ol class="cit-auth-list">
+<li><span class="cit-auth"><span class="cit-name-surname">Bansal</span> <span class="cit-name-given-names">V</span></span></li>
+</ol><cite>. <span class="cit-article-title">A statistical method for the detection of variants from next-generation resequencing of DNA pools</span>. <abbr class="cit-jnl-abbrev">Bioinformatics</abbr> <span class="cit-pub-date">2010</span>;<span class="cit-vol">26</span>:<span class="cit-fpage">i318</span>-<span class="cit-lpage">i324</span>.</cite></div>
+<div class="cit-extra"><a href="/cgi/ijlink?linkType=ABST&amp;journalCode=bioinfo&amp;resid=26/12/i318" class="cit-ref-sprinkles cit-ref-sprinkles-ijlinks"><span class="cit-reflinks-abstract">Abstract</span><span class="cit-sep cit-reflinks-variant-name-sep">/</span><span class="cit-reflinks-full-text"><span class="free-full-text">FREE </span>Full Text</span></a></div>
+</div>
+</li>
+<li><span class="ref-label ref-label-empty"></span><a class="rev-xref-ref" href="#xref-ref-2-1" title="View reference in text" id="ref-2">↵</a><div class="cit ref-cit ref-journal" id="cit-28.22.2898.2">
+<div class="cit-metadata">
+<ol class="cit-auth-list">
+<li><span class="cit-auth"><span class="cit-name-surname">Barrett</span> <span class="cit-name-given-names">JC</span></span>, 
+                                 </li>
+<li><span class="cit-etal">et al</span></li>
+</ol><cite>. <span class="cit-article-title">Genome-wide association study and meta-analysis find that over 40 loci affect risk of type 1 diabetes</span>. <abbr class="cit-jnl-abbrev">Nat. Genet.</abbr> <span class="cit-pub-date">2009</span>;<span class="cit-vol">41</span>:<span class="cit-fpage">703</span>-<span class="cit-lpage">707</span>.</cite></div>
+<div class="cit-extra"><a href="/external-ref?access_num=10.1038/ng.381&amp;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-webofscience">CrossRef</a><a href="/external-ref?access_num=19430480&amp;link_type=MED" class="cit-ref-sprinkles cit-ref-sprinkles-medline">Medline</a><a href="/external-ref?access_num=000266411700019&amp;link_type=ISI" class="cit-ref-sprinkles cit-ref-sprinkles-webofscience">Web of Science</a></div>
+</div>
+</li>
+<li><span class="ref-label ref-label-empty"></span><a class="rev-xref-ref" href="#xref-ref-3-1" title="View reference in text" id="ref-3">↵</a><div class="cit ref-cit ref-journal" id="cit-28.22.2898.3">
+<div class="cit-metadata">
+<ol class="cit-auth-list">
+<li><span class="cit-auth"><span class="cit-name-surname">Cooper</span> <span class="cit-name-given-names">JD</span></span>, 
+                                 </li>
+<li><span class="cit-etal">et al</span></li>
+</ol><cite>. <span class="cit-article-title">Meta-analysis of genome-wide association study data identifies additional type 1 diabetes risk loci</span>. <abbr class="cit-jnl-abbrev">Nat. Genet.</abbr> <span class="cit-pub-date">2008</span>;<span class="cit-vol">40</span>:<span class="cit-fpage">1399</span>-<span class="cit-lpage">1401</span>.</cite></div>
+<div class="cit-extra"><a href="/external-ref?access_num=10.1038/ng.249&amp;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-webofscience">CrossRef</a><a href="/external-ref?access_num=18978792&amp;link_type=MED" class="cit-ref-sprinkles cit-ref-sprinkles-medline">Medline</a><a href="/external-ref?access_num=000261215900012&amp;link_type=ISI" class="cit-ref-sprinkles cit-ref-sprinkles-webofscience">Web of Science</a></div>
+</div>
+</li>
+<li><span class="ref-label ref-label-empty"></span><a class="rev-xref-ref" href="#xref-ref-4-1" title="View reference in text" id="ref-4">↵</a><div class="cit ref-cit ref-journal" id="cit-28.22.2898.4">
+<div class="cit-metadata">
+<ol class="cit-auth-list">
+<li><span class="cit-auth"><span class="cit-name-surname">Crowder</span> <span class="cit-name-given-names">MJ</span></span></li>
+</ol><cite>. <span class="cit-article-title">Beta-binomial ANOVA for proportions</span>. <abbr class="cit-jnl-abbrev">J. Roy. Stat. Soc. C</abbr> <span class="cit-pub-date">1978</span>;<span class="cit-vol">27</span>:<span class="cit-fpage">34</span>-<span class="cit-lpage">37</span>.</cite></div>
+<div class="cit-extra"><a target="_blank" href="http://scholar.google.com/scholar?as_q=&amp;as_epq=Beta-binomial%20ANOVA%20for%20proportions&amp;as_oq=&amp;as_eq=&amp;as_occt=any&amp;as_sauthors=Crowder&amp;as_publication=&amp;as_ylo=&amp;as_yhi=&amp;btnG=&amp;hl=en&amp;sciui=1&amp;as_sdt=0%2C5">
+                                 Search Google Scholar
+                                 </a></div>
+</div>
+</li>
+<li><span class="ref-label ref-label-empty"></span><a class="rev-xref-ref" href="#xref-ref-5-1" title="View reference in text" id="ref-5">↵</a><div class="cit ref-cit ref-journal" id="cit-28.22.2898.5">
+<div class="cit-metadata">
+<ol class="cit-auth-list">
+<li><span class="cit-auth"><span class="cit-name-surname">Hunt</span> <span class="cit-name-given-names">DL</span></span>, 
+                                 </li>
+<li><span class="cit-etal">et al</span></li>
+</ol><cite>. <span class="cit-article-title">The beta-binomial distribution for estimating the number of false rejections in microarray gene expression studies</span>. <abbr class="cit-jnl-abbrev">Comput. Stat. Data Anal.</abbr> <span class="cit-pub-date">2009</span>;<span class="cit-vol">53</span>:<span class="cit-fpage">1688</span>-<span class="cit-lpage">1700</span>.</cite></div>
+<div class="cit-extra"><a href="/external-ref?access_num=10.1016/j.csda.2008.01.013&amp;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-webofscience">CrossRef</a><a href="/external-ref?access_num=20352014&amp;link_type=MED" class="cit-ref-sprinkles cit-ref-sprinkles-medline">Medline</a><a href="/external-ref?access_num=000264751000015&amp;link_type=ISI" class="cit-ref-sprinkles cit-ref-sprinkles-webofscience">Web of Science</a></div>
+</div>
+</li>
+<li><span class="ref-label ref-label-empty"></span><a class="rev-xref-ref" href="#xref-ref-6-1" title="View reference in text" id="ref-6">↵</a><div class="cit ref-cit ref-journal" id="cit-28.22.2898.6">
+<div class="cit-metadata">
+<ol class="cit-auth-list">
+<li><span class="cit-auth"><span class="cit-name-surname">Huse</span> <span class="cit-name-given-names">SM</span></span>, 
+                                 </li>
+<li><span class="cit-etal">et al</span></li>
+</ol><cite>. <span class="cit-article-title">Accuracy and quality of massively parallel DNA pyrosequencing</span>. <abbr class="cit-jnl-abbrev">Genome Biol.</abbr> <span class="cit-pub-date">2007</span>;<span class="cit-vol">8</span>:<span class="cit-fpage">R143</span>.</cite></div>
+<div class="cit-extra"><a href="/external-ref?access_num=10.1186/gb-2007-8-7-r143&amp;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-webofscience">CrossRef</a><a href="/external-ref?access_num=17659080&amp;link_type=MED" class="cit-ref-sprinkles cit-ref-sprinkles-medline">Medline</a></div>
+</div>
+</li>
+<li><span class="ref-label ref-label-empty"></span><a class="rev-xref-ref" href="#xref-ref-7-1" title="View reference in text" id="ref-7">↵</a><div class="cit ref-cit ref-journal" id="cit-28.22.2898.7">
+<div class="cit-metadata">
+<ol class="cit-auth-list">
+<li><span class="cit-auth"><span class="cit-name-surname">Kim</span> <span class="cit-name-given-names">SY</span></span>, 
+                                 </li>
+<li><span class="cit-etal">et al</span></li>
+</ol><cite>. <span class="cit-article-title">Design of association studies with pooled or un-pooled next-generation sequencing data</span>. <abbr class="cit-jnl-abbrev">Genet. Epidemiol.</abbr> <span class="cit-pub-date">2010</span>;<span class="cit-vol">34</span>:<span class="cit-fpage">479</span>-<span class="cit-lpage">491</span>.</cite></div>
+<div class="cit-extra"><a href="/external-ref?access_num=10.1002/gepi.20501&amp;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-webofscience">CrossRef</a><a href="/external-ref?access_num=20552648&amp;link_type=MED" class="cit-ref-sprinkles cit-ref-sprinkles-medline">Medline</a></div>
+</div>
+</li>
+<li><span class="ref-label ref-label-empty"></span><a class="rev-xref-ref" href="#xref-ref-8-1" title="View reference in text" id="ref-8">↵</a><div class="cit ref-cit ref-journal" id="cit-28.22.2898.8">
+<div class="cit-metadata">
+<ol class="cit-auth-list">
+<li><span class="cit-auth"><span class="cit-name-surname">Koboldt</span> <span class="cit-name-given-names">DC</span></span>, 
+                                 </li>
+<li><span class="cit-etal">et al</span></li>
+</ol><cite>. <span class="cit-article-title">Varscan: variant detection in massively parallel sequencing of individual and pooled samples</span>. <abbr class="cit-jnl-abbrev">Bioinformatics</abbr> <span class="cit-pub-date">2009</span>;<span class="cit-vol">25</span>:<span class="cit-fpage">2283</span>-<span class="cit-lpage">2285</span>.</cite></div>
+<div class="cit-extra"><a href="/cgi/ijlink?linkType=ABST&amp;journalCode=bioinfo&amp;resid=25/17/2283" class="cit-ref-sprinkles cit-ref-sprinkles-ijlinks"><span class="cit-reflinks-abstract">Abstract</span><span class="cit-sep cit-reflinks-variant-name-sep">/</span><span class="cit-reflinks-full-text"><span class="free-full-text">FREE </span>Full Text</span></a></div>
+</div>
+</li>
+<li><span class="ref-label ref-label-empty"></span><a class="rev-xref-ref" href="#xref-ref-9-1" title="View reference in text" id="ref-9">↵</a><div class="cit ref-cit ref-journal" id="cit-28.22.2898.9">
+<div class="cit-metadata">
+<ol class="cit-auth-list">
+<li><span class="cit-auth"><span class="cit-name-surname">Li</span> <span class="cit-name-given-names">H</span></span>, 
+                                 </li>
+<li><span class="cit-auth"><span class="cit-name-surname">Durbin</span> <span class="cit-name-given-names">R</span></span></li>
+</ol><cite>. <span class="cit-article-title">Fast and accurate long-read alignment with burrows-wheeler transform</span>. <abbr class="cit-jnl-abbrev">Bioinformatics</abbr> <span class="cit-pub-date">2010</span>;<span class="cit-vol">26</span>:<span class="cit-fpage">589</span>-<span class="cit-lpage">595</span>.</cite></div>
+<div class="cit-extra"><a href="/cgi/ijlink?linkType=ABST&amp;journalCode=bioinfo&amp;resid=26/5/589" class="cit-ref-sprinkles cit-ref-sprinkles-ijlinks"><span class="cit-reflinks-abstract">Abstract</span><span class="cit-sep cit-reflinks-variant-name-sep">/</span><span class="cit-reflinks-full-text"><span class="free-full-text">FREE </span>Full Text</span></a></div>
+</div>
+</li>
+<li><span class="ref-label ref-label-empty"></span><a class="rev-xref-ref" href="#xref-ref-10-1" title="View reference in text" id="ref-10">↵</a><div class="cit ref-cit ref-journal" id="cit-28.22.2898.10">
+<div class="cit-metadata">
+<ol class="cit-auth-list">
+<li><span class="cit-auth"><span class="cit-name-surname">Li</span> <span class="cit-name-given-names">H</span></span>, 
+                                 </li>
+<li><span class="cit-etal">et al</span></li>
+</ol><cite>. <span class="cit-article-title">The sequence alignment/map format and samtools</span>. <abbr class="cit-jnl-abbrev">Bioinformatics</abbr> <span class="cit-pub-date">2009</span>;<span class="cit-vol">25</span>:<span class="cit-fpage">2078</span>-<span class="cit-lpage">2079</span>.</cite></div>
+<div class="cit-extra"><a href="/cgi/ijlink?linkType=ABST&amp;journalCode=bioinfo&amp;resid=25/16/2078" class="cit-ref-sprinkles cit-ref-sprinkles-ijlinks"><span class="cit-reflinks-abstract">Abstract</span><span class="cit-sep cit-reflinks-variant-name-sep">/</span><span class="cit-reflinks-full-text"><span class="free-full-text">FREE </span>Full Text</span></a></div>
+</div>
+</li>
+<li><span class="ref-label ref-label-empty"></span><a class="rev-xref-ref" href="#xref-ref-11-1" title="View reference in text" id="ref-11">↵</a><div class="cit ref-cit ref-journal" id="cit-28.22.2898.11">
+<div class="cit-metadata">
+<ol class="cit-auth-list">
+<li><span class="cit-auth"><span class="cit-name-surname">Marioni</span> <span class="cit-name-given-names">JC</span></span>, 
+                                 </li>
+<li><span class="cit-etal">et al</span></li>
+</ol><cite>. <span class="cit-article-title">Rna-seq: an assessment of technical reproducibility and comparison with gene expression arrays</span>. <abbr class="cit-jnl-abbrev">Genome Res.</abbr> <span class="cit-pub-date">2008</span>;<span class="cit-vol">18</span>:<span class="cit-fpage">1509</span>-<span class="cit-lpage">1517</span>.</cite></div>
+<div class="cit-extra"><a href="/cgi/ijlink?linkType=ABST&amp;journalCode=genome&amp;resid=18/9/1509" class="cit-ref-sprinkles cit-ref-sprinkles-ijlinks"><span class="cit-reflinks-abstract">Abstract</span><span class="cit-sep cit-reflinks-variant-name-sep">/</span><span class="cit-reflinks-full-text"><span class="free-full-text">FREE </span>Full Text</span></a></div>
+</div>
+</li>
+<li><span class="ref-label ref-label-empty"></span><a class="rev-xref-ref" href="#xref-ref-12-1" title="View reference in text" id="ref-12">↵</a><div class="cit ref-cit ref-journal" id="cit-28.22.2898.12">
+<div class="cit-metadata">
+<ol class="cit-auth-list">
+<li><span class="cit-auth"><span class="cit-name-surname">McCullagh</span> <span class="cit-name-given-names">P</span></span></li>
+</ol><cite>. <span class="cit-article-title">Quasi-likelihood functions</span>. <abbr class="cit-jnl-abbrev">Ann. Stat.</abbr> <span class="cit-pub-date">1983</span>;<span class="cit-vol">11</span>:<span class="cit-fpage">59</span>-<span class="cit-lpage">67</span>.</cite></div>
+<div class="cit-extra"><a href="/external-ref?access_num=10.1214/aos/1176346056&amp;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-webofscience">CrossRef</a><a href="/external-ref?access_num=A1983QE68600006&amp;link_type=ISI" class="cit-ref-sprinkles cit-ref-sprinkles-webofscience">Web of Science</a></div>
+</div>
+</li>
+<li><span class="ref-label ref-label-empty"></span><a class="rev-xref-ref" href="#xref-ref-13-1" title="View reference in text" id="ref-13">↵</a><div class="cit ref-cit ref-journal" id="cit-28.22.2898.13">
+<div class="cit-metadata">
+<ol class="cit-auth-list">
+<li><span class="cit-auth"><span class="cit-name-surname">Nejentsev</span> <span class="cit-name-given-names">S</span></span>, 
+                                 </li>
+<li><span class="cit-etal">et al</span></li>
+</ol><cite>. <span class="cit-article-title">Rare variants of <em>IFIH1</em>, a gene implicated in antiviral responses, protect against type 1 diabetes</span>. <abbr class="cit-jnl-abbrev">Science</abbr> <span class="cit-pub-date">2009</span>;<span class="cit-vol">324</span>:<span class="cit-fpage">387</span>-<span class="cit-lpage">389</span>.</cite></div>
+<div class="cit-extra"><a href="/cgi/ijlink?linkType=ABST&amp;journalCode=sci&amp;resid=324/5925/387" class="cit-ref-sprinkles cit-ref-sprinkles-ijlinks"><span class="cit-reflinks-abstract">Abstract</span><span class="cit-sep cit-reflinks-variant-name-sep">/</span><span class="cit-reflinks-full-text"><span class="free-full-text">FREE </span>Full Text</span></a></div>
+</div>
+</li>
+<li><span class="ref-label ref-label-empty"></span><a class="rev-xref-ref" href="#xref-ref-14-1" title="View reference in text" id="ref-14">↵</a><div class="cit ref-cit ref-book" id="cit-28.22.2898.14">
+<div class="cit-metadata"><cite><span class="cit-auth cit-collab">R Development Core Team</span>. <span class="cit-source">R: A Language and Environment for Statistical Computing. R Foundation for Statistical Computing</span>. <span class="cit-publ-loc">Austria</span>: <span class="cit-publ-name">Vienna</span>; <span class="cit-pub-date">2010</span>.</cite></div>
+<div class="cit-extra"></div>
+</div>
+</li>
+<li><span class="ref-label ref-label-empty"></span><a class="rev-xref-ref" href="#xref-ref-15-1" title="View reference in text" id="ref-15">↵</a><div class="cit ref-cit ref-journal" id="cit-28.22.2898.15">
+<div class="cit-metadata">
+<ol class="cit-auth-list">
+<li><span class="cit-auth"><span class="cit-name-surname">Rivas</span> <span class="cit-name-given-names">MA</span></span>, 
+                                 </li>
+<li><span class="cit-etal">et al</span></li>
+</ol><cite>. <span class="cit-article-title">Deep resequencing of GWAS loci identifies independent rare variants associated with inflammatory bowel disease</span>. <abbr class="cit-jnl-abbrev">Nat. Genet</abbr> <span class="cit-pub-date">2011</span>;<span class="cit-vol">43</span>:<span class="cit-fpage">1066</span>-<span class="cit-lpage">1073</span>.</cite></div>
+<div class="cit-extra"><a href="/external-ref?access_num=10.1038/ng.952&amp;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-webofscience">CrossRef</a><a href="/external-ref?access_num=21983784&amp;link_type=MED" class="cit-ref-sprinkles cit-ref-sprinkles-medline">Medline</a></div>
+</div>
+</li>
+<li><span class="ref-label ref-label-empty"></span><a class="rev-xref-ref" href="#xref-ref-16-1" title="View reference in text" id="ref-16">↵</a><div class="cit ref-cit ref-journal" id="cit-28.22.2898.16">
+<div class="cit-metadata">
+<ol class="cit-auth-list">
+<li><span class="cit-auth"><span class="cit-name-surname">Robinson</span> <span class="cit-name-given-names">MD</span></span>, 
+                                 </li>
+<li><span class="cit-auth"><span class="cit-name-surname">Smyth</span> <span class="cit-name-given-names">GK</span></span></li>
+</ol><cite>. <span class="cit-article-title">Moderated statistical tests for assessing differences in tag abundance</span>. <abbr class="cit-jnl-abbrev">Bioinformatics</abbr> <span class="cit-pub-date">2007</span>;<span class="cit-vol">23</span>:<span class="cit-fpage">2881</span>-<span class="cit-lpage">2887</span>.</cite></div>
+<div class="cit-extra"><a href="/cgi/ijlink?linkType=ABST&amp;journalCode=bioinfo&amp;resid=23/21/2881" class="cit-ref-sprinkles cit-ref-sprinkles-ijlinks"><span class="cit-reflinks-abstract">Abstract</span><span class="cit-sep cit-reflinks-variant-name-sep">/</span><span class="cit-reflinks-full-text"><span class="free-full-text">FREE </span>Full Text</span></a></div>
+</div>
+</li>
+<li><span class="ref-label ref-label-empty"></span><a class="rev-xref-ref" href="#xref-ref-17-1" title="View reference in text" id="ref-17">↵</a><div class="cit ref-cit ref-journal" id="cit-28.22.2898.17">
+<div class="cit-metadata">
+<ol class="cit-auth-list">
+<li><span class="cit-auth"><span class="cit-name-surname">Sarin</span> <span class="cit-name-given-names">S</span></span>, 
+                                 </li>
+<li><span class="cit-etal">et al</span></li>
+</ol><cite>. <span class="cit-article-title">Caenorhabditis elegans mutant allele identification by whole-genome sequencing</span>. <abbr class="cit-jnl-abbrev">Nat. Methods</abbr> <span class="cit-pub-date">2008</span>;<span class="cit-vol">5</span>:<span class="cit-fpage">865</span>-<span class="cit-lpage">867</span>.</cite></div>
+<div class="cit-extra"><a href="/external-ref?access_num=10.1038/nmeth.1249&amp;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-webofscience">CrossRef</a><a href="/external-ref?access_num=18677319&amp;link_type=MED" class="cit-ref-sprinkles cit-ref-sprinkles-medline">Medline</a><a href="/external-ref?access_num=000259650100010&amp;link_type=ISI" class="cit-ref-sprinkles cit-ref-sprinkles-webofscience">Web of Science</a></div>
+</div>
+</li>
+<li><span class="ref-label ref-label-empty"></span><a class="rev-xref-ref" href="#xref-ref-18-1" title="View reference in text" id="ref-18">↵</a><div class="cit ref-cit ref-journal" id="cit-28.22.2898.18">
+<div class="cit-metadata">
+<ol class="cit-auth-list">
+<li><span class="cit-auth"><span class="cit-name-surname">Sham</span> <span class="cit-name-given-names">P</span></span>, 
+                                 </li>
+<li><span class="cit-etal">et al</span></li>
+</ol><cite>. <span class="cit-article-title">DNA pooling: a tool for large-scale association studies</span>. <abbr class="cit-jnl-abbrev">Nat. Rev. Genet.</abbr> <span class="cit-pub-date">2002</span>;<span class="cit-vol">3</span>:<span class="cit-fpage">862</span>-<span class="cit-lpage">871</span>.</cite></div>
+<div class="cit-extra"><a href="/external-ref?access_num=10.1038/nrg930&amp;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-webofscience">CrossRef</a><a href="/external-ref?access_num=12415316&amp;link_type=MED" class="cit-ref-sprinkles cit-ref-sprinkles-medline">Medline</a><a href="/external-ref?access_num=000179041600014&amp;link_type=ISI" class="cit-ref-sprinkles cit-ref-sprinkles-webofscience">Web of Science</a></div>
+</div>
+</li>
+<li><span class="ref-label ref-label-empty"></span><a class="rev-xref-ref" href="#xref-ref-19-1" title="View reference in text" id="ref-19">↵</a><div class="cit ref-cit ref-journal" id="cit-28.22.2898.19">
+<div class="cit-metadata">
+<ol class="cit-auth-list">
+<li><span class="cit-auth"><span class="cit-name-surname">Sherry</span> <span class="cit-name-given-names">ST</span></span>, 
+                                 </li>
+<li><span class="cit-etal">et al</span></li>
+</ol><cite>. <span class="cit-article-title">dbSNP: the NCBI database of genetic variation</span>. <abbr class="cit-jnl-abbrev">Nucleic Acids Res.</abbr> <span class="cit-pub-date">2001</span>;<span class="cit-vol">29</span>:<span class="cit-fpage">308</span>-<span class="cit-lpage">311</span>.</cite></div>
+<div class="cit-extra"><a href="/cgi/ijlink?linkType=ABST&amp;journalCode=nar&amp;resid=29/1/308" class="cit-ref-sprinkles cit-ref-sprinkles-ijlinks"><span class="cit-reflinks-abstract">Abstract</span><span class="cit-sep cit-reflinks-variant-name-sep">/</span><span class="cit-reflinks-full-text"><span class="free-full-text">FREE </span>Full Text</span></a></div>
+</div>
+</li>
+<li><span class="ref-label ref-label-empty"></span><a class="rev-xref-ref" href="#xref-ref-20-1" title="View reference in text" id="ref-20">↵</a><div class="cit ref-cit ref-journal" id="cit-28.22.2898.20">
+<div class="cit-metadata">
+<ol class="cit-auth-list">
+<li><span class="cit-auth"><span class="cit-name-surname">Smyth</span> <span class="cit-name-given-names">DJ</span></span>, 
+                                 </li>
+<li><span class="cit-etal">et al</span></li>
+</ol><cite>. <span class="cit-article-title">A genome-wide association study of nonsynonymous snps identifies a type 1 diabetes locus in the interferon-induced helicase
+                                    (<em>IFIH1</em>) region</span>. <abbr class="cit-jnl-abbrev">Nat. Genet.</abbr> <span class="cit-pub-date">2006</span>;<span class="cit-vol">38</span>:<span class="cit-fpage">617</span>-<span class="cit-lpage">619</span>.</cite></div>
+<div class="cit-extra"><a href="/external-ref?access_num=10.1038/ng1800&amp;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-webofscience">CrossRef</a><a href="/external-ref?access_num=16699517&amp;link_type=MED" class="cit-ref-sprinkles cit-ref-sprinkles-medline">Medline</a><a href="/external-ref?access_num=000237954800012&amp;link_type=ISI" class="cit-ref-sprinkles cit-ref-sprinkles-webofscience">Web of Science</a></div>
+</div>
+</li>
+<li><span class="ref-label ref-label-empty"></span><a class="rev-xref-ref" href="#xref-ref-21-1" title="View reference in text" id="ref-21">↵</a><div class="cit ref-cit ref-journal" id="cit-28.22.2898.21">
+<div class="cit-metadata">
+<ol class="cit-auth-list">
+<li><span class="cit-auth"><span class="cit-name-surname">Wang</span> <span class="cit-name-given-names">T</span></span>, 
+                                 </li>
+<li><span class="cit-etal">et al</span></li>
+</ol><cite>. <span class="cit-article-title">Resequencing of pooled DNA for detecting disease associations with rare variants</span>. <abbr class="cit-jnl-abbrev">Genet. Epidemiol.</abbr> <span class="cit-pub-date">2010</span>;<span class="cit-vol">34</span>:<span class="cit-fpage">492</span>-<span class="cit-lpage">501</span>.</cite></div>
+<div class="cit-extra"><a href="/external-ref?access_num=10.1002/gepi.20502&amp;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-webofscience">CrossRef</a><a href="/external-ref?access_num=20578089&amp;link_type=MED" class="cit-ref-sprinkles cit-ref-sprinkles-medline">Medline</a><a href="/external-ref?access_num=000280349600013&amp;link_type=ISI" class="cit-ref-sprinkles cit-ref-sprinkles-webofscience">Web of Science</a></div>
+</div>
+</li>
+<li><span class="ref-label ref-label-empty"></span><a class="rev-xref-ref" href="#xref-ref-22-1" title="View reference in text" id="ref-22">↵</a><div class="cit ref-cit ref-journal" id="cit-28.22.2898.22">
+<div class="cit-metadata"><cite><span class="cit-auth cit-collab">Wellcome Trust Case Control Consortium</span>. <span class="cit-article-title">Genome-wide association study of 14,000 cases of seven common diseases and 3,000 shared controls</span>. <abbr class="cit-jnl-abbrev">Nature</abbr> <span class="cit-pub-date">2007</span>;<span class="cit-vol">447</span>:<span class="cit-fpage">661</span>-<span class="cit-lpage">678</span>.</cite></div>
+<div class="cit-extra"><a href="/external-ref?access_num=10.1038/nature05911&amp;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-webofscience">CrossRef</a><a href="/external-ref?access_num=17554300&amp;link_type=MED" class="cit-ref-sprinkles cit-ref-sprinkles-medline">Medline</a><a href="/external-ref?access_num=000247030700035&amp;link_type=ISI" class="cit-ref-sprinkles cit-ref-sprinkles-webofscience">Web of Science</a></div>
+</div>
+</li>
+<li><span class="ref-label ref-label-empty"></span><a class="rev-xref-ref" href="#xref-ref-23-1" title="View reference in text" id="ref-23">↵</a><div class="cit ref-cit ref-journal" id="cit-28.22.2898.23">
+<div class="cit-metadata">
+<ol class="cit-auth-list">
+<li><span class="cit-auth"><span class="cit-name-surname">Williams</span> <span class="cit-name-given-names">D</span></span></li>
+</ol><cite>. <span class="cit-article-title">Extra-binomial variation in logistic linear models</span>. <abbr class="cit-jnl-abbrev">J. Roy. Stat. Soc. C (Appl. Stat.)</abbr> <span class="cit-pub-date">1982</span>;<span class="cit-vol">31</span>:<span class="cit-fpage">144</span>-<span class="cit-lpage">148</span>.</cite></div>
+<div class="cit-extra"><a href="/external-ref?access_num=10.2307/2347977&amp;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-webofscience">CrossRef</a></div>
+</div>
+</li>
+<li><span class="ref-label ref-label-empty"></span><a class="rev-xref-ref" href="#xref-ref-24-1" title="View reference in text" id="ref-24">↵</a><div class="cit ref-cit ref-journal" id="cit-28.22.2898.24">
+<div class="cit-metadata">
+<ol class="cit-auth-list">
+<li><span class="cit-auth"><span class="cit-name-surname">Zhou</span> <span class="cit-name-given-names">Y-H</span></span>, 
+                                 </li>
+<li><span class="cit-etal">et al</span></li>
+</ol><cite>. <span class="cit-article-title">A powerful and flexible approach to the analysis of RNA sequence count data</span>. <abbr class="cit-jnl-abbrev">Bioinformatics</abbr> <span class="cit-pub-date">2011</span>;<span class="cit-vol">27</span>:<span class="cit-fpage">2672</span>-<span class="cit-lpage">2678</span>.</cite></div>
+<div class="cit-extra"><a href="/cgi/ijlink?linkType=ABST&amp;journalCode=bioinfo&amp;resid=27/19/2672" class="cit-ref-sprinkles cit-ref-sprinkles-ijlinks"><span class="cit-reflinks-abstract">Abstract</span><span class="cit-sep cit-reflinks-variant-name-sep">/</span><span class="cit-reflinks-full-text"><span class="free-full-text">FREE </span>Full Text</span></a></div>
+</div>
+</li>
+</ol>
+</div><span class="highwire-journal-article-marker-end"></span></div><span id="related-urls"></span></div>
+<div id="col-2">
+<div class="article-nav sidebar-nav">
+<a href="/content/28/22/2891.short" title="Previous article" class="previous">« Previous</a><span class="article-nav-sep"> | </span><a href="/content/28/22/2905.short" title="Next article" class="next">Next Article »</a>
+<span class="toc-link">
+<a href="/content/28/22.toc" title="Table of Contents">Table of Contents</a>
+</span>
+</div>
+<div class="content-box" id="article-cb-main">
+<div class="cb-contents">
+<h3 class="cb-contents-header"><span>This Article</span></h3>
+<div class="cb-section cb-slug">
+<ol>
+<li>
+<div id="slugline">
+<cite>
+<abbr title="Bioinformatics" class="slug-jnl-abbrev">
+<nlm:abbrev-journal-title xmlns:nlm="http://schema.highwire.org/NLM/Journal" abbrev-type="publisher">Bioinformatics</nlm:abbrev-journal-title></abbr><span class="slug-pub-date" itemprop="datePublished">
+                                    (2012) 
+                                    </span>
+<span class="slug-vol">
+                                    28
+                                    </span><span class="slug-issue">
+                                    (22):
+                                    </span><span class="slug-pages">
+                                    2898-2904.
+                                    </span>
+<span class="slug-doi-wrapper">
+                                    
+                                    doi:
+                                    
+                                    <span title="10.1093/bioinformatics/bts553" class="slug-doi">10.1093/bioinformatics/bts553</span>
+</span>
+</cite>
+<span class="slug-metadata-note ahead-of-print">
+                                 
+                                 First published online:
+                                 
+                                 <span class="slug-ahead-of-print-date">September 12, 2012</span>
+</span>
+</div>
+</li>
+</ol>
+</div>
+<div class="cb-section cb-views">
+<ol>
+<li><span class="creative-commons-article">This article is Open Access<span>OA</span></span></li>
+<li class="abstract-view-link primary"><a href="/content/28/22/2898.abstract" rel="view-abstract">Abstract</a><span class="viewspecificaccesscheck bioinfo;28/22/2898 abstract"></span></li>
+<li class="notice full-text-view-link"><span class="variant-indicator">» <span>Full Text (HTML)</span></span><span class="viewspecificaccesscheck bioinfo;28/22/2898 full"></span></li>
+<li class="notice full-text-pdf-view-link"><a href="/content/28/22/2898.full.pdf+html" rel="view-full-text.pdf">Full Text (PDF)</a><span class="viewspecificaccesscheck bioinfo;28/22/2898 reprint"></span></li>
+<li><a href="/content/28/22/2898/suppl/DC1" rel="supplemental-data" class="dslink-supplementary-data">Supplementary Data</a></li>
+<li class="cb-versions">
+<div><span id="pap-all-versions-label">All Versions of this Article:</span><ol class="version-list">
+<li><a href="/content/early/2012/09/11/bioinformatics.bts553">bts553v1</a></li>
+<li class="current-li"><span>28/22/2898</span> <span class="current-version">most recent</span></li>
+</ol>
+</div>
+</li>
+</ol>
+</div>
+<div class="cb-section collapsible" id="cb-art-cat">
+<h4 class="cb-section-header"><span>Classifications</span></h4>
+<ol>
+<li>
+<ul class="subject-headings">
+<li>Original Paper
+                                 <ul class="subject-sub-headings last-child">
+<li><a class="tocsection-search" href="/search?tocsectionid=SEQUENCE+ANALYSIS&amp;sortspec=date&amp;submit=Submit">SEQUENCE ANALYSIS</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+</div>
+<div class="cb-section collapsible" id="cb-art-svcs">
+<h4 class="cb-section-header"><span>Services</span></h4>
+<ol>
+<li class="alert-link icon-link"><a href="/cgi/alerts/ctalert?alertType=citedby&amp;addAlert=cited_by&amp;cited_by_criteria_resid=bioinfo;28/22/2898&amp;saveAlert=no&amp;return-type=article&amp;return_url=http://bioinformatics.oxfordjournals.org/content/28/22/2898.long?rss=1">Alert me when cited</a></li>
+<li class="alert-link icon-link"><a href="/cgi/alerts/ctalert?alertType=correction&amp;addAlert=correction&amp;correction_criteria_value=28/22/2898&amp;saveAlert=no&amp;return-type=article&amp;return_url=http://bioinformatics.oxfordjournals.org/content/28/22/2898.long?rss=1">Alert me if corrected</a></li>
+<li><a href="/cgi/alerts/ctalert?alertType=eletter&amp;addAlert=eletter&amp;eletter_criteria_value=28/22/2898&amp;saveAlert=no&amp;return-type=article&amp;return_url=http://bioinformatics.oxfordjournals.org/content/28/22/2898.long?rss=1">Alert me if commented</a></li>
+<li class="similar-link"><a href="/search?qbe=bioinfo;bts553&amp;citation=Yang%20et%20al.%2028%20%2822%29:%202898&amp;submit=yes">Find similar articles</a></li>
+<li class="similar-link"><a href="/external-ref?access_num=bioinfo%3B28%2F22%2F2898&amp;link_type=ISI_RELATEDRECORDS" id="cb-isi-similar-articles" class="similar-link">Similar articles in Web of Science</a></li>
+<li class="similar-link"><a href="/external-ref?access_num=22976083&amp;link_type=MED_NBRS" class="similar-link">Similar articles in PubMed</a></li>
+<li class="folder-link icon-link"><a href="/cgi/folders?action=addtofolder&amp;wherefrom=JOURNALS&amp;wrapped_id=bioinfo;28/22/2898">Add to my archive</a></li>
+<li class="cit-man-link icon-link cite-link"><a href="/citmgr?gca=bioinfo;28/22/2898">Download citation</a></li>
+<li><a class="request-permissions" href="https://s100.copyright.com/AppDispatchServlet?publisherName=oup&amp;publication=bioinformatics&amp;title=Extra-binomial%20variation%20approach%20for%20analysis%20of%20pooled%20DNA%20sequencing%20data%3A%20&amp;publicationDate=11%2F15%2F2012&amp;author=Xin%20Yang%2C%20John%20A.%20Todd%2C%20David%20Clayton%2C%20Chris%20Wallace&amp;copyright=Oxford%20University%20Press&amp;contentID=10.1093%2Fbioinformatics%2Fbts553&amp;volumeNum=28&amp;issueNum=22&amp;startPage=2898&amp;endPage=2904&amp;orderBeanReset=true" target="_blank">Request Permissions</a></li>
+</ol>
+</div>
+<div class="cb-section collapsible default-closed" id="cb-letter-cit">
+<h4 class="cb-section-header"><span>Responses</span></h4>
+<ol>
+<li><a href="/letters/submit/bioinfo;28/22/2898">Submit a response</a></li>
+<li><span class="eletters-no-responses-published">No responses published</span></li>
+</ol>
+</div>
+<div class="cb-section collapsible default-closed" id="cb-art-cit">
+<h4 class="cb-section-header"><span>Citing Articles</span></h4>
+<ol>
+<li class="hw-citing-link"><a href="/content/28/22/2898.long?rss=1&amp;cited-by=yes&amp;legid=bioinfo;28/22/2898#cited-by" id="cb-hw-citing-articles">Load citing article information</a></li>
+<li><a href="/cgi/crossref-forward-links/28/22/2898" rel="external-nw" id="cb-crossref-citing-articles">Citing articles via CrossRef</a></li>
+<li><a href="/scopus-links/bioinfo/28/22/2898?access_num=/bioinfo/28/22/2898" rel="external-nw" id="cb-scopus-citing-articles">Citing articles via Scopus</a></li>
+<li><a href="/external-ref?access_num=%2Fbioinfo%2F28%2F22%2F2898&amp;link_type=ISI_CITING&amp;accnum_type=native" rel="external-nw" id="cb-isi-citing-articles">Citing articles via Web of Science</a></li>
+</ol>
+</div>
+<div class="cb-section collapsible default-closed" id="cb-art-gs">
+<h4 class="cb-section-header"><span>Google Scholar</span></h4>
+<ol>
+<li class="cb-art-gs-auth author-link"><a href="http://scholar.google.com/scholar?q=%22author%3AYang%20author%3AX.%22" class="cb-art-gs-auth author-link">Articles by  Yang, X.</a></li>
+<li class="cb-art-gs-auth author-link"><a href="http://scholar.google.com/scholar?q=%22author%3AWallace%20author%3AC.%22" class="cb-art-gs-auth author-link">Articles by  Wallace, C.</a></li>
+</ol>
+</div>
+<div class="cb-section collapsible default-closed" id="cb-art-pm">
+<h4 class="cb-section-header"><span>PubMed</span></h4>
+<ol>
+<li class="cb-art-pm-cite cite-link icon-link"><a href="/external-ref?access_num=22976083&amp;link_type=PUBMED" class="cb-art-pm-cite cite-link icon-link">PubMed citation</a></li>
+<li class="cb-art-pm-auth author-link"><a href="/external-ref?access_num=Yang%20X&amp;link_type=AUTHORSEARCH" class="cb-art-pm-auth author-link">Articles by  Yang, X.</a></li>
+<li class="cb-art-pm-auth author-link"><a href="/external-ref?access_num=Todd%20JA&amp;link_type=AUTHORSEARCH" class="cb-art-pm-auth author-link">Articles by  Todd, J. A.</a></li>
+<li class="cb-art-pm-auth author-link"><a href="/external-ref?access_num=Clayton%20D&amp;link_type=AUTHORSEARCH" class="cb-art-pm-auth author-link">Articles by  Clayton, D.</a></li>
+<li class="cb-art-pm-auth author-link"><a href="/external-ref?access_num=Wallace%20C&amp;link_type=AUTHORSEARCH" class="cb-art-pm-auth author-link">Articles by  Wallace, C.</a></li>
+</ol>
+</div>
+<div class="cb-section collapsible default-closed" id="cb-art-rel">
+<h4 class="cb-section-header"><span>Related Content</span></h4>
+<ol>
+<li><a href="/content/28/22/2898.long?rss=1&amp;related-urls=yes&amp;legid=bioinfo;28/22/2898#related-urls" id="cb-related-urls">Load related web page information</a></li>
+</ol>
+</div>
+<div class="cb-section collapsible" id="cb-art-soc">
+<h4 class="cb-section-header"><span>Share</span></h4>
+<ol>
+<li><a href="/email?gca=bioinfo;28/22/2898&amp;current-view-path=/content/28/22/2898.long">
+                              Email this article</a></li>
+<li>
+<div class="social-bookmarking">
+<ul class="social-bookmark-links">
+<li class="social-bookmarking-item social-bookmarking-item-citeulike"><a href="/external-ref?tag_url=http://bioinformatics.oxfordjournals.org/cgi/content/long/28/22/2898&amp;title=Extra-binomial%20variation%20approach%20for%20analysis%20of%20pooled%20DNA%20sequencing%20data+--+Yang%20et%20al.%2028%20%2822%29%3A%202898+--+bioinformatics&amp;doi=10.1093/bioinformatics/bts553&amp;link_type=CITEULIKE"><img src="../article_1/images/img2.jpg" alt="Add to CiteULike" title="CiteULike" /></a><span class="soc-bm-link-text">CiteULike</span></li>
+<li class="social-bookmarking-item social-bookmarking-item-connotea"><a href="/external-ref?tag_url=http://bioinformatics.oxfordjournals.org/cgi/content/long/28/22/2898&amp;title=Extra-binomial%20variation%20approach%20for%20analysis%20of%20pooled%20DNA%20sequencing%20data+--+Yang%20et%20al.%2028%20%2822%29%3A%202898+--+bioinformatics&amp;doi=10.1093/bioinformatics/bts553&amp;link_type=CONNOTEA"><img src="../article_1/images/img3.jpg" alt="Add to Connotea" title="Connotea" /></a><span class="soc-bm-link-text">Connotea</span></li>
+<li class="social-bookmarking-item social-bookmarking-item-delicious"><a href="/external-ref?tag_url=http://bioinformatics.oxfordjournals.org/cgi/content/long/28/22/2898&amp;title=Extra-binomial%20variation%20approach%20for%20analysis%20of%20pooled%20DNA%20sequencing%20data+--+Yang%20et%20al.%2028%20%2822%29%3A%202898+--+bioinformatics&amp;doi=10.1093/bioinformatics/bts553&amp;link_type=DEL_ICIO_US"><img src="../article_1/images/img4.jpg" alt="Add to Delicious" title="Delicious" /></a><span class="soc-bm-link-text">Delicious</span></li>
+<li class="social-bookmarking-item social-bookmarking-item-facebook"><a href="/external-ref?tag_url=http://bioinformatics.oxfordjournals.org/cgi/content/short/28/22/2898&amp;title=Extra-binomial%20variation%20approach%20for%20analysis%20of%20pooled%20DNA%20sequencing%20data+--+Yang%20et%20al.%2028%20%2822%29%3A%202898+--+bioinformatics&amp;doi=10.1093/bioinformatics/bts553&amp;link_type=FACEBOOK" class="sb-facebook" rel="external-nw"><img src="../article_1/images/img5.jpg" alt="Add to Facebook" title="Facebook" /></a><span class="soc-bm-link-text">Facebook</span></li>
+<li class="social-bookmarking-item social-bookmarking-item-googleplus"><a href="/external-ref?tag_url=http://bioinformatics.oxfordjournals.org/cgi/content/long/28/22/2898&amp;title=Extra-binomial%20variation%20approach%20for%20analysis%20of%20pooled%20DNA%20sequencing%20data+--+Yang%20et%20al.%2028%20%2822%29%3A%202898+--+bioinformatics&amp;doi=10.1093/bioinformatics/bts553&amp;link_type=GOOGLEPLUS&amp;log_only=yes"><img src="../article_1/images/img6.jpg" alt="Add to Google+" title="Google+" /></a><span class="soc-bm-link-text">Google+</span></li>
+<li class="social-bookmarking-item social-bookmarking-item-mendeley"><a href="/external-ref?tag_url=http://bioinformatics.oxfordjournals.org/cgi/content/long/28/22/2898&amp;title=Extra-binomial%20variation%20approach%20for%20analysis%20of%20pooled%20DNA%20sequencing%20data+--+Yang%20et%20al.%2028%20%2822%29%3A%202898+--+bioinformatics&amp;doi=10.1093/bioinformatics/bts553&amp;link_type=MENDELEY"><img src="../article_1/images/img7.jpg" alt="Add to Mendeley" title="Mendeley" /></a><span class="soc-bm-link-text">Mendeley</span></li>
+<li class="social-bookmarking-item social-bookmarking-item-twitter"><a href="/external-ref?tag_url=http://bioinformatics.oxfordjournals.org/cgi/content/long/28/22/2898&amp;title=Extra-binomial%20variation%20approach%20for%20analysis%20of%20pooled%20DNA%20sequencing%20data+--+Yang%20et%20al.%2028%20%2822%29%3A%202898+--+bioinformatics&amp;doi=10.1093/bioinformatics/bts553&amp;link_type=TWITTER"><img src="../article_1/images/img8.jpg" alt="Add to Twitter" title="Twitter" /></a><span class="soc-bm-link-text">Twitter</span></li>
+</ul>
+<p class="social-bookmarking-help"><a href="/help/social_bookmarks.dtl">What's this?</a></p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="content-box" id="article-dyn-nav">
+<div class="cb-contents">
+<h3 class="cb-contents-header"><span>Navigate This Article</span></h3>
+<div class="cb-section" id="cb-art-nav">
+<ol>
+<li><a href="#content-block">Top</a></li>
+<li><a href="#abstract-1">Abstract</a></li>
+<li><a href="#sec-1">1 INTRODUCTION</a></li>
+<li><a href="#sec-2">2 METHODS</a></li>
+<li><a href="#sec-10">3 RESULTS</a></li>
+<li><a href="#sec-13">4 DISCUSSION</a></li>
+<li><a href="#ack-1">ACKNOWLEDGEMENTS</a></li>
+<li><a href="#fn-group-1">Footnotes</a></li>
+<li><a href="#ref-list-1">REFERENCES</a></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="content-box" id="article-cb-main">
+<div class="cb-contents">
+<div class="cb-section collapsible default-open" id="cb-art-bn">
+<h4 class="cb-section-header"><span>People also read [Beta]</span></h4>
+<ul>
+<li>
+<div id="bnArticleRecs"></div>
+</li>
+<li>
+<p id="bnHelp">
+<a href="http://www.oxfordjournals.org/our_journals/help.html">What's this?</a>
+</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="col-3">
+<div id="col-3-qs" class="sidebar-qs">
+<form class="searchbox" action="/search" method="get">
+<p>Search this journal:</p>
+<div>
+<input value="" type="text" name="fulltext" id="header-qs-input" />
+<input type="hidden" name="submit" value="yes" />
+<input class="inline_button" type="image" alt="Go" src="/publisher/img/buttons/go.gif" />
+<div class="adv-search-link"><a href="/search">Advanced »</a></div>
+</div>
+</form>
+</div>
+<div class="cb-contents">
+<div id="sidebar-current-issue" class="content-box">
+<h3 class="cb-contents-header">Current Issue</h3>
+<div class="cb-section">
+<ol>
+<li>
+<a href="/content/current"><span>
+<span class="current-issue-date">
+                                    November 15, 2012
+                                    </span><span class="toc-citation-volume">
+                                    
+                                    28
+                                    </span><span class="toc-citation-issue">(22)</span>
+</span></a>
+</li>
+</ol>
+</div>
+<div class="cb-section">
+<ol>
+<li>
+<a href="/content/current"><img src="../article_1/images/img9.jpg" alt="Bioinformatics" id="cover" /></a>
+</li>
+</ol>
+</div>
+<div class="cb-section sidebar-etoc-link">
+<ol>
+<li><a href="/cgi/alerts/etoc">Alert me to new issues</a></li>
+</ol>
+</div>
+</div>
+</div>
+<div id="second">
+<div class="features">
+<div class="feature separator_after first">
+<h2 id="the_journal" title="The Journal"><span>The Journal</span></h2>
+<ul class="emphasised">
+<li>
+<a href="http://www.oxfordjournals.org/bioinformatics/about.html" title="About this journal">About this journal</a>
+</li>
+<li>
+<a href="/cgi/calendarcontent/index.html?target=hw.dtl" title="Calendar of events">Calendar of events</a>
+</li>
+<li>
+<a href="http://www.oxfordjournals.org/access_purchase/rights_permissions.html" title="Rights &amp; Permissions">Rights &amp; Permissions</a>
+</li>
+<li>
+<a href="HTTP://www.oxfordjournals.org/access_purchase/dispatch_dates.html#CABIOSP" title="Dispatch date of the next issue">Dispatch date of the next issue</a>
+</li>
+<li>
+<a href="http://publicationethics.org/about" title="This journal is a member of the Committee on Publication Ethics (COPE)">This journal is a member of the Committee on Publication Ethics (COPE)</a>
+</li>
+<li>
+<a href="/cgi/eletters?lookup=by_date&amp;days=84&amp;target=hw.dtl" title="Recent Comments">Recent Comments</a>
+</li>
+<li>
+<a href="http://www.oxfordjournals.org/mobile_faqs.html" title="We are mobile – find out more">We are mobile – find out more</a>
+</li>
+</ul>
+<a href="http://www.oxfordjournals.org/page/4638/1">
+<img alt="Next Generation Sequencing " src="../article_1/images/img10.jpg" />
+</a>
+</div>
+<div class="feature separator_after">
+<h3>An official journal of</h3>
+<ul class="emphasised">
+<li>
+<a href="http://www.iscb.org/" title="The International Society for Computational Biology">The International Society for Computational Biology</a>
+</li>
+</ul>
+</div>
+<div class="feature separator_after">
+<h3>Impact factor:  5.468</h3>
+</div>
+<div class="feature">
+<h3>Editors-in-Chief</h3>
+<div class="contact">
+<h4>A Bateman</h4>
+</div>
+<div class="contact">
+<h4>A Valencia</h4>
+</div>
+<ul class="emphasised">
+<li>
+<a href="http://www.oxfordjournals.org/bioinformatics/editorial_board.html" title="View full editorial board">View full editorial board</a>
+</li>
+</ul>
+</div>
+<div class="feature">
+<h2 id="for_authors" title="For Authors"><span>For Authors</span></h2>
+<ul class="emphasised">
+<li>
+<a href="http://www.oxfordjournals.org/bioinformatics/for_authors/index.html" title="Instructions to authors">Instructions to authors</a>
+</li>
+<li>
+<a href="http://www.oxfordjournals.org/our_journals/bioinformatics/for_authors/submission_online.html" title="Online submission">Online submission</a>
+</li>
+<li>
+<a href="http://mc.manuscriptcentral.com/bioinformatics" title="Submit Now!">Submit Now!</a>
+</li>
+<li>
+<a href="http://www.oxfordjournals.org/access_purchase/self-archiving_policyb.html" title="Self-archiving policy">Self-archiving policy</a>
+</li>
+</ul>
+<a href="http://www.oxfordjournals.org/oxfordopen/ ">
+<img alt="Open access options for authors - visit Oxford Open" src="http://www.oxfordjournals.org/resource/image/promos/oxford_open.large.jpg" width="600" />
+</a>
+<p>Open access options for authors - visit <a href="http://www.oxfordjournals.org/oxfordopen/">Oxford Open</a>
+</p>
+<a href="http://publicaccess.nih.gov/submit_process_journals.htm">
+<img alt="PMC Logo" src="../article_1/images/img11.jpg" />
+</a>
+<ul class="emphasised">
+<li>
+<a href="http://publicaccess.nih.gov/submit_process_journals.htm" title="This journal enables compliance with the NIH Public Access Policy">This journal enables compliance with the NIH Public Access Policy</a>
+</li>
+</ul>
+</div>
+<div class="feature">
+<h2 id="alerting_services" title="Alerting Services"><span>Alerting Services</span></h2>
+<ul class="emphasised">
+<li>
+<a href="/cgi/alerts/etoc" title="Email table of contents">Email table of contents</a>
+</li>
+<li>
+<a href="/cgi/alerts/etoc" title="Email Advance Access">Email Advance Access</a>
+</li>
+<li>
+<a href="/help/citetrack" title="CiteTrack">CiteTrack</a>
+</li>
+<li>
+<a href="/rss" title="XML RSS feed">XML RSS feed</a>
+</li>
+</ul>
+</div>
+<div class="feature">
+<h2 id="corporate_services" title="Corporate Services"><span>Corporate Services</span></h2>
+<ul class="emphasised">
+<li>
+<a href="http://www.oxfordjournals.org/corporate_services/advertising.html" title="Advertising sales">Advertising sales</a>
+</li>
+<li>
+<a href="http://www.oxfordjournals.org/corporate_services/reprints.html" title="Reprints">Reprints</a>
+</li>
+<li>
+<a href="http://www.oxfordjournals.org/corporate_services/supplements.html" title="Supplements">Supplements</a>
+</li>
+</ul>
+</div>
+<div class="feature">
+<h2>Widget</h2>
+<ul class="emphasised">
+<li>
+<a href="http://www.oxfordjournals.org/our_journals/bioinformatics/widget.html" title="Get a widget">Get a widget</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="ad_hidden" id="oas_right1">
+</div>
+</div>
+<div class="most-links-box js-marker">
+<div class="most-header">
+<h3>Most</h3>
+</div>
+<ul>
+<li class="most-cur-sel">
+<h4>Most Read</h4>
+<div class="most-list">
+<ol>
+<li class="first-item"><a href="http://bioinformatics.oxfordjournals.org/cgi/content/short/28/21/2711?rss=1&amp;ssource=mfr">Statistical challenges associated with detecting copy number variations with next-generation sequencing</a></li>
+<li><a href="http://bioinformatics.oxfordjournals.org/cgi/content/short/28/20/2693?rss=1&amp;ssource=mfr">BioJava: an open-source framework for bioinformatics in 2012</a></li>
+<li><a href="http://bioinformatics.oxfordjournals.org/cgi/content/short/bts605v1?rss=1&amp;ssource=mfr">Tools for mapping high-throughput sequencing data</a></li>
+<li><a href="http://bioinformatics.oxfordjournals.org/cgi/content/short/28/19/2532?rss=1&amp;ssource=mfr">easyRNASeq: a bioconductor package for processing RNA-Seq data</a></li>
+<li class="last-item"><a href="http://bioinformatics.oxfordjournals.org/cgi/content/short/28/19/2537?rss=1&amp;ssource=mfr">GenAlEx 6.5: genetic analysis in Excel. Population genetic software for teaching and research--an update</a></li>
+</ol>
+<a href="http://bioinformatics.oxfordjournals.org/reports/mfr1.dtl" class="view-all">» View all Most Read articles</a>
+</div>
+</li>
+<li>
+<h4>Most Cited</h4>
+<div class="most-list">
+<ol>
+<li class="first-item"><a href="http://bioinformatics.oxfordjournals.org/cgi/content/short/27/3/431?rss=1&amp;ssource=mfc">Cytoscape 2.8: new features for data integration and network visualization</a></li>
+<li><a href="http://bioinformatics.oxfordjournals.org/cgi/content/short/27/15/2156?rss=1&amp;ssource=mfc">The variant call format and VCFtools</a></li>
+<li><a href="http://bioinformatics.oxfordjournals.org/cgi/content/short/27/12/1696?rss=1&amp;ssource=mfc">MEME-ChIP: motif analysis of large DNA datasets</a></li>
+<li><a href="http://bioinformatics.oxfordjournals.org/cgi/content/short/27/4/578?rss=1&amp;ssource=mfc">Scaffolding pre-assembled contigs using SSPACE</a></li>
+<li class="last-item"><a href="http://bioinformatics.oxfordjournals.org/cgi/content/short/27/16/2194?rss=1&amp;ssource=mfc">UCHIME improves sensitivity and speed of chimera detection</a></li>
+</ol>
+<a href="http://bioinformatics.oxfordjournals.org/reports/mfc1.dtl" class="view-all">» View all Most Cited articles</a>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div id="oas_bottom" class="ad_hidden">
+</div>
+<div id="secondary_footer">
+<div id="issn">Online ISSN 1460-2059 - Print ISSN 1367-4803</div>
+<div id="copyright"><a href="http://www.oxfordjournals.org/our_journals/terms.html">Copyright ©</a> 
+               <span>2012</span> Oxford University Press
+               
+            </div>
+</div>
+<div id="primary_footer">
+<div id="site_logo">
+<strong><span>Oxford Journals</span></strong>
+<em><span>Oxford University Press</span></em>
+</div>
+<div id="third_nav">
+<ul>
+<li><a href="http://www.oxfordjournals.org/site_map.html">Site Map</a></li>
+<li><a href="http://www.oup.co.uk/privacy/">Privacy Policy</a></li>
+<li><a href="http://www.oxfordjournals.org/faq/">Frequently Asked Questions</a></li>
+</ul>
+</div>
+<div id="other_oup_sites">
+<form action="http://www.oxfordjournals.org/service/redirect">
+<div>
+<label for="site_list">Other Oxford University Press sites:</label>
+<select name="url" id="site_list">
+<option value="http://www.oup.com">Oxford University Press</option>
+<option value="http://www.oxfordjournals.org/china/">Oxford Journals China</option>
+<option value="http://www.oxfordjournals.org/japan/">Oxford Journals Japan</option>
+<option value="http://www.oup.com/uk/academic">Academic &amp; Professional books</option>
+<option value="http://www.oup.com/oxed">Children's &amp; Schools Books</option>
+<option value="http://www.oup.com/uk/dictionaries">Dictionaries &amp; Reference</option>
+<option value="http://www.oup.co.uk/newdnb/">Dictionary of National Biography</option>
+<option value="http://www.oup.com/uk/digital_reference">Digital Reference</option>
+<option value="http://www.oup.com/elt/">English Language Teaching</option>
+<option value="http://www.oup.com/uk/textbooks">Higher Education Textbooks</option>
+<option value="http://www.oup.co.uk/ieu/">International Education Unit</option>
+<option value="http://www.oup.com/uk/law">Law</option>
+<option value="http://www.oup.com/uk/medicine">Medicine</option>
+<option value="http://www.oup.com/uk/music">Music</option>
+<option value="http://www.oup.com/online">Online Products &amp; Publishing</option>
+<option value="http://oxfordbibliographiesonline.com">Oxford Bibliographies Online</option>
+<option value="http://oxforddictionaries.com">Oxford Dictionaries Online</option>
+<option value="http://www.oed.com">Oxford English Dictionary</option>
+<option value="http://www.oxfordlanguagedictionaries.com">Oxford Language Dictionaries Online</option>
+<option value="http://www.oxfordscholarship.com">Oxford Scholarship Online</option>
+<option value="http://www.oup.com/uk/reference">Reference</option>
+<option value="http://www.oup.com/uk/rights">Rights and Permissions</option>
+<option value="http://www.oup.com/uk/booksellers">Resources for Retailers &amp; Wholesalers</option>
+<option value="http://www.oup.com/uk/corporate">Resources for the Healthcare Industry</option>
+<option value="http://www.oup.com/vsi">Very Short Introductions</option>
+<option value="http://www.oup.com/worldsclassics">World's Classics</option></select>
+<input type="image" src="/resource/image/buttons/go.gif" alt="Go" class="inline_button" />
+</div>
+</form>
+</div>
+</div>
+</div>
+<div style="text-align:center" class="calibre_navbar calibre_rescale_70">
+<hr />
+<p style="text-align:left; max-width: 100%; overflow: hidden;">This article was downloaded by <strong>calibre</strong> from <a href="http://bioinformatics.oxfordjournals.org/cgi/content/short/28/22/2898?rss=1">http://bioinformatics.oxfordjournals.org/cgi/content/short/28/22/2898?rss=1</a></p>
+<br /><br /> | <a href="../index.html#article_0">Section Menu</a> | <a href="../../index.html#feed_0">Main Menu</a> | </div></body>
+</html>

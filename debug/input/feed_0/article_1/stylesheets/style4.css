@@ -1,0 +1,40 @@
+/**** AC style overrides ****/
+
+/* *****moved to bricolage******
+#authstring {
+	width: 640px;
+	text-align: left;
+	margin-bottom: 1.5em;
+}
+
+#authstring li {
+display: inline;
+border-left: 1px solid #A52A2A;
+padding: 0em .4em;
+}
+
+#authstring .no-left-border{
+display: inline;
+border-left: none;
+padding: 0em .4em;
+}
+
+#authstring .subscr-ref {
+	font-weight: bold;
+	border-left: none;
+	color: #A52A2A;
+}*/
+
+#hw-login-msg-box div.additional-access-denied-text {
+	text-align: left;
+	border: 1px solid #000000;
+	padding: 5px;
+	margin: 10px 0;
+}
+
+#hw-login-roles-signin-form fieldset {
+	position: relative;
+	float: none;
+	width:auto;
+	padding: .5em;
+}

@@ -1,0 +1,52 @@
+@namespace h "http://www.w3.org/1999/xhtml";
+h|body {
+    background: #FFF;
+    color: #000;
+    font-family: Times, "Times New Roman", Garamond, serif;
+    margin: 0;
+    padding: 0;
+    overflow: visible
+    }
+.hw-gen-page #skip-link, #header h|ul.header-buttons, #header h|ul.banner-ads, #header, #authstring, #content-block .section .section-nav, #content-block #intro-header .section-nav, #content-block h|div.social-bookmarking, #content-block h|a.rev-xref-ref, h|div.leaderboard-ads, .cit .cit-form-select h|label, .notonscreen, .cit .cit-form-select, .cit .cit-form-select h|input, h|div#hovering-abs-ptr, .search-results-gca, #col-2, #col-3, #footer, #footer .footer-links {
+    float: none;
+    position: static;
+    left: auto;
+    top: auto;
+    height: auto;
+    width: auto;
+    visibility: hidden;
+    display: none
+    }
+h|body h|*, h|div.hw-gen-page, #content-block, #header, #header h|div.main-logo, #header .main-logo h|a, .main-logo h|strong, #header .button-list h|a h|span, .secondary-logo, .secondary-logo h|strong, .quicksearch h|label, .prev-next h|a h|span {
+    overflow: visible;
+    float: none;
+    width: auto;
+    height: auto;
+    position: static;
+    background-image: none;
+    background: #FFF
+    }
+#content-block, .pagetype-proxied #content-block {
+    border-right: none
+    }
+h|div.pagetype-content h|div#content-block h|h4 {
+    font-family: Times, "Times New Roman", Garamond, serif
+    }
+#print-slug h|ol {
+    list-style-type: none;
+    margin: 1em 0;
+    font-size: 1em
+    }
+#print-slug h|ol h|li {
+    margin: 0;
+    font-size: 1em
+    }
+#print-slug h|span.jnl-title {
+    display: block;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-bottom: 1px solid #000
+    }
+h|div.hw-gen-page #content-block .print-only {
+    display: block
+    }
