@@ -8,9 +8,15 @@ class BioinformaticsRecipe(BasicNewsRecipe):
     language = 'en'
     oldest_article = 365
     feeds = [('Bioinformatics', 'https://dl.dropbox.com/s/m16gxh35ekf4qkk/bioinformatics_recent_test.rss')]
+    #recursions = 1 # see if this gets us the table pages
     
     def print_version(self, url):
-        return url.replace('short', 'long')
+        url_rep = url.replace('/cgi', '')
+        url_rep = url_rep.replace('/short', '')
+        url_rep = url_rep.replace('?rss=1', '')
+        dot_sep = '.'
+        full_url = dot_sep.join([url_rep, 'full'])
+        return full_url
         
 #    def preprocess_raw_html(self, raw_html, url):
 #        subbed_html = re.sub('.small.gif', '.large.jpg', raw_html)
