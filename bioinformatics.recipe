@@ -34,6 +34,16 @@ class BioinformaticsRecipe(BasicNewsRecipe):
             
         return soup
         
+    def insert_tables(self, url, soup):
+        # get the base url, same as we did for images
+        url_split_char = '/'
+        url_splitup = url.split(url_split_char)
+        url_splitup.pop(-1)
+        base_url = url_split_char.join(url_splitup)
+        all_tables = soup.findAll('div', 'table-inline')
+        print all_tables
+        return all_tables
+        
     def print_version(self, url):
         url_rep = url.replace('/cgi', '')
         url_rep = url_rep.replace('/short', '')
@@ -48,6 +58,8 @@ class BioinformaticsRecipe(BasicNewsRecipe):
         working_soup = self.index_to_soup(url, False)
         
         img_mod_soup = self.mod_image_paths(url, working_soup)
+        
+        nothing_yet = self.insert_tables(url, working_soup)
         
         filePath = 'tmpfile.html'
         outFile = open(filePath, 'w')
