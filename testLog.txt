@@ -24,7 +24,7 @@ calibre version: 0.9.2
  'format_scene_breaks': True,
  'html_unwrap_factor': 0.4,
  'input_encoding': None,
- 'input_profile': <calibre.customize.profiles.InputProfile object at 0x02FC8CB0>,
+ 'input_profile': <calibre.customize.profiles.InputProfile object at 0x02F38CB0>,
  'insert_blank_line': False,
  'insert_blank_line_size': 0.5,
  'insert_metadata': False,
@@ -47,7 +47,7 @@ calibre version: 0.9.2
  'minimum_line_height': 120.0,
  'no_chapters_in_toc': False,
  'no_inline_navbars': False,
- 'output_profile': <calibre.customize.profiles.OutputProfile object at 0x02FC8E90>,
+ 'output_profile': <calibre.customize.profiles.OutputProfile object at 0x02F38E90>,
  'page_breaks_before': None,
  'prefer_metadata_cover': False,
  'pretty_print': True,
@@ -91,707 +91,44 @@ Using custom recipe
 1% Trying to download cover...
 1% Generating masthead...
 Synthesizing mastheadImage
-1% Starting download [4 thread(s)]...http://bioinformatics.oxfordjournals.org/content/28/22/2898.full
-http://bioinformatics.oxfordjournals.org/content/28/22/2963.full
-
+1% Starting download [4 thread(s)]...
 Downloading
-Fetching file:C:\Users\rmflig01\AppData\Local\Temp\calibre_0.9.2_tmp_valtvo\nnjb8z_plumber\tmpfile.html
+Fetching file:C:\Users\rmflig01\AppData\Local\Temp\calibre_0.9.2_tmp_qiml3c\yldpj0_plumber\tmpfile.html
 Processing images...
-Fetching file:///2898/F1.large.jpg
-Could not fetch image  file:///2898/F1.large.jpg
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/F1.large.jpg'
-
-Fetching file:///2898/embed/inline-graphic-1.gif
-Could not fetch image  file:///2898/embed/inline-graphic-1.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-1.gif'
-
-Fetching file:///2898/embed/inline-graphic-2.gif
-Could not fetch image  file:///2898/embed/inline-graphic-2.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-2.gif'
-
-Fetching file:///2898/embed/inline-graphic-3.gif
-Could not fetch image  file:///2898/embed/inline-graphic-3.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-3.gif'
-
-Fetching file:///2898/embed/inline-graphic-4.gif
-Could not fetch image  file:///2898/embed/inline-graphic-4.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-4.gif'
-
-Fetching file:///2898/embed/graphic-2.gif
-Could not fetch image  file:///2898/embed/graphic-2.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/graphic-2.gif'
-
-Fetching file:///2898/embed/graphic-3.gif
-Could not fetch image  file:///2898/embed/graphic-3.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/graphic-3.gif'
-
-Fetching file:///2898/embed/inline-graphic-5.gif
-Could not fetch image  file:///2898/embed/inline-graphic-5.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-5.gif'
-
-Fetching file:///2898/embed/inline-graphic-6.gif
-Could not fetch image  file:///2898/embed/inline-graphic-6.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-6.gif'
-
-Fetching file:///2898/embed/inline-graphic-7.gif
-Could not fetch image  file:///2898/embed/inline-graphic-7.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-7.gif'
-
-Fetching file:///2898/embed/graphic-4.gif
-Could not fetch image  file:///2898/embed/graphic-4.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/graphic-4.gif'
-
-Fetching file:///2898/embed/graphic-5.gif
-Could not fetch image  file:///2898/embed/graphic-5.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/graphic-5.gif'
-
-Fetching file:///2898/embed/inline-graphic-8.gif
-Could not fetch image  file:///2898/embed/inline-graphic-8.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-8.gif'
-
-Fetching file:///2898/embed/inline-graphic-9.gif
-Could not fetch image  file:///2898/embed/inline-graphic-9.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-9.gif'
-
-Fetching file:///2898/embed/inline-graphic-10.gif
-Could not fetch image  file:///2898/embed/inline-graphic-10.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-10.gif'
-
-Fetching file:///2898/embed/inline-graphic-11.gif
-Could not fetch image  file:///2898/embed/inline-graphic-11.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-11.gif'
-
-Fetching file:///2898/embed/inline-graphic-12.gif
-Could not fetch image  file:///2898/embed/inline-graphic-12.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-12.gif'
-
-Fetching file:///2898/embed/inline-graphic-13.gif
-Could not fetch image  file:///2898/embed/inline-graphic-13.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-13.gif'
-
-Fetching file:///2898/embed/inline-graphic-14.gif
-Could not fetch image  file:///2898/embed/inline-graphic-14.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-14.gif'
-
-Fetching file:///2898/embed/inline-graphic-15.gif
-Could not fetch image  file:///2898/embed/inline-graphic-15.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-15.gif'
-
-Fetching file:///2898/embed/graphic-6.gif
-Could not fetch image  file:///2898/embed/graphic-6.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/graphic-6.gif'
-
-Fetching file:///2898/embed/inline-graphic-16.gif
-Could not fetch image  file:///2898/embed/inline-graphic-16.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-16.gif'
-
-Fetching file:///2898/embed/inline-graphic-17.gif
-Could not fetch image  file:///2898/embed/inline-graphic-17.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-17.gif'
-
-Fetching file:///2898/embed/inline-graphic-18.gif
-Could not fetch image  file:///2898/embed/inline-graphic-18.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-18.gif'
-
-Fetching file:///2898/embed/inline-graphic-19.gif
-Could not fetch image  file:///2898/embed/inline-graphic-19.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-19.gif'
-
-Fetching file:///2898/embed/graphic-7.gif
-Could not fetch image  file:///2898/embed/graphic-7.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/graphic-7.gif'
-
-Fetching file:///2898/embed/inline-graphic-20.gif
-Could not fetch image  file:///2898/embed/inline-graphic-20.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-20.gif'
-
-Fetching file:///2898/embed/inline-graphic-21.gif
-Could not fetch image  file:///2898/embed/inline-graphic-21.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-21.gif'
-
-Fetching file:///2898/embed/inline-graphic-22.gif
-Could not fetch image  file:///2898/embed/inline-graphic-22.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-22.gif'
-
-Fetching file:///2898/embed/inline-graphic-23.gif
-Could not fetch image  file:///2898/embed/inline-graphic-23.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-23.gif'
-
-Fetching file:///2898/embed/inline-graphic-24.gif
-Could not fetch image  file:///2898/embed/inline-graphic-24.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-24.gif'
-
-Fetching file:///2898/embed/inline-graphic-25.gif
-Could not fetch image  file:///2898/embed/inline-graphic-25.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-25.gif'
-
-Fetching file:///2898/embed/inline-graphic-26.gif
-Could not fetch image  file:///2898/embed/inline-graphic-26.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-26.gif'
-
-Fetching file:///2898/embed/graphic-8.gif
-Could not fetch image  file:///2898/embed/graphic-8.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/graphic-8.gif'
-
-Fetching file:///2898/embed/inline-graphic-27.gif
-Could not fetch image  file:///2898/embed/inline-graphic-27.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-27.gif'
-
-Fetching file:///2898/embed/inline-graphic-28.gif
-Could not fetch image  file:///2898/embed/inline-graphic-28.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-28.gif'
-
-Fetching file:///2898/embed/graphic-9.gif
-Could not fetch image  file:///2898/embed/graphic-9.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/graphic-9.gif'
-
-Fetching file:///2898/embed/inline-graphic-29.gif
-Could not fetch image  file:///2898/embed/inline-graphic-29.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-29.gif'
-
-Fetching file:///2898/embed/graphic-10.gif
-Could not fetch image  file:///2898/embed/graphic-10.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/graphic-10.gif'
-
-Fetching file:///2898/embed/graphic-11.gif
-Could not fetch image  file:///2898/embed/graphic-11.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/graphic-11.gif'
-
-Fetching file:///2898/embed/inline-graphic-30.gif
-Could not fetch image  file:///2898/embed/inline-graphic-30.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-30.gif'
-
-Fetching file:///2898/embed/inline-graphic-31.gif
-Could not fetch image  file:///2898/embed/inline-graphic-31.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-31.gif'
-
-Fetching file:///2898/embed/inline-graphic-32.gif
-Could not fetch image  file:///2898/embed/inline-graphic-32.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-32.gif'
-
-Fetching file:///2898/embed/inline-graphic-33.gif
-Could not fetch image  file:///2898/embed/inline-graphic-33.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-33.gif'
-
-Fetching file:///2898/embed/inline-graphic-34.gif
-Could not fetch image  file:///2898/embed/inline-graphic-34.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-34.gif'
-
-Fetching file:///2898/embed/inline-graphic-35.gif
-Could not fetch image  file:///2898/embed/inline-graphic-35.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-35.gif'
-
-Fetching file:///2898/embed/inline-graphic-36.gif
-Could not fetch image  file:///2898/embed/inline-graphic-36.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-36.gif'
-
-Fetching file:///2898/embed/inline-graphic-37.gif
-Could not fetch image  file:///2898/embed/inline-graphic-37.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-37.gif'
-
-Fetching file:///2898/embed/inline-graphic-38.gif
-Could not fetch image  file:///2898/embed/inline-graphic-38.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-38.gif'
-
-Fetching file:///2898/embed/inline-graphic-39.gif
-Could not fetch image  file:///2898/embed/inline-graphic-39.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-39.gif'
-
-Fetching file:///2898/embed/graphic-12.gif
-Could not fetch image  file:///2898/embed/graphic-12.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/graphic-12.gif'
-
-Fetching file:///2898/embed/inline-graphic-40.gif
-Could not fetch image  file:///2898/embed/inline-graphic-40.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-40.gif'
-
-Fetching file:///2898/embed/graphic-13.gif
-Could not fetch image  file:///2898/embed/graphic-13.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/graphic-13.gif'
-
-Fetching file:///2898/embed/inline-graphic-41.gif
-Could not fetch image  file:///2898/embed/inline-graphic-41.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-41.gif'
-
-Fetching file:///2898/embed/inline-graphic-42.gif
-Could not fetch image  file:///2898/embed/inline-graphic-42.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-42.gif'
-
-Fetching file:///2898/embed/inline-graphic-43.gif
-Could not fetch image  file:///2898/embed/inline-graphic-43.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-43.gif'
-
-Fetching file:///2898/embed/inline-graphic-44.gif
-Could not fetch image  file:///2898/embed/inline-graphic-44.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-44.gif'
-
-Fetching file:///2898/embed/inline-graphic-45.gif
-Could not fetch image  file:///2898/embed/inline-graphic-45.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-45.gif'
-
-Fetching file:///2898/F2.large.jpg
-Could not fetch image  file:///2898/F2.large.jpg
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/F2.large.jpg'
-
-Fetching file:///2898/F2/embed/inline-graphic-46.gif
-Could not fetch image  file:///2898/F2/embed/inline-graphic-46.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/F2/embed/inline-graphic-46.gif'
-
-Fetching file:///2898/embed/inline-graphic-47.gif
-Could not fetch image  file:///2898/embed/inline-graphic-47.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-47.gif'
-
-Fetching file:///2898/embed/inline-graphic-48.gif
-Could not fetch image  file:///2898/embed/inline-graphic-48.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-48.gif'
-
-Fetching file:///2898/embed/inline-graphic-49.gif
-Could not fetch image  file:///2898/embed/inline-graphic-49.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-49.gif'
-
-Fetching file:///2898/F3.large.jpg
-Could not fetch image  file:///2898/F3.large.jpg
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/F3.large.jpg'
-
-Fetching file:///2898/F3/embed/inline-graphic-50.gif
-Could not fetch image  file:///2898/F3/embed/inline-graphic-50.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/F3/embed/inline-graphic-50.gif'
-
-Fetching file:///2898/F3/embed/inline-graphic-51.gif
-Could not fetch image  file:///2898/F3/embed/inline-graphic-51.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/F3/embed/inline-graphic-51.gif'
-
-Fetching file:///2898/F3/embed/inline-graphic-52.gif
-Could not fetch image  file:///2898/F3/embed/inline-graphic-52.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/F3/embed/inline-graphic-52.gif'
-
-Fetching file:///2898/embed/inline-graphic-53.gif
-Could not fetch image  file:///2898/embed/inline-graphic-53.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-53.gif'
-
-Fetching file:///2898/embed/inline-graphic-54.gif
-Could not fetch image  file:///2898/embed/inline-graphic-54.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-54.gif'
-
-Fetching file:///2898/F4.large.jpg
-Could not fetch image  file:///2898/F4.large.jpg
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/F4.large.jpg'
-
-Fetching file:///2898/F4/embed/inline-graphic-55.gif
-Could not fetch image  file:///2898/F4/embed/inline-graphic-55.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/F4/embed/inline-graphic-55.gif'
-
-Fetching file:///2898/F4/embed/inline-graphic-56.gif
-Could not fetch image  file:///2898/F4/embed/inline-graphic-56.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/F4/embed/inline-graphic-56.gif'
-
-Fetching file:///2898/F4/embed/inline-graphic-57.gif
-Could not fetch image  file:///2898/F4/embed/inline-graphic-57.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/F4/embed/inline-graphic-57.gif'
-
-Fetching file:///2898/F5.large.jpg
-Could not fetch image  file:///2898/F5.large.jpg
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/F5.large.jpg'
-
-Fetching file:///2898/embed/inline-graphic-63.gif
-Could not fetch image  file:///2898/embed/inline-graphic-63.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-63.gif'
-
-Fetching file:///2898/embed/inline-graphic-84.gif
-Could not fetch image  file:///2898/embed/inline-graphic-84.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-84.gif'
-
-Fetching file:///2898/embed/inline-graphic-85.gif
-Could not fetch image  file:///2898/embed/inline-graphic-85.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-85.gif'
-
-Fetching file:///2898/embed/inline-graphic-86.gif
-Could not fetch image  file:///2898/embed/inline-graphic-86.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-86.gif'
-
-Fetching file:///2898/embed/inline-graphic-87.gif
-Could not fetch image  file:///2898/embed/inline-graphic-87.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-87.gif'
-
-Fetching file:///2898/embed/inline-graphic-88.gif
-Could not fetch image  file:///2898/embed/inline-graphic-88.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-88.gif'
-
-Fetching file:///2898/embed/inline-graphic-89.gif
-Could not fetch image  file:///2898/embed/inline-graphic-89.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-89.gif'
-
-Fetching file:///2898/embed/inline-graphic-90.gif
-Could not fetch image  file:///2898/embed/inline-graphic-90.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-90.gif'
-
-Fetching file:///2898/embed/inline-graphic-91.gif
-Could not fetch image  file:///2898/embed/inline-graphic-91.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-91.gif'
-
-Fetching file:///2898/embed/inline-graphic-92.gif
-Could not fetch image  file:///2898/embed/inline-graphic-92.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-92.gif'
-
-Fetching file:///2898/embed/inline-graphic-93.gif
-Could not fetch image  file:///2898/embed/inline-graphic-93.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-93.gif'
-
-Fetching file:///2898/embed/inline-graphic-94.gif
-Could not fetch image  file:///2898/embed/inline-graphic-94.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-94.gif'
-
-Fetching file:///2898/embed/inline-graphic-95.gif
-Could not fetch image  file:///2898/embed/inline-graphic-95.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-95.gif'
-
-Fetching file:///2898/embed/inline-graphic-96.gif
-Could not fetch image  file:///2898/embed/inline-graphic-96.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-96.gif'
-
-Fetching file:///2898/embed/inline-graphic-97.gif
-Could not fetch image  file:///2898/embed/inline-graphic-97.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-97.gif'
-
-Fetching file:///2898/embed/inline-graphic-98.gif
-Could not fetch image  file:///2898/embed/inline-graphic-98.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2898/embed/inline-graphic-98.gif'
-
-Fetching file:///shared/img/common/social-bookmarking/citeulike.gif
-Could not fetch image  file:///shared/img/common/social-bookmarking/citeulike.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'shared/img/common/social-bookmarking/citeulike.gif'
-
-Fetching file:///shared/img/common/social-bookmarking/connotea.gif
-Could not fetch image  file:///shared/img/common/social-bookmarking/connotea.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'shared/img/common/social-bookmarking/connotea.gif'
-
-Fetching file:///shared/img/common/social-bookmarking/delicious.gif
-Could not fetch image  file:///shared/img/common/social-bookmarking/delicious.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'shared/img/common/social-bookmarking/delicious.gif'
-
-Fetching file:///shared/img/common/social-bookmarking/facebook.gif
-Could not fetch image  file:///shared/img/common/social-bookmarking/facebook.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'shared/img/common/social-bookmarking/facebook.gif'
-
-Fetching file:///shared/img/common/social-bookmarking/googleplus.jpg
-Could not fetch image  file:///shared/img/common/social-bookmarking/googleplus.jpg
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'shared/img/common/social-bookmarking/googleplus.jpg'
-
-Fetching file:///shared/img/common/social-bookmarking/mendeley.gif
-Could not fetch image  file:///shared/img/common/social-bookmarking/mendeley.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'shared/img/common/social-bookmarking/mendeley.gif'
-
-Fetching file:///shared/img/common/social-bookmarking/twitter.gif
-Could not fetch image  file:///shared/img/common/social-bookmarking/twitter.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'shared/img/common/social-bookmarking/twitter.gif'
-
-Fetching file:///content/28/23.cover.gif
-Could not fetch image  file:///content/28/23.cover.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'content/28/23.cover.gif'
-
-Fetching http://www.oxfordjournals.org/our_journals/bioinformatics/nextgensuq_sidebar_2012.jpg
-Fetching http://www.oxfordjournals.org/resource/image/promos/oxford_open.large.jpg
-Could not fetch image  http://www.oxfordjournals.org/resource/image/promos/oxford_open.large.jpg
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 245, in fetch_url
-FetchError: Not Found
-
-Fetching http://www.oxfordjournals.org/resource/image/pmc-logo.gif
+Downloading
+Fetching file:C:\Users\rmflig01\AppData\Local\Temp\calibre_0.9.2_tmp_qiml3c\yldpj0_plumber\tmpfile.html
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/F1.large.jpg
+Processing images...
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2963/F1.large.jpg
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-1.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-2.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-3.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-4.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/graphic-2.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22//shared/img/common/social-bookmarking/citeulike.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/graphic-3.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22//shared/img/common/social-bookmarking/connotea.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-5.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-6.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22//shared/img/common/social-bookmarking/delicious.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-7.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22//shared/img/common/social-bookmarking/facebook.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/graphic-4.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22//shared/img/common/social-bookmarking/googleplus.jpg
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/graphic-5.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22//shared/img/common/social-bookmarking/mendeley.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-8.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22//shared/img/common/social-bookmarking/twitter.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-9.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22//content/28/23.cover.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-10.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/http://www.oxfordjournals.org/our_journals/bioinformatics/nextgensuq_sidebar_2012.jpg
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-11.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-12.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/http://www.oxfordjournals.org/resource/image/promos/oxford_open.large.jpg
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-13.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/http://www.oxfordjournals.org/resource/image/pmc-logo.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-14.gif
 Fetching file:///shared/css/hw-global.css
 Could not fetch stylesheet  file:///shared/css/hw-global.css
 Traceback (most recent call last):
@@ -898,83 +235,92 @@ Traceback (most recent call last):
 IOError: [Errno 2] No such file or directory: u'resource/css/print.css'
 
 Fetching http://oi-underbar.ifactory.com/underbar/css/pf_oiunderbar.css
-Recursion limit reached. Skipping links in file:C:\Users\rmflig01\AppData\Local\Temp\calibre_0.9.2_tmp_valtvo\nnjb8z_plumber\tmpfile.html
-Downloading
-Fetching file:C:\Users\rmflig01\AppData\Local\Temp\calibre_0.9.2_tmp_valtvo\nnjb8z_plumber\tmpfile.html
-file:C:\Users\rmflig01\AppData\Local\Temp\calibre_0.9.2_tmp_valtvo\nnjb8z_plumber\tmpfile.html saved to C:\Users\rmflig01\AppData\Local\Temp\calibre_0.9.2_tmp_valtvo\nnjb8z_plumber\feed_0\article_0\tmpfile.xhtml
-Downloaded article: Extra-binomial variation approach for analysis of pooled DNA sequencing data from http://bioinformatics.oxfordjournals.org/cgi/content/short/28/22/2898?rss=1
-17% Article downloaded: Extra-binomial variation approach for analysis of pooled DNA sequencing data
-Processing images...
-Fetching file:///2963/F1.large.jpg
-Could not fetch image  file:///2963/F1.large.jpg
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'2963/F1.large.jpg'
-
-Fetching file:///shared/img/common/social-bookmarking/citeulike.gif
-Could not fetch image  file:///shared/img/common/social-bookmarking/citeulike.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'shared/img/common/social-bookmarking/citeulike.gif'
-
-Fetching file:///shared/img/common/social-bookmarking/connotea.gif
-Could not fetch image  file:///shared/img/common/social-bookmarking/connotea.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'shared/img/common/social-bookmarking/connotea.gif'
-
-Fetching file:///shared/img/common/social-bookmarking/delicious.gif
-Could not fetch image  file:///shared/img/common/social-bookmarking/delicious.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'shared/img/common/social-bookmarking/delicious.gif'
-
-Fetching file:///shared/img/common/social-bookmarking/facebook.gif
-Could not fetch image  file:///shared/img/common/social-bookmarking/facebook.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'shared/img/common/social-bookmarking/facebook.gif'
-
-Fetching file:///shared/img/common/social-bookmarking/googleplus.jpg
-Could not fetch image  file:///shared/img/common/social-bookmarking/googleplus.jpg
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'shared/img/common/social-bookmarking/googleplus.jpg'
-
-Fetching file:///shared/img/common/social-bookmarking/mendeley.gif
-Could not fetch image  file:///shared/img/common/social-bookmarking/mendeley.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'shared/img/common/social-bookmarking/mendeley.gif'
-
-Fetching file:///shared/img/common/social-bookmarking/twitter.gif
-Could not fetch image  file:///shared/img/common/social-bookmarking/twitter.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'shared/img/common/social-bookmarking/twitter.gif'
-
-Fetching file:///content/28/23.cover.gif
-Could not fetch image  file:///content/28/23.cover.gif
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
-IOError: [Errno 2] No such file or directory: u'content/28/23.cover.gif'
-
-Fetching http://www.oxfordjournals.org/resource/image/promos/oxford_open.large.jpg
-Could not fetch image  http://www.oxfordjournals.org/resource/image/promos/oxford_open.large.jpg
-Traceback (most recent call last):
-  File "site-packages\calibre\web\fetch\simple.py", line 366, in process_images
-  File "site-packages\calibre\web\fetch\simple.py", line 245, in fetch_url
-FetchError: Not Found
-
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-15.gif
+Recursion limit reached. Skipping links in file:C:\Users\rmflig01\AppData\Local\Temp\calibre_0.9.2_tmp_qiml3c\yldpj0_plumber\tmpfile.html
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/graphic-6.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-16.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-17.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-18.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-19.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/graphic-7.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-20.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-21.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-22.gif
+file:C:\Users\rmflig01\AppData\Local\Temp\calibre_0.9.2_tmp_qiml3c\yldpj0_plumber\tmpfile.html saved to C:\Users\rmflig01\AppData\Local\Temp\calibre_0.9.2_tmp_qiml3c\yldpj0_plumber\feed_0\article_1\tmpfile.xhtml
+Downloaded article: Application and evaluation of automated methods to extract neuroanatomical connectivity statements from free text from http://bioinformatics.oxfordjournals.org/cgi/content/short/28/22/2963?rss=1
+17% Article downloaded: Application and evaluation of automated methods to extract neuroanatomical connectivity statements from free text
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-23.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-24.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-25.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-26.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/graphic-8.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-27.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-28.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/graphic-9.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-29.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/graphic-10.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/graphic-11.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-30.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-31.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-32.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-33.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-34.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-35.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-36.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-37.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-38.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-39.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/graphic-12.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-40.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/graphic-13.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-41.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-42.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-43.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-44.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-45.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/F2.large.jpg
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/F2/embed/inline-graphic-46.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-47.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-48.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-49.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/F3.large.jpg
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/F3/embed/inline-graphic-50.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/F3/embed/inline-graphic-51.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/F3/embed/inline-graphic-52.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-53.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-54.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/F4.large.jpg
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/F4/embed/inline-graphic-55.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/F4/embed/inline-graphic-56.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/F4/embed/inline-graphic-57.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/F5.large.jpg
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-63.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-84.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-85.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-86.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-87.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-88.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-89.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-90.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-91.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-92.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-93.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-94.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-95.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-96.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-97.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-98.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22//shared/img/common/social-bookmarking/citeulike.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22//shared/img/common/social-bookmarking/connotea.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22//shared/img/common/social-bookmarking/delicious.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22//shared/img/common/social-bookmarking/facebook.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22//shared/img/common/social-bookmarking/googleplus.jpg
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22//shared/img/common/social-bookmarking/mendeley.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22//shared/img/common/social-bookmarking/twitter.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22//content/28/23.cover.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/http://www.oxfordjournals.org/our_journals/bioinformatics/nextgensuq_sidebar_2012.jpg
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/http://www.oxfordjournals.org/resource/image/promos/oxford_open.large.jpg
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/http://www.oxfordjournals.org/resource/image/pmc-logo.gif
 Fetching file:///shared/css/hw-global.css
 Could not fetch stylesheet  file:///shared/css/hw-global.css
 Traceback (most recent call last):
@@ -1080,31 +426,22 @@ Traceback (most recent call last):
   File "site-packages\calibre\web\fetch\simple.py", line 219, in fetch_url
 IOError: [Errno 2] No such file or directory: u'resource/css/print.css'
 
-Recursion limit reached. Skipping links in file:C:\Users\rmflig01\AppData\Local\Temp\calibre_0.9.2_tmp_valtvo\nnjb8z_plumber\tmpfile.html
-file:C:\Users\rmflig01\AppData\Local\Temp\calibre_0.9.2_tmp_valtvo\nnjb8z_plumber\tmpfile.html saved to C:\Users\rmflig01\AppData\Local\Temp\calibre_0.9.2_tmp_valtvo\nnjb8z_plumber\feed_0\article_1\tmpfile.xhtml
-Downloaded article: Application and evaluation of automated methods to extract neuroanatomical connectivity statements from free text from http://bioinformatics.oxfordjournals.org/cgi/content/short/28/22/2963?rss=1
-34% Article downloaded: Application and evaluation of automated methods to extract neuroanatomical connectivity statements from free text
-34% Feeds downloaded to C:\Users\rmflig01\AppData\Local\Temp\calibre_0.9.2_tmp_valtvo\nnjb8z_plumber\index.html
+Recursion limit reached. Skipping links in file:C:\Users\rmflig01\AppData\Local\Temp\calibre_0.9.2_tmp_qiml3c\yldpj0_plumber\tmpfile.html
+file:C:\Users\rmflig01\AppData\Local\Temp\calibre_0.9.2_tmp_qiml3c\yldpj0_plumber\tmpfile.html saved to C:\Users\rmflig01\AppData\Local\Temp\calibre_0.9.2_tmp_qiml3c\yldpj0_plumber\feed_0\article_0\tmpfile.xhtml
+Downloaded article: Extra-binomial variation approach for analysis of pooled DNA sequencing data from http://bioinformatics.oxfordjournals.org/cgi/content/short/28/22/2898?rss=1
+34% Article downloaded: Extra-binomial variation approach for analysis of pooled DNA sequencing data
+34% Feeds downloaded to C:\Users\rmflig01\AppData\Local\Temp\calibre_0.9.2_tmp_qiml3c\yldpj0_plumber\index.html
 34% Download finished
 Input debug saved to: G:\robert\personal\codingProjects\calibre_rssJournal\debug\input
 Parsing all content...
-Parsing feed_0/article_0/index.html ...
-Initial parse failed, using more forgiving parsers
-Parsing feed_0/article_0/index.html as HTML
-Parsing feed_0/index.html ...
-Initial parse failed, using more forgiving parsers
-Parsing feed_0/index.html as HTML
-Parsing feed_0/article_1/index.html ...
-Initial parse failed, using more forgiving parsers
-Parsing feed_0/article_1/index.html as HTML
-Parsing feed_0/article_0/stylesheets/style15.css ...
-CSS import of missing file u'feed_0/article_0/stylesheets/ui.dialog.css'
+Parsing feed_0/article_1/stylesheets/style15.css ...
+CSS import of missing file u'feed_0/article_1/stylesheets/ui.dialog.css'
 CSSImportRule: While processing imported style sheet href=ui.dialog.css: IOError('Cannot read Stylesheet.',)
-CSS import of missing file u'feed_0/article_0/stylesheets/ui.dialog.css'
+CSS import of missing file u'feed_0/article_1/stylesheets/ui.dialog.css'
 CSSImportRule: While processing imported style sheet href=ui.dialog.css: IOError('Cannot read Stylesheet.',)
-CSS import of missing file u'feed_0/article_0/stylesheets/ui.resizable.css'
+CSS import of missing file u'feed_0/article_1/stylesheets/ui.resizable.css'
 CSSImportRule: While processing imported style sheet href=ui.resizable.css: IOError('Cannot read Stylesheet.',)
-CSS import of missing file u'feed_0/article_0/stylesheets/ui.resizable.css'
+CSS import of missing file u'feed_0/article_1/stylesheets/ui.resizable.css'
 CSSImportRule: While processing imported style sheet href=ui.resizable.css: IOError('Cannot read Stylesheet.',)
 Property: No CSS priority value: important	
 Property: No CSS priority value: important	
@@ -1124,380 +461,290 @@ CSSStylesheet: Unknown @rule found. [443:1: @-moz-document]
 Property: Unknown Property name. [454:20: -webkit-min-device-pixel-ratio]
 Property: Unknown Property name. [524:20: -webkit-min-device-pixel-ratio]
 Cannot get referenced stylesheet u'ui.dialog.css', keeping rule
-ValueError, unknown url type: feed_0/article_0/stylesheets/ui.dialog.css
+ValueError, unknown url type: feed_0/article_1/stylesheets/ui.dialog.css
 CSSImportRule: While processing imported style sheet href=ui.dialog.css: IOError('Cannot read Stylesheet.',)
 Cannot get referenced stylesheet u'ui.resizable.css', keeping rule
-ValueError, unknown url type: feed_0/article_0/stylesheets/ui.resizable.css
+ValueError, unknown url type: feed_0/article_1/stylesheets/ui.resizable.css
 CSSImportRule: While processing imported style sheet href=ui.resizable.css: IOError('Cannot read Stylesheet.',)
+Parsing feed_0/article_0/index.html ...
+Initial parse failed, using more forgiving parsers
+Parsing feed_0/article_0/index.html as HTML
+Parsing feed_0/index.html ...
+Initial parse failed, using more forgiving parsers
+Parsing feed_0/index.html as HTML
+Parsing feed_0/article_1/index.html ...
+Initial parse failed, using more forgiving parsers
+Parsing feed_0/article_1/index.html as HTML
 Parsing index.html ...
 Forcing index.html into XHTML namespace
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-8.gif' not found
+Referenced file '/cgi/folders%3faction%3daddtofolder%26wherefrom%3dJOURNALS%26wrapped_id%3dbioinfo%3b28/22/2963' not found
+Referenced file '/shared/css/hw-global-colexpand.css' not found
+Referenced file '/external-ref%3faccess_num%3d15319511%26link_type%3dMED' not found
 Referenced file '/external-ref%3faccess_num%3dXu%20L%26link_type%3dAUTHORSEARCH' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-27.gif' not found
+Referenced file '/external-ref%3faccess_num%3d000234714000014%26link_type%3dISI' not found
+Referenced file '/external-ref%3faccess_num%3d21782932%26link_type%3dMED' not found
+Referenced file '/external-ref%3faccess_num%3dA1952UN01600009%26link_type%3dISI' not found
+Referenced file u'feed_0/article_1/stylesheets/ui.resizable.css' not found
 Referenced file '/external-ref%3faccess_num%3d10.1111/j.1749-6632.2010.05888.x%26link_type%3dDOI' not found
+Referenced file u'feed_0/article_0/2898/F1.expansion.html' not found
+Referenced file '/external-ref%3faccess_num%3d000184413700006%26link_type%3dISI' not found
 Referenced file '/external-ref%3faccess_num%3dA1983QE68600006%26link_type%3dISI' not found
 Referenced file '/external-ref%3faccess_num%3d10.1002/%28SICI%291096-9861%2820000221%29417%3a4%3c448%3a%3aAID-CNE5%3e3.0.CO%3b2-S%26link_type%3dDOI' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-26.gif' not found
-Referenced file '/external-ref%3faccess_num%3d10.1371/journal.pone.0020907%26link_type%3dDOI' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-85.gif' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-32.gif' not found
-Referenced file u'feed_0/article_0/stylesheets/ui.resizable.css' not found
+Referenced file u'feed_1/index.html' not found
+Referenced file '/content/28/22/2898.full%3fcited-by%3dyes%26legid%3dbioinfo%3b28/22/2898' not found
+Referenced file u'feed_0/article_1/images/wait.gif' not found
+Referenced file '/external-ref%3faccess_num%3d20352014%26link_type%3dMED' not found
+Referenced file '/search%3fqbe%3dbioinfo%3bbts553%26citation%3dYang%20et%20al.%2028%20%2822%29%3a%202898%26submit%3dyes' not found
+Referenced file '/external-ref%3ftag_url%3dhttp%3a/bioinformatics.oxfordjournals.org/cgi/content/long/28/22/2963%26title%3dApplication%20and%20evaluation%20of%20automated%20methods%20to%20extract%20neuroanatomical%20connectivity%20statements%20from%20free%20text%2b--%2bFrench%20et%20al.%2028%20%2822%29%3a%202963%2b--%2bbioinformatics%26doi%3d10.1093/bioinformatics/bts542%26link_type%3dCITEULIKE' not found
+Referenced file '/external-ref%3faccess_num%3d10.1002/gepi.20501%26link_type%3dDOI' not found
+Referenced file '/external-ref%3ftag_url%3dhttp%3a/bioinformatics.oxfordjournals.org/cgi/content/long/28/22/2898%26title%3dExtra-binomial%20variation%20approach%20for%20analysis%20of%20pooled%20DNA%20sequencing%20data%2b--%2bYang%20et%20al.%2028%20%2822%29%3a%202898%2b--%2bbioinformatics%26doi%3d10.1093/bioinformatics/bts553%26link_type%3dDEL_ICIO_US' not found
+Referenced file '/external-ref%3faccess_num%3d10.1038/ng1800%26link_type%3dDOI' not found
+Referenced file '/local/css/hw-local-global.css' not found
+Referenced file '/external-ref%3faccess_num%3dA1976CM96300004%26link_type%3dISI' not found
+Referenced file '/external-ref%3faccess_num%3d10.1016/j.jneumeth.2012.04.019%26link_type%3dDOI' not found
+Referenced file u'feed_0/article_1/stylesheets/images/ui-bg_highlight-soft_75_cccccc_1x100.png' not found
+Referenced file '/cgi/crossref-forward-links/28/22/2963' not found
+Referenced file u'feed_0/article_1/images/arrow_gray_exp.png' not found
+Referenced file '/external-ref%3ftag_url%3dhttp%3a/bioinformatics.oxfordjournals.org/cgi/content/long/28/22/2963%26title%3dApplication%20and%20evaluation%20of%20automated%20methods%20to%20extract%20neuroanatomical%20connectivity%20statements%20from%20free%20text%2b--%2bFrench%20et%20al.%2028%20%2822%29%3a%202963%2b--%2bbioinformatics%26doi%3d10.1093/bioinformatics/bts542%26link_type%3dGOOGLEPLUS%26log_only%3dyes' not found
 Referenced file '/search' not found
+Referenced file '/external-ref%3faccess_num%3d18421704%26link_type%3dMED' not found
+Referenced file '/external-ref%3faccess_num%3d000250412700007%26link_type%3dISI' not found
+Referenced file '/external-ref%3faccess_num%3d21251014%26link_type%3dMED' not found
+Referenced file '/cgi/alerts/ctalert%3falertType%3deletter%26addAlert%3deletter%26eletter_criteria_value%3d28/22/2963%26saveAlert%3dno%26return-type%3darticle%26return_url%3dhttp%3a/bioinformatics.oxfordjournals.org/content/28/22/2963.full' not found
+Referenced file '/external-ref%3faccess_num%3d10.1002/%28SICI%291096-9861%2819980525%29395%3a1%3c53%3a%3aAID-CNE5%3e3.0.CO%3b2-G%26link_type%3dDOI' not found
+Referenced file '/content/28/22/2898.abstract' not found
 Referenced file '/external-ref%3faccess_num%3d10.1002/cne.903150207%26link_type%3dDOI' not found
 Referenced file '/external-ref%3faccess_num%3d10701866%26link_type%3dMED' not found
 Referenced file '/search%3fauthor1%3dYiqi%2bChen%26sortspec%3ddate%26submit%3dSubmit' not found
+Referenced file '/external-ref%3ftag_url%3dhttp%3a/bioinformatics.oxfordjournals.org/cgi/content/long/28/22/2963%26title%3dApplication%20and%20evaluation%20of%20automated%20methods%20to%20extract%20neuroanatomical%20connectivity%20statements%20from%20free%20text%2b--%2bFrench%20et%20al.%2028%20%2822%29%3a%202963%2b--%2bbioinformatics%26doi%3d10.1093/bioinformatics/bts542%26link_type%3dCONNOTEA' not found
 Referenced file '/external-ref%3faccess_num%3d10.1002/cne.20956%26link_type%3dDOI' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-35.gif' not found
+Referenced file '/external-ref%3faccess_num%3d10.1002/cne.902540202%26link_type%3dDOI' not found
+Referenced file u'feed_0/article_1/2963/F1.expansion.html' not found
+Referenced file '/external-ref%3faccess_num%3d18284683%26link_type%3dMED' not found
+Referenced file '/letters/submit/bioinfo%3b28/22/2898' not found
+Referenced file '/search%3fauthor1%3dClaudia%2bKrebs%26sortspec%3ddate%26submit%3dSubmit' not found
+Referenced file '/external-ref%3faccess_num%3d16201007%26link_type%3dMED' not found
 Referenced file '/external-ref%3faccess_num%3d10.1038/nrg930%26link_type%3dDOI' not found
+Referenced file u'feed_0/article_1/images/reveal-button.png' not found
+Referenced file '/citmgr%3fgca%3dbioinfo%3b28/22/2898' not found
+Referenced file '/external-ref%3faccess_num%3d000280349600013%26link_type%3dISI' not found
 Referenced file '/external-ref%3faccess_num%3d000266411700019%26link_type%3dISI' not found
 Referenced file '/external-ref%3faccess_num%3d10.1038/ng.381%26link_type%3dDOI' not found
 Referenced file '/resource/css/print.css' not found
+Referenced file '/search%3fauthor1%3dDavid%2bClayton%26sortspec%3ddate%26submit%3dSubmit' not found
+Referenced file '/external-ref%3faccess_num%3d12886225%26link_type%3dMED' not found
 Referenced file '/external-ref%3faccess_num%3d10.1186/1471-2105-10-233%26link_type%3dDOI' not found
+Referenced file '/content/current' not found
 Referenced file '/external-ref%3faccess_num%3d10.1016/j.neuroimage.2004.09.028%26link_type%3dDOI' not found
 Referenced file '/email%3fgca%3dbioinfo%3b28/22/2898%26current-view-path%3d/content/28/22/2898.full' not found
 Referenced file '/cgi/ijlink%3flinkType%3dABST%26journalCode%3dnar%26resid%3d29/1/308' not found
-Referenced file '/content/28/22/2963.full%3frelated-urls%3dyes%26legid%3dbioinfo%3b28/22/2963' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-23.gif' not found
-Referenced file '/content/28/22/2905.short' not found
-Referenced file '/external-ref%3faccess_num%3dKwok%20C%26link_type%3dAUTHORSEARCH' not found
-Referenced file '/external-ref%3faccess_num%3dA1978FD16900001%26link_type%3dISI' not found
-Referenced file '/external-ref%3faccess_num%3d20578089%26link_type%3dMED' not found
-Referenced file u'feed_0/article_0/2898/embed/graphic-8.gif' not found
-Referenced file '/shared/img/common/social-bookmarking/mendeley.gif' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-93.gif' not found
-Referenced file '/external-ref%3faccess_num%3d18421704%26link_type%3dMED' not found
-Referenced file '/cgi/alerts/ctalert%3falertType%3dcorrection%26addAlert%3dcorrection%26correction_criteria_value%3d28/22/2898%26saveAlert%3dno%26return-type%3darticle%26return_url%3dhttp%3a/bioinformatics.oxfordjournals.org/content/28/22/2898.full' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-49.gif' not found
-Referenced file '/shared/img/common/social-bookmarking/connotea.gif' not found
-Referenced file '/external-ref%3faccess_num%3d/bioinfo/28/22/2898%26link_type%3dISI_CITING%26accnum_type%3dnative' not found
-Referenced file '/external-ref%3faccess_num%3dKrebs%20C%26link_type%3dAUTHORSEARCH' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-21.gif' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-17.gif' not found
-Referenced file '/external-ref%3faccess_num%3dA1976CM96300004%26link_type%3dISI' not found
-Referenced file '/external-ref%3faccess_num%3d3794004%26link_type%3dMED' not found
-Referenced file '/external-ref%3faccess_num%3d10.1186/gb-2007-8-7-r143%26link_type%3dDOI' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-92.gif' not found
-Referenced file '/external-ref%3faccess_num%3d000290238100008%26link_type%3dISI' not found
-Referenced file '/external-ref%3faccess_num%3d16201007%26link_type%3dMED' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-43.gif' not found
-Referenced file u'feed_0/article_0/images/arrow_gray_exp.png' not found
-Referenced file u'feed_0/article_0/2898/F3/embed/inline-graphic-50.gif' not found
-Referenced file '/shared/img/common/social-bookmarking/citeulike.gif' not found
-Referenced file '/external-ref%3ftag_url%3dhttp%3a/bioinformatics.oxfordjournals.org/cgi/content/long/28/22/2898%26title%3dExtra-binomial%20variation%20approach%20for%20analysis%20of%20pooled%20DNA%20sequencing%20data%2b--%2bYang%20et%20al.%2028%20%2822%29%3a%202898%2b--%2bbioinformatics%26doi%3d10.1093/bioinformatics/bts553%26link_type%3dTWITTER' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-91.gif' not found
-Referenced file '/content/early/2012/09/11/bioinformatics.bts553' not found
-Referenced file '/external-ref%3faccess_num%3d10.1002/gepi.20502%26link_type%3dDOI' not found
-Referenced file '/shared/css/hw-global.css' not found
-Referenced file '/external-ref%3faccess_num%3d17889371%26link_type%3dMED' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-9.gif' not found
-Referenced file u'feed_0/article_0/2898/F5.large.jpg' not found
-Referenced file u'feed_0/article_0/2898/F3/embed/inline-graphic-52.gif' not found
-Referenced file '/external-ref%3faccess_num%3d17471288%26link_type%3dMED' not found
-Referenced file '/external-ref%3faccess_num%3d9590546%26link_type%3dMED' not found
-Referenced file '/cgi/crossref-forward-links/28/22/2963' not found
-Referenced file '/external-ref%3faccess_num%3d18978792%26link_type%3dMED' not found
-Referenced file '/external-ref%3faccess_num%3d21695164%26link_type%3dMED' not found
-Referenced file u'feed_0/article_0/images/bkgd-hide-links.png' not found
-Referenced file '/external-ref%3faccess_num%3d10.1038/nature05911%26link_type%3dDOI' not found
-Referenced file '/content/28/22/2963.full%3fcited-by%3dyes%26legid%3dbioinfo%3b28/22/2963' not found
-Referenced file '/external-ref%3faccess_num%3d000073290400005%26link_type%3dISI' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-29.gif' not found
-Referenced file '/external-ref%3faccess_num%3d17659080%26link_type%3dMED' not found
-Referenced file '/external-ref%3faccess_num%3d10.1016/j.jbi.2011.04.005%26link_type%3dDOI' not found
-Referenced file '/external-ref%3faccess_num%3d77865%26link_type%3dMED' not found
-Referenced file '/content/28/22/2971.short' not found
-Referenced file '/external-ref%3faccess_num%3d000230322400004%26link_type%3dISI' not found
-Referenced file '/cgi/ijlink%3flinkType%3dABST%26journalCode%3dbioinfo%26resid%3d25/17/2283' not found
-Referenced file '/external-ref%3faccess_num%3d000259650100010%26link_type%3dISI' not found
-Referenced file '/content/28/22/2898.full.pdf%2bhtml' not found
-Referenced file u'feed_0/article_0/images/wait.gif' not found
-Referenced file '/external-ref%3faccess_num%3d10.1016/j.csda.2008.01.013%26link_type%3dDOI' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-47.gif' not found
-Referenced file '/external-ref%3ftag_url%3dhttp%3a/bioinformatics.oxfordjournals.org/cgi/content/long/28/22/2898%26title%3dExtra-binomial%20variation%20approach%20for%20analysis%20of%20pooled%20DNA%20sequencing%20data%2b--%2bYang%20et%20al.%2028%20%2822%29%3a%202898%2b--%2bbioinformatics%26doi%3d10.1093/bioinformatics/bts553%26link_type%3dMENDELEY' not found
-Referenced file '/external-ref%3faccess_num%3d19750194%26link_type%3dMED' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-42.gif' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-12.gif' not found
-Referenced file '/scopus-links/bioinfo/28/22/2898%3faccess_num%3d/bioinfo/28/22/2898' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-90.gif' not found
-Referenced file '/search%3fauthor1%3dPaul%2bPavlidis%26sortspec%3ddate%26submit%3dSubmit' not found
-Referenced file '/external-ref%3faccess_num%3dLane%20S%26link_type%3dAUTHORSEARCH' not found
-Referenced file '/content/28/22/2898.full%3frelated-urls%3dyes%26legid%3dbioinfo%3b28/22/2898' not found
-Referenced file '/external-ref%3faccess_num%3d22954628%26link_type%3dMED_NBRS' not found
-Referenced file '/external-ref%3faccess_num%3dA1952UN01600009%26link_type%3dISI' not found
-Referenced file '/external-ref%3faccess_num%3d15319511%26link_type%3dMED' not found
-Referenced file '/shared/img/common/social-bookmarking/twitter.gif' not found
-Referenced file '/external-ref%3faccess_num%3d21782932%26link_type%3dMED' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-18.gif' not found
-Referenced file '/content/28/22/2898.full%3fcited-by%3dyes%26legid%3dbioinfo%3b28/22/2898' not found
-Referenced file u'feed_0/article_0/2898/F2/embed/inline-graphic-46.gif' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-19.gif' not found
-Referenced file '/external-ref%3faccess_num%3d10.1038/ng1800%26link_type%3dDOI' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-97.gif' not found
-Referenced file '/cgi/alerts/ctalert%3falertType%3deletter%26addAlert%3deletter%26eletter_criteria_value%3d28/22/2963%26saveAlert%3dno%26return-type%3darticle%26return_url%3dhttp%3a/bioinformatics.oxfordjournals.org/content/28/22/2963.full' not found
-Referenced file '/external-ref%3faccess_num%3d20617200%26link_type%3dMED' not found
-Referenced file '/external-ref%3ftag_url%3dhttp%3a/bioinformatics.oxfordjournals.org/cgi/content/long/28/22/2963%26title%3dApplication%20and%20evaluation%20of%20automated%20methods%20to%20extract%20neuroanatomical%20connectivity%20statements%20from%20free%20text%2b--%2bFrench%20et%20al.%2028%20%2822%29%3a%202963%2b--%2bbioinformatics%26doi%3d10.1093/bioinformatics/bts542%26link_type%3dCONNOTEA' not found
-Referenced file '/external-ref%3faccess_num%3d10.1002/cne.902540202%26link_type%3dDOI' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-86.gif' not found
-Referenced file '/external-ref%3faccess_num%3d18284683%26link_type%3dMED' not found
-Referenced file '/external-ref%3ftag_url%3dhttp%3a/bioinformatics.oxfordjournals.org/cgi/content/long/28/22/2963%26title%3dApplication%20and%20evaluation%20of%20automated%20methods%20to%20extract%20neuroanatomical%20connectivity%20statements%20from%20free%20text%2b--%2bFrench%20et%20al.%2028%20%2822%29%3a%202963%2b--%2bbioinformatics%26doi%3d10.1093/bioinformatics/bts542%26link_type%3dCITEULIKE' not found
-Referenced file '/external-ref%3faccess_num%3d10.1002/%28SICI%291096-9861%2819980525%29395%3a1%3c53%3a%3aAID-CNE5%3e3.0.CO%3b2-G%26link_type%3dDOI' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-94.gif' not found
-Referenced file '/external-ref%3faccess_num%3d12886225%26link_type%3dMED' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-4.gif' not found
 Referenced file '/external-ref%3faccess_num%3d16699517%26link_type%3dMED' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-11.gif' not found
-Referenced file '/external-ref%3faccess_num%3dTodd%20JA%26link_type%3dAUTHORSEARCH' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-44.gif' not found
-Referenced file '/content/28/22/2898/suppl/DC1' not found
-Referenced file '/search%3fauthor1%3dSuzanne%2bLane%26sortspec%3ddate%26submit%3dSubmit' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-45.gif' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-28.gif' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-96.gif' not found
-Referenced file '/external-ref%3faccess_num%3d000264751000015%26link_type%3dISI' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-40.gif' not found
-Referenced file '/content/early/2012/09/05/bioinformatics.bts542' not found
-Referenced file '/external-ref%3faccess_num%3d22954628%26link_type%3dPUBMED' not found
-Referenced file '/external-ref%3faccess_num%3d21983784%26link_type%3dMED' not found
-Referenced file u'feed_0/article_0/2898/embed/graphic-5.gif' not found
+Referenced file '/external-ref%3faccess_num%3dFrench%20L%26link_type%3dAUTHORSEARCH' not found
+Referenced file '/external-ref%3faccess_num%3d000085158700005%26link_type%3dISI' not found
 Referenced file '/cgi/ijlink%3flinkType%3dABST%26journalCode%3dcercor%26resid%3d1/1/1-a' not found
-Referenced file u'feed_0/article_0/2898/F5.expansion.html' not found
-Referenced file '/external-ref%3faccess_num%3d10.1038/361109a0%26link_type%3dDOI' not found
-Referenced file u'feed_0/article_0/2898/F2.expansion.html' not found
-Referenced file '/cgi/alerts/ctalert%3falertType%3dcitedby%26addAlert%3dcited_by%26cited_by_criteria_resid%3dbioinfo%3b28/22/2963%26saveAlert%3dno%26return-type%3darticle%26return_url%3dhttp%3a/bioinformatics.oxfordjournals.org/content/28/22/2963.full' not found
-Referenced file '/external-ref%3faccess_num%3d16418747%26link_type%3dMED' not found
-Referenced file '/external-ref%3faccess_num%3dA1992HB75200006%26link_type%3dISI' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-89.gif' not found
-Referenced file '/shared/img/common/social-bookmarking/googleplus.jpg' not found
-Referenced file u'feed_0/article_0/2898/F3.large.jpg' not found
-Referenced file u'feed_0/article_0/2898/F4.large.jpg' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-63.gif' not found
-Referenced file '/external-ref%3faccess_num%3d10.1016/j.jneumeth.2007.08.007%26link_type%3dDOI' not found
-Referenced file '/cgi/ijlink%3flinkType%3dABST%26journalCode%3dgenome%26resid%3d18/9/1509' not found
-Referenced file '/external-ref%3faccess_num%3dPavlidis%20P%26link_type%3dAUTHORSEARCH' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-2.gif' not found
-Referenced file u'feed_0/article_0/stylesheets/images/ui-bg_glass_75_ffffff_1x400.png' not found
-Referenced file u'feed_0/article_1/2963/T1.expansion.html' not found
-Referenced file '/powerpoint/28/22/2963/F1' not found
-Referenced file '/citmgr%3fgca%3dbioinfo%3b28/22/2963' not found
-Referenced file '/publisher/img/buttons/go.gif' not found
-Referenced file u'feed_0/article_0/2898/F1.large.jpg' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-84.gif' not found
-Referenced file '/external-ref%3faccess_num%3dClayton%20D%26link_type%3dAUTHORSEARCH' not found
-Referenced file '/publisher/css/hw-publisher-ac.css' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-36.gif' not found
-Referenced file '/external-ref%3faccess_num%3d10.1385/NI%3a2%3a2%3a127%26link_type%3dDOI' not found
-Referenced file '/external-ref%3faccess_num%3d/bioinfo/28/22/2963%26link_type%3dISI_CITING%26accnum_type%3dnative' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-41.gif' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-1.gif' not found
-Referenced file '/rss' not found
-Referenced file '/external-ref%3faccess_num%3d000250412700007%26link_type%3dISI' not found
+Referenced file '/external-ref%3faccess_num%3dTodd%20JA%26link_type%3dAUTHORSEARCH' not found
+Referenced file '/content/28/22/2963.full%3frelated-urls%3dyes%26legid%3dbioinfo%3b28/22/2963' not found
+Referenced file '/external-ref%3faccess_num%3d22976083%26link_type%3dMED_NBRS' not found
 Referenced file '/external-ref%3faccess_num%3d18677319%26link_type%3dMED' not found
-Referenced file '/external-ref%3faccess_num%3d10.1371/journal.pcbi.0010042%26link_type%3dDOI' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-48.gif' not found
-Referenced file '/external-ref%3faccess_num%3d10.1002/%28SICI%291096-9861%2819991206%29415%3a1%3c91%3a%3aAID-CNE7%3e3.0.CO%3b2-A%26link_type%3dDOI' not found
-Referenced file '/external-ref%3faccess_num%3d10.1002/cne.901800302%26link_type%3dDOI' not found
-Referenced file u'feed_0/article_0/images/bkgd-scroll-arrows.gif' not found
-Referenced file '/external-ref%3faccess_num%3d000179041600014%26link_type%3dISI' not found
-Referenced file u'feed_0/article_0/2898/T2.expansion.html' not found
-Referenced file u'feed_0/article_1/2963/F1.expansion.html' not found
-Referenced file u'feed_0/article_0/2898/embed/graphic-7.gif' not found
-Referenced file '/external-ref%3faccess_num%3dbioinfo%3b28/22/2963%26link_type%3dISI_RELATEDRECORDS' not found
-Referenced file '/publisher/css/hw-publisher-page-content.css' not found
-Referenced file '/external-ref%3faccess_num%3d000237954800012%26link_type%3dISI' not found
-Referenced file '/cgi/feedback' not found
-Referenced file '/cgi/crossref-forward-links/28/22/2898' not found
-Referenced file '/search%3fqbe%3dbioinfo%3bbts542%26citation%3dFrench%20et%20al.%2028%20%2822%29%3a%202963%26submit%3dyes' not found
-Referenced file '/external-ref%3ftag_url%3dhttp%3a/bioinformatics.oxfordjournals.org/cgi/content/long/28/22/2898%26title%3dExtra-binomial%20variation%20approach%20for%20analysis%20of%20pooled%20DNA%20sequencing%20data%2b--%2bYang%20et%20al.%2028%20%2822%29%3a%202898%2b--%2bbioinformatics%26doi%3d10.1093/bioinformatics/bts553%26link_type%3dCONNOTEA' not found
-Referenced file '/cgi/ijlink%3flinkType%3dABST%26journalCode%3dsci%26resid%3d324/5925/387' not found
-Referenced file '/external-ref%3faccess_num%3d15652316%26link_type%3dMED' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-33.gif' not found
-Referenced file u'feed_0/article_0/stylesheets/images/ui-bg_highlight-soft_75_cccccc_1x100.png' not found
-Referenced file '/shared/css/hw-global-colexpand.css' not found
-Referenced file u'feed_0/article_0/2898/F1.expansion.html' not found
-Referenced file '/search%3fqbe%3dbioinfo%3bbts553%26citation%3dYang%20et%20al.%2028%20%2822%29%3a%202898%26submit%3dyes' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-95.gif' not found
-Referenced file '/local/css/hw-local-global.css' not found
-Referenced file '/content/28/23.cover.gif' not found
-Referenced file '/external-ref%3faccess_num%3d10.1016/j.jneumeth.2012.04.019%26link_type%3dDOI' not found
-Referenced file u'feed_0/article_0/stylesheets/ui.dialog.css' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-16.gif' not found
-Referenced file '/external-ref%3ftag_url%3dhttp%3a/bioinformatics.oxfordjournals.org/cgi/content/long/28/22/2898%26title%3dExtra-binomial%20variation%20approach%20for%20analysis%20of%20pooled%20DNA%20sequencing%20data%2b--%2bYang%20et%20al.%2028%20%2822%29%3a%202898%2b--%2bbioinformatics%26doi%3d10.1093/bioinformatics/bts553%26link_type%3dCITEULIKE' not found
-Referenced file u'feed_0/article_0/images/btn-search.gif' not found
-Referenced file '/external-ref%3faccess_num%3d21251014%26link_type%3dMED' not found
-Referenced file '/content/28/22/2898.abstract' not found
-Referenced file u'feed_0/article_0/2898/embed/graphic-2.gif' not found
-Referenced file '/letters/submit/bioinfo%3b28/22/2898' not found
-Referenced file '/search%3fauthor1%3dClaudia%2bKrebs%26sortspec%3ddate%26submit%3dSubmit' not found
-Referenced file '/citmgr%3fgca%3dbioinfo%3b28/22/2898' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-20.gif' not found
-Referenced file u'feed_0/article_0/2898/F3/embed/inline-graphic-51.gif' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-31.gif' not found
-Referenced file '/cgi/alerts/ctalert%3falertType%3deletter%26addAlert%3deletter%26eletter_criteria_value%3d28/22/2898%26saveAlert%3dno%26return-type%3darticle%26return_url%3dhttp%3a/bioinformatics.oxfordjournals.org/content/28/22/2898.full' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-7.gif' not found
 Referenced file '/cgi/alerts/ctalert%3falertType%3dcitedby%26addAlert%3dcited_by%26cited_by_criteria_resid%3dbioinfo%3b28/22/2898%26saveAlert%3dno%26return-type%3darticle%26return_url%3dhttp%3a/bioinformatics.oxfordjournals.org/content/28/22/2898.full' not found
+Referenced file '/external-ref%3faccess_num%3d000247030700035%26link_type%3dISI' not found
+Referenced file '/external-ref%3faccess_num%3d20552648%26link_type%3dMED' not found
+Referenced file '/content/28/22/2898/suppl/DC1' not found
+Referenced file '/content/28/22/2905.short' not found
+Referenced file '/search%3fauthor1%3dSuzanne%2bLane%26sortspec%3ddate%26submit%3dSubmit' not found
+Referenced file '/search%3ftocsectionid%3dDATA%2bAND%2bTEXT%2bMINING%26sortspec%3ddate%26submit%3dSubmit' not found
 Referenced file '/external-ref%3faccess_num%3dA1986F117900001%26link_type%3dISI' not found
+Referenced file '/cgi/ijlink%3flinkType%3dABST%26journalCode%3dcercor%26resid%3d17/1/92' not found
+Referenced file '/external-ref%3ftag_url%3dhttp%3a/bioinformatics.oxfordjournals.org/cgi/content/long/28/22/2898%26title%3dExtra-binomial%20variation%20approach%20for%20analysis%20of%20pooled%20DNA%20sequencing%20data%2b--%2bYang%20et%20al.%2028%20%2822%29%3a%202898%2b--%2bbioinformatics%26doi%3d10.1093/bioinformatics/bts553%26link_type%3dMENDELEY' not found
+Referenced file '/scopus-links/bioinfo/28/22/2963%3faccess_num%3d/bioinfo/28/22/2963' not found
+Referenced file '/external-ref%3faccess_num%3d000264751000015%26link_type%3dISI' not found
 Referenced file '/external-ref%3faccess_num%3d15897615%26link_type%3dMED' not found
 Referenced file '/search%3fauthor1%3dJohn%2bA.%2bTodd%26sortspec%3ddate%26submit%3dSubmit' not found
-Referenced file '/external-ref%3faccess_num%3d16628615%26link_type%3dMED' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-14.gif' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-5.gif' not found
-Referenced file u'feed_0/article_0/images/reveal-button.png' not found
-Referenced file '/shared/img/common/social-bookmarking/delicious.gif' not found
-Referenced file '/shared/img/common/social-bookmarking/facebook.gif' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-13.gif' not found
+Referenced file '/external-ref%3faccess_num%3d21545845%26link_type%3dMED' not found
+Referenced file '/external-ref%3faccess_num%3d10.1186/1471-2105-9-108%26link_type%3dDOI' not found
+Referenced file u'feed_0/article_0/2898/F4.expansion.html' not found
+Referenced file '/cgi/crossref-forward-links/28/22/2898' not found
+Referenced file '/publisher/css/hw-publisher-global.css' not found
+Referenced file '/resource/image/buttons/go.gif' not found
+Referenced file '/content/early/2012/09/05/bioinformatics.bts542' not found
+Referenced file '/' not found
+Referenced file '/external-ref%3faccess_num%3d10.1385/NI%3a3%3a1%3a015%26link_type%3dDOI' not found
+Referenced file '/external-ref%3faccess_num%3d17720147%26link_type%3dMED' not found
+Referenced file '/cgi/alerts/ctalert%3falertType%3deletter%26addAlert%3deletter%26eletter_criteria_value%3d28/22/2898%26saveAlert%3dno%26return-type%3darticle%26return_url%3dhttp%3a/bioinformatics.oxfordjournals.org/content/28/22/2898.full' not found
+Referenced file '/external-ref%3ftag_url%3dhttp%3a/bioinformatics.oxfordjournals.org/cgi/content/long/28/22/2898%26title%3dExtra-binomial%20variation%20approach%20for%20analysis%20of%20pooled%20DNA%20sequencing%20data%2b--%2bYang%20et%20al.%2028%20%2822%29%3a%202898%2b--%2bbioinformatics%26doi%3d10.1093/bioinformatics/bts553%26link_type%3dCITEULIKE' not found
+Referenced file '/external-ref%3faccess_num%3d22954628%26link_type%3dPUBMED' not found
+Referenced file '/external-ref%3faccess_num%3d000083518400007%26link_type%3dISI' not found
+Referenced file '/external-ref%3faccess_num%3d21983784%26link_type%3dMED' not found
+Referenced file '/cgi/alerts/ctalert%3falertType%3dcorrection%26addAlert%3dcorrection%26correction_criteria_value%3d28/22/2898%26saveAlert%3dno%26return-type%3darticle%26return_url%3dhttp%3a/bioinformatics.oxfordjournals.org/content/28/22/2898.full' not found
+Referenced file '/letters/submit/bioinfo%3b28/22/2963' not found
+Referenced file '/external-ref%3faccess_num%3d12415316%26link_type%3dMED' not found
+Referenced file u'feed_0/article_1/images/blank.png' not found
+Referenced file u'feed_0/article_1/stylesheets/images/ui-bg_glass_75_ffffff_1x400.png' not found
+Referenced file '/cgi/alerts/ctalert%3falertType%3dcitedby%26addAlert%3dcited_by%26cited_by_criteria_resid%3dbioinfo%3b28/22/2963%26saveAlert%3dno%26return-type%3darticle%26return_url%3dhttp%3a/bioinformatics.oxfordjournals.org/content/28/22/2963.full' not found
+Referenced file '/external-ref%3faccess_num%3d22954628%26link_type%3dMED_NBRS' not found
+Referenced file u'feed_0/article_0/2898/F5.expansion.html' not found
+Referenced file u'feed_0/article_1/images/bkgd-wrapper.png' not found
+Referenced file '/external-ref%3faccess_num%3d10.1038/361109a0%26link_type%3dDOI' not found
+Referenced file u'feed_0/article_0/2898/F2.expansion.html' not found
+Referenced file '/external-ref%3faccess_num%3dSiu%20C%26link_type%3dAUTHORSEARCH' not found
+Referenced file '/external-ref%3ftag_url%3dhttp%3a/bioinformatics.oxfordjournals.org/cgi/content/long/28/22/2898%26title%3dExtra-binomial%20variation%20approach%20for%20analysis%20of%20pooled%20DNA%20sequencing%20data%2b--%2bYang%20et%20al.%2028%20%2822%29%3a%202898%2b--%2bbioinformatics%26doi%3d10.1093/bioinformatics/bts553%26link_type%3dGOOGLEPLUS%26log_only%3dyes' not found
+Referenced file '/external-ref%3faccess_num%3d000305865600012%26link_type%3dISI' not found
 Referenced file '/external-ref%3faccess_num%3dWallace%20C%26link_type%3dAUTHORSEARCH' not found
-Referenced file '/external-ref%3faccess_num%3d22976083%26link_type%3dMED_NBRS' not found
-Referenced file '/external-ref%3ftag_url%3dhttp%3a/bioinformatics.oxfordjournals.org/cgi/content/long/28/22/2963%26title%3dApplication%20and%20evaluation%20of%20automated%20methods%20to%20extract%20neuroanatomical%20connectivity%20statements%20from%20free%20text%2b--%2bFrench%20et%20al.%2028%20%2822%29%3a%202963%2b--%2bbioinformatics%26doi%3d10.1093/bioinformatics/bts542%26link_type%3dMENDELEY' not found
+Referenced file '/external-ref%3faccess_num%3d16418747%26link_type%3dMED' not found
+Referenced file '/external-ref%3faccess_num%3d22584238%26link_type%3dMED' not found
+Referenced file '/external-ref%3faccess_num%3d/bioinfo/28/22/2898%26link_type%3dISI_CITING%26accnum_type%3dnative' not found
+Referenced file '/external-ref%3faccess_num%3dKrebs%20C%26link_type%3dAUTHORSEARCH' not found
+Referenced file '/external-ref%3faccess_num%3d10.1016/j.jbi.2011.04.005%26link_type%3dDOI' not found
+Referenced file '/external-ref%3faccess_num%3d000226588500021%26link_type%3dISI' not found
 Referenced file '/external-ref%3faccess_num%3d17554300%26link_type%3dMED' not found
-Referenced file '/external-ref%3faccess_num%3d8421513%26link_type%3dMED' not found
 Referenced file '/external-ref%3ftag_url%3dhttp%3a/bioinformatics.oxfordjournals.org/cgi/content/short/28/22/2898%26title%3dExtra-binomial%20variation%20approach%20for%20analysis%20of%20pooled%20DNA%20sequencing%20data%2b--%2bYang%20et%20al.%2028%20%2822%29%3a%202898%2b--%2bbioinformatics%26doi%3d10.1093/bioinformatics/bts553%26link_type%3dFACEBOOK' not found
+Referenced file '/external-ref%3faccess_num%3d10.1016/j.jneumeth.2007.08.007%26link_type%3dDOI' not found
+Referenced file '/external-ref%3faccess_num%3d8421513%26link_type%3dMED' not found
+Referenced file '/resource/css/h20-oup-header.css' not found
+Referenced file '/external-ref%3faccess_num%3dChen%20Y%26link_type%3dAUTHORSEARCH' not found
+Referenced file '/external-ref%3faccess_num%3d3794004%26link_type%3dMED' not found
+Referenced file '/cgi/ijlink%3flinkType%3dABST%26journalCode%3dgenome%26resid%3d18/9/1509' not found
+Referenced file '/external-ref%3faccess_num%3d10.1186/gb-2007-8-7-r143%26link_type%3dDOI' not found
+Referenced file '/external-ref%3faccess_num%3d10.1038/ng.249%26link_type%3dDOI' not found
+Referenced file '/external-ref%3faccess_num%3d19635172%26link_type%3dMED' not found
+Referenced file '/external-ref%3faccess_num%3dKwok%20C%26link_type%3dAUTHORSEARCH' not found
+Referenced file '/external-ref%3faccess_num%3d10540360%26link_type%3dMED' not found
 Referenced file '/content/28/22/2963.abstract' not found
 Referenced file '/search%3ftocsectionid%3dSEQUENCE%2bANALYSIS%26sortspec%3ddate%26submit%3dSubmit' not found
+Referenced file '/external-ref%3faccess_num%3d000290238100008%26link_type%3dISI' not found
 Referenced file '/help/citetrack' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-15.gif' not found
+Referenced file '/publisher/img/buttons/go.gif' not found
+Referenced file '/search%3fauthor1%3dXin%2bYang%26sortspec%3ddate%26submit%3dSubmit' not found
+Referenced file '/external-ref%3ftag_url%3dhttp%3a/bioinformatics.oxfordjournals.org/cgi/content/long/28/22/2963%26title%3dApplication%20and%20evaluation%20of%20automated%20methods%20to%20extract%20neuroanatomical%20connectivity%20statements%20from%20free%20text%2b--%2bFrench%20et%20al.%2028%20%2822%29%3a%202963%2b--%2bbioinformatics%26doi%3d10.1093/bioinformatics/bts542%26link_type%3dDEL_ICIO_US' not found
+Referenced file '/external-ref%3faccess_num%3dPavlidis%20P%26link_type%3dAUTHORSEARCH' not found
+Referenced file '/email%3fgca%3dbioinfo%3b28/22/2963%26current-view-path%3d/content/28/22/2963.full' not found
+Referenced file '/content/by/year' not found
+Referenced file u'feed_0/article_1/images/bkgd-hide-arrow.gif' not found
+Referenced file '/content/early/2012/09/11/bioinformatics.bts553' not found
+Referenced file u'feed_0/article_1/2963/T1.expansion.html' not found
+Referenced file '/content/28/22/2963.full.pdf%2bhtml' not found
+Referenced file '/powerpoint/28/22/2963/F1' not found
+Referenced file '/external-ref%3faccess_num%3d10.1016/j.jchemneu.2011.07.001%26link_type%3dDOI' not found
+Referenced file '/external-ref%3faccess_num%3d19430480%26link_type%3dMED' not found
+Referenced file '/citmgr%3fgca%3dbioinfo%3b28/22/2963' not found
+Referenced file '/external-ref%3ftag_url%3dhttp%3a/bioinformatics.oxfordjournals.org/cgi/content/long/28/22/2898%26title%3dExtra-binomial%20variation%20approach%20for%20analysis%20of%20pooled%20DNA%20sequencing%20data%2b--%2bYang%20et%20al.%2028%20%2822%29%3a%202898%2b--%2bbioinformatics%26doi%3d10.1093/bioinformatics/bts553%26link_type%3dTWITTER' not found
+Referenced file '/cgi/ijlink%3flinkType%3dABST%26journalCode%3dbioinfo%26resid%3d26/5/589' not found
+Referenced file '/external-ref%3faccess_num%3d62770%26link_type%3dMED' not found
 Referenced file '/cgi/alerts/etoc' not found
-Referenced file '/login%3furi%3dhttp%3a/bioinformatics.oxfordjournals.org/content/28/22/2898.full' not found
+Referenced file '/content/28/22/2956.short' not found
+Referenced file '/external-ref%3faccess_num%3d10.1002/gepi.20502%26link_type%3dDOI' not found
+Referenced file '/shared/css/hw-global.css' not found
+Referenced file '/external-ref%3faccess_num%3d14958510%26link_type%3dMED' not found
+Referenced file u'feed_0/article_0/2898/T1.expansion.html' not found
+Referenced file '/external-ref%3faccess_num%3d10.1371/journal.pone.0020907%26link_type%3dDOI' not found
+Referenced file '/external-ref%3faccess_num%3dClayton%20D%26link_type%3dAUTHORSEARCH' not found
+Referenced file '/external-ref%3faccess_num%3d17889371%26link_type%3dMED' not found
 Referenced file '/external-ref%3faccess_num%3d1545009%26link_type%3dMED' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-34.gif' not found
+Referenced file '/publisher/css/hw-publisher-ac.css' not found
+Referenced file '/external-ref%3faccess_num%3d10.1038/ng.952%26link_type%3dDOI' not found
+Referenced file '/search%3fauthor1%3dCelia%2bSiu%26sortspec%3ddate%26submit%3dSubmit' not found
+Referenced file u'feed_0/article_1/2963/T3.expansion.html' not found
+Referenced file '/content/28/22/2891.short' not found
+Referenced file '/external-ref%3faccess_num%3d17471288%26link_type%3dMED' not found
+Referenced file '/external-ref%3faccess_num%3d9590546%26link_type%3dMED' not found
 Referenced file '/cgi/calendarcontent/index.html%3ftarget%3dhw.dtl' not found
+Referenced file '/shared/css/jquery.fancybox-1.3.4.css' not found
+Referenced file '/external-ref%3faccess_num%3dA1992HB75200006%26link_type%3dISI' not found
 Referenced file '/search%3fauthor1%3dLeon%2bFrench%26sortspec%3ddate%26submit%3dSubmit' not found
 Referenced file '/shared/css/hw-page-content.css' not found
+Referenced file '/rss' not found
 Referenced file '/external-ref%3faccess_num%3d10.1038/nn1096%26link_type%3dDOI' not found
 Referenced file u'feed_0/article_0/2898/F3.expansion.html' not found
-Referenced file '/cgi/ijlink%3flinkType%3dABST%26journalCode%3dcercor%26resid%3d17/1/92' not found
-Referenced file '/external-ref%3faccess_num%3d10.1186/1471-2105-9-108%26link_type%3dDOI' not found
-Referenced file '/external-ref%3faccess_num%3d000226588500021%26link_type%3dISI' not found
-Referenced file '/email%3fgca%3dbioinfo%3b28/22/2963%26current-view-path%3d/content/28/22/2963.full' not found
+Referenced file '/external-ref%3faccess_num%3d18978792%26link_type%3dMED' not found
+Referenced file u'feed_0/article_1/images/arrow_gray_hid.png' not found
+Referenced file '/help/social_bookmarks.dtl' not found
+Referenced file '/cgi/ijlink%3flinkType%3dABST%26journalCode%3droyptb%26resid%3d314/1165/1' not found
+Referenced file '/external-ref%3faccess_num%3d21695164%26link_type%3dMED' not found
+Referenced file '/login%3furi%3dhttp%3a/bioinformatics.oxfordjournals.org/content/28/22/2898.full' not found
+Referenced file '/external-ref%3faccess_num%3d10.1038/nature05911%26link_type%3dDOI' not found
+Referenced file '/external-ref%3faccess_num%3d10.1371/journal.pcbi.0010042%26link_type%3dDOI' not found
+Referenced file '/content/28/22/2963.full%3fcited-by%3dyes%26legid%3dbioinfo%3b28/22/2963' not found
+Referenced file '/external-ref%3faccess_num%3d000073290400005%26link_type%3dISI' not found
+Referenced file '/external-ref%3ftag_url%3dhttp%3a/bioinformatics.oxfordjournals.org/cgi/content/short/28/22/2963%26title%3dApplication%20and%20evaluation%20of%20automated%20methods%20to%20extract%20neuroanatomical%20connectivity%20statements%20from%20free%20text%2b--%2bFrench%20et%20al.%2028%20%2822%29%3a%202963%2b--%2bbioinformatics%26doi%3d10.1093/bioinformatics/bts542%26link_type%3dFACEBOOK' not found
+Referenced file '/external-ref%3faccess_num%3d17659080%26link_type%3dMED' not found
+Referenced file '/external-ref%3ftag_url%3dhttp%3a/bioinformatics.oxfordjournals.org/cgi/content/long/28/22/2963%26title%3dApplication%20and%20evaluation%20of%20automated%20methods%20to%20extract%20neuroanatomical%20connectivity%20statements%20from%20free%20text%2b--%2bFrench%20et%20al.%2028%20%2822%29%3a%202963%2b--%2bbioinformatics%26doi%3d10.1093/bioinformatics/bts542%26link_type%3dMENDELEY' not found
+Referenced file u'feed_0/article_1/stylesheets/ui.dialog.css' not found
+Referenced file '/external-ref%3faccess_num%3d16628615%26link_type%3dMED' not found
+Referenced file '/external-ref%3faccess_num%3d000252938400031%26link_type%3dISI' not found
+Referenced file u'feed_0/article_1/2963/T2.expansion.html' not found
+Referenced file '/external-ref%3ftag_url%3dhttp%3a/bioinformatics.oxfordjournals.org/cgi/content/long/28/22/2963%26title%3dApplication%20and%20evaluation%20of%20automated%20methods%20to%20extract%20neuroanatomical%20connectivity%20statements%20from%20free%20text%2b--%2bFrench%20et%20al.%2028%20%2822%29%3a%202963%2b--%2bbioinformatics%26doi%3d10.1093/bioinformatics/bts542%26link_type%3dTWITTER' not found
+Referenced file '/resource/css/h20-oup-footer.css' not found
+Referenced file '/search%3fauthor1%3dCathy%2bKwok%26sortspec%3ddate%26submit%3dSubmit' not found
+Referenced file '/external-ref%3faccess_num%3dA1978FD16900001%26link_type%3dISI' not found
+Referenced file u'feed_0/article_1/images/btn-search.gif' not found
+Referenced file '/external-ref%3faccess_num%3d77865%26link_type%3dMED' not found
+Referenced file '/content/28/22/2971.short' not found
+Referenced file '/external-ref%3faccess_num%3d10.1002/%28SICI%291096-9861%2819991206%29415%3a1%3c91%3a%3aAID-CNE7%3e3.0.CO%3b2-A%26link_type%3dDOI' not found
+Referenced file '/external-ref%3faccess_num%3d000230322400004%26link_type%3dISI' not found
+Referenced file '/external-ref%3faccess_num%3d000259650100010%26link_type%3dISI' not found
+Referenced file '/cgi/ijlink%3flinkType%3dABST%26journalCode%3dbioinfo%26resid%3d25/17/2283' not found
+Referenced file '/cgi/ijlink%3flinkType%3dABST%26journalCode%3dbioinfo%26resid%3d25/16/2078' not found
+Referenced file '/external-ref%3faccess_num%3d10.1002/cne.901800302%26link_type%3dDOI' not found
+Referenced file '/content/28/22/2898.full.pdf%2bhtml' not found
 Referenced file '/site/resource/bioinformatics_h20.css' not found
-Referenced file u'feed_0/article_0/2898/F2.large.jpg' not found
+Referenced file '/external-ref%3faccess_num%3d20578089%26link_type%3dMED' not found
+Referenced file '/cgi/ijlink%3flinkType%3dABST%26journalCode%3dbioinfo%26resid%3d27/19/2672' not found
+Referenced file '/external-ref%3faccess_num%3d000179041600014%26link_type%3dISI' not found
+Referenced file '/external-ref%3faccess_num%3d10.1038/sj.mp.4002010%26link_type%3dDOI' not found
+Referenced file u'feed_0/article_0/2898/T2.expansion.html' not found
+Referenced file '/external-ref%3faccess_num%3d20149233%26link_type%3dMED' not found
 Referenced file '/cgi/ijlink%3flinkType%3dABST%26journalCode%3dbioinfo%26resid%3d23/21/2881' not found
 Referenced file '/cgi/ijlink%3flinkType%3dABST%26journalCode%3dbioinfo%26resid%3d26/12/i318' not found
-Referenced file '/external-ref%3faccess_num%3d10.1016/j.jchemneu.2011.07.001%26link_type%3dDOI' not found
+Referenced file '/external-ref%3faccess_num%3dbioinfo%3b28/22/2963%26link_type%3dISI_RELATEDRECORDS' not found
+Referenced file '/external-ref%3faccess_num%3d19750194%26link_type%3dMED' not found
+Referenced file '/content/28/22.toc' not found
+Referenced file '/external-ref%3faccess_num%3d10.1016/j.csda.2008.01.013%26link_type%3dDOI' not found
+Referenced file '/external-ref%3faccess_num%3d22976083%26link_type%3dPUBMED' not found
 Referenced file '/external-ref%3faccess_num%3d000237440000008%26link_type%3dISI' not found
-Referenced file u'feed_0/article_0/2898/embed/graphic-4.gif' not found
+Referenced file '/shared/css/hw-print.css' not found
+Referenced file '/publisher/css/hw-publisher-page-content.css' not found
+Referenced file '/external-ref%3faccess_num%3d10.2307/2347977%26link_type%3dDOI' not found
+Referenced file u'feed_0/article_1/images/bkgd-scroll-arrows.gif' not found
+Referenced file '/external-ref%3faccess_num%3d000237954800012%26link_type%3dISI' not found
+Referenced file '/search%3fauthor1%3dChris%2bWallace%26sortspec%3ddate%26submit%3dSubmit' not found
+Referenced file '/cgi/feedback' not found
+Referenced file '/external-ref%3faccess_num%3d10.1385/NI%3a2%3a2%3a127%26link_type%3dDOI' not found
+Referenced file '/resource/css/h20-oup-sidebars.css' not found
+Referenced file '/cgi/eletters%3flookup%3dby_date%26days%3d84%26target%3dhw.dtl' not found
+Referenced file '/cgi/folders%3faction%3daddtofolder%26wherefrom%3dJOURNALS%26wrapped_id%3dbioinfo%3b28/22/2898' not found
+Referenced file '/search%3fqbe%3dbioinfo%3bbts542%26citation%3dFrench%20et%20al.%2028%20%2822%29%3a%202963%26submit%3dyes' not found
+Referenced file u'feed_0/article_1/images/bkgd-hide-links.png' not found
 Referenced file '/powerpoint/28/22/2898/F2' not found
 Referenced file '/powerpoint/28/22/2898/F3' not found
 Referenced file '/powerpoint/28/22/2898/F1' not found
 Referenced file '/external-ref%3faccess_num%3d10.1186/1471-2105-11-85%26link_type%3dDOI' not found
+Referenced file '/external-ref%3faccess_num%3d20617200%26link_type%3dMED' not found
 Referenced file '/powerpoint/28/22/2898/F4' not found
 Referenced file '/powerpoint/28/22/2898/F5' not found
-Referenced file u'feed_0/article_0/images/bkgd-wrapper.png' not found
-Referenced file '/external-ref%3faccess_num%3d22976083%26link_type%3dPUBMED' not found
+Referenced file '/scopus-links/bioinfo/28/22/2898%3faccess_num%3d/bioinfo/28/22/2898' not found
+Referenced file '/external-ref%3faccess_num%3d/bioinfo/28/22/2963%26link_type%3dISI_CITING%26accnum_type%3dnative' not found
+Referenced file u'feed_0/article_1/images/btn-related-content.gif' not found
+Referenced file '/external-ref%3ftag_url%3dhttp%3a/bioinformatics.oxfordjournals.org/cgi/content/long/28/22/2898%26title%3dExtra-binomial%20variation%20approach%20for%20analysis%20of%20pooled%20DNA%20sequencing%20data%2b--%2bYang%20et%20al.%2028%20%2822%29%3a%202898%2b--%2bbioinformatics%26doi%3d10.1093/bioinformatics/bts553%26link_type%3dCONNOTEA' not found
+Referenced file '/cgi/ijlink%3flinkType%3dABST%26journalCode%3dsci%26resid%3d324/5925/387' not found
+Referenced file '/external-ref%3faccess_num%3dbioinfo%3b28/22/2898%26link_type%3dISI_RELATEDRECORDS' not found
+Referenced file '/search%3fauthor1%3dPaul%2bPavlidis%26sortspec%3ddate%26submit%3dSubmit' not found
+Referenced file '/external-ref%3faccess_num%3d10.1214/aos/1176346056%26link_type%3dDOI' not found
+Referenced file '/external-ref%3faccess_num%3d15652316%26link_type%3dMED' not found
+Referenced file '/external-ref%3faccess_num%3dLane%20S%26link_type%3dAUTHORSEARCH' not found
 Referenced file '/external-ref%3faccess_num%3dYang%20X%26link_type%3dAUTHORSEARCH' not found
 Referenced file '/external-ref%3faccess_num%3d000223582200002%26link_type%3dISI' not found
-Referenced file '/login%3furi%3dhttp%3a/bioinformatics.oxfordjournals.org/content/28/22/2963.full' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-37.gif' not found
-Referenced file '/external-ref%3faccess_num%3d10.1002/cne.901700305%26link_type%3dDOI' not found
-Referenced file '/resource/css/hw20.css' not found
-Referenced file '/external-ref%3faccess_num%3d000261215900012%26link_type%3dISI' not found
-Referenced file '/cgi/folders%3faction%3daddtofolder%26wherefrom%3dJOURNALS%26wrapped_id%3dbioinfo%3b28/22/2963' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-38.gif' not found
-Referenced file '/external-ref%3faccess_num%3d000184413700006%26link_type%3dISI' not found
-Referenced file u'feed_1/index.html' not found
-Referenced file '/external-ref%3faccess_num%3d20352014%26link_type%3dMED' not found
-Referenced file '/external-ref%3faccess_num%3d10.1002/gepi.20501%26link_type%3dDOI' not found
-Referenced file '/external-ref%3ftag_url%3dhttp%3a/bioinformatics.oxfordjournals.org/cgi/content/long/28/22/2898%26title%3dExtra-binomial%20variation%20approach%20for%20analysis%20of%20pooled%20DNA%20sequencing%20data%2b--%2bYang%20et%20al.%2028%20%2822%29%3a%202898%2b--%2bbioinformatics%26doi%3d10.1093/bioinformatics/bts553%26link_type%3dDEL_ICIO_US' not found
-Referenced file u'feed_0/article_0/2898/embed/graphic-9.gif' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-39.gif' not found
-Referenced file '/external-ref%3faccess_num%3d10.1038/nrg1768%26link_type%3dDOI' not found
-Referenced file u'feed_0/article_0/images/bkgd-hide-arrow.gif' not found
-Referenced file '/search%3fauthor1%3dChris%2bWallace%26sortspec%3ddate%26submit%3dSubmit' not found
-Referenced file '/external-ref%3ftag_url%3dhttp%3a/bioinformatics.oxfordjournals.org/cgi/content/long/28/22/2963%26title%3dApplication%20and%20evaluation%20of%20automated%20methods%20to%20extract%20neuroanatomical%20connectivity%20statements%20from%20free%20text%2b--%2bFrench%20et%20al.%2028%20%2822%29%3a%202963%2b--%2bbioinformatics%26doi%3d10.1093/bioinformatics/bts542%26link_type%3dDEL_ICIO_US' not found
-Referenced file '/external-ref%3faccess_num%3d000234714000014%26link_type%3dISI' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-54.gif' not found
-Referenced file '/external-ref%3faccess_num%3d000280349600013%26link_type%3dISI' not found
-Referenced file '/search%3fauthor1%3dDavid%2bClayton%26sortspec%3ddate%26submit%3dSubmit' not found
-Referenced file u'feed_0/article_0/2898/embed/graphic-11.gif' not found
-Referenced file '/content/current' not found
-Referenced file '/external-ref%3faccess_num%3d000305865600012%26link_type%3dISI' not found
-Referenced file '/external-ref%3faccess_num%3dChen%20Y%26link_type%3dAUTHORSEARCH' not found
-Referenced file '/external-ref%3faccess_num%3d000247030700035%26link_type%3dISI' not found
-Referenced file '/external-ref%3faccess_num%3d20552648%26link_type%3dMED' not found
-Referenced file u'feed_0/article_0/images/arrow_gray_hid.png' not found
-Referenced file '/search%3ftocsectionid%3dDATA%2bAND%2bTEXT%2bMINING%26sortspec%3ddate%26submit%3dSubmit' not found
-Referenced file u'feed_0/article_1/2963/F1.large.jpg' not found
-Referenced file u'feed_0/article_0/2898/embed/graphic-13.gif' not found
-Referenced file '/scopus-links/bioinfo/28/22/2963%3faccess_num%3d/bioinfo/28/22/2963' not found
-Referenced file u'feed_0/article_0/2898/embed/graphic-6.gif' not found
-Referenced file u'feed_0/article_0/2898/F4.expansion.html' not found
-Referenced file u'feed_0/article_0/2898/embed/graphic-12.gif' not found
-Referenced file '/publisher/css/hw-publisher-global.css' not found
-Referenced file '/resource/image/buttons/go.gif' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-3.gif' not found
-Referenced file '/' not found
-Referenced file '/external-ref%3faccess_num%3d10.1385/NI%3a3%3a1%3a015%26link_type%3dDOI' not found
-Referenced file '/external-ref%3faccess_num%3d17720147%26link_type%3dMED' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-24.gif' not found
-Referenced file '/external-ref%3faccess_num%3d000083518400007%26link_type%3dISI' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-53.gif' not found
-Referenced file '/letters/submit/bioinfo%3b28/22/2963' not found
-Referenced file '/external-ref%3faccess_num%3d12415316%26link_type%3dMED' not found
-Referenced file '/external-ref%3faccess_num%3dSiu%20C%26link_type%3dAUTHORSEARCH' not found
-Referenced file '/external-ref%3ftag_url%3dhttp%3a/bioinformatics.oxfordjournals.org/cgi/content/long/28/22/2898%26title%3dExtra-binomial%20variation%20approach%20for%20analysis%20of%20pooled%20DNA%20sequencing%20data%2b--%2bYang%20et%20al.%2028%20%2822%29%3a%202898%2b--%2bbioinformatics%26doi%3d10.1093/bioinformatics/bts553%26link_type%3dGOOGLEPLUS%26log_only%3dyes' not found
-Referenced file '/external-ref%3faccess_num%3d22584238%26link_type%3dMED' not found
-Referenced file '/resource/css/h20-oup-header.css' not found
-Referenced file '/external-ref%3faccess_num%3d10.1038/ng.249%26link_type%3dDOI' not found
-Referenced file '/external-ref%3faccess_num%3d19635172%26link_type%3dMED' not found
-Referenced file '/external-ref%3faccess_num%3d10540360%26link_type%3dMED' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-25.gif' not found
-Referenced file u'feed_0/article_0/2898/F4/embed/inline-graphic-57.gif' not found
-Referenced file '/search%3fauthor1%3dXin%2bYang%26sortspec%3ddate%26submit%3dSubmit' not found
-Referenced file '/content/by/year' not found
-Referenced file '/cgi/ijlink%3flinkType%3dABST%26journalCode%3dbioinfo%26resid%3d26/5/589' not found
-Referenced file '/content/28/22/2963.full.pdf%2bhtml' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-87.gif' not found
-Referenced file '/external-ref%3faccess_num%3d19430480%26link_type%3dMED' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-22.gif' not found
-Referenced file '/external-ref%3faccess_num%3d21545845%26link_type%3dMED' not found
-Referenced file '/content/28/22/2956.short' not found
-Referenced file '/external-ref%3faccess_num%3d62770%26link_type%3dMED' not found
-Referenced file '/external-ref%3faccess_num%3d14958510%26link_type%3dMED' not found
-Referenced file u'feed_0/article_0/2898/T1.expansion.html' not found
-Referenced file u'feed_0/article_0/images/btn-related-content.gif' not found
-Referenced file '/external-ref%3faccess_num%3d10.1038/ng.952%26link_type%3dDOI' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-6.gif' not found
-Referenced file '/search%3fauthor1%3dCelia%2bSiu%26sortspec%3ddate%26submit%3dSubmit' not found
-Referenced file '/content/28/22/2891.short' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-98.gif' not found
-Referenced file '/shared/css/jquery.fancybox-1.3.4.css' not found
-Referenced file '/help/social_bookmarks.dtl' not found
-Referenced file '/external-ref%3faccess_num%3d000085158700005%26link_type%3dISI' not found
-Referenced file '/external-ref%3faccess_num%3d000252938400031%26link_type%3dISI' not found
-Referenced file u'feed_0/article_0/images/blank.png' not found
-Referenced file u'feed_0/article_0/2898/embed/graphic-3.gif' not found
-Referenced file '/resource/css/h20-oup-footer.css' not found
-Referenced file '/search%3fauthor1%3dCathy%2bKwok%26sortspec%3ddate%26submit%3dSubmit' not found
-Referenced file u'feed_0/article_0/2898/F4/embed/inline-graphic-56.gif' not found
-Referenced file '/external-ref%3ftag_url%3dhttp%3a/bioinformatics.oxfordjournals.org/cgi/content/short/28/22/2963%26title%3dApplication%20and%20evaluation%20of%20automated%20methods%20to%20extract%20neuroanatomical%20connectivity%20statements%20from%20free%20text%2b--%2bFrench%20et%20al.%2028%20%2822%29%3a%202963%2b--%2bbioinformatics%26doi%3d10.1093/bioinformatics/bts542%26link_type%3dFACEBOOK' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-88.gif' not found
-Referenced file '/external-ref%3ftag_url%3dhttp%3a/bioinformatics.oxfordjournals.org/cgi/content/long/28/22/2963%26title%3dApplication%20and%20evaluation%20of%20automated%20methods%20to%20extract%20neuroanatomical%20connectivity%20statements%20from%20free%20text%2b--%2bFrench%20et%20al.%2028%20%2822%29%3a%202963%2b--%2bbioinformatics%26doi%3d10.1093/bioinformatics/bts542%26link_type%3dTWITTER' not found
-Referenced file '/external-ref%3ftag_url%3dhttp%3a/bioinformatics.oxfordjournals.org/cgi/content/long/28/22/2963%26title%3dApplication%20and%20evaluation%20of%20automated%20methods%20to%20extract%20neuroanatomical%20connectivity%20statements%20from%20free%20text%2b--%2bFrench%20et%20al.%2028%20%2822%29%3a%202963%2b--%2bbioinformatics%26doi%3d10.1093/bioinformatics/bts542%26link_type%3dGOOGLEPLUS%26log_only%3dyes' not found
-Referenced file u'feed_0/article_0/2898/F4/embed/inline-graphic-55.gif' not found
-Referenced file '/cgi/ijlink%3flinkType%3dABST%26journalCode%3dbioinfo%26resid%3d25/16/2078' not found
-Referenced file '/cgi/ijlink%3flinkType%3dABST%26journalCode%3dbioinfo%26resid%3d27/19/2672' not found
-Referenced file '/external-ref%3faccess_num%3d10.1038/sj.mp.4002010%26link_type%3dDOI' not found
-Referenced file '/external-ref%3faccess_num%3d20149233%26link_type%3dMED' not found
-Referenced file u'feed_0/article_1/2963/T2.expansion.html' not found
-Referenced file '/content/28/22.toc' not found
-Referenced file '/shared/css/hw-print.css' not found
-Referenced file '/external-ref%3faccess_num%3d10.2307/2347977%26link_type%3dDOI' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-30.gif' not found
-Referenced file '/resource/css/h20-oup-sidebars.css' not found
-Referenced file u'feed_0/article_0/2898/embed/inline-graphic-10.gif' not found
-Referenced file '/cgi/eletters%3flookup%3dby_date%26days%3d84%26target%3dhw.dtl' not found
-Referenced file '/cgi/folders%3faction%3daddtofolder%26wherefrom%3dJOURNALS%26wrapped_id%3dbioinfo%3b28/22/2898' not found
-Referenced file '/external-ref%3faccess_num%3dFrench%20L%26link_type%3dAUTHORSEARCH' not found
-Referenced file u'feed_0/article_1/2963/T3.expansion.html' not found
-Referenced file '/external-ref%3faccess_num%3dbioinfo%3b28/22/2898%26link_type%3dISI_RELATEDRECORDS' not found
-Referenced file '/external-ref%3faccess_num%3d10.1214/aos/1176346056%26link_type%3dDOI' not found
-Referenced file u'feed_0/article_0/2898/embed/graphic-10.gif' not found
+Referenced file '/content/28/22/2898.full%3frelated-urls%3dyes%26legid%3dbioinfo%3b28/22/2898' not found
 Referenced file '/external-ref%3faccess_num%3d10.1038/nmeth.1249%26link_type%3dDOI' not found
 Referenced file '/search%3fauthor1%3dLydia%2bXu%26sortspec%3ddate%26submit%3dSubmit' not found
+Referenced file '/login%3furi%3dhttp%3a/bioinformatics.oxfordjournals.org/content/28/22/2963.full' not found
+Referenced file '/external-ref%3faccess_num%3d10.1002/cne.901700305%26link_type%3dDOI' not found
 Referenced file '/cgi/ijlink%3flinkType%3dABST%26journalCode%3dpnas%26resid%3d105/19/6959' not found
 Referenced file '/cgi/alerts/ctalert%3falertType%3dcorrection%26addAlert%3dcorrection%26correction_criteria_value%3d28/22/2963%26saveAlert%3dno%26return-type%3darticle%26return_url%3dhttp%3a/bioinformatics.oxfordjournals.org/content/28/22/2963.full' not found
+Referenced file '/resource/css/hw20.css' not found
 Referenced file '/external-ref%3faccess_num%3d10.1371/journal.pcbi.1000837%26link_type%3dDOI' not found
-Referenced file '/cgi/ijlink%3flinkType%3dABST%26journalCode%3droyptb%26resid%3d314/1165/1' not found
+Referenced file '/external-ref%3faccess_num%3d000261215900012%26link_type%3dISI' not found
 Referenced file '/external-ref%3faccess_num%3d10.1002/cne.21728%26link_type%3dDOI' not found
+Referenced file '/external-ref%3faccess_num%3d10.1038/nrg1768%26link_type%3dDOI' not found
 Reading TOC from NCX...
 Parsed HTML written to: G:\robert\personal\codingProjects\calibre_rssJournal\debug\parsed
 34% Running transforms on ebook...

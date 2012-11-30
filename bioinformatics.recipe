@@ -25,14 +25,14 @@ class BioinformaticsRecipe(BasicNewsRecipe):
 #        return subbed_html
         
     # this switches to the large jpgs, and then sets a width limit on them
-    def preprocess_html(self, soup):
-        allImg = soup.findAll('img')
+#    def preprocess_html(self, soup):
+#        allImg = soup.findAll('img')
         #print allImg
-        for imgTag in allImg:
-            tmpSrc = imgTag['src']
-            if re.search('.small.gif', tmpSrc):
-                imgTag['src'] = re.sub('.small.gif', '.large.jpg', tmpSrc)
-                imgTag['width'] = 600
+#        for imgTag in allImg:
+#            tmpSrc = imgTag['src']
+#            if re.search('.small.gif', tmpSrc):
+#                imgTag['src'] = re.sub('.small.gif', '.large.jpg', tmpSrc)
+#                imgTag['width'] = 600
             
             
         #print allImg # check that things got changed
@@ -40,10 +40,30 @@ class BioinformaticsRecipe(BasicNewsRecipe):
         return soup
     
     def get_obfuscated_article(self, url):
-        print url
-        tmpSoup = self.index_to_soup(url, False)
+        #print url
+        # this is the actual html of the page we are going to modify
+        working_soup = self.index_to_soup(url, False)
+        
+        url_split_char = '/'
+        url_splitup = url.split(url_split_char)
+        url_splitup.pop(-1)
+        base_url = url_split_char.join(url_splitup)
+        # this then needs to be processed, every img tag having the full url added
+        # and then looking for tables and processing them
+        # finally writing out the html to use
+        allImg = working_soup.findAll('img')
+        #print allImg
+        for imgTag in allImg:
+            tmpSrc = imgTag['src']
+            tmpSrc = url_split_char.join([base_url, tmpSrc])
+            if re.search('.small.gif', tmpSrc):
+                tmpSrc = re.sub('.small.gif', '.large.jpg', tmpSrc)
+                imgTag['width'] = 600
+                
+            imgTag['src'] = tmpSrc
+                
         filePath = 'tmpfile.html'
         outFile = open(filePath, 'w')
-        outFile.write(tmpSoup.prettify())
+        outFile.write(working_soup.prettify())
         return filePath
         
