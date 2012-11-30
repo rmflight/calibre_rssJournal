@@ -78,10 +78,10 @@
   <link rel="stylesheet" type="text/css" media="all" href="/shared/css/jquery.fancybox-1.3.4.css" />
   <link rel="stylesheet" type="text/css" media="all" href="/shared/css/hw-global-colexpand.css" />
   <link rel="stylesheet" type="text/css" media="all" href="/publisher/css/hw-publisher-page-content.css" />
-  <script type="text/javascript" id="session-d123926172e1">
-   var callbackToken='618B6C921DC6560';
+  <script type="text/javascript" id="session-d130711595e1">
+   var callbackToken='618F8EEE3AFA7F5';
   </script>
-  <script type="text/javascript" id="session-d123926172e3">
+  <script type="text/javascript" id="session-d130711595e3">
    var subCode='oupjournal_sub';
   </script>
   <script type="text/javascript" src="/shared/js/jquery-min.js">
@@ -1160,24 +1160,308 @@
                      increase precision at the cost of lower recall when compared with unrestricted co-occurrence.
       </p>
       <div class="table pos-float" id="T1">
-       <div class="table-inline">
-        <div class="callout">
-         <span>
-          View this table:
+       <div class="table-expansion" id="T1" itemprop="articleBody">
+        <span class="highwire-journal-article-marker-start">
+        </span>
+        <div class="table-caption">
+         <span class="table-label">
+          Table 1.
          </span>
-         <ul class="callout-links">
-          <li>
-           <a href="2963/T1.expansion.html">
-            In this window
-           </a>
-          </li>
-          <li>
-           <a class="in-nw" href="2963/T1.expansion.html">
-            In a new window
-           </a>
+         <p id="p-30">
+          Sentence level training set cross-validation results
+         </p>
+         <div class="sb-div caption-clear">
+         </div>
+        </div>
+        <table frame="hsides" rules="groups" id="table-1">
+         <thead align="left" id="thead-1" class="table-left">
+          <tr id="tr-1">
+           <th rowspan="1" colspan="1" id="th-1">
+            Kernel
+           </th>
+           <th rowspan="1" colspan="1" id="th-2">
+            Parser type
+           </th>
+           <th rowspan="1" colspan="1" id="th-3">
+            Parameter sets
+           </th>
+           <th rowspan="1" colspan="1" id="th-4">
+            Precision
+           </th>
+           <th rowspan="1" colspan="1" id="th-5">
+            Recall
+           </th>
+           <th rowspan="1" colspan="1" id="th-6">
+            F-measure
+           </th>
+           <th rowspan="1" colspan="1" id="th-7">
+            AUC
+           </th>
+          </tr>
+         </thead>
+         <tbody align="left" id="tbody-1" class="table-left">
+          <tr id="tr-2">
+           <td id="td-1">
+            Co-occurrence
+           </td>
+           <td id="td-2">
+            None
+           </td>
+           <td id="td-3">
+            1
+           </td>
+           <td id="td-4">
+            13.30%
+           </td>
+           <td id="td-5">
+            100.00%
+           </td>
+           <td id="td-6">
+            23.50%
+           </td>
+           <td id="td-7">
+           </td>
+          </tr>
+          <tr id="tr-3">
+           <td id="td-8">
+            Subset tree kernel
+           </td>
+           <td id="td-9">
+            Syntax
+           </td>
+           <td id="td-10">
+            12
+           </td>
+           <td id="td-11">
+            44.20%
+           </td>
+           <td id="td-12">
+            20.80%
+           </td>
+           <td id="td-13">
+            28.10%
+           </td>
+           <td id="td-14">
+            74.80%
+           </td>
+          </tr>
+          <tr id="tr-4">
+           <td id="td-15">
+            Co-occurrence five threshold
+           </td>
+           <td id="td-16">
+            None
+           </td>
+           <td id="td-17">
+            25
+           </td>
+           <td id="td-18">
+            18.80%
+           </td>
+           <td id="td-19">
+            66.10%
+           </td>
+           <td id="td-20">
+            29.30%
+           </td>
+           <td id="td-21">
+           </td>
+          </tr>
+          <tr id="tr-5">
+           <td id="td-22">
+            Partial tree kernel
+           </td>
+           <td id="td-23">
+            Syntax
+           </td>
+           <td id="td-24">
+            12
+           </td>
+           <td id="td-25">
+            43.30%
+           </td>
+           <td id="td-26">
+            23.10%
+           </td>
+           <td id="td-27">
+            29.80%
+           </td>
+           <td id="td-28">
+            75.20%
+           </td>
+          </tr>
+          <tr id="tr-6">
+           <td id="td-29">
+            Keyword co-occurrence
+           </td>
+           <td id="td-30">
+            None
+           </td>
+           <td id="td-31">
+            1
+           </td>
+           <td id="td-32">
+            17.40%
+           </td>
+           <td id="td-33">
+            92.70%
+           </td>
+           <td id="td-34">
+            29.40%
+           </td>
+           <td id="td-35">
+           </td>
+          </tr>
+          <tr id="tr-7">
+           <td id="td-36">
+            Spectrum tree kernel
+           </td>
+           <td id="td-37">
+            Syntax
+           </td>
+           <td id="td-38">
+            21
+           </td>
+           <td id="td-39">
+            37.40%
+           </td>
+           <td id="td-40">
+            26.10%
+           </td>
+           <td id="td-41">
+            30.20%
+           </td>
+           <td id="td-42">
+            72.90%
+           </td>
+          </tr>
+          <tr id="tr-8">
+           <td id="td-43">
+            Subtree kernel
+           </td>
+           <td id="td-44">
+            Syntax
+           </td>
+           <td id="td-45">
+            12
+           </td>
+           <td id="td-46">
+            40.70%
+           </td>
+           <td id="td-47">
+            25.20%
+           </td>
+           <td id="td-48">
+            30.80%
+           </td>
+           <td id="td-49">
+            74.60%
+           </td>
+          </tr>
+          <tr id="tr-9">
+           <td id="td-50">
+            Keyword five threshold
+           </td>
+           <td id="td-51">
+            None
+           </td>
+           <td id="td-52">
+            25
+           </td>
+           <td id="td-53">
+            23.70%
+           </td>
+           <td id="td-54">
+            60.80%
+           </td>
+           <td id="td-55">
+            34.10%
+           </td>
+           <td id="td-56">
+           </td>
+          </tr>
+          <tr id="tr-10">
+           <td id="td-57">
+            k-band shortest path spectrum
+           </td>
+           <td id="td-58">
+            Dependency
+           </td>
+           <td id="td-59">
+            288
+           </td>
+           <td id="td-60">
+            46.80%
+           </td>
+           <td id="td-61">
+            70.50%
+           </td>
+           <td id="td-62">
+            55.80%
+           </td>
+           <td id="td-63">
+            86.70%
+           </td>
+          </tr>
+          <tr id="tr-11">
+           <td id="td-64">
+            Shallow linguistic kernel (SLK)
+           </td>
+           <td id="td-65">
+            Part-of-speech tagger
+           </td>
+           <td id="td-66">
+            1
+           </td>
+           <td id="td-67">
+            50.30%
+           </td>
+           <td id="td-68">
+            70.10%
+           </td>
+           <td id="td-69">
+            58.30%
+           </td>
+           <td id="td-70">
+            88.90%
+           </td>
+          </tr>
+          <tr id="tr-12">
+           <td id="td-71">
+            All-paths graph kernel
+           </td>
+           <td id="td-72">
+            Dependency
+           </td>
+           <td id="td-73">
+            4
+           </td>
+           <td id="td-74">
+            60.40%
+           </td>
+           <td id="td-75">
+            57.90%
+           </td>
+           <td id="td-76">
+            58.40%
+           </td>
+           <td id="td-77">
+            88.40%
+           </td>
+          </tr>
+         </tbody>
+        </table>
+        <div class="table-foot">
+         <ul class="table-footnotes">
+          <li class="fn" id="fn-2">
+           <p id="p-31">
+            AUC, area under the receiver operating curve; SLK, shallow linguistic kernel.
+           </p>
           </li>
          </ul>
         </div>
+        <span class="highwire-journal-article-marker-end">
+        </span>
        </div>
        <div class="table-caption">
         <span class="table-label">
@@ -1322,24 +1606,336 @@
                      9767 and 5).
       </p>
       <div class="table pos-float" id="T2">
-       <div class="table-inline">
-        <div class="callout">
-         <span>
-          View this table:
+       <div class="table-expansion" id="T2" itemprop="articleBody">
+        <span class="highwire-journal-article-marker-start">
+        </span>
+        <div class="table-caption">
+         <span class="table-label">
+          Table 2.
          </span>
-         <ul class="callout-links">
-          <li>
-           <a href="2963/T2.expansion.html">
-            In this window
-           </a>
-          </li>
-          <li>
-           <a class="in-nw" href="2963/T2.expansion.html">
-            In a new window
-           </a>
+         <p id="p-37">
+          Top- and bottom-predicted relations from the 12 557 abstract set, ranked by SLK classification score
+         </p>
+         <div class="sb-div caption-clear">
+         </div>
+        </div>
+        <table frame="hsides" rules="groups" id="table-2">
+         <thead align="left" id="thead-2" class="table-left">
+          <tr id="tr-13">
+           <th rowspan="1" colspan="1" id="th-8">
+            Rank
+           </th>
+           <th rowspan="1" colspan="1" id="th-9">
+            Sentence
+           </th>
+           <th rowspan="1" colspan="1" id="th-10">
+            Score
+           </th>
+           <th rowspan="1" colspan="1" id="th-11">
+            Reference
+           </th>
+          </tr>
+         </thead>
+         <tbody align="left" id="tbody-2" class="table-left">
+          <tr id="tr-14">
+           <td id="td-78">
+            1
+           </td>
+           <td id="td-79">
+            <strong>
+             Trigeminal
+            </strong>
+            projections to
+            <strong>
+             hypoglossal and facial motor nuclei
+            </strong>
+            in the rat.
+           </td>
+           <td id="td-80">
+            3.47
+           </td>
+           <td id="td-81">
+            <span id="xref-ref-35-1" class="xref-bibr">
+             Pinganaud,
+             <em>
+              et al.
+             </em>
+             , 1999
+            </span>
+           </td>
+          </tr>
+          <tr id="tr-15">
+           <td id="td-82">
+            2
+           </td>
+           <td id="td-83">
+            <strong>
+             The cortical
+            </strong>
+            projections to
+            <strong>
+             retrosplenial dysgranular cortex
+            </strong>
+            (Rdg) originate primarily in the infraradiata, retrosplenial, postsubicular and areas 17 and 18b cortices.
+           </td>
+           <td id="td-84">
+            3.34
+           </td>
+           <td id="td-85">
+            <span id="xref-ref-47-1" class="xref-bibr">
+             van Groen and Wyss, 1992
+            </span>
+           </td>
+          </tr>
+          <tr id="tr-16">
+           <td id="td-86">
+            3
+           </td>
+           <td id="td-87">
+            The
+            <strong>
+             thalamic
+            </strong>
+            projections to
+            <strong>
+             retrosplenial dysgranular cortex
+            </strong>
+            (Rdg) originate in the anterior (primarily the anteromedial), lateral (primarily the laterodorsal) and reuniens nuclei.
+           </td>
+           <td id="td-88">
+            3.33
+           </td>
+           <td id="td-89">
+            <span id="xref-ref-47-2" class="xref-bibr">
+             van Groen and Wyss, 1992
+            </span>
+           </td>
+          </tr>
+          <tr id="tr-17">
+           <td id="td-90">
+            4
+           </td>
+           <td id="td-91">
+            Our results indicate that the
+            <strong>
+             centromedial amygdala
+            </strong>
+            receives
+            <strong>
+             Met-enkephalin
+            </strong>
+            afferents, as indicated by the presence of mu-opioid receptor, delta-opioid receptor and Met-enkephalin fibres in the CEA
+                           and MEA, originating primarily from the bed nucleus of the stria terminalis and from other amygdaloid nuclei.
+           </td>
+           <td id="td-92">
+            3.32
+           </td>
+           <td id="td-93">
+            <span id="xref-ref-36-1" class="xref-bibr">
+             Poulin,
+             <em>
+              et al.
+             </em>
+             , 2006
+            </span>
+           </td>
+          </tr>
+          <tr id="tr-18">
+           <td id="td-94">
+            5
+           </td>
+           <td id="td-95">
+            <strong>
+             Thalamic
+            </strong>
+            projections to
+            <strong>
+             retrosplenial cortex
+            </strong>
+            in the rat.
+           </td>
+           <td id="td-96">
+            3.28
+           </td>
+           <td id="td-97">
+            <span id="xref-ref-42-1" class="xref-bibr">
+             Sripanidkulchai and Wyss, 1986
+            </span>
+           </td>
+          </tr>
+          <tr id="tr-19">
+           <td id="td-98">
+            …
+           </td>
+           <td id="td-99">
+            9757 relationships
+           </td>
+           <td id="td-100">
+           </td>
+           <td id="td-101">
+           </td>
+          </tr>
+          <tr id="tr-20">
+           <td id="td-102">
+            9763
+           </td>
+           <td id="td-103">
+            The sparse reciprocal connections to the other
+            <strong>
+             amygdaloid nuclei
+            </strong>
+            suggest that the CEA nucleus does not regulate the other amygdaloid regions, but rather executes the responses evoked by
+                           the other amygdaloid nuclei that innervate the
+            <strong>
+             CEA nucleus
+            </strong>
+            .
+           </td>
+           <td id="td-104">
+            5.46 × 10
+            <sup>
+             −4
+            </sup>
+           </td>
+           <td id="td-105">
+            <span id="xref-ref-23-1" class="xref-bibr">
+             Jolkkonen and Pitkanen, 1998
+            </span>
+           </td>
+          </tr>
+          <tr id="tr-21">
+           <td id="td-106">
+            9764
+           </td>
+           <td id="td-107">
+            The majority of the endomorphin 1/fluoro-gold and endomorphin 2/fluoro-gold double-labelled neurons in the
+            <strong>
+             hypothalamus
+            </strong>
+            were distributed in the
+            <strong>
+             dorsomedial nucleus
+            </strong>
+            , areas between the dorsomedial and ventromedial nucleus and arcuate nucleus; a few were also seen in the ventromedial, periventricular
+                           and posterior nucleus.
+           </td>
+           <td id="td-108">
+            4.36 × 10
+            <sup>
+             −4
+            </sup>
+           </td>
+           <td id="td-109">
+            <span id="xref-ref-7-1" class="xref-bibr">
+             Chen,
+             <em>
+              et al.
+             </em>
+             , 2008
+            </span>
+           </td>
+          </tr>
+          <tr id="tr-22">
+           <td id="td-110">
+            9765
+           </td>
+           <td id="td-111">
+            Projections from the
+            <strong>
+             dorsal medullary reticular column
+            </strong>
+            are largely bilateral and are distributed preferentially to the
+            <strong>
+             ventral subdivision of the fifth cranial nerve motor nuclei in the rat (MoV)
+            </strong>
+            , to the dorsal and intermediate subdivisions of VII and to both the dorsal and the ventral subdivision of XII.
+           </td>
+           <td id="td-112">
+            2.91 × 10
+            <sup>
+             −4
+            </sup>
+           </td>
+           <td id="td-113">
+            <span id="xref-ref-10-1" class="xref-bibr">
+             Cunningham and Sawchenko, 2000
+            </span>
+           </td>
+          </tr>
+          <tr id="tr-23">
+           <td id="td-114">
+            9766
+           </td>
+           <td id="td-115">
+            Two additional large projections leave the MEA forebrain bundle in the hypothalamus; the ansa peduncularis–ventral amygdaloid
+                           bundle system turns laterally through the
+            <strong>
+             internal capsule
+            </strong>
+            into the striatal complex,
+            <strong>
+             amygdala
+            </strong>
+            and the external capsule to reach lateral and posterior cortex, and another system of fibers turns medially to innervate
+                           MEA hypothalamus and median eminence and forms a contralateral projection through the supraoptic commissures.
+           </td>
+           <td id="td-116">
+            2.87 × 10
+            <sup>
+             −4
+            </sup>
+           </td>
+           <td id="td-117">
+            <span id="xref-ref-32-1" class="xref-bibr">
+             Moore,
+             <em>
+              et al.
+             </em>
+             , 1978
+            </span>
+           </td>
+          </tr>
+          <tr id="tr-24">
+           <td id="td-118">
+            9767
+           </td>
+           <td id="td-119">
+            In animals with injected horseradish peroxidase confined within the main bulb, perikarya retrogradely labelled with the protein
+                           in the
+            <strong>
+             ipsilateral forebrain
+            </strong>
+            were observed in the
+            <strong>
+             anterior prepyriform cortex horizontal limb of the nucleus of the diagonal band
+            </strong>
+            , and far lateral preoptic and rostral lateral hypothalamic areas.
+           </td>
+           <td id="td-120">
+            3.36 × 10
+            <sup>
+             −5
+            </sup>
+           </td>
+           <td id="td-121">
+            <span id="xref-ref-5-1" class="xref-bibr">
+             Broadwell and Jacobowitz, 1976
+            </span>
+           </td>
+          </tr>
+         </tbody>
+        </table>
+        <div class="table-foot">
+         <ul class="table-footnotes">
+          <li class="fn" id="fn-3">
+           <p id="p-38">
+            CEA, central; MEA, medial; MoV, the fifth cranial nerve motor nuclei in the rat.
+           </p>
           </li>
          </ul>
         </div>
+        <span class="highwire-journal-article-marker-end">
+        </span>
        </div>
        <div class="table-caption">
         <span class="table-label">
@@ -1447,24 +2043,300 @@
        ).
       </p>
       <div class="table pos-float" id="T3">
-       <div class="table-inline">
-        <div class="callout">
-         <span>
-          View this table:
+       <div class="table-expansion" id="T3" itemprop="articleBody">
+        <span class="highwire-journal-article-marker-start">
+        </span>
+        <div class="table-caption">
+         <span class="table-label">
+          Table 3.
          </span>
-         <ul class="callout-links">
-          <li>
-           <a href="2963/T3.expansion.html">
-            In this window
-           </a>
-          </li>
-          <li>
-           <a class="in-nw" href="2963/T3.expansion.html">
-            In a new window
-           </a>
+         <p id="p-42">
+          Aggregate connectivity results from several methods and relation sets
+         </p>
+         <div class="sb-div caption-clear">
+         </div>
+        </div>
+        <table frame="hsides" rules="groups" id="table-3">
+         <thead align="left" id="thead-3" class="table-left">
+          <tr id="tr-25">
+           <th rowspan="1" colspan="1" id="th-12">
+            Relation set
+           </th>
+           <th rowspan="1" colspan="1" id="th-13">
+            Method
+           </th>
+           <th rowspan="1" colspan="1" id="th-14">
+            Threshold
+           </th>
+           <th rowspan="1" colspan="1" id="th-15">
+            Anatomical depth
+           </th>
+           <th rowspan="1" colspan="1" id="th-16">
+            Connections
+           </th>
+           <th rowspan="1" colspan="1" id="th-17">
+            Precision
+           </th>
+           <th rowspan="1" colspan="1" id="th-18">
+            Recall
+           </th>
+           <th rowspan="1" colspan="1" id="th-19">
+            F-measure
+           </th>
+          </tr>
+         </thead>
+         <tbody align="left" id="tbody-3" class="table-left">
+          <tr id="tr-26">
+           <td id="td-122">
+            Positive annotated
+           </td>
+           <td id="td-123">
+            Curation
+           </td>
+           <td id="td-124">
+            1
+           </td>
+           <td id="td-125">
+            8.7
+           </td>
+           <td id="td-126">
+            200
+           </td>
+           <td id="td-127">
+            67.50%
+           </td>
+           <td id="td-128">
+            0.61%
+           </td>
+           <td id="td-129">
+            1.22%
+           </td>
+          </tr>
+          <tr id="tr-27">
+           <td id="td-130">
+            Negative annotated
+           </td>
+           <td id="td-131">
+            Curation
+           </td>
+           <td id="td-132">
+            1
+           </td>
+           <td id="td-133">
+            8.7
+           </td>
+           <td id="td-134">
+            1606
+           </td>
+           <td id="td-135">
+            41.91%
+           </td>
+           <td id="td-136">
+            3.06%
+           </td>
+           <td id="td-137">
+            5.71%
+           </td>
+          </tr>
+          <tr id="tr-28">
+           <td id="td-138">
+            Positive predictions
+           </td>
+           <td id="td-139">
+            SLK
+           </td>
+           <td id="td-140">
+            1
+           </td>
+           <td id="td-141">
+            8.4
+           </td>
+           <td id="td-142">
+            1286
+           </td>
+           <td id="td-143">
+            54.70%
+           </td>
+           <td id="td-144">
+            3.20%
+           </td>
+           <td id="td-145">
+            6.05%
+           </td>
+          </tr>
+          <tr id="tr-29">
+           <td id="td-146">
+            Positive predictions
+           </td>
+           <td id="td-147">
+            SLK
+           </td>
+           <td id="td-148">
+            2
+           </td>
+           <td id="td-149">
+            8.4
+           </td>
+           <td id="td-150">
+            454
+           </td>
+           <td id="td-151">
+            65.90%
+           </td>
+           <td id="td-152">
+            1.40%
+           </td>
+           <td id="td-153">
+            2.74%
+           </td>
+          </tr>
+          <tr id="tr-30">
+           <td id="td-154">
+            Positive predictions
+           </td>
+           <td id="td-155">
+            SLK
+           </td>
+           <td id="td-156">
+            12
+           </td>
+           <td id="td-157">
+            10.2
+           </td>
+           <td id="td-158">
+            9
+           </td>
+           <td id="td-159">
+            100.00%
+           </td>
+           <td id="td-160">
+            0.04%
+           </td>
+           <td id="td-161">
+            0.08%
+           </td>
+          </tr>
+          <tr id="tr-31">
+           <td id="td-162">
+            All pairings
+           </td>
+           <td id="td-163">
+            Co-occurrence
+           </td>
+           <td id="td-164">
+            1
+           </td>
+           <td id="td-165">
+            8.3
+           </td>
+           <td id="td-166">
+            6474
+           </td>
+           <td id="td-167">
+            34.00%
+           </td>
+           <td id="td-168">
+            10.01%
+           </td>
+           <td id="td-169">
+            15.47%
+           </td>
+          </tr>
+          <tr id="tr-32">
+           <td id="td-170">
+            All pairings
+           </td>
+           <td id="td-171">
+            Co-occurrence
+           </td>
+           <td id="td-172">
+            2
+           </td>
+           <td id="td-173">
+            8.3
+           </td>
+           <td id="td-174">
+            2865
+           </td>
+           <td id="td-175">
+            44.96%
+           </td>
+           <td id="td-176">
+            5.86%
+           </td>
+           <td id="td-177">
+            10.37%
+           </td>
+          </tr>
+          <tr id="tr-33">
+           <td id="td-178">
+            All pairings
+           </td>
+           <td id="td-179">
+            Co-occurrence
+           </td>
+           <td id="td-180">
+            8
+           </td>
+           <td id="td-181">
+            8.2
+           </td>
+           <td id="td-182">
+            515
+           </td>
+           <td id="td-183">
+            66.41%
+           </td>
+           <td id="td-184">
+            1.56%
+           </td>
+           <td id="td-185">
+            3.04%
+           </td>
+          </tr>
+          <tr id="tr-34">
+           <td id="td-186">
+            All pairings
+           </td>
+           <td id="td-187">
+            Co-occurrence
+           </td>
+           <td id="td-188">
+            16
+           </td>
+           <td id="td-189">
+            8.4
+           </td>
+           <td id="td-190">
+            189
+           </td>
+           <td id="td-191">
+            71.43%
+           </td>
+           <td id="td-192">
+            0.61%
+           </td>
+           <td id="td-193">
+            1.22%
+           </td>
+          </tr>
+         </tbody>
+        </table>
+        <div class="table-foot">
+         <ul class="table-footnotes">
+          <li class="fn" id="fn-4">
+           <p id="p-43">
+            This table presents the analysis of the extracted binary connectivity matrices. The first two rows are from connectivity matrices
+                           derived from the 1377 annotated abstract set. The remaining rows are from the 12 557 abstract set and are split between the
+                           SLK predictions and the co-occurrence technique. The threshold column displays the required count of reported connections
+                           to be marked as connected in the matrix. Anatomical depth measures how specific the connections are by averaging the number
+                           of enclosing brain regions for each connected region.
+           </p>
           </li>
          </ul>
         </div>
+        <span class="highwire-journal-article-marker-end">
+        </span>
        </div>
        <div class="table-caption">
         <span class="table-label">

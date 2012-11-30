@@ -33,17 +33,13 @@
     }
 .calibre10 {
     display: block;
-    font-style: italic
-    }
-.calibre11 {
-    display: block;
-    font-size: 1.41667em;
-    font-weight: bold;
-    line-height: 1.2;
-    margin-bottom: 0.83em;
+    margin-bottom: 1em;
     margin-left: 0;
     margin-right: 0;
-    margin-top: 0.83em
+    margin-top: 1em
+    }
+.calibre11 {
+    font-weight: bolder
     }
 .calibre12 {
     font-style: italic
@@ -71,11 +67,45 @@
     margin-top: 1.33em
     }
 .calibre16 {
+    border-collapse: collapse;
+    border-spacing: 2px;
+    display: table;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-indent: 0
+    }
+.calibre17 {
+    display: table-row;
+    vertical-align: inherit
+    }
+.calibre18 {
+    display: table-cell;
+    font-weight: bold;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-top: 1px;
+    vertical-align: inherit
+    }
+.calibre19 {
+    display: table-cell;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-top: 1px;
+    text-align: inherit;
+    vertical-align: inherit
+    }
+.calibre2 {
+    height: auto;
+    width: auto
+    }
+.calibre20 {
     font-size: 0.75em;
     line-height: normal;
     vertical-align: super
     }
-.calibre17 {
+.calibre21 {
     display: block;
     margin-bottom: 1em;
     margin-left: 0;
@@ -84,10 +114,6 @@
     max-width: 100%;
     overflow: hidden;
     text-align: left
-    }
-.calibre2 {
-    height: auto;
-    width: auto
     }
 .calibre3 {
     display: block;
@@ -114,9 +140,6 @@
     margin-top: 0.5em
     }
 .calibre7 {
-    font-weight: bolder
-    }
-.calibre8 {
     display: block;
     font-size: 2em;
     font-weight: bold;
@@ -126,8 +149,19 @@
     margin-right: 0;
     margin-top: 0.67em
     }
+.calibre8 {
+    display: block;
+    font-style: italic
+    }
 .calibre9 {
-    line-height: 1.2
+    display: block;
+    font-size: 1.41667em;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0.83em
     }
 .calibrefeeddescription {
     display: block;
@@ -187,29 +221,13 @@
     font-weight: bold;
     line-height: 1.2
     }
-.hide {
-    display: block;
-    margin-bottom: 1em;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 1em
+.table-left {
+    display: table-header-group;
+    text-align: left;
+    vertical-align: middle
     }
-.slug-jnl-abbrev {
-    border-bottom: dotted 1px
-    }
-.subject-headings {
-    display: block;
-    list-style-type: circle;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0
-    }
-.subject-sub-headings {
-    display: block;
-    list-style-type: square;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0
+.table-left1 {
+    display: table-row-group;
+    text-align: left;
+    vertical-align: middle
     }

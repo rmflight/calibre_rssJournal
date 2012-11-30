@@ -6,11 +6,15 @@ import inspect
 class BioinformaticsRecipe(BasicNewsRecipe):
   
     title = u'Bioinformatics Journal'
+    __author__ = 'Robert M Flight'
     language = 'en'
     oldest_article = 365
     feeds = [('Bioinformatics', 'https://dl.dropbox.com/s/m16gxh35ekf4qkk/bioinformatics_recent_test.rss')]
     #recursions = 1 # see if this gets us the table pages
     articles_are_obfuscated = True
+    
+    remove_tags_before = dict(attrs={'class':'article fulltext-view'})
+    remove_tags_after = dict(attrs={'id':'related-urls'})
     
     def mod_image_paths(self, url, soup):
         # takes the full url and a BeautifulSoup instance, and modifies img paths
@@ -41,8 +45,19 @@ class BioinformaticsRecipe(BasicNewsRecipe):
         url_splitup.pop(-1)
         base_url = url_split_char.join(url_splitup)
         all_tables = soup.findAll('div', 'table-inline')
-        print all_tables
-        return all_tables
+        print all_tables # what is going in
+        for i_table in all_tables:
+            a_link = i_table.find('a', 'in-nw')
+            
+            table_url = url_split_char.join([base_url, a_link['href']])
+            table_soup = self.index_to_soup(table_url, False)
+            
+            table_div = table_soup.find('div', 'table-expansion')
+            
+            i_table.replaceWith(table_div)
+            
+        print all_tables # what is coming out
+        return soup
         
     def print_version(self, url):
         url_rep = url.replace('/cgi', '')
@@ -59,7 +74,7 @@ class BioinformaticsRecipe(BasicNewsRecipe):
         
         img_mod_soup = self.mod_image_paths(url, working_soup)
         
-        nothing_yet = self.insert_tables(url, working_soup)
+        table_mod_soup = self.insert_tables(url, working_soup)
         
         filePath = 'tmpfile.html'
         outFile = open(filePath, 'w')
