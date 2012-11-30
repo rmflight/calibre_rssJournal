@@ -26,11 +26,9 @@ class BioinformaticsRecipe(BasicNewsRecipe):
         url_splitup = url.split(url_split_char)
         url_splitup.pop(-1)
         base_url = url_split_char.join(url_splitup)
-        # this then needs to be processed, every img tag having the full url added
-        # and then looking for tables and processing them
-        # finally writing out the html to use
+        
         allImg = soup.findAll('img')
-        #print allImg
+        
         for imgTag in allImg:
             tmpSrc = imgTag['src']
             tmpSrc = url_split_char.join([base_url, tmpSrc])
@@ -77,7 +75,6 @@ class BioinformaticsRecipe(BasicNewsRecipe):
     
     # process each article, doing the tables and images for each one.
     def get_obfuscated_article(self, url):
-        #print url
         # this is the actual html of the page we are going to modify
         working_soup = self.index_to_soup(url, False)
         
