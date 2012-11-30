@@ -2,7 +2,6 @@ from calibre.ptempfile import PersistentTemporaryFile
 from calibre.web.feeds.news import BasicNewsRecipe
 from calibre.ebooks.BeautifulSoup import BeautifulSoup
 import re
-import inspect
 
 class BioinformaticsRecipe(BasicNewsRecipe):
   
