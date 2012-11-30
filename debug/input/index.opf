@@ -4,8 +4,8 @@
     <dc:title>Bioinformatics Journal [Fri, 30 Nov 2012]</dc:title>
     <dc:creator opf:file-as="calibre" opf:role="aut">calibre</dc:creator>
     <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (0.9.2) [http://calibre-ebook.com]</dc:contributor>
-    <dc:identifier id="calibre_id" opf:scheme="calibre">38a3c0c7-c357-44f8-a74c-6abd24e5f015</dc:identifier>
-    <dc:date>2012-11-30T10:47:42.427000-05:00</dc:date>
+    <dc:identifier id="calibre_id" opf:scheme="calibre">8607ee41-91a2-492d-935a-3f4a720e2d07</dc:identifier>
+    <dc:date>2012-11-30T11:11:03.988000-05:00</dc:date>
     <dc:language>eng</dc:language>
     <dc:description>
 
@@ -14,7 +14,7 @@ Extra-binomial variation approach for analysis of pooled DNA sequencing data
 
 Application and evaluation of automated methods to extract neuroanatomical connectivity statements from free text</dc:description>
     <dc:publisher>calibre</dc:publisher>
-    <meta content="2012-11-30T10:47:42.422000-05:00" name="calibre:timestamp"/>
+    <meta content="2012-11-30T11:11:03.983000-05:00" name="calibre:timestamp"/>
     <meta content="periodical:unknown:Bioinformatics Journal" name="calibre:publication_type"/>
   </metadata>
   <manifest>

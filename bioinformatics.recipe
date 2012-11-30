@@ -12,38 +12,8 @@ class BioinformaticsRecipe(BasicNewsRecipe):
     #recursions = 1 # see if this gets us the table pages
     articles_are_obfuscated = True
     
-    def print_version(self, url):
-        url_rep = url.replace('/cgi', '')
-        url_rep = url_rep.replace('/short', '')
-        url_rep = url_rep.replace('?rss=1', '')
-        dot_sep = '.'
-        full_url = dot_sep.join([url_rep, 'full'])
-        return full_url
-        
-#    def preprocess_raw_html(self, raw_html, url):
-#        subbed_html = re.sub('.small.gif', '.large.jpg', raw_html)
-#        return subbed_html
-        
-    # this switches to the large jpgs, and then sets a width limit on them
-#    def preprocess_html(self, soup):
-#        allImg = soup.findAll('img')
-        #print allImg
-#        for imgTag in allImg:
-#            tmpSrc = imgTag['src']
-#            if re.search('.small.gif', tmpSrc):
-#                imgTag['src'] = re.sub('.small.gif', '.large.jpg', tmpSrc)
-#                imgTag['width'] = 600
-            
-            
-        #print allImg # check that things got changed
-        #print soup.prettify()
-        return soup
-    
-    def get_obfuscated_article(self, url):
-        #print url
-        # this is the actual html of the page we are going to modify
-        working_soup = self.index_to_soup(url, False)
-        
+    def mod_image_paths(self, url, soup):
+        # takes the full url and a BeautifulSoup instance, and modifies img paths
         url_split_char = '/'
         url_splitup = url.split(url_split_char)
         url_splitup.pop(-1)
@@ -51,7 +21,7 @@ class BioinformaticsRecipe(BasicNewsRecipe):
         # this then needs to be processed, every img tag having the full url added
         # and then looking for tables and processing them
         # finally writing out the html to use
-        allImg = working_soup.findAll('img')
+        allImg = soup.findAll('img')
         #print allImg
         for imgTag in allImg:
             tmpSrc = imgTag['src']
@@ -61,9 +31,25 @@ class BioinformaticsRecipe(BasicNewsRecipe):
                 imgTag['width'] = 600
                 
             imgTag['src'] = tmpSrc
-                
+            
+        return soup
+        
+    def print_version(self, url):
+        url_rep = url.replace('/cgi', '')
+        url_rep = url_rep.replace('/short', '')
+        url_rep = url_rep.replace('?rss=1', '')
+        dot_sep = '.'
+        full_url = dot_sep.join([url_rep, 'full'])
+        return full_url
+        
+    def get_obfuscated_article(self, url):
+        #print url
+        # this is the actual html of the page we are going to modify
+        working_soup = self.index_to_soup(url, False)
+        
+        img_mod_soup = self.mod_image_paths(url, working_soup)
+        
         filePath = 'tmpfile.html'
         outFile = open(filePath, 'w')
-        outFile.write(working_soup.prettify())
+        outFile.write(img_mod_soup.prettify())
         return filePath
-        
