@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <ncx xmlns:calibre="http://calibre.kovidgoyal.net/2009/metadata" xmlns="http://www.daisy.org/z3986/2005/ncx/" xml:lang="en">
   <head>
-    <meta content="556b43bc-1b7b-4a07-b2dd-f2b00d798a31" name="dtb:uid"/>
+    <meta content="02da2d1d-0210-4918-b037-21c87567f6bd" name="dtb:uid"/>
     <meta content="2" name="dtb:depth"/>
     <meta content="calibre (0.9.2)" name="dtb:generator"/>
     <meta content="0" name="dtb:totalPageCount"/>
@@ -11,7 +11,7 @@
     <text>Table of Contents</text>
   </docTitle>
   <navMap>
-    <navPoint id="8c3cbd24-a7bd-48a8-aa14-201672e2fbf1" playOrder="1">
+    <navPoint id="c08ab7cd-4772-4b59-8cb6-621cd8919af3" playOrder="1">
       <navLabel>
         <text>Extra-binomial variation approach for analysis of pooled DNA sequencing data</text>
       </navLabel>
@@ -19,7 +19,7 @@
       <calibre:meta name="author">Yang, X., Todd, J. A., Clayton, D., Wallace, C.</calibre:meta>
       <calibre:meta name="description">Motivation: The invention of next-generation sequencing technology has made it possible to study the rare variants that are more likely to pinpoint causal disease genes. To make such experiments financially viable, DNA samples from several subjects are often pooled before sequencing. This induces large between-pool variation which, together with other sources of experimental error, creates over-dispersed data. Statistical analysis of pooled sequencing data needs to appropriately model this additi…</calibre:meta>
     </navPoint>
-    <navPoint id="a28a2598-ac6e-48f7-b4d8-35268a919663" playOrder="2">
+    <navPoint id="60facbcf-c103-4103-8ac4-12a7a0e38469" playOrder="2">
       <navLabel>
         <text>Application and evaluation of automated methods to extract neuroanatomical connectivity statements from free text</text>
       </navLabel>

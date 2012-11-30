@@ -1,6 +1,7 @@
 from calibre.web.feeds.news import BasicNewsRecipe
 from calibre.ebooks.BeautifulSoup import BeautifulSoup
 import re
+import inspect
 
 class BioinformaticsRecipe(BasicNewsRecipe):
   
@@ -9,6 +10,7 @@ class BioinformaticsRecipe(BasicNewsRecipe):
     oldest_article = 365
     feeds = [('Bioinformatics', 'https://dl.dropbox.com/s/m16gxh35ekf4qkk/bioinformatics_recent_test.rss')]
     #recursions = 1 # see if this gets us the table pages
+    articles_are_obfuscated = True
     
     def print_version(self, url):
         url_rep = url.replace('/cgi', '')
@@ -36,4 +38,12 @@ class BioinformaticsRecipe(BasicNewsRecipe):
         #print allImg # check that things got changed
         #print soup.prettify()
         return soup
+    
+    def get_obfuscated_article(self, url):
+        print url
+        tmpSoup = self.index_to_soup(url, False)
+        filePath = 'tmpfile.html'
+        outFile = open(filePath, 'w')
+        outFile.write(tmpSoup.prettify())
+        return filePath
         

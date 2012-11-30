@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="uuid_id">
+  <metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:calibre="http://calibre.kovidgoyal.net/2009/metadata" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:publisher>calibre</dc:publisher>
+    <dc:description>Articles in this issue: 
+Extra-binomial variation approach for analysis of pooled DNA sequencing data
+
+Application and evaluation of automated methods to extract neuroanatomical connectivity statements from free text</dc:description>
+    <dc:language>en</dc:language>
+    <dc:creator opf:file-as="calibre" opf:role="aut">calibre</dc:creator>
+    <meta name="calibre:timestamp" content="2012-11-30T14:52:56.241000+00:00"/>
+    <dc:title>Bioinformatics Journal [Fri, 30 Nov 2012]</dc:title>
+    <meta name="cover" content="cover"/>
+    <dc:date>2012-11-30T14:52:56.245000+00:00</dc:date>
+    <dc:contributor opf:role="bkp">calibre (0.9.2) [http://calibre-ebook.com]</dc:contributor>
+    <dc:identifier id="uuid_id" opf:scheme="uuid">e269fee5-a0bf-437e-8cbf-28e6d5511c2e</dc:identifier>
+    <meta name="calibre:publication_type" content="periodical:unknown:Bioinformatics Journal"/>
+  </metadata>
+  <manifest>
+    <item href="cover.jpg" id="cover" media-type="image/jpeg"/>
+    <item href="feed_0/article_0/images/img1.jpg" id="id3" media-type="image/jpeg"/>
+    <item href="feed_0/article_0/images/img2.jpg" id="id4" media-type="image/jpeg"/>
+    <item href="feed_0/article_0/index.html" id="id2" media-type="application/xhtml+xml"/>
+    <item href="feed_0/article_1/index.html" id="id6" media-type="application/xhtml+xml"/>
+    <item href="feed_0/index.html" id="id1" media-type="application/xhtml+xml"/>
+    <item href="index.html" id="id7" media-type="application/xhtml+xml"/>
+    <item href="mastheadImage.jpg" id="masthead-image" media-type="image/jpeg"/>
+    <item href="page_styles.css" id="page_css" media-type="text/css"/>
+    <item href="stylesheet.css" id="css" media-type="text/css"/>
+    <item href="toc.ncx" media-type="application/x-dtbncx+xml" id="ncx"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="id7"/>
+    <itemref idref="id1"/>
+    <itemref idref="id2"/>
+    <itemref idref="id6"/>
+  </spine>
+  <guide>
+    <reference href="mastheadImage.jpg" type="other.masthead" title="Masthead Image"/>
+    <reference href="cover.jpg" type="cover" title="Cover"/>
+  </guide>
+</package>
