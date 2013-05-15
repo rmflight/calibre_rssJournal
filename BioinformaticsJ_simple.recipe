@@ -9,14 +9,36 @@ class BioinformaticsRecipe(BasicNewsRecipe):
     __author__ = 'Robert M Flight'
     language = 'en'
     oldest_article = 365
-    feeds = [('Bioinformatics', 'https://dl.dropbox.com/s/0tnh3pn7gw35p52/testSimpleBioFeeds.txt')]
-   # feeds =[('Bioinformformatics', 'https://dl.dropbox.com/s/m16gxh35ekf4qkk/bioinformatics_recent_test.rss')]
     articles_are_obfuscated = True
     
     remove_tags_before = dict(attrs={'class':'article fulltext-view'})
     remove_tags_after = dict(attrs={'id':'related-urls'})
     
     temp_files = []
+    
+    def parse_index(self):
+		feeds = []
+		for title, url in [('Bioinformatics', 'https://dl.dropbox.com/s/0tnh3pn7gw35p52/testSimpleBioFeeds.txt')]:
+			articles = self.bioinfo_parse_articles(url)
+			if articles:
+				feeds.append((title, articles))
+		return feeds
+		
+	def bioinfo_parse_articles(url):
+		urlFile = urllib.urlopen(url)
+		useURL = urlFile.readlines()
+		current_articles = []
+    
+		incTitle = 1
+    
+		for urlI in useURL:
+			current_articles.append({'title': str(incTitle), 'url': urlI.strip(), 'description':'', 'date':''})
+			incTitle = incTitle + 1
+		return current_articles
+		
+
+   # feeds =[('Bioinformformatics', 'https://dl.dropbox.com/s/m16gxh35ekf4qkk/bioinformatics_recent_test.rss')]
+ 
     
     # because of "get_obfuscated_article", the relative links for images get messed.
     # this does two things: fixes the relative link, and for actual article "figures",
