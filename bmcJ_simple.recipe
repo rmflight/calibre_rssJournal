@@ -55,18 +55,25 @@ class BioinformaticsRecipe(BasicNewsRecipe):
 		
 		base_url = url_split_char.join(url_splitup)
 		
+		allImages = soup.findAll('img')
+		for imgLoc in allImages:
+			imgSrc = imgLoc['src']
+			tmpSrc = url_split_char.join([base_url, imgSrc])
+			imgLoc['src'] = tmpSrc
+		
+		
 		allFigures = soup.findAll('div', 'fig')
 		
 		for figDiv in allFigures:
 			imgTag = figDiv('img')[0]
 			tmpSrc = imgTag['src']
-			tmpSrc = url_split_char.join([base_url, tmpSrc])
+			#tmpSrc = url_split_char.join([base_url, tmpSrc])
 			if re.search('.gif', tmpSrc):
 				tmpSrc = re.sub('.gif', '.jpg', tmpSrc)
 				imgTag['width'] = 600
 				
 			imgTag['src'] = tmpSrc
-			print tmpSrc
+			#print tmpSrc
 			
 		
 	# takes the soup, and the url, and proceeds to find the tables in the doc, download
