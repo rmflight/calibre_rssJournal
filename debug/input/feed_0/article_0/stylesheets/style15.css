@@ -7,7 +7,11 @@
 
 @import url("ui.dialog.css");
 @import url("ui.resizable.css");
+<<<<<<< HEAD
 
+=======
+
+>>>>>>> 4770c2fa2cc3fbe020c130e94b4d1692ec8ad491
 /* Dialog
 ----------------------------------*/
 .ui-dialog { position: fixed !important; bottom: 0;}
@@ -20,7 +24,11 @@
 .ui-dialog .ui-dialog-buttonpane { text-align: left; border-width: 1px 0 0 0; background-image: none; margin: .5em 0 0 0; padding: .3em 1em .5em .4em; }
 .ui-dialog .ui-dialog-buttonpane button { float: right; margin: .5em .4em .5em 0; cursor: pointer; padding: .2em .6em .3em .6em; line-height: 1.4em; width:auto; overflow:visible; }
 .ui-dialog .ui-resizable-se { width: 14px; height: 14px; right: 3px; bottom: 3px; }
+<<<<<<< HEAD
 .ui-draggable .ui-dialog-titlebar { cursor: move; }
+=======
+.ui-draggable .ui-dialog-titlebar { cursor: move; }
+>>>>>>> 4770c2fa2cc3fbe020c130e94b4d1692ec8ad491
 
 /*
 * jQuery UI CSS Framework
@@ -48,8 +56,13 @@
 /* Corner radius */
 .ui-corner-all { -moz-border-radius: 0px/*{cornerRadius}*/; -webkit-border-radius: 0px/*{cornerRadius}*/; }
 
+<<<<<<< HEAD
 /* =========================END==========================jQuery UI CSS Framework========================END================================*/
 
+=======
+/* =========================END==========================jQuery UI CSS Framework========================END================================*/
+
+>>>>>>> 4770c2fa2cc3fbe020c130e94b4d1692ec8ad491
 
 /* === reset.css ==================================== */
 
@@ -70,6 +83,7 @@ Use: Reset Styles for all browsers
 		padding: 0;
 		font-size: 100%;
 		font-weight: normal;
+<<<<<<< HEAD
 }
 
 #underbar-wrapper ul {
@@ -86,6 +100,24 @@ Use: Reset Styles for all browsers
 #underbar-wrapper li a:hover {
 	text-decoration: underline;
 }
+=======
+}
+
+#underbar-wrapper ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	word-wrap:break-word;
+}
+	
+/* Links */
+#underbar-wrapper li a:link {
+	text-decoration: none;
+}
+#underbar-wrapper li a:hover {
+	text-decoration: underline;
+}
+>>>>>>> 4770c2fa2cc3fbe020c130e94b4d1692ec8ad491
 
 /* Forms */
 #underbar-wrapper form, fieldset {
@@ -93,8 +125,13 @@ Use: Reset Styles for all browsers
 		padding: 0;
 		border: 0;
 	}
+<<<<<<< HEAD
 #underbar-wrapper legend {padding: 0;}
 
+=======
+#underbar-wrapper legend {padding: 0;}
+
+>>>>>>> 4770c2fa2cc3fbe020c130e94b4d1692ec8ad491
 
 /* === styles.css ==================================================== */
 
@@ -147,6 +184,7 @@ Use: Reset Styles for all browsers
 	padding-left: 10px;
 	margin-top: 1px;
 	float: left;
+<<<<<<< HEAD
 }
 #underbar-logo-cover .underbar-aboutLbl,
 #underbar-logo-cover .underbar-aboutLbl-chrome {
@@ -157,6 +195,18 @@ Use: Reset Styles for all browsers
 	width: 90px;
 	padding:0;
 }
+=======
+}
+#underbar-logo-cover .underbar-aboutLbl,
+#underbar-logo-cover .underbar-aboutLbl-chrome {
+	display: block;
+	float:left;
+	color: #868686;
+	margin: 6px 6px 0 190px;
+	width: 90px;
+	padding:0;
+}
+>>>>>>> 4770c2fa2cc3fbe020c130e94b4d1692ec8ad491
 
 #underbar-logo-cover #underbar-reveal-hide,
 #underbar-logo-cover #underbar-reveal-show { /* hide and show arrows */
@@ -171,8 +221,13 @@ Use: Reset Styles for all browsers
 	overflow:hidden;
 	text-indent: -222em;
 	text-transform: capitalize;
+<<<<<<< HEAD
 }
 #underbar-reveal-hide { background: url(../images/arrow_gray_exp.png) transparent top left no-repeat; }
+=======
+}
+#underbar-reveal-hide { background: url(../images/arrow_gray_exp.png) transparent top left no-repeat; }
+>>>>>>> 4770c2fa2cc3fbe020c130e94b4d1692ec8ad491
 #underbar-reveal-show { background: url(../images/arrow_gray_hid.png) transparent top left no-repeat; }
 
 
@@ -195,17 +250,29 @@ Use: Reset Styles for all browsers
 	font-family: Arial, Verdana, sans-serif;
 	font-weight: bold;
 	margin: 1px 0 0 0 !important;
+<<<<<<< HEAD
 	padding: 7px 0 3px 0;
+=======
+	padding: 7px 0 3px 0;
+>>>>>>> 4770c2fa2cc3fbe020c130e94b4d1692ec8ad491
 	padding-bottom/*\**/: 5px\9;	
 	vertical-align: top;
 	width: 242px;	
 	float/*\**/: left\9;
 	margin-top/*\**/: 0px !important\9;	
+<<<<<<< HEAD
 }
 
 .underbar-controls-background {
 	background: url(../images/bkgd-hide-links.png) transparent top left no-repeat;
 	border-right: 0 !important;	
+=======
+}
+
+.underbar-controls-background {
+	background: url(../images/bkgd-hide-links.png) transparent top left no-repeat;
+	border-right: 0 !important;	
+>>>>>>> 4770c2fa2cc3fbe020c130e94b4d1692ec8ad491
 	padding-bottom: 8px !important;	
 	background-size: 242px 25px !important;
 }
@@ -293,18 +360,30 @@ Use: Reset Styles for all browsers
 #underbar-search-oxford-index{	
 	font-family: Arial, Verdana, sans-serif !important;
 	border: 1px solid #d6d6d6;
+<<<<<<< HEAD
 	border-right:none;
+=======
+	border-right:none;
+>>>>>>> 4770c2fa2cc3fbe020c130e94b4d1692ec8ad491
 	padding: 2px 5px 2px 5px;	
 	width: 110px;
 	height:11px;
 	margin-left:5px;
 /* 	margin-top: -5px; */
 	float:left;
+<<<<<<< HEAD
 }
 
 #underbar-search .underbar-search-text-color {
 	color: #808080;
 }
+=======
+}
+
+#underbar-search .underbar-search-text-color {
+	color: #808080;
+}
+>>>>>>> 4770c2fa2cc3fbe020c130e94b4d1692ec8ad491
 
 #underbar-search .underbar-submit {
 	float:left;
@@ -332,8 +411,13 @@ Use: Reset Styles for all browsers
 #underbar-wrapper li a {
 	color: #2c2c2c;
 	display: block;
+<<<<<<< HEAD
 	font-weight: bold;
 	white-space: nowrap; 
+=======
+	font-weight: bold;
+	white-space: nowrap; 
+>>>>>>> 4770c2fa2cc3fbe020c130e94b4d1692ec8ad491
 	outline: 0 none;    
 }
 #underbar-wrapper p {
@@ -343,10 +427,17 @@ Use: Reset Styles for all browsers
 	width: 100%;	
 	height: 215px;	
 	overflow: hidden;		
+<<<<<<< HEAD
 }
 .underbar-container-chrome {	
 	height: 215px !important;
 }
+=======
+}
+.underbar-container-chrome {	
+	height: 215px !important;
+}
+>>>>>>> 4770c2fa2cc3fbe020c130e94b4d1692ec8ad491
 :root #underbar-container { height: 214px \0/IE9; }
 #underbar-container-cover {		
 	height: 215px;	
@@ -365,10 +456,14 @@ Use: Reset Styles for all browsers
 	width: 221px;
 	min-width/*\**/: 221px\9;
 }
+<<<<<<< HEAD
 .underbar-content {
 	height: 173px;
 	text-align:left;
 }
+=======
+.underbar-content {height: 173px;}
+>>>>>>> 4770c2fa2cc3fbe020c130e94b4d1692ec8ad491
 #underbar-left-control, #underbar-right-control {
 	background: url(../images/bkgd-scroll-arrows.gif) transparent top left no-repeat;
 	display: block;
@@ -430,6 +525,7 @@ Use: Reset Styles for all browsers
 	display: inline-block;
 	height: 217px;
 	height: 211px\0/;	
+<<<<<<< HEAD
 }
 
 @media \0screen {
@@ -445,6 +541,23 @@ Use: Reset Styles for all browsers
 }
 
 /*for safari in js*/
+=======
+}
+
+@media \0screen {
+  #underbar_aboutDiv {
+ display: inline-block; 
+ height: 215px;
+ }
+ #underbar_noResultsDiv {
+	display: inline-block;
+	height: 215px;	
+	height/*\**/: 212px\9;
+}
+}
+
+/*for safari in js*/
+>>>>>>> 4770c2fa2cc3fbe020c130e94b4d1692ec8ad491
 
 html[xmlns*=""] body:last-child #underbar_aboutDiv {
 	display: inline-block;
@@ -465,6 +578,7 @@ html[xmlns*=""] body:last-child #underbar_noResultsDiv {
 	display: inline-block;
 	height: 212px;
 }
+<<<<<<< HEAD
 }
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
@@ -480,6 +594,23 @@ html[xmlns*=""] body:last-child #underbar_noResultsDiv {
 		height: 210px;
 	}
 
+=======
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	#underbar-container {		
+		height: 213px;	
+	}
+	#underbar_aboutDiv {
+		display: inline-block;
+		height: 215px;
+	}
+	#underbar_noResultsDiv {
+		display: inline-block;
+		height: 210px;
+	}
+
+>>>>>>> 4770c2fa2cc3fbe020c130e94b4d1692ec8ad491
 }
 
 .underbar-more {
@@ -498,26 +629,41 @@ html[xmlns*=""] body:last-child #underbar_noResultsDiv {
 .underbar-container-about {	
 	height: 218px;
 }
+<<<<<<< HEAD
 
 .underbar-container-noresult {
 	width: 100%;	
 	height: 212px;	
 	overflow: hidden;
 }
+=======
+
+.underbar-container-noresult {
+	width: 100%;	
+	height: 212px;	
+	overflow: hidden;
+}
+>>>>>>> 4770c2fa2cc3fbe020c130e94b4d1692ec8ad491
 
 .underbar-about-columns {
 	float: left;
 	height: 215px;
 	overflow: hidden;
 	padding: 0 24px 0 24px;
+<<<<<<< HEAD
 }
 
+=======
+}
+
+>>>>>>> 4770c2fa2cc3fbe020c130e94b4d1692ec8ad491
 .underbar-about-column {
 	border-left: 1px solid #d2d2d2;
 	height: 200px;
 	float: left;
 	padding: 14px 14px;
 	width: 200px;
+<<<<<<< HEAD
 }
 
 .underbar-column-noresult {
@@ -529,6 +675,19 @@ html[xmlns*=""] body:last-child #underbar_noResultsDiv {
 	padding-right: 14px;
 	padding-top: 12px;
 	width: 200px;
+=======
+}
+
+.underbar-column-noresult {
+	border-left: 1px solid #d2d2d2;
+	height: 200px;
+	float: left;
+	padding-bottom: 14px;
+	padding-left: 14px;
+	padding-right: 14px;
+	padding-top: 12px;
+	width: 200px;
+>>>>>>> 4770c2fa2cc3fbe020c130e94b4d1692ec8ad491
 }
 
 .underbar-about-column-end {	

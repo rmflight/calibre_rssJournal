@@ -1,0 +1,3082 @@
+.adhidden {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    clear: both;
+    display: none;
+    float: none;
+    height: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    min-height: 24px;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    text-align: center;
+    width: auto
+    }
+.adhidden1 {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    clear: both;
+    display: none;
+    float: none;
+    height: auto;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    text-align: center;
+    width: auto
+    }
+.adhidden2 {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    clear: both;
+    display: none;
+    float: none;
+    height: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: relative;
+    text-align: center;
+    width: auto;
+    z-index: 10
+    }
+.aff {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    display: list-item;
+    float: none;
+    height: auto;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: auto
+    }
+.affiliation-list {
+    background: #FFF;
+    background-image: none;
+    display: block;
+    float: none;
+    font-weight: normal;
+    height: auto;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 1em;
+    overflow: visible;
+    position: static;
+    width: auto
+    }
+.article {
+    font-size: 1.2em;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left
+    }
+.article-nav {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    display: block;
+    float: none;
+    font-size: 1em;
+    height: auto;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: auto
+    }
+.article1 {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    display: block;
+    float: none;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    height: auto;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    text-align: left;
+    width: auto
+    }
+.articledate {
+    color: gray;
+    font-family: monospace
+    }
+.articledescription {
+    display: block;
+    font-size: 0.7em;
+    text-indent: 0
+    }
+.breadcrumbsubjects {
+    background: #FFF;
+    background-image: none;
+    float: none;
+    height: auto;
+    overflow: visible;
+    position: static;
+    width: auto
+    }
+.calibre {
+    display: block;
+    font-size: 1.125em;
+    line-height: 1.2;
+    margin-bottom: 0;
+    margin-left: 5pt;
+    margin-right: 5pt;
+    margin-top: 0;
+    padding-left: 0;
+    padding-right: 0
+    }
+.calibre1 {
+    display: block;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 1em;
+    text-align: center
+    }
+.calibre10 {
+    background: #FFF;
+    background-image: none;
+    color: #000;
+    display: block;
+    float: none;
+    height: 9px;
+    overflow: visible;
+    position: static;
+    text-decoration: none;
+    width: 142px
+    }
+.calibre11 {
+    background: #FFF;
+    background-image: none;
+    display: block;
+    float: none;
+    height: 0.1em;
+    overflow: hidden;
+    position: static;
+    width: 0
+    }
+.calibre12 {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    display: block;
+    float: right;
+    height: auto;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 4px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 6px;
+    position: static;
+    width: auto
+    }
+.calibre13 {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    display: inline;
+    float: left;
+    height: auto;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 12px;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 8px;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: auto
+    }
+.calibre14 {
+    background: #FFF;
+    background-image: url(/resource/image/nav/contact_us.gif);
+    background-repeat: no-repeat;
+    color: #000;
+    float: left;
+    height: 8px;
+    overflow: visible;
+    position: static;
+    text-decoration: none;
+    width: 74px
+    }
+.calibre15 {
+    background: #FFF;
+    background-image: url(/resource/image/nav/my_basket.gif);
+    background-repeat: no-repeat;
+    color: #000;
+    float: left;
+    height: 8px;
+    overflow: visible;
+    position: static;
+    text-decoration: none;
+    width: 67px
+    }
+.calibre16 {
+    background: #FFF;
+    background-image: url(/resource/image/nav/my_account.gif);
+    background-repeat: no-repeat;
+    color: #000;
+    float: left;
+    height: 8px;
+    overflow: visible;
+    position: static;
+    text-decoration: none;
+    width: 78px
+    }
+.calibre17 {
+    background: #FFF;
+    background-image: url(/site/resource/bioinfo_header.jpg);
+    background-repeat: no-repeat;
+    border: 0;
+    display: none;
+    float: left;
+    height: 97px;
+    left: auto;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    top: auto;
+    visibility: hidden;
+    width: 960px
+    }
+.calibre18 {
+    background: #FFF;
+    background-image: url(/site/resource/bioinfo_title.jpg);
+    background-repeat: no-repeat;
+    border: 0;
+    color: white;
+    display: block;
+    float: none;
+    font-family: verdana, sans-serif;
+    font-size: 1.25926em;
+    font-weight: lighter;
+    height: 58px;
+    line-height: 1.2;
+    margin-bottom: 0;
+    margin-left: 22px;
+    margin-right: 0;
+    margin-top: 34px;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    text-transform: uppercase;
+    width: 500px
+    }
+.calibre19 {
+    background: #FFF;
+    background-image: none;
+    color: #000;
+    display: block;
+    float: none;
+    height: 58px;
+    line-height: 1.2;
+    overflow: visible;
+    position: static;
+    text-decoration: none;
+    width: 259px
+    }
+.calibre2 {
+    height: auto;
+    width: auto
+    }
+.calibre20 {
+    background: #FFF;
+    background-image: none;
+    display: block;
+    float: none;
+    height: 0.1em;
+    line-height: 1.2;
+    overflow: hidden;
+    position: static;
+    width: 0
+    }
+.calibre21 {
+    background: #FFF;
+    background-color: #b8aa9e;
+    background-image: url(/resource/image/trim/nav_separator_dark_grey.gif);
+    background-position: 495px 2px;
+    background-repeat: no-repeat;
+    border: 0;
+    display: none;
+    float: left;
+    height: auto;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 6px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 8px;
+    position: static;
+    width: 100%
+    }
+.calibre22 {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    display: block;
+    float: left;
+    height: auto;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin-bottom: 0;
+    margin-left: 4px;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: auto
+    }
+.calibre23 {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    display: inline;
+    float: left;
+    height: auto;
+    margin-bottom: 0;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: auto
+    }
+.calibre24 {
+    background: #FFF;
+    background-image: url(/resource/image/nav/journal/about_this_journal.gif);
+    background-repeat: no-repeat;
+    color: #000;
+    float: left;
+    font-size: 0.66667em;
+    height: 9px;
+    overflow: visible;
+    position: static;
+    text-decoration: none;
+    width: 129px
+    }
+.calibre25 {
+    background: #FFF;
+    background-image: url(/resource/image/nav/journal/contact_this_journal.gif);
+    background-repeat: no-repeat;
+    color: #000;
+    float: left;
+    font-size: 0.66667em;
+    height: 9px;
+    overflow: visible;
+    position: static;
+    text-decoration: none;
+    width: 144px
+    }
+.calibre26 {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    display: inline;
+    float: left;
+    height: auto;
+    margin-bottom: 0;
+    margin-left: 8px;
+    margin-right: 86px;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: auto
+    }
+.calibre27 {
+    background: #FFF;
+    background-image: url(/resource/image/nav/journal/subscriptions.gif);
+    background-repeat: no-repeat;
+    color: #000;
+    float: left;
+    font-size: 0.66667em;
+    height: 9px;
+    overflow: visible;
+    position: static;
+    text-decoration: none;
+    width: 96px
+    }
+.calibre28 {
+    background: #FFF;
+    background-image: url(/resource/image/nav/journal/current_issue.gif);
+    background-repeat: no-repeat;
+    color: #000;
+    float: left;
+    font-size: 0.66667em;
+    height: 9px;
+    overflow: visible;
+    position: static;
+    text-decoration: none;
+    width: 96px
+    }
+.calibre29 {
+    background: #FFF;
+    background-image: url(/resource/image/nav/journal/archive.gif);
+    background-repeat: no-repeat;
+    color: #000;
+    float: left;
+    font-size: 0.66667em;
+    height: 9px;
+    overflow: visible;
+    position: static;
+    text-decoration: none;
+    width: 53px
+    }
+.calibre3 {
+    display: block;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 1em;
+    text-align: right
+    }
+.calibre30 {
+    background: #FFF;
+    background-image: url(/resource/image/nav/journal/search.gif);
+    background-repeat: no-repeat;
+    color: #000;
+    float: left;
+    font-size: 0.66667em;
+    height: 9px;
+    overflow: visible;
+    position: static;
+    text-decoration: none;
+    width: 48px
+    }
+.calibre31 {
+    background: #FFF;
+    background-color: #eee;
+    background-image: none;
+    border: 0;
+    display: block;
+    float: left;
+    height: auto;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: 100%
+    }
+.calibre32 {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    color: brown;
+    display: inline;
+    float: left;
+    font-size: 0.66667em;
+    height: auto;
+    left: auto;
+    margin-bottom: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 5px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 4px;
+    position: static;
+    top: auto;
+    visibility: hidden;
+    width: auto
+    }
+.calibre33 {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    display: block;
+    float: left;
+    font-size: 0.66667em;
+    height: auto;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 7px;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: 99%
+    }
+.calibre34 {
+    background: #FFF;
+    background-image: url(/resource/image/trim/arrow_black.gif);
+    background-position: 0 0.45em;
+    background-repeat: no-repeat;
+    border: 0;
+    display: list-item;
+    float: left;
+    height: auto;
+    margin-bottom: 18px;
+    margin-left: 0;
+    margin-right: 4px;
+    margin-top: 10px;
+    overflow: visible;
+    padding-bottom: 2px;
+    padding-left: 8px;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: auto
+    }
+.calibre35 {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    border-right: none;
+    display: block;
+    float: none;
+    font-size: 0.66667em;
+    height: auto;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 0;
+    position: static;
+    width: 516px
+    }
+.calibre36 {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    display: block;
+    float: none;
+    font-size: 1.88889em;
+    font-weight: bold;
+    height: auto;
+    line-height: 1.2;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 10px;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: auto
+    }
+.calibre37 {
+    background: #FFF;
+    background-image: none;
+    color: #00c;
+    float: none;
+    font-weight: normal;
+    height: auto;
+    overflow: visible;
+    position: static;
+    text-decoration: none;
+    vertical-align: 0.2em;
+    width: auto
+    }
+.calibre38 {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    display: inline;
+    float: none;
+    font-style: normal;
+    height: auto;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: auto
+    }
+.calibre39 {
+    background: #FFF;
+    background-image: none;
+    float: none;
+    height: auto;
+    left: -9999px;
+    overflow: visible;
+    position: absolute;
+    width: auto
+    }
+.calibre4 {
+    display: list-item
+    }
+.calibre40 {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    border-bottom: 2px dotted #999;
+    color: #49382a;
+    display: block;
+    float: none;
+    font-size: 1.33333em;
+    font-weight: lighter;
+    height: auto;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 10px;
+    overflow: visible;
+    padding-bottom: 0.25em;
+    padding-left: 0;
+    padding-right: 8px;
+    padding-top: 5px;
+    position: static;
+    width: auto
+    }
+.calibre41 {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    display: block;
+    float: none;
+    font-size: 1.33333em;
+    height: auto;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: 99%
+    }
+.calibre42 {
+    background: #FFF;
+    background-image: none;
+    float: none;
+    font-weight: bolder;
+    height: auto;
+    overflow: visible;
+    position: static;
+    width: auto
+    }
+.calibre43 {
+    background: #FFF;
+    background-image: none;
+    float: none;
+    font-style: italic;
+    height: auto;
+    overflow: visible;
+    position: static;
+    width: auto
+    }
+.calibre44 {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    float: none;
+    height: auto;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: auto
+    }
+.calibre45 {
+    background: #FFF;
+    background-color: white;
+    background-image: none;
+    border: 0;
+    color: black;
+    display: inline;
+    float: none;
+    font-size: 1em;
+    font-weight: bold;
+    height: auto;
+    line-height: 2;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 5px;
+    margin-top: 12px;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: auto
+    }
+.calibre46 {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    color: #816d5b;
+    display: block;
+    float: none;
+    font-family: Times, "Times New Roman", Garamond, serif;
+    font-size: 1em;
+    font-style: italic;
+    font-weight: bold;
+    height: auto;
+    line-height: 2;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 10px;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: auto
+    }
+.calibre47 {
+    background: #FFF;
+    background-image: none;
+    float: none;
+    font-size: 0.75em;
+    height: auto;
+    line-height: normal;
+    overflow: visible;
+    position: static;
+    vertical-align: super;
+    width: auto
+    }
+.calibre48 {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    display: block;
+    float: none;
+    height: auto;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 5px;
+    position: static;
+    width: auto
+    }
+.calibre49 {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    display: block;
+    float: none;
+    font-size: 1.33333em;
+    height: auto;
+    margin-bottom: 0.5em;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0.5em;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: auto
+    }
+.calibre5 {
+    display: block
+    }
+.calibre50 {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    display: block;
+    float: none;
+    font-size: 1.28571em;
+    height: auto;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: 99%
+    }
+.calibre51 {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    display: list-item;
+    float: none;
+    font-size: 1em;
+    height: auto;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0.3em;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0.3em;
+    position: static;
+    width: auto
+    }
+.calibre52 {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    display: inline;
+    float: none;
+    font-size: 1em;
+    height: auto;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0.3em;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0.3em;
+    position: static;
+    width: auto
+    }
+.calibre53 {
+    background: #FFF;
+    background-image: none;
+    color: black;
+    display: inline;
+    float: none;
+    font-size: 1em;
+    font-style: normal;
+    height: auto;
+    margin-left: 0;
+    margin-right: 0;
+    overflow: visible;
+    padding-left: 0;
+    padding-right: 0;
+    position: static;
+    width: auto
+    }
+.calibre54 {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    display: none;
+    float: none;
+    font-size: 0.66667em;
+    height: auto;
+    left: auto;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    top: auto;
+    visibility: hidden;
+    width: auto
+    }
+.calibre55 {
+    background: #FFF;
+    background-image: none;
+    display: block;
+    float: none;
+    height: auto;
+    list-style-type: decimal;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 1em;
+    overflow: visible;
+    position: static;
+    width: auto
+    }
+.calibre56 {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    display: list-item;
+    float: none;
+    height: auto;
+    margin-bottom: 3px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: auto
+    }
+.calibre57 {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    display: block;
+    float: none;
+    font-size: 1em;
+    height: auto;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    text-align: center;
+    width: auto
+    }
+.calibre58 {
+    background: #FFF;
+    background-image: none;
+    display: block;
+    float: none;
+    height: auto;
+    list-style-type: decimal;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 1em;
+    overflow: visible;
+    padding-left: 10px;
+    position: static;
+    width: auto
+    }
+.calibre59 {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    display: inline-block;
+    float: left;
+    height: 16px;
+    margin-bottom: 3px;
+    margin-left: 0;
+    margin-right: 10px;
+    margin-top: 7px;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: 16px
+    }
+.calibre6 {
+    background: #FFF;
+    background-image: none;
+    color: #00c;
+    float: none;
+    height: auto;
+    overflow: visible;
+    position: static;
+    text-decoration: none;
+    width: auto
+    }
+.calibre60 {
+    background: #FFF;
+    background-image: url(/publisher/img/envelope.jpg);
+    background-repeat: no-repeat;
+    color: #00c;
+    display: inline-block;
+    float: none;
+    height: 16px;
+    overflow: visible;
+    position: static;
+    text-decoration: none;
+    width: 16px
+    }
+.calibre61 {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    display: inline-block;
+    float: none;
+    height: auto;
+    margin-bottom: 3px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: auto
+    }
+.calibre62 {
+    background: #FFF;
+    background-image: none;
+    color: #00c;
+    float: none;
+    font-size: 1em;
+    height: auto;
+    overflow: visible;
+    position: static;
+    text-decoration: none;
+    width: auto
+    }
+.calibre63 {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    display: block;
+    float: none;
+    height: auto;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 3px;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: auto
+    }
+.calibre64 {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    display: block;
+    float: none;
+    height: auto;
+    margin-bottom: 0;
+    margin-left: 10px;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: auto
+    }
+.calibre65 {
+    background: #FFF;
+    background-color: white;
+    background-image: none;
+    border: 0;
+    display: none;
+    float: none;
+    font-size: 0.66667em;
+    height: auto;
+    left: auto;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    top: auto;
+    visibility: hidden;
+    width: auto
+    }
+.calibre66 {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    display: block;
+    float: none;
+    height: auto;
+    margin-bottom: 0.5em;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: auto
+    }
+.calibre67 {
+    background: #FFF;
+    background-image: none;
+    float: none;
+    font-family: verdana, "Lucida Grande", "Lucida Sans Unicode", Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    height: auto;
+    overflow: visible;
+    position: static;
+    width: 78%
+    }
+.calibre68 {
+    background: #FFF;
+    background-image: none;
+    float: none;
+    font-family: verdana, "Lucida Grande", "Lucida Sans Unicode", Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    height: auto;
+    overflow: visible;
+    position: static;
+    width: auto
+    }
+.calibre69 {
+    background: #FFF;
+    background-image: none;
+    display: block;
+    float: none;
+    height: auto;
+    list-style-type: decimal;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 1em;
+    overflow: visible;
+    position: static;
+    text-align: center;
+    width: auto
+    }
+.calibre7 {
+    background: #FFF;
+    background-image: none;
+    border: 1px inset;
+    color: gray;
+    display: block;
+    float: none;
+    height: auto;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5em;
+    overflow: visible;
+    position: static;
+    width: auto
+    }
+.calibre70 {
+    -moz-box-shadow: 0.5em 0.5em 0.5em silver;
+    -webkit-box-shadow: 0.5em 0.5em 0.5em silver;
+    background: #FFF;
+    background-image: none;
+    border: 1px solid silver;
+    box-shadow: 0.5em 0.5em 0.5em silver;
+    float: none;
+    height: auto;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: auto
+    }
+.calibre71 {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    display: block;
+    float: none;
+    height: auto;
+    margin-bottom: 0;
+    margin-left: 2.5px;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: auto
+    }
+.calibre72 {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    display: block;
+    float: none;
+    height: auto;
+    margin-bottom: 3px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 2px;
+    position: static;
+    text-align: left;
+    white-space: normal;
+    width: auto
+    }
+.calibre73 {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    display: block;
+    float: none;
+    height: auto;
+    margin-bottom: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: auto
+    }
+.calibre74 {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    display: block;
+    float: none;
+    font-size: 1em;
+    font-weight: bold;
+    height: auto;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: auto
+    }
+.calibre75 {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    display: block;
+    float: none;
+    font-size: 1em;
+    font-weight: bold;
+    height: auto;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: auto
+    }
+.calibre76 {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    display: block;
+    float: none;
+    height: auto;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: auto
+    }
+.calibre77 {
+    background: #FFF;
+    background-image: none;
+    color: blue;
+    float: none;
+    font-size: 1em;
+    height: auto;
+    line-height: 1.2;
+    overflow: visible;
+    position: static;
+    text-decoration: none;
+    width: auto
+    }
+.calibre78 {
+    background: #FFF;
+    background-image: url(/resource/image/trim/border_dotted_grey_horiz.gif);
+    background-repeat: repeat-x;
+    border: 0;
+    clear: both;
+    display: block;
+    float: none;
+    height: auto;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 5px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 5px;
+    position: static;
+    text-align: right;
+    width: auto
+    }
+.calibre79 {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    display: block;
+    float: none;
+    font-family: verdana, sans-serif;
+    font-size: 0.66667em;
+    height: auto;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 15px;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: auto
+    }
+.calibre8 {
+    background: #FFF;
+    background-color: #49382a;
+    background-image: none;
+    border: 0;
+    display: none;
+    float: left;
+    height: auto;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: 100%
+    }
+.calibre80 {
+    background: #FFF;
+    background-image: none;
+    color: #000;
+    float: none;
+    height: auto;
+    overflow: visible;
+    position: static;
+    text-decoration: none;
+    width: auto
+    }
+.calibre81 {
+    background: #FFF;
+    background-color: #ab9c8f;
+    background-image: none;
+    background-position: 194px -32px;
+    background-repeat: no-repeat;
+    border: 0;
+    display: block;
+    float: left;
+    height: auto;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: 100%
+    }
+.calibre82 {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    display: block;
+    float: left;
+    font-family: verdana, sans-serif;
+    font-size: 0.66667em;
+    height: auto;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 20px;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 20px;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: auto
+    }
+.calibre83 {
+    background: #FFF;
+    background-image: url(/resource/image/text/headings/footer_ouptext.gif);
+    background-repeat: no-repeat;
+    display: block;
+    float: none;
+    font-weight: bolder;
+    height: 55px;
+    margin-bottom: 6px;
+    overflow: visible;
+    position: static;
+    width: 219px
+    }
+.calibre84 {
+    background: #FFF;
+    background-image: none;
+    background-repeat: no-repeat;
+    display: block;
+    float: none;
+    font-style: italic;
+    height: 6px;
+    overflow: visible;
+    position: static;
+    width: 177px
+    }
+.calibre85 {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    display: block;
+    float: none;
+    font-family: verdana, sans-serif;
+    font-size: 0.66667em;
+    height: auto;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: auto
+    }
+.calibre86 {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    display: block;
+    float: none;
+    height: auto;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 20px;
+    margin-top: 26px;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    text-align: right;
+    width: auto
+    }
+.calibre87 {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    display: inline;
+    float: none;
+    height: auto;
+    margin-bottom: 0;
+    margin-left: 10px;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: auto
+    }
+.calibre88 {
+    background: #FFF;
+    background-image: none;
+    color: #fff;
+    float: none;
+    height: auto;
+    overflow: visible;
+    position: static;
+    text-decoration: none;
+    width: auto
+    }
+.calibre89 {
+    background: #FFF;
+    background-image: url(/resource/image/trim/border_dotted_white_horiz.gif);
+    background-repeat: repeat-x;
+    border: 0;
+    clear: both;
+    display: block;
+    float: left;
+    font-family: verdana, sans-serif;
+    font-size: 0.66667em;
+    height: auto;
+    margin-bottom: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 20px;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: 100%
+    }
+.calibre9 {
+    background: #FFF;
+    background-image: url(/resource/image/text/headings/on_black/oj_logo.gif);
+    background-position: top left;
+    background-repeat: no-repeat;
+    float: left;
+    font-weight: bolder;
+    height: 9px;
+    margin-bottom: 0;
+    margin-left: 22px;
+    margin-right: 0;
+    margin-top: 4px;
+    overflow: visible;
+    position: static;
+    width: 142px
+    }
+.calibre90 {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    clear: both;
+    display: block;
+    float: right;
+    height: auto;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 14px;
+    position: static;
+    width: auto
+    }
+.calibre91 {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    display: block;
+    float: none;
+    font-family: verdana, sans-serif;
+    font-size: 0.77778em;
+    height: auto;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: auto
+    }
+.calibre92 {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    color: #fff;
+    display: block;
+    float: none;
+    height: auto;
+    margin-bottom: 2px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: auto
+    }
+.calibre93 {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    display: block;
+    float: none;
+    height: auto;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    max-width: 100%;
+    overflow: hidden;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    text-align: left;
+    width: auto
+    }
+.calibre94 {
+    background: #FFF;
+    background-image: none;
+    display: block;
+    float: none;
+    height: auto;
+    overflow: visible;
+    position: static;
+    width: auto
+    }
+.calibre95 {
+    background: #FFF;
+    background-image: none;
+    float: none;
+    font-size: 0.77778em;
+    height: auto;
+    line-height: normal;
+    overflow: visible;
+    position: static;
+    vertical-align: super;
+    width: auto
+    }
+.calibrefeeddescription {
+    display: block;
+    font-size: 0.8em
+    }
+.calibrefeedlist {
+    display: block;
+    list-style-type: disc;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 1em
+    }
+.calibrefeedtitle {
+    display: block;
+    font-size: 1.6em;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0.83em
+    }
+.calibrenavbar {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    display: block;
+    float: none;
+    font-family: monospace;
+    font-size: 0.62222em;
+    height: auto;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    text-align: center;
+    width: auto
+    }
+.calibrerescale {
+    display: block;
+    font-size: 0.88889em
+    }
+.calibrerescale1 {
+    display: list-item;
+    font-size: 1em;
+    padding-bottom: 0.5em
+    }
+.callout-links {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    display: block;
+    float: none;
+    height: auto;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: auto
+    }
+.cb-contents {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    display: block;
+    float: none;
+    height: auto;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: 100%
+    }
+.cb-contents-header {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    display: block;
+    float: none;
+    font-size: 1.33333em;
+    font-weight: bold;
+    height: auto;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: auto
+    }
+.cb-contents-header1 {
+    background: #FFF;
+    background-color: #EEE;
+    background-image: none;
+    border: 0;
+    border-bottom: 1px solid #B9C28D;
+    display: block;
+    float: none;
+    font-size: 1.33333em;
+    font-weight: bold;
+    height: auto;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    position: static;
+    width: auto
+    }
+.cb-section {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    border-bottom: none;
+    display: block;
+    float: none;
+    height: auto;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    position: static;
+    width: auto
+    }
+.cb-section-header {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    display: block;
+    float: none;
+    font-weight: bold;
+    height: auto;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: auto
+    }
+.cb-section-header1 {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    display: block;
+    float: none;
+    font-weight: bold;
+    height: 100%;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: auto
+    }
+.cit {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    display: inline;
+    float: none;
+    height: auto;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: auto
+    }
+.cit-auth {
+    background: #FFF;
+    background-image: none;
+    float: none;
+    height: auto;
+    overflow: visible;
+    position: static;
+    white-space: normal;
+    width: auto
+    }
+.cit-auth-list {
+    background: #FFF;
+    background-image: none;
+    display: inline;
+    float: none;
+    font-size: 1em;
+    height: auto;
+    list-style-type: decimal;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-left: 0;
+    padding-right: 0;
+    position: static;
+    width: auto
+    }
+.cit-jnl-abbrev {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    float: none;
+    font-style: normal;
+    height: auto;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0.1em;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: auto
+    }
+.cit-list {
+    background: #FFF;
+    background-image: none;
+    display: block;
+    float: none;
+    height: auto;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin-bottom: 1em;
+    margin-left: 0.5em;
+    margin-right: 0;
+    margin-top: 1em;
+    overflow: visible;
+    position: static;
+    width: auto
+    }
+.cit-name-suffix {
+    background: #FFF;
+    background-image: none;
+    float: none;
+    height: auto;
+    overflow: visible;
+    padding-left: 0.6em;
+    position: static;
+    white-space: normal;
+    width: auto
+    }
+.cit-ref-sprinkles {
+    background: #FFF;
+    background-image: url(feed_0/shared/img/misc/rightchevron.gif);
+    background-position: 0 center;
+    background-repeat: no-repeat;
+    color: #00c;
+    display: inline-block;
+    float: none;
+    font-size: 1em;
+    font-weight: normal;
+    height: auto;
+    margin-left: 0.3em;
+    overflow: visible;
+    padding-left: 9px;
+    position: static;
+    text-decoration: underline;
+    white-space: normal;
+    width: auto;
+    word-wrap: break-word
+    }
+.cit-source {
+    background: #FFF;
+    background-image: none;
+    float: none;
+    font-style: normal;
+    height: auto;
+    margin-right: 0.1em;
+    overflow: visible;
+    position: static;
+    width: auto
+    }
+.cit-vol {
+    background: #FFF;
+    background-image: none;
+    float: none;
+    font-weight: normal;
+    height: auto;
+    overflow: visible;
+    position: static;
+    width: auto
+    }
+.cit1 {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    display: inline;
+    float: none;
+    height: auto;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 1px;
+    position: static;
+    width: auto
+    }
+.content-box {
+    background: #FFF;
+    background-color: white;
+    background-image: none;
+    border: 0;
+    display: block;
+    float: none;
+    font-size: 1em;
+    height: auto;
+    margin-bottom: 0;
+    margin-left: 5px;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: auto
+    }
+.contributor {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    display: inline;
+    float: none;
+    height: auto;
+    line-height: 1.7;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    text-align: left;
+    white-space: normal;
+    width: auto
+    }
+.contributor-list {
+    background: #FFF;
+    background-image: none;
+    display: block;
+    float: none;
+    font-weight: bold;
+    height: auto;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 15px;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    text-align: left;
+    white-space: normal;
+    width: auto
+    }
+.contributors {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    display: block;
+    float: none;
+    height: auto;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    text-align: left;
+    width: auto
+    }
+.copyright-statement {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    display: block;
+    float: none;
+    height: auto;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 1em;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: auto
+    }
+.corresp-list {
+    background: #FFF;
+    background-image: none;
+    display: block;
+    float: none;
+    height: auto;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: auto
+    }
+.current-version {
+    background: #FFF;
+    background-image: none;
+    float: none;
+    font-size: 0.77778em;
+    height: auto;
+    overflow: visible;
+    position: static;
+    width: auto
+    }
+.disp-formula-label {
+    background: #FFF;
+    background-image: none;
+    float: right;
+    height: auto;
+    overflow: visible;
+    position: static;
+    width: auto
+    }
+.emphasised {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    display: block;
+    float: none;
+    height: auto;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin-bottom: 1em;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1em;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: auto
+    }
+.feature {
+    background: #FFF;
+    background-color: white;
+    background-image: none;
+    border: 0;
+    display: block;
+    float: none;
+    font-size: 1em;
+    height: auto;
+    margin-bottom: 1.5em;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: auto
+    }
+.feed {
+    font-size: 1.2em;
+    font-weight: bold;
+    line-height: 1.2
+    }
+.fig {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    display: block;
+    float: none;
+    height: auto;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0.5em;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: auto
+    }
+.first {
+    background: #FFF;
+    background-image: none;
+    background-position: 0 0.45em;
+    background-repeat: no-repeat;
+    border: 0;
+    display: list-item;
+    float: left;
+    height: auto;
+    margin-bottom: 18px;
+    margin-left: 0;
+    margin-right: 4px;
+    margin-top: 10px;
+    overflow: visible;
+    padding-bottom: 2px;
+    padding-left: 8px;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: auto
+    }
+.first-item {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    display: list-item;
+    float: none;
+    height: auto;
+    margin-bottom: 0.5em;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 3px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: auto
+    }
+.first-item1 {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    display: list-item;
+    float: none;
+    height: auto;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 3px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: auto
+    }
+.fn {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    border-bottom: 1px solid #C8C8C8;
+    display: list-item;
+    float: none;
+    height: auto;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0.5em;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0.5em;
+    position: static;
+    text-align: left;
+    width: 95%
+    }
+.free-full-text {
+    background: #FFF;
+    background-image: none;
+    color: green;
+    float: none;
+    height: auto;
+    overflow: visible;
+    position: static;
+    width: auto
+    }
+.generalpage {
+    background: #FFF;
+    background-color: #dcd8cc;
+    border: 0;
+    color: #000;
+    display: block;
+    font-family: serif;
+    font-size: 1.125em;
+    line-height: 1.2;
+    margin-bottom: 0;
+    margin-left: 5pt;
+    margin-right: 5pt;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    text-align: center
+    }
+.header-ac-elements {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    display: block;
+    float: none;
+    height: auto;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: auto
+    }
+.hide {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    display: none;
+    float: none;
+    height: 0.1em;
+    margin-bottom: -0.1em;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: hidden;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: 0
+    }
+.highwire-journal-article-marker-end {
+    background: #FFF;
+    background-image: none;
+    clear: both;
+    float: none;
+    height: auto;
+    overflow: visible;
+    position: static;
+    width: auto
+    }
+.history-list {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    clear: both;
+    display: block;
+    float: none;
+    height: auto;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin-bottom: 5px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 5px;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    text-align: right;
+    width: auto
+    }
+.hw-gen-page {
+    background: #FFF;
+    background-color: #FFF;
+    background-image: none;
+    border: 0;
+    display: block;
+    float: none;
+    font-size: 1em;
+    height: auto;
+    line-height: 1.2;
+    margin-bottom: auto;
+    margin-top: auto;
+    overflow: auto;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    text-align: left;
+    width: 960px
+    }
+.inlinebutton {
+    background: #FFF;
+    background-image: none;
+    float: right;
+    font-family: verdana, "Lucida Grande", "Lucida Sans Unicode", Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    height: auto;
+    margin-right: 0.2em;
+    overflow: visible;
+    position: relative;
+    top: 5px;
+    width: auto
+    }
+.inlinebutton1 {
+    background: #FFF;
+    background-image: none;
+    float: none;
+    font-family: verdana, "Lucida Grande", "Lucida Sans Unicode", Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    height: auto;
+    overflow: visible;
+    position: relative;
+    top: 5px;
+    width: auto
+    }
+.license {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    display: block;
+    float: none;
+    font-size: 0.77778em;
+    height: auto;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 1em;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: auto
+    }
+.name-search {
+    background: #FFF;
+    background-image: none;
+    color: #333;
+    float: none;
+    font-weight: bold;
+    height: auto;
+    overflow: visible;
+    position: static;
+    text-decoration: none;
+    vertical-align: 0;
+    white-space: nowrap;
+    width: auto
+    }
+.nav-placeholder {
+    background: #FFF;
+    background-image: none;
+    background-position: top left;
+    background-repeat: no-repeat;
+    border: 0;
+    color: #a00;
+    display: block;
+    float: none;
+    height: 15px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    text-decoration: none;
+    width: 9px
+    }
+.next-section-link {
+    background: #FFF;
+    background-image: url(feed_0/article_1/img/content/down.gif);
+    background-position: top left;
+    background-repeat: no-repeat;
+    color: #a00;
+    display: block;
+    float: none;
+    height: 15px;
+    overflow: visible;
+    position: static;
+    text-decoration: none;
+    width: 9px
+    }
+.prev-section-link {
+    background: #FFF;
+    background-image: url(feed_0/article_1/img/content/up.gif);
+    background-position: top left;
+    background-repeat: no-repeat;
+    color: #a00;
+    display: block;
+    float: none;
+    height: 15px;
+    overflow: visible;
+    position: static;
+    text-decoration: none;
+    width: 9px
+    }
+.rev-xref {
+    background: #FFF;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid silver;
+    color: #00c;
+    float: none;
+    font-family: "Lucida Sans Unicode", Arial, "Lucida Grande", Tahoma, Verdana, Helvetica, sans-serif;
+    font-weight: normal;
+    height: auto;
+    margin-bottom: 0;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 0;
+    position: static;
+    text-decoration: none;
+    vertical-align: 0;
+    width: auto
+    }
+.rev-xref-ref {
+    background: #FFF;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid silver;
+    color: #00c;
+    display: none;
+    float: none;
+    font-family: "Lucida Sans Unicode", Arial, "Lucida Grande", Tahoma, Verdana, Helvetica, sans-serif;
+    font-size: 0.77778em;
+    font-weight: bolder;
+    height: auto;
+    left: auto;
+    margin-bottom: 0;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 0;
+    position: static;
+    text-decoration: none;
+    top: auto;
+    visibility: hidden;
+    width: auto
+    }
+.searchbox {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    display: block;
+    float: none;
+    height: auto;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 2px;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: auto
+    }
+.section {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    clear: both;
+    display: block;
+    float: none;
+    height: auto;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 20px;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: auto
+    }
+.section-nav {
+    background: #FFF;
+    background-color: white;
+    background-image: none;
+    border: 0;
+    display: none;
+    float: none;
+    height: auto;
+    left: auto;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 1em;
+    padding-right: 0.5em;
+    padding-top: 0;
+    position: static;
+    top: auto;
+    visibility: hidden;
+    width: auto
+    }
+.section1 {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    clear: both;
+    display: block;
+    float: none;
+    height: auto;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 20px;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: auto
+    }
+.section2 {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    clear: both;
+    display: block;
+    float: none;
+    height: auto;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 20px;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    text-align: left;
+    width: auto
+    }
+.sidebar-qs {
+    background: #FFF;
+    background-color: #EEE;
+    background-image: none;
+    border: 0;
+    display: block;
+    float: none;
+    height: auto;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: auto
+    }
+.slug-jnl-abbrev {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    border-bottom: dotted 1px;
+    float: none;
+    height: auto;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: auto
+    }
+.soc-bm-link-text {
+    background: #FFF;
+    background-image: none;
+    float: none;
+    height: auto;
+    margin-left: 4px;
+    overflow: visible;
+    position: static;
+    width: auto
+    }
+.social-bookmark-links {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    border-top: 1px solid #aaa;
+    display: block;
+    float: none;
+    height: auto;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 1em;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0.5em;
+    position: static;
+    width: 100%
+    }
+.social-bookmarking {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    display: block;
+    float: none;
+    height: auto;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 5px;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: auto
+    }
+.social-bookmarking-help {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    display: block;
+    float: none;
+    height: auto;
+    margin-bottom: 0;
+    margin-left: -30px;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: auto
+    }
+.social-bookmarking-item {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    display: inline;
+    float: none;
+    font-size: 1em;
+    height: auto;
+    margin-bottom: 0.1em;
+    margin-left: 0.1em;
+    margin-right: 0.1em;
+    margin-top: 0.1em;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: auto
+    }
+.subject-headings {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    display: block;
+    float: none;
+    height: auto;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: circle;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: auto
+    }
+.subject-sub-headings {
+    background: #FFF;
+    background-image: none;
+    border: 0;
+    display: block;
+    float: none;
+    height: auto;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: square;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    position: static;
+    width: auto
+    }
+.version-list {
+    background: #FFF;
+    background-image: none;
+    display: block;
+    float: none;
+    height: auto;
+    list-style-type: decimal;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: visible;
+    position: static;
+    width: auto
+    }
+.xref-corresp {
+    background: #FFF;
+    background-image: none;
+    color: #00c;
+    float: none;
+    font-size: 1em;
+    font-weight: normal;
+    height: auto;
+    overflow: visible;
+    position: static;
+    text-decoration: none;
+    vertical-align: super;
+    width: auto
+    }
+.xref-sep {
+    background: #FFF;
+    background-image: none;
+    float: none;
+    height: auto;
+    overflow: visible;
+    position: static;
+    vertical-align: 0.33em;
+    width: auto
+    }
+.pcalibre4:visited {
+    color: purple;
+    text-decoration: none
+    }
+.pcalibre:visited {
+    color: purple
+    }
+.pcalibre1:link {
+    color: #00c
+    }
+.pcalibre6:link {
+    color: #00c;
+    text-decoration: none
+    }
+.pcalibre10:hover {
+    border-bottom: 0 none;
+    text-decoration: underline
+    }
+.pcalibre12:hover {
+    color: #00c;
+    text-decoration: underline
+    }
+.pcalibre2:hover {
+    background-position: -80px 0
+    }
+.pcalibre3:hover {
+    background-position: -150px 0
+    }
+.pcalibre5:hover {
+    text-decoration: underline
+    }
+.pcalibre7:hover {
+    border-bottom: none;
+    text-decoration: underline
+    }
+.pcalibre8:hover {
+    background-color: silver;
+    text-decoration: underline
+    }
+.pcalibre9:hover {
+    color: blue;
+    text-decoration: underline
+    }
+.pcalibre11:active {
+    text-decoration: underline
+    }

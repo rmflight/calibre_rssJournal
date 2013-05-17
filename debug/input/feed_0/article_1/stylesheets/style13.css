@@ -1,0 +1,40 @@
+/* Journal Home Page Background */
+.homepage #header {
+    background-image: url(/site/resource/bioinfo_header.jpg);
+    width: 760px;
+    height: 97px;
+}
+
+/* Journal Content Page Background */
+.hw-gen-page #header {
+    background-image: url(/site/resource/bioinfo_header.jpg);
+    width: 960px;
+    height: 97px;
+}
+
+
+/* Journal Home Page Title */
+.homepage #header h1#page_title {
+    background-image: url(/site/resource/bioinfo_title.jpg);
+    margin-top: 34px;
+    width: 500px;
+    height: 58px;
+
+}
+
+
+/* Journal Content Page Title */
+.hw-gen-page #header h1#page_title {
+    background-image: url(/site/resource/bioinfo_title.jpg);
+    margin-top: 34px;
+    height: 58px;
+    width:  500px;
+}
+
+
+/* Journal Title */
+.hw-gen-page #header h1#page_title a {
+    display: block;
+    height: 58px;
+    width: 259px;
+}

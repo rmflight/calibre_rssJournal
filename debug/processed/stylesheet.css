@@ -8,6 +8,14 @@
     color: gray;
     font-family: monospace
     }
+<<<<<<< HEAD
+=======
+.articledescription {
+    display: block;
+    font-size: 0.7em;
+    text-indent: 0
+    }
+>>>>>>> 4770c2fa2cc3fbe020c130e94b4d1692ec8ad491
 .calibre {
     display: block;
     font-size: 1em;
@@ -16,8 +24,12 @@
     margin-right: 5pt;
     margin-top: 0;
     padding-left: 0;
+<<<<<<< HEAD
     padding-right: 0;
     page-break-before: always
+=======
+    padding-right: 0
+>>>>>>> 4770c2fa2cc3fbe020c130e94b4d1692ec8ad491
     }
 .calibre1 {
     display: block;
@@ -28,6 +40,7 @@
     text-align: center
     }
 .calibre10 {
+<<<<<<< HEAD
     font-size: 0.75em;
     line-height: normal;
     vertical-align: super
@@ -48,6 +61,23 @@
     }
 .calibre13 {
     font-style: italic
+=======
+    display: block;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 1em
+    }
+.calibre11 {
+    font-weight: bolder
+    }
+.calibre12 {
+    font-style: italic
+    }
+.calibre13 {
+    height: auto;
+    width: 600px
+>>>>>>> 4770c2fa2cc3fbe020c130e94b4d1692ec8ad491
     }
 .calibre14 {
     display: block;
@@ -68,6 +98,7 @@
     margin-top: 1.33em
     }
 .calibre16 {
+<<<<<<< HEAD
     display: block;
     margin-bottom: 1em;
     margin-left: 0;
@@ -115,10 +146,16 @@
     border-collapse: separate;
     border-spacing: 2px;
     display: block;
+=======
+    border-collapse: collapse;
+    border-spacing: 2px;
+    display: table;
+>>>>>>> 4770c2fa2cc3fbe020c130e94b4d1692ec8ad491
     margin-bottom: 0;
     margin-top: 0;
     text-indent: 0
     }
+<<<<<<< HEAD
 .calibre23 {
     display: block;
     vertical-align: middle
@@ -129,6 +166,23 @@
     }
 .calibre25 {
     display: inline;
+=======
+.calibre17 {
+    display: table-row;
+    vertical-align: inherit
+    }
+.calibre18 {
+    display: table-cell;
+    font-weight: bold;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-top: 1px;
+    vertical-align: inherit
+    }
+.calibre19 {
+    display: table-cell;
+>>>>>>> 4770c2fa2cc3fbe020c130e94b4d1692ec8ad491
     padding-bottom: 1px;
     padding-left: 1px;
     padding-right: 1px;
@@ -136,6 +190,7 @@
     text-align: inherit;
     vertical-align: inherit
     }
+<<<<<<< HEAD
 .calibre26 {
     display: block;
     line-height: 140%
@@ -156,6 +211,26 @@
     margin-right: 0;
     margin-top: 0;
     width: auto
+=======
+.calibre2 {
+    height: auto;
+    width: auto
+    }
+.calibre20 {
+    font-size: 0.75em;
+    line-height: normal;
+    vertical-align: super
+    }
+.calibre21 {
+    display: block;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 1em;
+    max-width: 100%;
+    overflow: hidden;
+    text-align: left
+>>>>>>> 4770c2fa2cc3fbe020c130e94b4d1692ec8ad491
     }
 .calibre3 {
     display: block;
@@ -182,9 +257,12 @@
     margin-top: 0.5em
     }
 .calibre7 {
+<<<<<<< HEAD
     font-weight: bold
     }
 .calibre8 {
+=======
+>>>>>>> 4770c2fa2cc3fbe020c130e94b4d1692ec8ad491
     display: block;
     font-size: 2em;
     font-weight: bold;
@@ -194,8 +272,28 @@
     margin-right: 0;
     margin-top: 0.67em
     }
+<<<<<<< HEAD
 .calibre9 {
     line-height: 1.2
+=======
+.calibre8 {
+    display: block;
+    font-style: italic
+    }
+.calibre9 {
+    display: block;
+    font-size: 1.41667em;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0.83em
+    }
+.calibrefeeddescription {
+    display: block;
+    font-size: 0.8em
+>>>>>>> 4770c2fa2cc3fbe020c130e94b4d1692ec8ad491
     }
 .calibrefeedlist {
     display: block;
@@ -221,11 +319,14 @@
     font-size: 0.7em;
     text-align: center
     }
+<<<<<<< HEAD
 .calibrenavbar1 {
     display: block;
     font-size: 0.7em;
     text-align: center
     }
+=======
+>>>>>>> 4770c2fa2cc3fbe020c130e94b4d1692ec8ad491
 .calibrerescale {
     display: block;
     font-size: 1em
@@ -256,6 +357,7 @@
     font-weight: bold;
     line-height: 1.2
     }
+<<<<<<< HEAD
 .hide {
     display: block;
     margin-bottom: 1em;
@@ -286,4 +388,15 @@
     height: auto;
     vertical-align: top;
     width: auto
+=======
+.table-left {
+    display: table-header-group;
+    text-align: left;
+    vertical-align: middle
+    }
+.table-left1 {
+    display: table-row-group;
+    text-align: left;
+    vertical-align: middle
+>>>>>>> 4770c2fa2cc3fbe020c130e94b4d1692ec8ad491
     }

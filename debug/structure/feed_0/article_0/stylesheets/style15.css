@@ -371,8 +371,12 @@
     min-width: 221px	
     }
 .underbar-content {
+<<<<<<< HEAD
     height: 173px;
     text-align: left
+=======
+    height: 173px
+>>>>>>> 4770c2fa2cc3fbe020c130e94b4d1692ec8ad491
     }
 #underbar-left-control, #underbar-right-control {
     background: url(../images/bkgd-scroll-arrows.gif) transparent top left no-repeat;

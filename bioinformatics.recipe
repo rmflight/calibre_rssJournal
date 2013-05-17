@@ -1,0 +1,88 @@
+from calibre.ptempfile import PersistentTemporaryFile
+from calibre.web.feeds.news import BasicNewsRecipe
+from calibre.ebooks.BeautifulSoup import BeautifulSoup
+import re
+
+class BioinformaticsRecipe(BasicNewsRecipe):
+  
+    title = u'Bioinformatics Journal'
+    __author__ = 'Robert M Flight'
+    language = 'en'
+    oldest_article = 20
+    feeds = [('Bioinformatics', 'http://bioinformatics.oxfordjournals.org/rss/current.xml')]
+    articles_are_obfuscated = True
+    
+    remove_tags_before = dict(attrs={'class':'article fulltext-view'})
+    remove_tags_after = dict(attrs={'id':'related-urls'})
+    
+    temp_files = []
+    
+    # because of "get_obfuscated_article", the relative links for images get messed.
+    # this does two things: fixes the relative link, and for actual article "figures",
+    # sets the link to the large figure, and inserts it into the html of the document
+    def mod_image_paths(self, url, soup):
+        # takes the full url and a BeautifulSoup instance, and modifies img paths
+        url_split_char = '/'
+        url_splitup = url.split(url_split_char)
+        url_splitup.pop(-1)
+        base_url = url_split_char.join(url_splitup)
+        
+        allImg = soup.findAll('img')
+        
+        for imgTag in allImg:
+            tmpSrc = imgTag['src']
+            tmpSrc = url_split_char.join([base_url, tmpSrc])
+            if re.search('.small.gif', tmpSrc):
+                tmpSrc = re.sub('.small.gif', '.large.jpg', tmpSrc)
+                imgTag['width'] = 600
+                
+            imgTag['src'] = tmpSrc
+            
+        return soup
+        
+    # takes the soup, and the url, and proceeds to find the tables in the doc, download
+    # their html, and then insert the table into the original document
+    def insert_tables(self, url, soup):
+        # get the base url, same as we did for images
+        url_split_char = '/'
+        url_splitup = url.split(url_split_char)
+        url_splitup.pop(-1)
+        base_url = url_split_char.join(url_splitup)
+        all_tables = soup.findAll('div', 'table-inline')
+        
+        for i_table in all_tables:
+            a_link = i_table.find('a', 'in-nw')
+            
+            table_url = url_split_char.join([base_url, a_link['href']])
+            table_soup = self.index_to_soup(table_url, False)
+            
+            table_div = table_soup.find('div', 'table-expansion')
+            
+            i_table.replaceWith(table_div)
+            
+        print all_tables # what is coming out
+        return soup
+     
+    # takes the RSS CGI url and makes it a proper url pointing to the full version of the
+    # article
+    def print_version(self, url):
+        url_rep = url.replace('/cgi', '')
+        url_rep = url_rep.replace('/short', '')
+        url_rep = url_rep.replace('?rss=1', '')
+        dot_sep = '.'
+        full_url = dot_sep.join([url_rep, 'full'])
+        return full_url
+    
+    # process each article, doing the tables and images for each one.
+    def get_obfuscated_article(self, url):
+        # this is the actual html of the page we are going to modify
+        working_soup = self.index_to_soup(url, False)
+        
+        img_mod_soup = self.mod_image_paths(url, working_soup)
+        
+        table_mod_soup = self.insert_tables(url, working_soup)
+        
+        self.temp_files.append(PersistentTemporaryFile('_bioinf.html'))
+        self.temp_files[-1].write(img_mod_soup.prettify())
+        self.temp_files[-1].close()
+        return self.temp_files[-1].name

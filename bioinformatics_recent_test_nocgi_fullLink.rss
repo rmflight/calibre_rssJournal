@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:prism="http://purl.org/rss/1.0/modules/prism/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://bioinformatics.oxfordjournals.org">
+<title>Bioinformatics - recent issues</title>
+<link>http://bioinformatics.oxfordjournals.org</link>
+<description>Bioinformatics - RSS feed of recent issues (covers the latest 3 issues, including the current issue) </description>
+<prism:eIssn>1460-2059</prism:eIssn>
+<prism:publicationName>Bioinformatics</prism:publicationName>
+<prism:issn>1367-4803</prism:issn>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://bioinformatics.oxfordjournals.org/content/28/22/2898.long?rss=1" />
+  <rdf:li rdf:resource="http://bioinformatics.oxfordjournals.org/content/28/22/2963.long?rss=1" />
+  <rdf:li rdf:resource="http://bioinformatics.oxfordjournals.org/content/28/22/2981.long?rss=1" />
+  </rdf:Seq>
+</items>
+</channel>
+<item rdf:about="http://bioinformatics.oxfordjournals.org/content/28/22/2898.long?rss=1">
+<title><![CDATA[Extra-binomial variation approach for analysis of pooled DNA sequencing data]]></title>
+<link>http://bioinformatics.oxfordjournals.org/content/28/22/2898.long?rss=1</link>
+<description><![CDATA[
+<p><b>Motivation</b>: The invention of next-generation sequencing technology has made it possible to study the rare variants that are more likely to pinpoint causal disease genes. To make such experiments financially viable, DNA samples from several subjects are often pooled before sequencing. This induces large between-pool variation which, together with other sources of experimental error, creates over-dispersed data. Statistical analysis of pooled sequencing data needs to appropriately model this additional variance to avoid inflating the false-positive rate.</p>
+<p><b>Results</b>: We propose a new statistical method based on an extra-binomial model to address the over-dispersion and apply it to pooled case-control data. We demonstrate that our model provides a better fit to the data than either a standard binomial model or a traditional extra-binomial model proposed by Williams and can analyse both rare and common variants with lower or more variable pool depths compared to the other methods.</p>
+<p><b>Availability</b>: Package &lsquo;extraBinomial&rsquo; is on <A HREF="http://cran.r-project.org/">http://cran.r-project.org/</A></p>
+<p><b>Contact</b>: <A HREF="chris.wallace@cimr.cam.ac.uk">chris.wallace@cimr.cam.ac.uk</A></p>
+<p><b>Supplementary information:</b> <A HREF="http://bioinformatics.oxfordjournals.org/cgi/content/full/bts553/DC1">Supplementary data</A> are available at <I>Bioinformatics</I> Online.</p>
+]]></description>
+<dc:creator><![CDATA[Yang, X., Todd, J. A., Clayton, D., Wallace, C.]]></dc:creator>
+<dc:date>2012-11-10T05:28:23-08:00</dc:date>
+<dc:identifier>info:doi/10.1093/bioinformatics/bts553</dc:identifier>
+<dc:identifier>hwp:master-id:bioinfo;bts553</dc:identifier>
+<dc:publisher>Oxford University Press</dc:publisher>
+<dc:title><![CDATA[Extra-binomial variation approach for analysis of pooled DNA sequencing data]]></dc:title>
+<prism:publicationDate>2012-11-15</prism:publicationDate>
+<prism:section>SEQUENCE ANALYSIS</prism:section>
+<prism:volume>28</prism:volume>
+<prism:number>22</prism:number>
+<prism:startingPage>2898</prism:startingPage>
+<prism:endingPage>2904</prism:endingPage>
+</item>
+<item rdf:about="http://bioinformatics.oxfordjournals.org/content/28/22/2963.long?rss=1">
+<title><![CDATA[Application and evaluation of automated methods to extract neuroanatomical connectivity statements from free text]]></title>
+<link>http://bioinformatics.oxfordjournals.org/content/28/22/2963.long?rss=1</link>
+<description><![CDATA[
+<p><b>Motivation:</b> Automated annotation of neuroanatomical connectivity statements from the neuroscience literature would enable accessible and large-scale connectivity resources. Unfortunately, the connectivity findings are not formally encoded and occur as natural language text. This hinders aggregation, indexing, searching and integration of the reports. We annotated a set of 1377 abstracts for connectivity relations to facilitate automated extraction of connectivity relationships from neuroscience literature. We tested several baseline measures based on co-occurrence and lexical rules. We compare results from seven machine learning methods adapted from the protein interaction extraction domain that employ part-of-speech, dependency and syntax features.</p>
+<p><b>Results:</b> Co-occurrence based methods provided high recall with weak precision. The shallow linguistic kernel recalled 70.1% of the sentence-level connectivity statements at 50.3% precision. Owing to its speed and simplicity, we applied the shallow linguistic kernel to a large set of new abstracts. To evaluate the results, we compared 2688 extracted connections with the Brain Architecture Management System (an existing database of rat connectivity). The extracted connections were connected in the Brain Architecture Management System at a rate of 63.5%, compared with 51.1% for co-occurring brain region pairs. We found that precision increases with the recency and frequency of the extracted relationships.</p>
+<p><b>Availability and implementation:</b> The source code, evaluations, documentation and other supplementary materials are available at <A HREF="http://www.chibi.ubc.ca/WhiteText">http://www.chibi.ubc.ca/WhiteText</A>.</p>
+<p><b>Contact:</b> <A HREF="paul@chibi.ubc.ca">paul@chibi.ubc.ca</A></p>
+<p><b>Supplementary information:</b> <A HREF="http://www.chibi.ubc.ca/WhiteText">Supplementary data</A> are available at <I>Bioinformatics</I> Online.</p>
+]]></description>
+<dc:creator><![CDATA[French, L., Lane, S., Xu, L., Siu, C., Kwok, C., Chen, Y., Krebs, C., Pavlidis, P.]]></dc:creator>
+<dc:date>2012-11-10T05:28:23-08:00</dc:date>
+<dc:identifier>info:doi/10.1093/bioinformatics/bts542</dc:identifier>
+<dc:identifier>hwp:master-id:bioinfo;bts542</dc:identifier>
+<dc:publisher>Oxford University Press</dc:publisher>
+<dc:title><![CDATA[Application and evaluation of automated methods to extract neuroanatomical connectivity statements from free text]]></dc:title>
+<prism:publicationDate>2012-11-15</prism:publicationDate>
+<prism:section>DATA AND TEXT MINING</prism:section>
+<prism:volume>28</prism:volume>
+<prism:number>22</prism:number>
+<prism:startingPage>2963</prism:startingPage>
+<prism:endingPage>2970</prism:endingPage>
+</item>
+<item rdf:about="http://bioinformatics.oxfordjournals.org/content/28/22/2981.long?rss=1">
+<title><![CDATA[GREVE: Genomic Recurrent Event ViEwer to assist the identification of patterns across individual cancer samples]]></title>
+<link>http://bioinformatics.oxfordjournals.org/content/28/22/2981.long?rss=1</link>
+<description><![CDATA[
+<p><b>Summary:</b> GREVE has been developed to assist with the identification of recurrent genomic aberrations across cancer samples. The exact characterization of such aberrations remains a challenge despite the availability of increasing amount of data, from SNParray to next-generation sequencing. Furthermore, genomic aberrations in cancer are especially difficult to handle because they are, by nature, unique to the patients. However, their recurrence in specific regions of the genome has been shown to reflect their relevance in the development of tumors. GREVE makes use of previously characterized events to identify such regions and focus any further analysis.</p>
+<p><b>Availability:</b> GREVE is available through a web interface and open-source application (<A HREF="http://www.well.ox.ac.uk/GREVE">http://www.well.ox.ac.uk/GREVE</A>).</p>
+]]></description>
+<dc:creator><![CDATA[Cazier, J.-B., Holmes, C. C., Broxholme, J.]]></dc:creator>
+<dc:date>2012-11-10T05:28:23-08:00</dc:date>
+<dc:identifier>info:doi/10.1093/bioinformatics/bts547</dc:identifier>
+<dc:identifier>hwp:master-id:bioinfo;bts547</dc:identifier>
+<dc:publisher>Oxford University Press</dc:publisher>
+<dc:title><![CDATA[GREVE: Genomic Recurrent Event ViEwer to assist the identification of patterns across individual cancer samples]]></dc:title>
+<prism:publicationDate>2012-11-15</prism:publicationDate>
+<prism:section>GENOME ANALYSIS</prism:section>
+<prism:volume>28</prism:volume>
+<prism:number>22</prism:number>
+<prism:startingPage>2981</prism:startingPage>
+<prism:endingPage>2982</prism:endingPage>
+</item>
+</rdf:RDF>

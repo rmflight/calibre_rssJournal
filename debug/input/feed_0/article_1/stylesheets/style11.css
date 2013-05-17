@@ -1,0 +1,115 @@
+/****************************
+**
+** Primary Footer
+**
+****************************/
+
+#primary_footer {
+    background-color: #ab9c8f;
+    /*background-image: url( /resource/image/backgrounds/footer.gif );*/
+    background-position: 194px -32px; 
+    background-repeat: no-repeat;
+}
+
+#primary_footer #site_logo {
+    float: left; 
+    padding-left: 20px;
+    margin-top: 20px;
+    width: auto; 
+}
+
+#primary_footer #site_logo strong {
+    background-image: url( /resource/image/text/headings/footer_ouptext.gif );
+    background-repeat: no-repeat;
+    display: block;
+    height: 55px;
+    margin-bottom: 6px;
+    width: 219px;
+}
+
+#primary_footer #site_logo em {
+    background-image: ;
+    background-repeat: no-repeat;
+    display: block;
+    height: 6px;
+    width: 177px;
+}
+
+#primary_footer #third_nav ul {
+    text-align: right;
+    margin-top: 26px;
+    margin-right: 20px;
+    width: auto;
+}
+
+#primary_footer #third_nav ul li {
+    display: inline;
+    margin-left: 10px;
+}
+
+#primary_footer #third_nav ul li a {
+    color: #ffffff;
+}
+
+#primary_footer #other_oup_sites {
+    clear: both;
+    background-image: url( /resource/image/trim/border_dotted_white_horiz.gif );
+    background-repeat: repeat-x;
+    float: left; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+#primary_footer #other_oup_sites form {
+    clear: both;
+    float: right;
+    padding: 14px 20px 0 20px;
+    width: auto;
+
+}
+
+#primary_footer #other_oup_sites form label {
+    display: block;
+    color: #ffffff;
+    margin-bottom: 2px;
+}
+
+/* --------------------------
+   Secondary Footer
+----------------------------- */
+
+#secondary_footer {
+    background-image: url( /resource/image/trim/border_dotted_grey_horiz.gif );
+    background-repeat: repeat-x;    
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: right;
+    display: block;
+    clear: both;
+}
+
+#secondary_footer #copyright {
+    margin-right: 15px;
+    width: auto;
+}
+
+#secondary_footer #issn {
+    margin-right: 15px;
+    width: auto;
+}
+
+
+/****************************
+**
+** Abstract Disclaimer
+**
+****************************/
+
+#disclaimer {
+    font-size: 70%;
+    margin: 0 15px 15px 15px;
+    font-family: verdana, sans-serif;
+    color: grey;
+    clear: both;
+}

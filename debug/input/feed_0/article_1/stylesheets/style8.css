@@ -1,0 +1,422 @@
+
+#content-block div.article h3 {
+color:black;
+background-color:white;
+}
+
+#content-block div.article div.contributors {
+text-align:left;
+margin-bottom:10px;
+}
+
+#content-block div.article div.fn-group {
+margin-bottom:10px;
+}
+
+#content-block div.article .fig, div.article .table {
+       padding-bottom: .5em;
+}
+
+div#pageid-content .article div.section  {
+	margin-top:20px;
+}
+
+.article div.section  h4 {
+	font-size:120%;
+	line-height:2;
+	color:#000;
+	font-weight:bold;
+}
+
+.article div.section  h3 {
+	font-size:120%;
+	line-height:2;
+	color:#000;
+	font-weight:bold;
+}
+
+
+h3.kwd-header {
+	border-top:1px dotted #999999;
+	line-height:2;
+	padding-top:.25em;
+}
+
+ul.kwd-group {
+border-top:none;
+}
+
+span.kwd-label, span.kwd-group-title {
+	font-weight:bold;
+	font-family: Georgia,'Times New Roman',serif;
+}
+
+span.kwd-group-title {
+	display:none;
+}
+
+ul.kwd-group {
+	padding:0px;
+	width:516px;
+	font-size:100%;
+	text-align:left;
+	text-indent:75px;
+	margin-top:-2em;
+	line-height:2;
+	padding-bottom:.25em;
+}
+
+ul.kwd-group.jel {
+	text-indent:130px;
+}
+
+ul.kwd-group li.kwd:first-child  span{
+	background:none;
+}
+
+ul.kwd-group li.kwd {
+	background-color:transparent;
+	display:inline;
+	font-weight:normal;
+	padding:0;
+	margin-left:0;
+	margin-right:0;
+}
+
+ul.kwd-group li.kwd span{
+	background: transparent url(/publisher/img/bullet.gif) no-repeat scroll left center;
+	display:inline;
+	font-weight:normal;
+	padding-left:13px;
+	padding-right:0;
+	margin-left:0;
+}
+
+
+ul.kwd-group li.kwd a,
+#pageid-content #content-block div.product a,
+a.terms {
+	color: #404040;
+	text-decoration:none;
+}
+
+ul.kwd-group li.kwd a:hover,
+div.product a:hover,
+a.terms:hover {
+	border-bottom:1px dotted #660033;
+}
+
+#content-block div.product {
+	margin: 8px 0 8px 0;
+}
+
+
+#pageid-content #content-block div.article div.product span.name a,
+#pageid-content #content-block div.article div.product span.name a:hover,
+#pageid-content #content-block div.article div.product span.name a:visited,
+#pageid-content #content-block div.article div.product span.name a:link,
+#pageid-content #content-block div.article div.product span.name a:active {
+	color: #404040;
+	text-decoration:none;
+	border:none;
+        cursor:text;
+}
+
+.key-word-lable-xml {
+	display:none;
+}
+
+div#hovering-ref {
+	font-size: 75%;
+	background-color: #FFF;
+	text-align:left;
+}
+
+div.ref-cit ol.cit-auth-list {
+	font-size: 90%;
+}
+
+div.ref-cit cite a {
+	padding-left: 0.3em;
+}
+
+div.ref-list .cit cite {
+	font-size:100%;
+	color:black;
+}
+
+div.ref-list .cit .cit-name-suffix {
+	padding-left: .6em;
+}
+
+div.ref-list .cit-vol {
+       font-weight:normal;
+}
+
+.cit .cit-auth-list li span {
+        white-space:normal;
+}
+
+#content-block div.contributors ol.contributor-list li {
+margin:0;
+}
+
+a.rev-xref {
+	text-decoration:none;
+	background-color:#CCCCCC;
+	font-weight:bolder;
+	margin-right:2px;
+}
+
+div.ref-cit.no-rev-xref {
+    display:inline;
+}
+
+div#pageid-content .article blockquote {
+	color:black;
+	text-align:left;
+	font-weight:normal;
+	font-size:101%;
+}
+
+div#pageid-content .article blockquote.verse-group {
+	border:none;
+}
+
+div.pagetype-content div.table-expansion table th, 
+div.pagetype-content div.table-expansion table td, 
+div.pagetype-content div.table-wrapper table th, 
+div.pagetype-content div.table-wrapper table td {
+	font-family: verdana,sans-serif;
+	border-color: transparent;
+}
+
+
+div.pagetype-content div.table-expansion table, div.pagetype-content div.table-wrapper table {
+	border:none !important;
+}
+
+div.pagetype-content div.table-expansion div.table-foot {
+	background-color:#EEEEEE;
+	border-color:#CCCCCC #AAAAAA #AAAAAA #CCCCCC;
+	border-style:solid;
+	border-width:1px;
+	padding:1em 1em 0.25em;
+}
+
+div#pageid-content .article li.copyright-statement {
+	text-align:left;
+}
+
+div#pageid-content .article ul.list-unord {
+	list-style-type:disc;
+	margin-left:5%;
+}
+
+div#pageid-content div.convention,
+div#pageid-content div.corollary,
+div#pageid-content div.definition,
+div#pageid-content div.lemma,
+div#pageid-content div.proof,
+div#pageid-content div.proposition,
+div#pageid-content div.remark,
+div#pageid-content div.theorem {
+	margin-left:5%;
+}
+
+h1 xref-fn, 
+h1 a.xref-fn, 
+h1 a.xref-fn sup {
+	font-size:90%;
+}
+
+
+div.contributors ol li a.xref-corresp, 
+.corresp .corresp-label,
+.fn-label {
+font-size:.85em;
+vertical-align:super;
+}
+
+.disp-formula-label {
+float:right;
+}
+
+#pageid-content .app .table-inline {
+width:auto;
+margin:0;
+}
+
+#pageid-content .app div.table {
+margin:0;
+}
+
+#pageid-content .corresp br {
+display:none;
+}
+
+#pageid-content .corresp strong {
+font-weight:normal;
+font-style: italic;
+margin-right:3px;
+}
+
+div.contributors ol li address a {
+	vertical-align:middle;
+}
+
+/*** OUP uses PMC Style references. They don't use italics.***/
+div.ref-cit cite span.cit-source,
+div.ref-cit cite abbr.cit-jnl-abbrev,
+div.ref-cit cite span.cit-conf-name,
+div.ref-cit cite .ie6-abbr-wrap,
+div#hovering-ref cite abbr.cit-jnl-abbrev,
+div#hovering-ref cite .ie6-abbr-wrap {
+	font-style: normal !important;
+}
+
+/*** fix for tables that display inline ***/
+#pageid-content .pos-anchor .table-inline {
+width:auto;
+}
+
+#pageid-content .pos-anchor div.table-inline td {
+padding-left: 3px;
+}
+
+div.hide-cols {
+position:relative;
+}
+
+div.hide-cols div#col-2.palette,
+div.hide-cols div#col-3.palette {
+	z-index:20;
+	right: 2px;
+}
+
+li.glossary dt.def-list-title {
+float:none;
+}
+
+#pageid-content .boxed-text {
+	background-color: #eeeeee;
+	padding: 10px;
+	margin: 5px 0 5px 0;
+	border: 1px solid #666666;
+}
+
+#pageid-content #content-block div.article .boxed-text h3 {
+	background-color:transparent;
+}
+
+div#pageid-content span.p-label {
+margin-right: 8px;
+}
+
+span.sensitive-text {
+	display:none;
+}
+
+div#pageid-content .article blockquote.speech cite {
+	margin-right:.5em;
+}
+
+.general_page #content-block li p {
+	width:auto;
+}
+
+div.article  {
+	font-family:"Lucida Grande","Lucida Sans Unicode",Tahoma,Verdana,Arial,Helvetica,sans-serif;
+}
+
+#pageid-content a.xref-fn  {
+	vertical-align:baseline;
+}
+
+#pageid-content a.xref-fn sup {
+	vertical-align:super;
+}
+
+#cb-art-soc div.social-bookmarking {
+	margin: 5px 0 0 0;
+	padding:0;
+}
+
+#cb-art-soc div.social-bookmarking ul {
+	width:100%;
+}
+
+ul.social-bookmark-links li {
+	font-size:90%;
+	margin: 0 8px 0 0;
+}
+
+#col-2 div#cb-art-soc.cb-section ol {
+	padding-left: 10px;
+}
+
+#cb-art-soc ol>li:first-child a {
+    	background-image: url(/publisher/img/envelope.jpg);
+	background-repeat: no-repeat;
+	display:inline-block;
+	width:16px;
+	height:16px;	
+}
+
+
+#cb-art-soc ol>li:first-child {
+	float:left;	
+	margin: 7px 10px 0 0;
+	width:16px;
+	height:16px;
+}	
+
+#cb-art-soc ol>li {
+	display:inline-block;
+}
+
+#cb-art-soc p.social-bookmarking-help {
+	margin-left: -30px;
+}
+
+.sans-serif {
+	font-family: sans-serif;
+}
+
+.pos-anchor .table-inline {
+	float:none;
+}
+
+.authorurlblock ul.authorurls {
+	margin-top: 3px;
+}
+
+.authorurlblock ul.authorurls li {
+	margin-left:5px;
+}
+
+div.article .graphic-with-uri {
+    clear: both;
+    margin: 1em 20px;
+}
+.graphic-with-uri-inline {
+    background-color: white;
+    border: 1px dotted #999;
+    float: left;
+    font: 0.85em "Lucida Grande","Lucida Sans Unicode",Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    height: auto;
+    margin: 1em 5px 1em 10px;
+    padding: 1em;
+    text-align: center;
+}
+.graphic-with-uri-caption {
+    background-color: #eee;
+    border-color: #ccc #aaa #aaa #ccc;
+    border-style: solid;
+    border-width: 1px;
+    padding: 1em 1em 0.25em;
+}
+
+.graphic-with-uri .graphic-label {
+    font-weight:bold;
+}

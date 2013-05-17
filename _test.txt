@@ -1,0 +1,803 @@
+Resolved conversion options
+calibre version: 0.9.2
+{'asciiize': False,
+ 'author_sort': None,
+ 'authors': None,
+ 'base_font_size': 0,
+ 'book_producer': None,
+ 'change_justification': 'original',
+ 'chapter': None,
+ 'chapter_mark': 'pagebreak',
+ 'comments': None,
+ 'cover': None,
+ 'debug_pipeline': None,
+ 'dehyphenate': True,
+ 'delete_blank_paragraphs': True,
+ 'disable_font_rescaling': False,
+ 'dont_download_recipe': False,
+ 'duplicate_links_in_toc': False,
+ 'enable_heuristics': False,
+ 'extra_css': None,
+ 'filter_css': None,
+ 'fix_indents': True,
+ 'font_size_mapping': None,
+ 'format_scene_breaks': True,
+ 'html_unwrap_factor': 0.4,
+ 'input_encoding': None,
+ 'input_profile': <calibre.customize.profiles.InputProfile object at 0x0218BCD0>,
+ 'insert_blank_line': False,
+ 'insert_blank_line_size': 0.5,
+ 'insert_metadata': False,
+ 'isbn': None,
+ 'italicize_common_cases': True,
+ 'keep_ligatures': False,
+ 'language': None,
+ 'level1_toc': None,
+ 'level2_toc': None,
+ 'level3_toc': None,
+ 'line_height': 0,
+ 'linearize_tables': False,
+ 'lrf': False,
+ 'margin_bottom': 5.0,
+ 'margin_left': 5.0,
+ 'margin_right': 5.0,
+ 'margin_top': 5.0,
+ 'markup_chapter_headings': True,
+ 'max_toc_links': 50,
+ 'minimum_line_height': 120.0,
+ 'no_chapters_in_toc': False,
+ 'no_inline_navbars': False,
+ 'output_profile': <calibre.customize.profiles.OutputProfile object at 0x0218BEB0>,
+ 'page_breaks_before': None,
+ 'prefer_metadata_cover': False,
+ 'pretty_print': True,
+ 'pubdate': None,
+ 'publisher': None,
+ 'rating': None,
+ 'read_metadata_from_opf': None,
+ 'remove_fake_margins': True,
+ 'remove_first_image': False,
+ 'remove_paragraph_spacing': False,
+ 'remove_paragraph_spacing_indent_size': 1.5,
+ 'renumber_headings': True,
+ 'replace_scene_breaks': '',
+ 'search_replace': None,
+ 'series': None,
+ 'series_index': None,
+ 'smarten_punctuation': False,
+ 'sr1_replace': '',
+ 'sr1_search': '',
+ 'sr2_replace': '',
+ 'sr2_search': '',
+ 'sr3_replace': '',
+ 'sr3_search': '',
+ 'start_reading_at': None,
+ 'tags': None,
+ 'test': True,
+ 'timestamp': None,
+ 'title': None,
+ 'title_sort': None,
+ 'toc_filter': None,
+ 'toc_threshold': 6,
+ 'unsmarten_punctuation': False,
+ 'unwrap_lines': True,
+ 'use_auto_toc': False,
+ 'verbose': 2}
+1% Converting input to HTML...
+InputFormatPlugin: Recipe Input running
+Using custom recipe
+1% Fetching feeds...
+1% Fetching feed Bioinformatics...
+1% Trying to download cover...
+1% Generating masthead...
+Synthesizing mastheadImage
+1% Starting download [4 thread(s)]...
+DownloadingDownloading
+
+FetchingFetching  http://bioinformatics.oxfordjournals.org/cgi/content/long/28/22/2963?rss=1http://bioinformatics.oxfordjournals.org/cgi/content/long/28/22/2898?rss=1
+
+Processing images...
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2963/F1.small.gif
+Fetching http://bioinformatics.oxfordjournals.org/shared/img/common/social-bookmarking/citeulike.gif
+Fetching http://bioinformatics.oxfordjournals.org/shared/img/common/social-bookmarking/connotea.gif
+Fetching http://bioinformatics.oxfordjournals.org/shared/img/common/social-bookmarking/delicious.gif
+Processing images...
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/F1.small.gif
+Fetching http://bioinformatics.oxfordjournals.org/shared/img/common/social-bookmarking/facebook.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-1.gif
+Fetching http://bioinformatics.oxfordjournals.org/shared/img/common/social-bookmarking/googleplus.jpg
+Fetching http://bioinformatics.oxfordjournals.org/shared/img/common/social-bookmarking/mendeley.gif
+Fetching http://bioinformatics.oxfordjournals.org/shared/img/common/social-bookmarking/twitter.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22.cover.gif
+Fetching http://www.oxfordjournals.org/our_journals/bioinformatics/nextgensuq_sidebar_2012.jpg
+Fetching http://www.oxfordjournals.org/resource/image/promos/oxford_open_small.gif
+Fetching http://www.oxfordjournals.org/resource/image/pmc-logo.gif
+Fetching http://bioinformatics.oxfordjournals.org/shared/css/hw-global.css
+Fetching http://bioinformatics.oxfordjournals.org/shared/css/hw-print.css
+Fetching http://bioinformatics.oxfordjournals.org/local/css/hw-local-global.css
+Fetching http://bioinformatics.oxfordjournals.org/publisher/css/hw-publisher-global.css
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-2.gif
+Fetching http://bioinformatics.oxfordjournals.org/publisher/css/hw-publisher-ac.css
+Fetching http://bioinformatics.oxfordjournals.org/shared/css/hw-page-content.css
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-3.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-4.gif
+Fetching http://bioinformatics.oxfordjournals.org/shared/css/jquery.fancybox-1.3.4.css
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/graphic-2.gif
+Fetching http://bioinformatics.oxfordjournals.org/shared/css/hw-global-colexpand.css
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/graphic-3.gif
+Fetching http://bioinformatics.oxfordjournals.org/publisher/css/hw-publisher-page-content.css
+Fetching http://bioinformatics.oxfordjournals.org/resource/css/hw20.css
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-5.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-6.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-7.gif
+Fetching http://bioinformatics.oxfordjournals.org/resource/css/h20-oup-header.css
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/graphic-4.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/graphic-5.gif
+Fetching http://bioinformatics.oxfordjournals.org/resource/css/h20-oup-footer.css
+Fetching http://bioinformatics.oxfordjournals.org/resource/css/h20-oup-sidebars.css
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-8.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-9.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-10.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-11.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-12.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-13.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-14.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-15.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/graphic-6.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-16.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-17.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-18.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-19.gif
+Fetching http://bioinformatics.oxfordjournals.org/site/resource/bioinformatics_h20.css
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/graphic-7.gif
+Fetching http://bioinformatics.oxfordjournals.org/resource/css/print.css
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-20.gif
+Fetching http://oi-underbar.ifactory.com/underbar/css/pf_oiunderbar.css
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-21.gif
+Recursion limit reached. Skipping links in http://bioinformatics.oxfordjournals.org/cgi/content/long/28/22/2963?rss=1
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-22.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-23.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-24.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-25.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-26.gif
+http://bioinformatics.oxfordjournals.org/cgi/content/long/28/22/2963?rss=1 saved to C:\Users\rmflight\AppData\Local\Temp\calibre_0.9.2_tmp_qiqvrx\swqhga_plumber\feed_0\article_1\index.xhtml
+Downloaded article: Application and evaluation of automated methods to extract neuroanatomical connectivity statements from free text from http://bioinformatics.oxfordjournals.org/cgi/content/short/28/22/2963?rss=1
+17% Article downloaded: Application and evaluation of automated methods to extract neuroanatomical connectivity statements from free text
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/graphic-8.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-27.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-28.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/graphic-9.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-29.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/graphic-10.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/graphic-11.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-30.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-31.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-32.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-33.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-34.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-35.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-36.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-37.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-38.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-39.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/graphic-12.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-40.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/graphic-13.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-41.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-42.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-43.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-44.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-45.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/F2.small.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/F2/embed/inline-graphic-46.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-47.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-48.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-49.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/F3.small.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/F3/embed/inline-graphic-50.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/F3/embed/inline-graphic-51.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/F3/embed/inline-graphic-52.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-53.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-54.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/F4.small.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/F4/embed/inline-graphic-55.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/F4/embed/inline-graphic-56.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/F4/embed/inline-graphic-57.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/F5.small.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-63.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-84.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-85.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-86.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-87.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-88.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-89.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-90.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-91.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-92.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-93.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-94.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-95.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-96.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-97.gif
+Fetching http://bioinformatics.oxfordjournals.org/content/28/22/2898/embed/inline-graphic-98.gif
+Recursion limit reached. Skipping links in http://bioinformatics.oxfordjournals.org/cgi/content/long/28/22/2898?rss=1
+http://bioinformatics.oxfordjournals.org/cgi/content/long/28/22/2898?rss=1 saved to C:\Users\rmflight\AppData\Local\Temp\calibre_0.9.2_tmp_qiqvrx\swqhga_plumber\feed_0\article_0\index.xhtml
+Downloaded article: Extra-binomial variation approach for analysis of pooled DNA sequencing data from http://bioinformatics.oxfordjournals.org/cgi/content/short/28/22/2898?rss=1
+34% Article downloaded: Extra-binomial variation approach for analysis of pooled DNA sequencing data
+34% Feeds downloaded to C:\Users\rmflight\AppData\Local\Temp\calibre_0.9.2_tmp_qiqvrx\swqhga_plumber\index.html
+34% Download finished
+Parsing all content...
+Parsing feed_0/article_1/stylesheets/style0.css ...
+CSS import of missing file u'feed_0/article_1/stylesheets/hw-global-sidebars.css'
+CSSImportRule: While processing imported style sheet href=hw-global-sidebars.css: IOError('Cannot read Stylesheet.',)
+CSS import of missing file u'feed_0/article_1/stylesheets/hw-global-sidebars.css'
+CSSImportRule: While processing imported style sheet href=hw-global-sidebars.css: IOError('Cannot read Stylesheet.',)
+CSS import of missing file u'feed_0/article_1/stylesheets/hw-global-elements.css'
+CSSImportRule: While processing imported style sheet href=hw-global-elements.css: IOError('Cannot read Stylesheet.',)
+CSS import of missing file u'feed_0/article_1/stylesheets/hw-global-elements.css'
+CSSImportRule: While processing imported style sheet href=hw-global-elements.css: IOError('Cannot read Stylesheet.',)
+CSS import of missing file u'feed_0/article_1/stylesheets/hw-global-citation.css'
+CSSImportRule: While processing imported style sheet href=hw-global-citation.css: IOError('Cannot read Stylesheet.',)
+CSS import of missing file u'feed_0/article_1/stylesheets/hw-global-citation.css'
+CSSImportRule: While processing imported style sheet href=hw-global-citation.css: IOError('Cannot read Stylesheet.',)
+CSS import of missing file u'feed_0/article_1/stylesheets/hw-global-classes.css'
+CSSImportRule: While processing imported style sheet href=hw-global-classes.css: IOError('Cannot read Stylesheet.',)
+CSS import of missing file u'feed_0/article_1/stylesheets/hw-global-classes.css'
+CSSImportRule: While processing imported style sheet href=hw-global-classes.css: IOError('Cannot read Stylesheet.',)
+CSS import of missing file u'feed_0/article_1/stylesheets/hw-global-dynamic-elements.css'
+CSSImportRule: While processing imported style sheet href=hw-global-dynamic-elements.css: IOError('Cannot read Stylesheet.',)
+CSS import of missing file u'feed_0/article_1/stylesheets/hw-global-dynamic-elements.css'
+CSSImportRule: While processing imported style sheet href=hw-global-dynamic-elements.css: IOError('Cannot read Stylesheet.',)
+Cannot get referenced stylesheet u'hw-global-sidebars.css', keeping rule
+ValueError, unknown url type: feed_0/article_1/stylesheets/hw-global-sidebars.css
+CSSImportRule: While processing imported style sheet href=hw-global-sidebars.css: IOError('Cannot read Stylesheet.',)
+Cannot get referenced stylesheet u'hw-global-elements.css', keeping rule
+ValueError, unknown url type: feed_0/article_1/stylesheets/hw-global-elements.css
+CSSImportRule: While processing imported style sheet href=hw-global-elements.css: IOError('Cannot read Stylesheet.',)
+Cannot get referenced stylesheet u'hw-global-citation.css', keeping rule
+ValueError, unknown url type: feed_0/article_1/stylesheets/hw-global-citation.css
+CSSImportRule: While processing imported style sheet href=hw-global-citation.css: IOError('Cannot read Stylesheet.',)
+Cannot get referenced stylesheet u'hw-global-classes.css', keeping rule
+ValueError, unknown url type: feed_0/article_1/stylesheets/hw-global-classes.css
+CSSImportRule: While processing imported style sheet href=hw-global-classes.css: IOError('Cannot read Stylesheet.',)
+Cannot get referenced stylesheet u'hw-global-dynamic-elements.css', keeping rule
+ValueError, unknown url type: feed_0/article_1/stylesheets/hw-global-dynamic-elements.css
+CSSImportRule: While processing imported style sheet href=hw-global-dynamic-elements.css: IOError('Cannot read Stylesheet.',)
+Parsing feed_0/article_1/stylesheets/style10.css ...
+Parsing feed_0/article_1/stylesheets/style7.css ...
+Parsing feed_0/article_0/index.html ...
+Parsing feed_0/article_1/stylesheets/style4.css ...
+Parsing feed_0/article_1/stylesheets/style11.css ...
+PropertyValue: Unknown syntax or no value:  
+CSSStyleDeclaration: Syntax Error in Property: background-image: 
+Parsing feed_0/index.html ...
+Initial parse failed, using more forgiving parsers
+Parsing feed_0/index.html as HTML
+Parsing feed_0/article_1/stylesheets/style5.css ...
+CSS import of missing file u'feed_0/article_1/stylesheets/hw-content-figures.css'
+CSSImportRule: While processing imported style sheet href=hw-content-figures.css: IOError('Cannot read Stylesheet.',)
+CSS import of missing file u'feed_0/article_1/stylesheets/hw-content-figures.css'
+CSSImportRule: While processing imported style sheet href=hw-content-figures.css: IOError('Cannot read Stylesheet.',)
+CSS import of missing file u'feed_0/article_1/stylesheets/hw-content-tables.css'
+CSSImportRule: While processing imported style sheet href=hw-content-tables.css: IOError('Cannot read Stylesheet.',)
+CSS import of missing file u'feed_0/article_1/stylesheets/hw-content-tables.css'
+CSSImportRule: While processing imported style sheet href=hw-content-tables.css: IOError('Cannot read Stylesheet.',)
+Selector: Unexpected CHAR. [800:1: /]
+Selector: Unexpected CHAR. [800:2: /]
+SelectorList: Invalid Selector: //MathJax classes
+Cannot get referenced stylesheet u'hw-content-figures.css', keeping rule
+ValueError, unknown url type: feed_0/article_1/stylesheets/hw-content-figures.css
+CSSImportRule: While processing imported style sheet href=hw-content-figures.css: IOError('Cannot read Stylesheet.',)
+Cannot get referenced stylesheet u'hw-content-tables.css', keeping rule
+ValueError, unknown url type: feed_0/article_1/stylesheets/hw-content-tables.css
+CSSImportRule: While processing imported style sheet href=hw-content-tables.css: IOError('Cannot read Stylesheet.',)
+Parsing feed_0/article_1/stylesheets/style6.css ...
+PropertyValue: No match: ('CHAR', u':', 313, 72)
+PropertyValue: Unknown syntax or no value:  progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/shared/img/fancybox/fancy_close.png', sizingMethod='scale')
+CSSStyleDeclaration: Syntax Error in Property: filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/shared/img/fancybox/fancy_close.png', sizingMethod='scale')
+PropertyValue: No match: ('CHAR', u':', 315, 75)
+PropertyValue: Unknown syntax or no value:  progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/shared/img/fancybox/fancy_nav_left.png', sizingMethod='scale')
+CSSStyleDeclaration: Syntax Error in Property: filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/shared/img/fancybox/fancy_nav_left.png', sizingMethod='scale')
+PropertyValue: No match: ('CHAR', u':', 316, 76)
+PropertyValue: Unknown syntax or no value:  progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/shared/img/fancybox/fancy_nav_right.png', sizingMethod='scale')
+CSSStyleDeclaration: Syntax Error in Property: filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/shared/img/fancybox/fancy_nav_right.png', sizingMethod='scale')
+PropertyValue: No match: ('CHAR', u':', 318, 77)
+PropertyValue: Unknown syntax or no value:  progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/shared/img/fancybox/fancy_title_over.png', sizingMethod='scale')
+CSSStyleDeclaration: Syntax Error in Property: filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/shared/img/fancybox/fancy_title_over.png', sizingMethod='scale')
+PropertyValue: No match: ('CHAR', u':', 319, 83)
+PropertyValue: Unknown syntax or no value:  progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/shared/img/fancybox/fancy_title_left.png', sizingMethod='scale')
+CSSStyleDeclaration: Syntax Error in Property: filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/shared/img/fancybox/fancy_title_left.png', sizingMethod='scale')
+PropertyValue: No match: ('CHAR', u':', 320, 83)
+PropertyValue: Unknown syntax or no value:  progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/shared/img/fancybox/fancy_title_main.png', sizingMethod='scale')
+CSSStyleDeclaration: Syntax Error in Property: filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/shared/img/fancybox/fancy_title_main.png', sizingMethod='scale')
+PropertyValue: No match: ('CHAR', u':', 321, 84)
+PropertyValue: Unknown syntax or no value:  progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/shared/img/fancybox/fancy_title_right.png', sizingMethod='scale')
+CSSStyleDeclaration: Syntax Error in Property: filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/shared/img/fancybox/fancy_title_right.png', sizingMethod='scale')
+DimensionValue: Missing token for production Choice(dimension, number, percentage): ('STRING', u'"px"', 324, 52)
+DimensionValue: Missing token for production Choice(dimension, number, percentage): ('CHAR', u'(', 329, 26)
+DimensionValue: Missing token for production Choice(dimension, number, percentage): ('CHAR', u'(', 329, 142)
+PropertyValue: No match: ('CHAR', u'=', 329, 153)
+PropertyValue: Unknown syntax or no value:  expression( (-20 + (document.documentElement.clientHeight ? document.documentElement.clientHeight/2 : document.body.clientHeight/2 ) + ( ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop )) + 'px')
+CSSStyleDeclaration: Syntax Error in Property: top: expression( (-20 + (document.documentElement.clientHeight ? document.documentElement.clientHeight/2 : document.body.clientHeight/2 ) + ( ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop )) + 'px')
+PropertyValue: No match: ('CHAR', u':', 332, 77)
+PropertyValue: Unknown syntax or no value:  progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/shared/img/fancybox/fancy_loading.png', sizingMethod='scale')
+CSSStyleDeclaration: Syntax Error in Property: filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/shared/img/fancybox/fancy_loading.png', sizingMethod='scale')
+PropertyValue: No match: ('CHAR', u':', 338, 45)
+PropertyValue: Unknown syntax or no value:  progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/shared/img/fancybox/fancy_shadow_n.png', sizingMethod='scale')
+CSSStyleDeclaration: Syntax Error in Property: filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/shared/img/fancybox/fancy_shadow_n.png', sizingMethod='scale')
+PropertyValue: No match: ('CHAR', u':', 339, 46)
+PropertyValue: Unknown syntax or no value:  progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/shared/img/fancybox/fancy_shadow_ne.png', sizingMethod='scale')
+CSSStyleDeclaration: Syntax Error in Property: filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/shared/img/fancybox/fancy_shadow_ne.png', sizingMethod='scale')
+PropertyValue: No match: ('CHAR', u':', 340, 45)
+PropertyValue: Unknown syntax or no value:  progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/shared/img/fancybox/fancy_shadow_e.png', sizingMethod='scale')
+CSSStyleDeclaration: Syntax Error in Property: filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/shared/img/fancybox/fancy_shadow_e.png', sizingMethod='scale')
+PropertyValue: No match: ('CHAR', u':', 341, 46)
+PropertyValue: Unknown syntax or no value:  progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/shared/img/fancybox/fancy_shadow_se.png', sizingMethod='scale')
+CSSStyleDeclaration: Syntax Error in Property: filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/shared/img/fancybox/fancy_shadow_se.png', sizingMethod='scale')
+PropertyValue: No match: ('CHAR', u':', 342, 45)
+PropertyValue: Unknown syntax or no value:  progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/shared/img/fancybox/fancy_shadow_s.png', sizingMethod='scale')
+CSSStyleDeclaration: Syntax Error in Property: filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/shared/img/fancybox/fancy_shadow_s.png', sizingMethod='scale')
+PropertyValue: No match: ('CHAR', u':', 343, 46)
+PropertyValue: Unknown syntax or no value:  progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/shared/img/fancybox/fancy_shadow_sw.png', sizingMethod='scale')
+CSSStyleDeclaration: Syntax Error in Property: filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/shared/img/fancybox/fancy_shadow_sw.png', sizingMethod='scale')
+PropertyValue: No match: ('CHAR', u':', 344, 45)
+PropertyValue: Unknown syntax or no value:  progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/shared/img/fancybox/fancy_shadow_w.png', sizingMethod='scale')
+CSSStyleDeclaration: Syntax Error in Property: filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/shared/img/fancybox/fancy_shadow_w.png', sizingMethod='scale')
+PropertyValue: No match: ('CHAR', u':', 345, 46)
+PropertyValue: Unknown syntax or no value:  progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/shared/img/fancybox/fancy_shadow_nw.png', sizingMethod='scale')
+CSSStyleDeclaration: Syntax Error in Property: filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/shared/img/fancybox/fancy_shadow_nw.png', sizingMethod='scale')
+Parsing feed_0/article_1/stylesheets/style13.css ...
+Parsing feed_0/article_1/stylesheets/style12.css ...
+Parsing feed_0/article_1/stylesheets/style8.css ...
+Parsing feed_0/article_1/stylesheets/style9.css ...
+Selector: Unexpected CHAR. [300:1: /]
+Selector: Unexpected CHAR. [300:2: /]
+SelectorList: Invalid Selector: // .ad_unhidden 
+Parsing index.html ...
+Forcing index.html into XHTML namespace
+Parsing feed_0/article_1/index.html ...
+Parsing feed_0/article_1/stylesheets/style2.css ...
+Parsing feed_0/article_1/stylesheets/style3.css ...
+CSS import of missing file u'feed_0/article_1/stylesheets/hw-publisher-sidebars.css'
+CSSImportRule: While processing imported style sheet href=hw-publisher-sidebars.css: IOError('Cannot read Stylesheet.',)
+CSS import of missing file u'feed_0/article_1/stylesheets/hw-publisher-sidebars.css'
+CSSImportRule: While processing imported style sheet href=hw-publisher-sidebars.css: IOError('Cannot read Stylesheet.',)
+Cannot get referenced stylesheet u'hw-publisher-sidebars.css', keeping rule
+ValueError, unknown url type: feed_0/article_1/stylesheets/hw-publisher-sidebars.css
+CSSImportRule: While processing imported style sheet href=hw-publisher-sidebars.css: IOError('Cannot read Stylesheet.',)
+Parsing feed_0/article_1/stylesheets/style14.css ...
+Parsing feed_0/article_1/stylesheets/style1.css ...
+Parsing feed_0/article_1/stylesheets/style15.css ...
+CSS import of missing file u'feed_0/article_1/stylesheets/ui.dialog.css'
+CSSImportRule: While processing imported style sheet href=ui.dialog.css: IOError('Cannot read Stylesheet.',)
+CSS import of missing file u'feed_0/article_1/stylesheets/ui.dialog.css'
+CSSImportRule: While processing imported style sheet href=ui.dialog.css: IOError('Cannot read Stylesheet.',)
+CSS import of missing file u'feed_0/article_1/stylesheets/ui.resizable.css'
+CSSImportRule: While processing imported style sheet href=ui.resizable.css: IOError('Cannot read Stylesheet.',)
+CSS import of missing file u'feed_0/article_1/stylesheets/ui.resizable.css'
+CSSImportRule: While processing imported style sheet href=ui.resizable.css: IOError('Cannot read Stylesheet.',)
+Property: No CSS priority value: important	
+Property: No CSS priority value: important	
+MediaQuery: Unexpected syntax, expected "and" but found "(". [369:8: (]
+MediaQuery: Unexpected syntax, expected "and" but found ":". [369:25: :]
+MediaQuery: Unexpected syntax. [369:26: 600px]
+MediaQuery: Unexpected syntax, expected "and" but found ")". [369:31: )]
+MediaList: Invalid MediaQuery:  (min-device-width:600px) and (max-width:880px) 
+PropertyValue: Missing token for production Choice(ColorValue, Dimension, URIValue, Value, variable, MSValue, function)
+PropertyValue: Unknown syntax or no value:  214px /
+CSSStyleDeclaration: Syntax Error in Property: height: 214px /
+PropertyValue: Missing token for production Choice(ColorValue, Dimension, URIValue, Value, variable, MSValue, function)
+PropertyValue: Unknown syntax or no value:  211px /
+CSSStyleDeclaration: Syntax Error in Property: height: 211px /
+MediaQuery: Syntax Error in media type " screen".
+CSSStylesheet: Unknown @rule found. [443:1: @-moz-document]
+Property: Unknown Property name. [454:20: -webkit-min-device-pixel-ratio]
+Property: Unknown Property name. [524:20: -webkit-min-device-pixel-ratio]
+Cannot get referenced stylesheet u'ui.dialog.css', keeping rule
+ValueError, unknown url type: feed_0/article_1/stylesheets/ui.dialog.css
+CSSImportRule: While processing imported style sheet href=ui.dialog.css: IOError('Cannot read Stylesheet.',)
+Cannot get referenced stylesheet u'ui.resizable.css', keeping rule
+ValueError, unknown url type: feed_0/article_1/stylesheets/ui.resizable.css
+CSSImportRule: While processing imported style sheet href=ui.resizable.css: IOError('Cannot read Stylesheet.',)
+Referenced file '/external-ref%3faccess_num%3dXu%20L%26link_type%3dAUTHORSEARCH' not found
+Referenced file '/cgi/calendarcontent/index.html%3ftarget%3dhw.dtl' not found
+Referenced file u'/publisher/img/text/headings/on_grey/for_librarians.gif' not found
+Referenced file '/external-ref%3faccess_num%3dA1983QE68600006%26link_type%3dISI' not found
+Referenced file '/external-ref%3faccess_num%3d10.1002/%28SICI%291096-9861%2820000221%29417%3a4%3c448%3a%3aAID-CNE5%3e3.0.CO%3b2-S%26link_type%3dDOI' not found
+Referenced file '/external-ref%3faccess_num%3d10.1371/journal.pone.0020907%26link_type%3dDOI' not found
+Referenced file u'/shared/img/content/delete.gif' not found
+Referenced file u'/resource/image/nav/journal/current_issue_selected.gif' not found
+Referenced file u'/publisher/img/plain_grey_29.gif' not found
+Referenced file '/search' not found
+Referenced file u'/publisher/img/text/headings/on_yellow/you_searched_for.gif' not found
+Referenced file u'feed_0/article_1/images/btn-search.gif' not found
+Referenced file '/external-ref%3faccess_num%3d10.1002/cne.903150207%26link_type%3dDOI' not found
+Referenced file '/external-ref%3faccess_num%3d10701866%26link_type%3dMED' not found
+Referenced file '/search%3fauthor1%3dYiqi%2bChen%26sortspec%3ddate%26submit%3dSubmit' not found
+Referenced file '/external-ref%3faccess_num%3d10.1002/cne.20956%26link_type%3dDOI' not found
+Referenced file '/external-ref%3faccess_num%3d10.1038/nrg930%26link_type%3dDOI' not found
+Referenced file '/external-ref%3faccess_num%3d000266411700019%26link_type%3dISI' not found
+Referenced file '/external-ref%3faccess_num%3d10.1038/ng.381%26link_type%3dDOI' not found
+Referenced file '/external-ref%3faccess_num%3d10.1186/1471-2105-10-233%26link_type%3dDOI' not found
+Referenced file '/external-ref%3faccess_num%3d10.1016/j.neuroimage.2004.09.028%26link_type%3dDOI' not found
+Referenced file '/cgi/ijlink%3flinkType%3dABST%26journalCode%3dnar%26resid%3d29/1/308' not found
+Referenced file '/content/28/22/2905.short' not found
+Referenced file '/external-ref%3faccess_num%3dKwok%20C%26link_type%3dAUTHORSEARCH' not found
+Referenced file u'/resource/image/nav/for_librarians.gif' not found
+Referenced file '/external-ref%3faccess_num%3d20578089%26link_type%3dMED' not found
+Referenced file u'/resource/image/nav/journal/archive.gif' not found
+Referenced file u'/resource/image/nav/journal/archive_selected.gif' not found
+Referenced file '/external-ref%3ftag_url%3dhttp%3a/bioinformatics.oxfordjournals.org/cgi/content/long/28/22/2898%26title%3dExtra-binomial%20variation%20approach%20for%20analysis%20of%20pooled%20DNA%20sequencing%20data%2b--%2bYang%20et%20al.%2028%20%2822%29%3a%202898%2b--%2bbioinformatics%26doi%3d10.1093/bioinformatics/bts553%26link_type%3dCITEULIKE' not found
+Referenced file '/content/28/22/2963.long%3frss%3d1%26related-urls%3dyes%26legid%3dbioinfo%3b28/22/2963' not found
+Referenced file u'/resource/image/nav/our_journals_selected.gif' not found
+Referenced file u'feed_0/article_1/stylesheets/images/ui-bg_glass_75_ffffff_1x400.png' not found
+Referenced file u'/publisher/img/text/headings/on_yellow/find_results_for.gif' not found
+Referenced file '/external-ref%3faccess_num%3d/bioinfo/28/22/2898%26link_type%3dISI_CITING%26accnum_type%3dnative' not found
+Referenced file '/external-ref%3faccess_num%3dKrebs%20C%26link_type%3dAUTHORSEARCH' not found
+Referenced file '/external-ref%3faccess_num%3d000226588500021%26link_type%3dISI' not found
+Referenced file '/external-ref%3faccess_num%3dA1976CM96300004%26link_type%3dISI' not found
+Referenced file '/external-ref%3faccess_num%3d3794004%26link_type%3dMED' not found
+Referenced file '/external-ref%3faccess_num%3d10.1186/gb-2007-8-7-r143%26link_type%3dDOI' not found
+Referenced file u'/publisher/img/text/headings/on_grey/services.gif' not found
+Referenced file '/external-ref%3faccess_num%3d000290238100008%26link_type%3dISI' not found
+Referenced file '/external-ref%3faccess_num%3d16201007%26link_type%3dMED' not found
+Referenced file u'/publisher/img/trim/border_dotted_grey_horiz.gif' not found
+Referenced file '/external-ref%3faccess_num%3dSiu%20C%26link_type%3dAUTHORSEARCH' not found
+Referenced file u'feed_0/article_1/images/bkgd-hide-arrow.gif' not found
+Referenced file u'/shared/img/misc/cancel.png' not found
+Referenced file '/external-ref%3ftag_url%3dhttp%3a/bioinformatics.oxfordjournals.org/cgi/content/long/28/22/2898%26title%3dExtra-binomial%20variation%20approach%20for%20analysis%20of%20pooled%20DNA%20sequencing%20data%2b--%2bYang%20et%20al.%2028%20%2822%29%3a%202898%2b--%2bbioinformatics%26doi%3d10.1093/bioinformatics/bts553%26link_type%3dTWITTER' not found
+Referenced file '/content/early/2012/09/11/bioinformatics.bts553' not found
+Referenced file u'/resource/image/trim/arrow_black.gif' not found
+Referenced file '/external-ref%3faccess_num%3d10.1002/gepi.20502%26link_type%3dDOI' not found
+Referenced file u'/resource/image/nav/for_authors_selected.gif' not found
+Referenced file '/external-ref%3faccess_num%3d16418747%26link_type%3dMED' not found
+Referenced file u'feed_0/article_1/stylesheets/hw-global-citation.css' not found
+Referenced file '/external-ref%3faccess_num%3d9590546%26link_type%3dMED' not found
+Referenced file '/cgi/crossref-forward-links/28/22/2963' not found
+Referenced file '/external-ref%3faccess_num%3d18978792%26link_type%3dMED' not found
+Referenced file '/external-ref%3faccess_num%3d21695164%26link_type%3dMED' not found
+Referenced file '/external-ref%3faccess_num%3d10.1038/nature05911%26link_type%3dDOI' not found
+Referenced file u'feed_0/article_1/img/content/up.gif' not found
+Referenced file '/external-ref%3faccess_num%3d000073290400005%26link_type%3dISI' not found
+Referenced file '/external-ref%3faccess_num%3d17659080%26link_type%3dMED' not found
+Referenced file '/external-ref%3faccess_num%3d10.1016/j.jbi.2011.04.005%26link_type%3dDOI' not found
+Referenced file u'feed_0/article_1/stylesheets/ui.dialog.css' not found
+Referenced file u'/icons/toc/darrow.gif' not found
+Referenced file '/external-ref%3faccess_num%3d77865%26link_type%3dMED' not found
+Referenced file '/content/28/22/2971.short' not found
+Referenced file '/external-ref%3faccess_num%3d000230322400004%26link_type%3dISI' not found
+Referenced file '/external-ref%3faccess_num%3d000259650100010%26link_type%3dISI' not found
+Referenced file u'/icons/toc/rarrowsm.gif' not found
+Referenced file '/content/28/22/2898.full.pdf%2bhtml' not found
+Referenced file u'/publisher/img/bullet.gif' not found
+Referenced file '/external-ref%3faccess_num%3d10.1016/j.csda.2008.01.013%26link_type%3dDOI' not found
+Referenced file '/external-ref%3ftag_url%3dhttp%3a/bioinformatics.oxfordjournals.org/cgi/content/long/28/22/2898%26title%3dExtra-binomial%20variation%20approach%20for%20analysis%20of%20pooled%20DNA%20sequencing%20data%2b--%2bYang%20et%20al.%2028%20%2822%29%3a%202898%2b--%2bbioinformatics%26doi%3d10.1093/bioinformatics/bts553%26link_type%3dMENDELEY' not found
+Referenced file u'/resource/image/trim/nav_separator_dark_grey.gif' not found
+Referenced file '/scopus-links/bioinfo/28/22/2898%3faccess_num%3d/bioinfo/28/22/2898' not found
+Referenced file u'/publisher/img/header_6.jpg' not found
+Referenced file u'feed_0/article_1/images/btn-related-content.gif' not found
+Referenced file u'/resource/image/nav/news.gif' not found
+Referenced file '/search%3fauthor1%3dPaul%2bPavlidis%26sortspec%3ddate%26submit%3dSubmit' not found
+Referenced file '/external-ref%3faccess_num%3dLane%20S%26link_type%3dAUTHORSEARCH' not found
+Referenced file '/external-ref%3faccess_num%3d22954628%26link_type%3dMED_NBRS' not found
+Referenced file '/external-ref%3faccess_num%3dA1952UN01600009%26link_type%3dISI' not found
+Referenced file '/external-ref%3faccess_num%3d15319511%26link_type%3dMED' not found
+Referenced file '/external-ref%3faccess_num%3d21782932%26link_type%3dMED' not found
+Referenced file u'/resource/image/text/headings/footer_ouptext.gif' not found
+Referenced file u'feed_0/article_1/stylesheets/hw-content-figures.css' not found
+Referenced file u'feed_0/article_1/stylesheets/hw-global-elements.css' not found
+Referenced file '/letters/submit/bioinfo%3b28/22/2898' not found
+Referenced file '/external-ref%3faccess_num%3d10.1038/ng1800%26link_type%3dDOI' not found
+Referenced file '/email%3fgca%3dbioinfo%3b28/22/2898%26current-view-path%3d/content/28/22/2898.long' not found
+Referenced file '/external-ref%3faccess_num%3d20617200%26link_type%3dMED' not found
+Referenced file '/external-ref%3ftag_url%3dhttp%3a/bioinformatics.oxfordjournals.org/cgi/content/long/28/22/2963%26title%3dApplication%20and%20evaluation%20of%20automated%20methods%20to%20extract%20neuroanatomical%20connectivity%20statements%20from%20free%20text%2b--%2bFrench%20et%20al.%2028%20%2822%29%3a%202963%2b--%2bbioinformatics%26doi%3d10.1093/bioinformatics/bts542%26link_type%3dCONNOTEA' not found
+Referenced file u'feed_0/article_1/2963/F1.expansion.html' not found
+Referenced file '/external-ref%3faccess_num%3d18284683%26link_type%3dMED' not found
+Referenced file '/external-ref%3ftag_url%3dhttp%3a/bioinformatics.oxfordjournals.org/cgi/content/long/28/22/2963%26title%3dApplication%20and%20evaluation%20of%20automated%20methods%20to%20extract%20neuroanatomical%20connectivity%20statements%20from%20free%20text%2b--%2bFrench%20et%20al.%2028%20%2822%29%3a%202963%2b--%2bbioinformatics%26doi%3d10.1093/bioinformatics/bts542%26link_type%3dCITEULIKE' not found
+Referenced file '/external-ref%3faccess_num%3d10.1002/%28SICI%291096-9861%2819980525%29395%3a1%3c53%3a%3aAID-CNE5%3e3.0.CO%3b2-G%26link_type%3dDOI' not found
+Referenced file u'/resource/image/text/headings/on_black/oj_logo.gif' not found
+Referenced file '/external-ref%3faccess_num%3d12886225%26link_type%3dMED' not found
+Referenced file u'/shared/img/fancybox/fancy_title_over.png' not found
+Referenced file '/external-ref%3faccess_num%3d16699517%26link_type%3dMED' not found
+Referenced file '/external-ref%3faccess_num%3dTodd%20JA%26link_type%3dAUTHORSEARCH' not found
+Referenced file '/external-ref%3faccess_num%3d22584238%26link_type%3dMED' not found
+Referenced file '/content/28/22/2898/suppl/DC1' not found
+Referenced file '/search%3fauthor1%3dSuzanne%2bLane%26sortspec%3ddate%26submit%3dSubmit' not found
+Referenced file '/external-ref%3faccess_num%3d000264751000015%26link_type%3dISI' not found
+Referenced file u'/resource/image/text/headings/on_yellow/oj_logo.gif' not found
+Referenced file u'/resource/image/nav/journal/about_this_journal.gif' not found
+Referenced file u'/resource/image/nav/journal/search.gif' not found
+Referenced file '/content/early/2012/09/05/bioinformatics.bts542' not found
+Referenced file '/content/by/year' not found
+Referenced file '/external-ref%3faccess_num%3d22954628%26link_type%3dPUBMED' not found
+Referenced file '/external-ref%3faccess_num%3d21983784%26link_type%3dMED' not found
+Referenced file '/cgi/ijlink%3flinkType%3dABST%26journalCode%3dbioinfo%26resid%3d25/17/2283' not found
+Referenced file u'/shared/img/fancybox/blank.gif' not found
+Referenced file u'feed_0/article_0/2898/F5.expansion.html' not found
+Referenced file u'feed_0/article_1/images/bkgd-wrapper.png' not found
+Referenced file '/external-ref%3faccess_num%3d10.1038/361109a0%26link_type%3dDOI' not found
+Referenced file u'feed_0/article_0/2898/F2.expansion.html' not found
+Referenced file u'/resource/image/nav/for_societies_selected.gif' not found
+Referenced file '/external-ref%3faccess_num%3d17889371%26link_type%3dMED' not found
+Referenced file '/external-ref%3faccess_num%3dA1992HB75200006%26link_type%3dISI' not found
+Referenced file '/cgi/alerts/ctalert%3falertType%3deletter%26addAlert%3deletter%26eletter_criteria_value%3d28/22/2963%26saveAlert%3dno%26return-type%3darticle%26return_url%3dhttp%3a/bioinformatics.oxfordjournals.org/content/28/22/2963.long%3frss%3d1' not found
+Referenced file '/external-ref%3faccess_num%3d10.1016/j.jneumeth.2007.08.007%26link_type%3dDOI' not found
+Referenced file '/cgi/ijlink%3flinkType%3dABST%26journalCode%3dgenome%26resid%3d18/9/1509' not found
+Referenced file u'/resource/image/nav/journal/contact_this_journal_selected.gif' not found
+Referenced file '/external-ref%3faccess_num%3dPavlidis%20P%26link_type%3dAUTHORSEARCH' not found
+Referenced file u'/resource/image/nav/our_journals.gif' not found
+Referenced file u'feed_0/article_1/2963/T1.expansion.html' not found
+Referenced file u'/resource/image/nav/access_purchase.gif' not found
+Referenced file '/powerpoint/28/22/2963/F1' not found
+Referenced file '/citmgr%3fgca%3dbioinfo%3b28/22/2963' not found
+Referenced file u'/resource/image/nav/for_librarians_selected.gif' not found
+Referenced file '/publisher/img/buttons/go.gif' not found
+Referenced file u'/publisher/img/checkbox_arrow_down.gif' not found
+Referenced file u'/resource/image/nav/my_account.gif' not found
+Referenced file u'/shared/img/fancybox/fancybox-x.png' not found
+Referenced file '/external-ref%3faccess_num%3d10.1385/NI%3a2%3a2%3a127%26link_type%3dDOI' not found
+Referenced file '/external-ref%3faccess_num%3d/bioinfo/28/22/2963%26link_type%3dISI_CITING%26accnum_type%3dnative' not found
+Referenced file u'feed_0/article_1/images/reveal-button.png' not found
+Referenced file '/rss' not found
+Referenced file '/external-ref%3faccess_num%3d000250412700007%26link_type%3dISI' not found
+Referenced file u'feed_0/article_1/stylesheets/hw-publisher-sidebars.css' not found
+Referenced file '/external-ref%3faccess_num%3d18677319%26link_type%3dMED' not found
+Referenced file '/external-ref%3faccess_num%3d10.1371/journal.pcbi.0010042%26link_type%3dDOI' not found
+Referenced file '/external-ref%3faccess_num%3dClayton%20D%26link_type%3dAUTHORSEARCH' not found
+Referenced file '/external-ref%3faccess_num%3dA1978FD16900001%26link_type%3dISI' not found
+Referenced file u'/publisher/img/text/headings/on_yellow/about_oxford_journals.gif' not found
+Referenced file u'/site/resource/bioinfo_title.jpg' not found
+Referenced file '/external-ref%3faccess_num%3d10.1002/%28SICI%291096-9861%2819991206%29415%3a1%3c91%3a%3aAID-CNE7%3e3.0.CO%3b2-A%26link_type%3dDOI' not found
+Referenced file '/external-ref%3faccess_num%3d10.1002/cne.901800302%26link_type%3dDOI' not found
+Referenced file '/external-ref%3faccess_num%3d000179041600014%26link_type%3dISI' not found
+Referenced file u'feed_0/article_0/2898/T2.expansion.html' not found
+Referenced file u'/resource/image/nav/journal/current_issue.gif' not found
+Referenced file '/external-ref%3faccess_num%3dbioinfo%3b28/22/2963%26link_type%3dISI_RELATEDRECORDS' not found
+Referenced file u'feed_0/article_1/stylesheets/hw-global-sidebars.css' not found
+Referenced file u'feed_0/article_1/images/bkgd-scroll-arrows.gif' not found
+Referenced file '/external-ref%3faccess_num%3d000237954800012%26link_type%3dISI' not found
+Referenced file '/cgi/feedback' not found
+Referenced file '/cgi/crossref-forward-links/28/22/2898' not found
+Referenced file '/search%3fqbe%3dbioinfo%3bbts542%26citation%3dFrench%20et%20al.%2028%20%2822%29%3a%202963%26submit%3dyes' not found
+Referenced file u'feed_0/article_1/images/bkgd-hide-links.png' not found
+Referenced file '/content/28/22/2891.short' not found
+Referenced file '/cgi/ijlink%3flinkType%3dABST%26journalCode%3dsci%26resid%3d324/5925/387' not found
+Referenced file u'/resource/image/nav/contact_us.gif' not found
+Referenced file u'/publisher/img/text/headings/on_grey/search_journals.gif' not found
+Referenced file '/external-ref%3faccess_num%3d15652316%26link_type%3dMED' not found
+Referenced file '/content/28/22/2898.long%3frss%3d1%26related-urls%3dyes%26legid%3dbioinfo%3b28/22/2898' not found
+Referenced file u'feed_0/article_0/2898/F1.expansion.html' not found
+Referenced file u'/publisher/img/trim/border_dotted_grey_vert.gif' not found
+Referenced file '/search%3fqbe%3dbioinfo%3bbts553%26citation%3dYang%20et%20al.%2028%20%2822%29%3a%202898%26submit%3dyes' not found
+Referenced file u'/shared/img/content/star.gif' not found
+Referenced file u'/resource/image/trim/arrow_white.gif' not found
+Referenced file u'/shared/img/fancybox/fancybox-y.png' not found
+Referenced file '/external-ref%3faccess_num%3d10.1016/j.jneumeth.2012.04.019%26link_type%3dDOI' not found
+Referenced file '/external-ref%3faccess_num%3d18421704%26link_type%3dMED' not found
+Referenced file '/external-ref%3faccess_num%3d21251014%26link_type%3dMED' not found
+Referenced file '/content/28/22/2898.abstract' not found
+Referenced file u'/shared/img/content/1000.png' not found
+Referenced file u'/publisher/img/text/headings/on_white/welcome.gif' not found
+Referenced file '/search%3fauthor1%3dClaudia%2bKrebs%26sortspec%3ddate%26submit%3dSubmit' not found
+Referenced file '/content/28/22/2898.long%3frss%3d1%26cited-by%3dyes%26legid%3dbioinfo%3b28/22/2898' not found
+Referenced file '/citmgr%3fgca%3dbioinfo%3b28/22/2898' not found
+Referenced file '/cgi/ijlink%3flinkType%3dABST%26journalCode%3dcercor%26resid%3d1/1/1-a' not found
+Referenced file u'feed_0/article_1/stylesheets/images/ui-bg_highlight-soft_75_cccccc_1x100.png' not found
+Referenced file '/external-ref%3faccess_num%3dA1986F117900001%26link_type%3dISI' not found
+Referenced file '/cgi/alerts/ctalert%3falertType%3dcitedby%26addAlert%3dcited_by%26cited_by_criteria_resid%3dbioinfo%3b28/22/2963%26saveAlert%3dno%26return-type%3darticle%26return_url%3dhttp%3a/bioinformatics.oxfordjournals.org/content/28/22/2963.long%3frss%3d1' not found
+Referenced file '/external-ref%3faccess_num%3d15897615%26link_type%3dMED' not found
+Referenced file '/search%3fauthor1%3dJohn%2bA.%2bTodd%26sortspec%3ddate%26submit%3dSubmit' not found
+Referenced file '/external-ref%3faccess_num%3d16628615%26link_type%3dMED' not found
+Referenced file u'feed_0/article_1/img/misc/col-contract.gif' not found
+Referenced file '/email%3fgca%3dbioinfo%3b28/22/2963%26current-view-path%3d/content/28/22/2963.long' not found
+Referenced file u'/publisher/img/text/headings/on_yellow/logged_in.gif' not found
+Referenced file '/external-ref%3faccess_num%3dWallace%20C%26link_type%3dAUTHORSEARCH' not found
+Referenced file '/external-ref%3ftag_url%3dhttp%3a/bioinformatics.oxfordjournals.org/cgi/content/long/28/22/2898%26title%3dExtra-binomial%20variation%20approach%20for%20analysis%20of%20pooled%20DNA%20sequencing%20data%2b--%2bYang%20et%20al.%2028%20%2822%29%3a%202898%2b--%2bbioinformatics%26doi%3d10.1093/bioinformatics/bts553%26link_type%3dCONNOTEA' not found
+Referenced file '/external-ref%3ftag_url%3dhttp%3a/bioinformatics.oxfordjournals.org/cgi/content/long/28/22/2963%26title%3dApplication%20and%20evaluation%20of%20automated%20methods%20to%20extract%20neuroanatomical%20connectivity%20statements%20from%20free%20text%2b--%2bFrench%20et%20al.%2028%20%2822%29%3a%202963%2b--%2bbioinformatics%26doi%3d10.1093/bioinformatics/bts542%26link_type%3dMENDELEY' not found
+Referenced file u'/resource/image/paediatricrheumatology.gif' not found
+Referenced file '/external-ref%3faccess_num%3d17554300%26link_type%3dMED' not found
+Referenced file '/external-ref%3faccess_num%3d8421513%26link_type%3dMED' not found
+Referenced file u'/resource/image/nav/about_us.gif' not found
+Referenced file u'/resource/image/nav/for_authors.gif' not found
+Referenced file '/external-ref%3ftag_url%3dhttp%3a/bioinformatics.oxfordjournals.org/cgi/content/short/28/22/2898%26title%3dExtra-binomial%20variation%20approach%20for%20analysis%20of%20pooled%20DNA%20sequencing%20data%2b--%2bYang%20et%20al.%2028%20%2822%29%3a%202898%2b--%2bbioinformatics%26doi%3d10.1093/bioinformatics/bts553%26link_type%3dFACEBOOK' not found
+Referenced file '/content/28/22/2963.abstract' not found
+Referenced file '/search%3ftocsectionid%3dSEQUENCE%2bANALYSIS%26sortspec%3ddate%26submit%3dSubmit' not found
+Referenced file '/external-ref%3ftag_url%3dhttp%3a/bioinformatics.oxfordjournals.org/cgi/content/long/28/22/2963%26title%3dApplication%20and%20evaluation%20of%20automated%20methods%20to%20extract%20neuroanatomical%20connectivity%20statements%20from%20free%20text%2b--%2bFrench%20et%20al.%2028%20%2822%29%3a%202963%2b--%2bbioinformatics%26doi%3d10.1093/bioinformatics/bts542%26link_type%3dDEL_ICIO_US' not found
+Referenced file u'/publisher/img/text/titles/article_search_results.gif' not found
+Referenced file '/cgi/alerts/etoc' not found
+Referenced file '/external-ref%3faccess_num%3d1545009%26link_type%3dMED' not found
+Referenced file u'/publisher/img/header_2.jpg' not found
+Referenced file u'feed_0/article_1/stylesheets/hw-global-classes.css' not found
+Referenced file '/external-ref%3faccess_num%3d10.1111/j.1749-6632.2010.05888.x%26link_type%3dDOI' not found
+Referenced file '/search%3fauthor1%3dLeon%2bFrench%26sortspec%3ddate%26submit%3dSubmit' not found
+Referenced file '/external-ref%3faccess_num%3d10.1038/nn1096%26link_type%3dDOI' not found
+Referenced file u'feed_0/article_0/2898/F3.expansion.html' not found
+Referenced file '/cgi/ijlink%3flinkType%3dABST%26journalCode%3dcercor%26resid%3d17/1/92' not found
+Referenced file u'feed_0/article_1/images/arrow_gray_hid.png' not found
+Referenced file u'/site/resource/bioinfo_header.jpg' not found
+Referenced file '/cgi/alerts/ctalert%3falertType%3deletter%26addAlert%3deletter%26eletter_criteria_value%3d28/22/2898%26saveAlert%3dno%26return-type%3darticle%26return_url%3dhttp%3a/bioinformatics.oxfordjournals.org/content/28/22/2898.long%3frss%3d1' not found
+Referenced file '/external-ref%3faccess_num%3d10.1186/1471-2105-9-108%26link_type%3dDOI' not found
+Referenced file u'feed_0/article_1/stylesheets/hw-global-dynamic-elements.css' not found
+Referenced file u'feed_0/article_1/img/content/down.gif' not found
+Referenced file '/external-ref%3faccess_num%3d19750194%26link_type%3dMED' not found
+Referenced file '/cgi/alerts/ctalert%3falertType%3dcorrection%26addAlert%3dcorrection%26correction_criteria_value%3d28/22/2963%26saveAlert%3dno%26return-type%3darticle%26return_url%3dhttp%3a/bioinformatics.oxfordjournals.org/content/28/22/2963.long%3frss%3d1' not found
+Referenced file '/cgi/ijlink%3flinkType%3dABST%26journalCode%3dbioinfo%26resid%3d23/21/2881' not found
+Referenced file '/cgi/ijlink%3flinkType%3dABST%26journalCode%3dbioinfo%26resid%3d26/12/i318' not found
+Referenced file '/external-ref%3faccess_num%3d10.1016/j.jchemneu.2011.07.001%26link_type%3dDOI' not found
+Referenced file '/external-ref%3faccess_num%3d000237440000008%26link_type%3dISI' not found
+Referenced file u'/publisher/img/text/headings/on_grey/my_account.gif' not found
+Referenced file u'/resource/image/trim/border_dotted_white_horiz.gif' not found
+Referenced file '/powerpoint/28/22/2898/F2' not found
+Referenced file '/powerpoint/28/22/2898/F3' not found
+Referenced file '/powerpoint/28/22/2898/F1' not found
+Referenced file '/external-ref%3faccess_num%3d10.1186/1471-2105-11-85%26link_type%3dDOI' not found
+Referenced file '/powerpoint/28/22/2898/F4' not found
+Referenced file '/powerpoint/28/22/2898/F5' not found
+Referenced file u'/publisher/img/checkbox_arrow_up.gif' not found
+Referenced file '/external-ref%3faccess_num%3d22976083%26link_type%3dPUBMED' not found
+Referenced file u'/resource/image/nav/access_purchase_selected.gif' not found
+Referenced file u'/publisher/img/text/titles/my_account.gif' not found
+Referenced file '/external-ref%3faccess_num%3dYang%20X%26link_type%3dAUTHORSEARCH' not found
+Referenced file '/external-ref%3faccess_num%3d000223582200002%26link_type%3dISI' not found
+Referenced file u'/shared/img/content/0.png' not found
+Referenced file '/external-ref%3faccess_num%3d10.1002/cne.901700305%26link_type%3dDOI' not found
+Referenced file '/external-ref%3faccess_num%3d000261215900012%26link_type%3dISI' not found
+Referenced file '/cgi/folders%3faction%3daddtofolder%26wherefrom%3dJOURNALS%26wrapped_id%3dbioinfo%3b28/22/2963' not found
+Referenced file u'feed_0/article_1/stylesheets/ui.resizable.css' not found
+Referenced file '/external-ref%3faccess_num%3d000184413700006%26link_type%3dISI' not found
+Referenced file u'feed_1/index.html' not found
+Referenced file u'feed_0/article_1/images/wait.gif' not found
+Referenced file '/external-ref%3faccess_num%3d20352014%26link_type%3dMED' not found
+Referenced file '/external-ref%3faccess_num%3d10.1002/gepi.20501%26link_type%3dDOI' not found
+Referenced file '/external-ref%3ftag_url%3dhttp%3a/bioinformatics.oxfordjournals.org/cgi/content/long/28/22/2898%26title%3dExtra-binomial%20variation%20approach%20for%20analysis%20of%20pooled%20DNA%20sequencing%20data%2b--%2bYang%20et%20al.%2028%20%2822%29%3a%202898%2b--%2bbioinformatics%26doi%3d10.1093/bioinformatics/bts553%26link_type%3dDEL_ICIO_US' not found
+Referenced file '/external-ref%3faccess_num%3d10.1038/nrg1768%26link_type%3dDOI' not found
+Referenced file u'feed_0/article_1/img/misc/pulldown.gif' not found
+Referenced file u'/publisher/img/text/headings/on_grey/events.gif' not found
+Referenced file u'/resource/image/nav/journal/subscriptions.gif' not found
+Referenced file '/content/28/22/2963.long%3frss%3d1%26cited-by%3dyes%26legid%3dbioinfo%3b28/22/2963' not found
+Referenced file '/search%3fauthor1%3dChris%2bWallace%26sortspec%3ddate%26submit%3dSubmit' not found
+Referenced file '/help/citetrack' not found
+Referenced file '/external-ref%3faccess_num%3d000234714000014%26link_type%3dISI' not found
+Referenced file '/external-ref%3faccess_num%3d000280349600013%26link_type%3dISI' not found
+Referenced file u'/publisher/img/buttons/search_again.gif' not found
+Referenced file '/search%3fauthor1%3dDavid%2bClayton%26sortspec%3ddate%26submit%3dSubmit' not found
+Referenced file '/content/current' not found
+Referenced file u'/resource/image/fasttrack.png' not found
+Referenced file '/external-ref%3faccess_num%3d000305865600012%26link_type%3dISI' not found
+Referenced file u'/resource/image/trim/border_dotted_grey_horiz.gif' not found
+Referenced file '/external-ref%3faccess_num%3dChen%20Y%26link_type%3dAUTHORSEARCH' not found
+Referenced file '/external-ref%3faccess_num%3d000247030700035%26link_type%3dISI' not found
+Referenced file '/external-ref%3faccess_num%3d20552648%26link_type%3dMED' not found
+Referenced file '/search%3ftocsectionid%3dDATA%2bAND%2bTEXT%2bMINING%26sortspec%3ddate%26submit%3dSubmit' not found
+Referenced file u'feed_0/shared/img/misc/rightchevron.gif' not found
+Referenced file '/scopus-links/bioinfo/28/22/2963%3faccess_num%3d/bioinfo/28/22/2963' not found
+Referenced file u'feed_0/article_0/2898/F4.expansion.html' not found
+Referenced file u'/resource/image/nav/journal/about_this_journal_selected.gif' not found
+Referenced file '/resource/image/buttons/go.gif' not found
+Referenced file '/' not found
+Referenced file '/external-ref%3faccess_num%3d10.1385/NI%3a3%3a1%3a015%26link_type%3dDOI' not found
+Referenced file '/external-ref%3faccess_num%3d17720147%26link_type%3dMED' not found
+Referenced file '/external-ref%3faccess_num%3d000083518400007%26link_type%3dISI' not found
+Referenced file u'/resource/image/text/headings/on_yellow/tag_line.gif' not found
+Referenced file '/letters/submit/bioinfo%3b28/22/2963' not found
+Referenced file '/external-ref%3faccess_num%3d12415316%26link_type%3dMED' not found
+Referenced file u'feed_0/article_1/images/blank.png' not found
+Referenced file u'/publisher/img/buttons/previous.gif' not found
+Referenced file '/cgi/alerts/ctalert%3falertType%3dcitedby%26addAlert%3dcited_by%26cited_by_criteria_resid%3dbioinfo%3b28/22/2898%26saveAlert%3dno%26return-type%3darticle%26return_url%3dhttp%3a/bioinformatics.oxfordjournals.org/content/28/22/2898.long%3frss%3d1' not found
+Referenced file '/external-ref%3ftag_url%3dhttp%3a/bioinformatics.oxfordjournals.org/cgi/content/long/28/22/2898%26title%3dExtra-binomial%20variation%20approach%20for%20analysis%20of%20pooled%20DNA%20sequencing%20data%2b--%2bYang%20et%20al.%2028%20%2822%29%3a%202898%2b--%2bbioinformatics%26doi%3d10.1093/bioinformatics/bts553%26link_type%3dGOOGLEPLUS%26log_only%3dyes' not found
+Referenced file u'/resource/image/nav/my_basket.gif' not found
+Referenced file '/external-ref%3faccess_num%3d22976083%26link_type%3dMED_NBRS' not found
+Referenced file u'feed_0/article_1/img/misc/col-expand.gif' not found
+Referenced file '/external-ref%3faccess_num%3d10.1038/ng.249%26link_type%3dDOI' not found
+Referenced file '/external-ref%3faccess_num%3d19635172%26link_type%3dMED' not found
+Referenced file '/external-ref%3faccess_num%3d10540360%26link_type%3dMED' not found
+Referenced file '/cgi/alerts/ctalert%3falertType%3dcorrection%26addAlert%3dcorrection%26correction_criteria_value%3d28/22/2898%26saveAlert%3dno%26return-type%3darticle%26return_url%3dhttp%3a/bioinformatics.oxfordjournals.org/content/28/22/2898.long%3frss%3d1' not found
+Referenced file '/external-ref%3faccess_num%3d10.1002/cne.902540202%26link_type%3dDOI' not found
+Referenced file '/search%3fauthor1%3dXin%2bYang%26sortspec%3ddate%26submit%3dSubmit' not found
+Referenced file u'/shared/img/content/1000-hover.png' not found
+Referenced file '/cgi/ijlink%3flinkType%3dABST%26journalCode%3dbioinfo%26resid%3d26/5/589' not found
+Referenced file '/content/28/22/2963.full.pdf%2bhtml' not found
+Referenced file u'/shared/img/fancybox/fancybox.png' not found
+Referenced file '/external-ref%3faccess_num%3d19430480%26link_type%3dMED' not found
+Referenced file u'/resource/image/nav/journal/contact_this_journal.gif' not found
+Referenced file '/external-ref%3faccess_num%3d21545845%26link_type%3dMED' not found
+Referenced file '/content/28/22/2956.short' not found
+Referenced file '/external-ref%3faccess_num%3d62770%26link_type%3dMED' not found
+Referenced file '/external-ref%3faccess_num%3d14958510%26link_type%3dMED' not found
+Referenced file u'feed_0/article_0/2898/T1.expansion.html' not found
+Referenced file '/external-ref%3faccess_num%3d10.1038/ng.952%26link_type%3dDOI' not found
+Referenced file '/search%3fauthor1%3dCelia%2bSiu%26sortspec%3ddate%26submit%3dSubmit' not found
+Referenced file u'feed_0/article_1/images/arrow_gray_exp.png' not found
+Referenced file u'/resource/image/hotpaper.gif' not found
+Referenced file '/help/social_bookmarks.dtl' not found
+Referenced file '/external-ref%3faccess_num%3d000085158700005%26link_type%3dISI' not found
+Referenced file u'/shared/img/misc/overlay.png' not found
+Referenced file u'/publisher/img/buttons/next.gif' not found
+Referenced file '/external-ref%3faccess_num%3d000252938400031%26link_type%3dISI' not found
+Referenced file u'/resource/image/nav/for_societies.gif' not found
+Referenced file '/search%3fauthor1%3dCathy%2bKwok%26sortspec%3ddate%26submit%3dSubmit' not found
+Referenced file u'feed_0/article_1/stylesheets/hw-content-tables.css' not found
+Referenced file u'/resource/image/nav/corporate_services.gif' not found
+Referenced file '/external-ref%3ftag_url%3dhttp%3a/bioinformatics.oxfordjournals.org/cgi/content/short/28/22/2963%26title%3dApplication%20and%20evaluation%20of%20automated%20methods%20to%20extract%20neuroanatomical%20connectivity%20statements%20from%20free%20text%2b--%2bFrench%20et%20al.%2028%20%2822%29%3a%202963%2b--%2bbioinformatics%26doi%3d10.1093/bioinformatics/bts542%26link_type%3dFACEBOOK' not found
+Referenced file '/external-ref%3ftag_url%3dhttp%3a/bioinformatics.oxfordjournals.org/cgi/content/long/28/22/2963%26title%3dApplication%20and%20evaluation%20of%20automated%20methods%20to%20extract%20neuroanatomical%20connectivity%20statements%20from%20free%20text%2b--%2bFrench%20et%20al.%2028%20%2822%29%3a%202963%2b--%2bbioinformatics%26doi%3d10.1093/bioinformatics/bts542%26link_type%3dTWITTER' not found
+Referenced file '/external-ref%3ftag_url%3dhttp%3a/bioinformatics.oxfordjournals.org/cgi/content/long/28/22/2963%26title%3dApplication%20and%20evaluation%20of%20automated%20methods%20to%20extract%20neuroanatomical%20connectivity%20statements%20from%20free%20text%2b--%2bFrench%20et%20al.%2028%20%2822%29%3a%202963%2b--%2bbioinformatics%26doi%3d10.1093/bioinformatics/bts542%26link_type%3dGOOGLEPLUS%26log_only%3dyes' not found
+Referenced file '/cgi/ijlink%3flinkType%3dABST%26journalCode%3dbioinfo%26resid%3d25/16/2078' not found
+Referenced file '/cgi/ijlink%3flinkType%3dABST%26journalCode%3dbioinfo%26resid%3d27/19/2672' not found
+Referenced file '/external-ref%3faccess_num%3d10.1038/sj.mp.4002010%26link_type%3dDOI' not found
+Referenced file u'/publisher/img/header_7.jpg' not found
+Referenced file '/external-ref%3faccess_num%3d20149233%26link_type%3dMED' not found
+Referenced file u'/resource/image/nav/corporate_services_selected.gif' not found
+Referenced file u'feed_0/article_1/2963/T2.expansion.html' not found
+Referenced file '/content/28/22.toc' not found
+Referenced file '/external-ref%3faccess_num%3d10.2307/2347977%26link_type%3dDOI' not found
+Referenced file '/cgi/eletters%3flookup%3dby_date%26days%3d84%26target%3dhw.dtl' not found
+Referenced file '/cgi/folders%3faction%3daddtofolder%26wherefrom%3dJOURNALS%26wrapped_id%3dbioinfo%3b28/22/2898' not found
+Referenced file u'feed_0/publisher/img/misc/abs-ptr.white.gif' not found
+Referenced file '/external-ref%3faccess_num%3dFrench%20L%26link_type%3dAUTHORSEARCH' not found
+Referenced file u'/publisher/img/envelope.jpg' not found
+Referenced file u'feed_0/article_1/2963/T3.expansion.html' not found
+Referenced file '/external-ref%3faccess_num%3dbioinfo%3b28/22/2898%26link_type%3dISI_RELATEDRECORDS' not found
+Referenced file '/external-ref%3faccess_num%3d10.1214/aos/1176346056%26link_type%3dDOI' not found
+Referenced file '/external-ref%3faccess_num%3d17471288%26link_type%3dMED' not found
+Referenced file '/external-ref%3faccess_num%3d10.1038/nmeth.1249%26link_type%3dDOI' not found
+Referenced file '/search%3fauthor1%3dLydia%2bXu%26sortspec%3ddate%26submit%3dSubmit' not found
+Referenced file '/cgi/ijlink%3flinkType%3dABST%26journalCode%3dpnas%26resid%3d105/19/6959' not found
+Referenced file '/external-ref%3faccess_num%3d10.1371/journal.pcbi.1000837%26link_type%3dDOI' not found
+Referenced file '/cgi/ijlink%3flinkType%3dABST%26journalCode%3droyptb%26resid%3d314/1165/1' not found
+Referenced file '/external-ref%3faccess_num%3d10.1002/cne.21728%26link_type%3dDOI' not found
+Reading TOC from NCX...
+34% Running transforms on ebook...
+Merging user specified metadata...
+Detecting structure...
+Flattening CSS and remapping font sizes...
+Interpreting class and tag selectors case insensitively in the CSS selector: #cb-art-soc h|ol>h|li:first-child
+Interpreting class and tag selectors case insensitively in the CSS selector: #cb-art-soc h|ol>h|li:first-child h|a
+Source base font size is 10.50000pt
+Removing fake margins...
+Found 168 items of level: div_8
+Found 9 items of level: div_1
+Found 30 items of level: div_3
+Found 26 items of level: div_2
+Found 82 items of level: div_5
+Found 38 items of level: div_4
+Found 96 items of level: div_7
+Found 34 items of level: div_6
+Found 8 items of level: p_8
+Found 2 items of level: p_9
+Found 28 items of level: p_6
+Found 15 items of level: p_7
+Found 65 items of level: p_5
+Found 6 items of level: p_2
+Ignoring level p_7
+Ignoring level p_2
+Ignoring level p_8
+Ignoring level p_9
+div_8  left margin stats: Counter({u'0': 168})
+div_8  right margin stats: Counter({u'0': 168})
+div_1  left margin stats: Counter({u'auto': 2})
+div_1  right margin stats: Counter({u'auto': 2})
+Removing level div_1 left margin of: auto
+Removing level div_1 right margin of: auto
+div_3  left margin stats: Counter({u'0': 26, u'2.5px': 2, u'5px': 2})
+div_3  right margin stats: Counter({u'0': 24, u'15px': 4, u'5px': 2})
+div_2  left margin stats: Counter({u'0': 6})
+div_2  right margin stats: Counter({u'0': 6})
+div_5  left margin stats: Counter({u'0': 82})
+div_5  right margin stats: Counter({u'0': 82})
+div_4  left margin stats: Counter({u'0': 32, u'': 2, u'15px': 2, u'5px': 2})
+div_4  right margin stats: Counter({u'0': 34, u'': 2, u'15px': 2})
+div_7  left margin stats: Counter({u'0': 96})
+div_7  right margin stats: Counter({u'0': 96})
+div_6  left margin stats: Counter({u'0': 34})
+div_6  right margin stats: Counter({u'0': 34})
+p_6  left margin stats: Counter({u'0': 26, u'8px': 2})
+p_6  right margin stats: Counter({u'0': 26, u'8px': 2})
+p_5  left margin stats: Counter({u'0': 65})
+p_5  right margin stats: Counter({u'0': 65})
+Cleaning up manifest...
+Trimming unused files from manifest...
+Creating OEB Output...
+67% Running OEB Output plugin
+The cover image has an id != "cover". Renaming to work around bug in Nook Color
+OEB output written to C:\Users\rmflight\Documents\coding_projects\calibre_rssJournal\test1
+Output saved to   C:\Users\rmflight\Documents\coding_projects\calibre_rssJournal\test1
