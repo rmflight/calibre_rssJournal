@@ -1,0 +1,518 @@
+@namespace h "http://www.w3.org/1999/xhtml";
+#cookiepolicy_data {
+    border-color: #182E50;
+    border-style: solid;
+    border-width: 2px;
+    font-family: Arial;
+    padding: 10px;
+    text-align: left
+    }
+.cookiepolicyimplied {
+    background-color: #787878;
+    color: #eee;
+    font-family: Calibri, Verdana, Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    line-height: 1.6em
+    }
+.cookiepolicyimplied h|a:link, .cookiepolicyimplied h|a:active, .cookiepolicyimplied h|a:visited {
+    color: #eee;
+    text-decoration: underline
+    }
+.cookiepolicyimplied h|a:hover {
+    color: #fff;
+    text-decoration: underline
+    }
+#oupcookiepolicy_message {
+    margin: 0
+    }
+#oupcookiepolicy_message {
+    padding: 1em 3% 1em 3%
+    }
+#oupcookiepolicy_message .cookiepolicytext {
+    float: left;
+    width: 80%;
+    margin: 0;
+    padding: 0;
+    text-align: left
+    }
+#oupcookiepolicy_message .cookiepolicylinks {
+    float: left;
+    width: 15%;
+    margin: 0 0 0 5%;
+    padding: 0;
+    list-style-type: none;
+    text-align: left
+    }
+#oupcookiepolicy_message .cookiepolicycontinue {
+    font-size: 1.2em
+    }
+#oupcookiepolicy_message .cookiepolicyend {
+    clear: both
+    }
+h|div#fancy_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 90;
+    width: 100%;
+    background-color: #333
+    }
+h|div#fancy_loading {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    display: none;
+    overflow: hidden;
+    background: transparent;
+    z-index: 100
+    }
+h|div#fancy_loading h|div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 480px;
+    background: transparent url(fancy_progress.png) no-repeat
+    }
+h|div#fancy_close {
+    position: absolute;
+    top: -12px;
+    right: -12px;
+    height: 30px;
+    width: 30px;
+    background: transparent url(fancy_closebox.png);
+    cursor: pointer;
+    z-index: 100;
+    display: none
+    }
+h|div#fancy_content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    z-index: 96
+    }
+#fancy_frame {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: none
+    }
+h|img#fancy_img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    z-index: 92
+    }
+h|div#fancy_title {
+    position: absolute;
+    bottom: -35px;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    display: none
+    }
+h|div#fancy_title h|table {
+    margin: 0 auto
+    }
+h|div#fancy_title h|div {
+    color: #FFF;
+    font: bold 12px Arial;
+    padding-bottom: 2px
+    }
+h|td#fancy_title_left {
+    height: 32px;
+    width: 15px;
+    background: transparent url(fancy_title_left.png) repeat-x
+    }
+h|td#fancy_title_main {
+    height: 32px;
+    background: transparent url(fancy_title_main.png) repeat-x
+    }
+h|td#fancy_title_right {
+    height: 32px;
+    width: 15px;
+    background: transparent url(fancy_title_right.png) repeat-x
+    }
+h|div#fancy_outer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 90;
+    padding: 18px 18px 58px 18px;
+    margin: 0;
+    overflow: hidden;
+    background: transparent;
+    display: none
+    }
+h|div#fancy_inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #444;
+    background: #FFF
+    }
+h|a#fancy_left, h|a#fancy_right {
+    position: absolute;
+    bottom: 10px;
+    height: 100%;
+    width: 35%;
+    cursor: pointer;
+    background-image: url("data:image/gif;base64,AAAA");
+    z-index: 100
+    }
+h|a#fancy_left {
+    left: 0
+    }
+h|a#fancy_right {
+    right: 0
+    }
+h|a#fancy_left:hover {
+    background: transparent url(fancy_left.gif) no-repeat 0% 100%
+    }
+h|a#fancy_right:hover {
+    background: transparent url(fancy_right.gif) no-repeat 100% 100%
+    }
+#fancy_bigIframe, #fancy_freeIframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10
+    }
+h|div#fancy_bg {
+    display: none
+    }
+h|div.fancy_bg {
+    position: absolute;
+    display: block;
+    z-index: 70
+    }
+h|div.fancy_bg_n {
+    top: -18px;
+    width: 100%;
+    height: 18px;
+    background: transparent url(fancy_shadow_n.png) repeat-x
+    }
+h|div.fancy_bg_ne {
+    top: -18px;
+    right: -13px;
+    width: 13px;
+    height: 18px;
+    background: transparent url(fancy_shadow_ne.png) no-repeat
+    }
+h|div.fancy_bg_e {
+    right: -13px;
+    height: 100%;
+    width: 13px;
+    background: transparent url(fancy_shadow_e.png) repeat-y
+    }
+h|div.fancy_bg_se {
+    bottom: -18px;
+    right: -13px;
+    width: 13px;
+    height: 18px;
+    background: transparent url(fancy_shadow_se.png) no-repeat
+    }
+h|div.fancy_bg_s {
+    bottom: -18px;
+    width: 100%;
+    height: 18px;
+    background: transparent url(fancy_shadow_s.png) repeat-x
+    }
+h|div.fancy_bg_sw {
+    bottom: -18px;
+    left: -13px;
+    width: 13px;
+    height: 18px;
+    background: transparent url(fancy_shadow_sw.png) no-repeat
+    }
+h|div.fancy_bg_w {
+    left: -13px;
+    height: 100%;
+    width: 13px;
+    background: transparent url(fancy_shadow_w.png) repeat-y
+    }
+h|div.fancy_bg_nw {
+    top: -18px;
+    left: -13px;
+    width: 13px;
+    height: 18px;
+    background: transparent url(fancy_shadow_nw.png) no-repeat
+    }
+#oupcookiepolicy_fancybox-loading {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    margin-left: -20px;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 1104;
+    display: none
+    }
+#oupcookiepolicy_fancybox-loading h|div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 480px;
+    background-image: url(oupcookiepolicy_fancybox.png)
+    }
+#oupcookiepolicy_fancybox-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1100;
+    display: none
+    }
+#oupcookiepolicy_fancybox-tmp {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    overflow: auto;
+    display: none
+    }
+#oupcookiepolicy_fancybox-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    z-index: 1101;
+    outline: none;
+    display: none
+    }
+#oupcookiepolicy_fancybox-outer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #fff
+    }
+#oupcookiepolicy_fancybox-content {
+    width: 0;
+    height: 0;
+    padding: 0;
+    outline: none;
+    position: relative;
+    overflow: hidden;
+    z-index: 1102;
+    border: 0 solid #fff
+    }
+#oupcookiepolicy_fancybox-hide-sel-frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    z-index: 1101
+    }
+#oupcookiepolicy_fancybox-close {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    width: 30px;
+    height: 30px;
+    background: transparent url(oupcookiepolicy_fancybox.png) -40px 0;
+    cursor: pointer;
+    z-index: 1103;
+    display: none
+    }
+#oupcookiepolicy_fancybox-error {
+    color: #444;
+    font: normal 12px/20px Arial;
+    padding: 14px;
+    margin: 0
+    }
+#oupcookiepolicy_fancybox-img {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    line-height: 0;
+    vertical-align: top
+    }
+#oupcookiepolicy_fancybox-frame {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block
+    }
+#oupcookiepolicy_fancybox-left, #oupcookiepolicy_fancybox-right {
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: 35%;
+    cursor: pointer;
+    outline: none;
+    background: transparent url(blank.gif);
+    z-index: 1102;
+    display: none
+    }
+#oupcookiepolicy_fancybox-left {
+    left: 0
+    }
+#oupcookiepolicy_fancybox-right {
+    right: 0
+    }
+#oupcookiepolicy_fancybox-left-ico, #oupcookiepolicy_fancybox-right-ico {
+    position: absolute;
+    top: 50%;
+    left: -9999px;
+    width: 30px;
+    height: 30px;
+    margin-top: -15px;
+    cursor: pointer;
+    z-index: 1102;
+    display: block
+    }
+#oupcookiepolicy_fancybox-left-ico {
+    background-image: url(oupcookiepolicy_fancybox.png);
+    background-position: -40px -30px
+    }
+#oupcookiepolicy_fancybox-right-ico {
+    background-image: url(oupcookiepolicy_fancybox.png);
+    background-position: -40px -60px
+    }
+#oupcookiepolicy_fancybox-left:hover, #oupcookiepolicy_fancybox-right:hover {
+    visibility: visible
+    }
+#oupcookiepolicy_fancybox-left:hover h|span {
+    left: 20px
+    }
+#oupcookiepolicy_fancybox-right:hover h|span {
+    left: auto;
+    right: 20px
+    }
+.oupcookiepolicy_fancybox-bg {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    width: 20px;
+    height: 20px;
+    z-index: 1001
+    }
+#oupcookiepolicy_fancybox-bg-n {
+    top: -20px;
+    left: 0;
+    width: 100%;
+    background-image: url(oupcookiepolicy_fancybox-x.png)
+    }
+#oupcookiepolicy_fancybox-bg-ne {
+    top: -20px;
+    right: -20px;
+    background-image: url(oupcookiepolicy_fancybox.png);
+    background-position: -40px -162px
+    }
+#oupcookiepolicy_fancybox-bg-e {
+    top: 0;
+    right: -20px;
+    height: 100%;
+    background-image: url(oupcookiepolicy_fancybox-y.png);
+    background-position: -20px 0
+    }
+#oupcookiepolicy_fancybox-bg-se {
+    bottom: -20px;
+    right: -20px;
+    background-image: url(oupcookiepolicy_fancybox.png);
+    background-position: -40px -182px
+    }
+#oupcookiepolicy_fancybox-bg-s {
+    bottom: -20px;
+    left: 0;
+    width: 100%;
+    background-image: url(oupcookiepolicy_fancybox-x.png);
+    background-position: 0 -20px
+    }
+#oupcookiepolicy_fancybox-bg-sw {
+    bottom: -20px;
+    left: -20px;
+    background-image: url(oupcookiepolicy_fancybox.png);
+    background-position: -40px -142px
+    }
+#oupcookiepolicy_fancybox-bg-w {
+    top: 0;
+    left: -20px;
+    height: 100%;
+    background-image: url(oupcookiepolicy_fancybox-y.png)
+    }
+#oupcookiepolicy_fancybox-bg-nw {
+    top: -20px;
+    left: -20px;
+    background-image: url(oupcookiepolicy_fancybox.png);
+    background-position: -40px -122px
+    }
+#oupcookiepolicy_fancybox-title {
+    font-family: Helvetica;
+    font-size: 12px;
+    z-index: 1102
+    }
+.oupcookiepolicy_fancybox-title-inside {
+    padding-bottom: 10px;
+    text-align: center;
+    color: #333;
+    background: #fff;
+    position: relative
+    }
+.oupcookiepolicy_fancybox-title-outside {
+    padding-top: 10px;
+    color: #fff
+    }
+.oupcookiepolicy_fancybox-title-over {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #FFF;
+    text-align: left
+    }
+#oupcookiepolicy_fancybox-title-over {
+    padding: 10px;
+    background-image: url(fancy_title_over.png);
+    display: block
+    }
+.oupcookiepolicy_fancybox-title-float {
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    height: 32px
+    }
+#oupcookiepolicy_fancybox-title-float-wrap {
+    border: none;
+    border-collapse: collapse;
+    width: auto
+    }
+#oupcookiepolicy_fancybox-title-float-wrap h|td {
+    border: none;
+    white-space: nowrap
+    }
+#oupcookiepolicy_fancybox-title-float-left {
+    padding: 0 0 0 15px;
+    background: url(oupcookiepolicy_fancybox.png) -40px -90px no-repeat
+    }
+#oupcookiepolicy_fancybox-title-float-main {
+    color: #FFF;
+    line-height: 29px;
+    font-weight: bold;
+    padding: 0 0 3px 0;
+    background: url(oupcookiepolicy_fancybox-x.png) 0 -40px
+    }
+#oupcookiepolicy_fancybox-title-float-right {
+    padding: 0 0 0 15px;
+    background: url(oupcookiepolicy_fancybox.png) -55px -90px no-repeat
+    }

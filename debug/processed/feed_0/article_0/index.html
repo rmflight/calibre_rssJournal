@@ -1,0 +1,3803 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <title>
+   Density-based hierarchical clustering of pyro-sequences on a large scale—the case of fungal ITS1
+  </title>
+    <meta content="NOODP" name="googlebot"/>
+    <meta content="/cgi/content/full/29/10/1268" name="HW.ad-path"/>
+    <meta content="/bioinfo/29/10/1268.atom" name="HW.identifier"/>
+    <meta content="text/html" name="DC.Format"/>
+    <meta content="en" name="DC.Language"/>
+    <meta content="Density-based hierarchical clustering of pyro-sequences on a large scale—the case of fungal ITS1" name="DC.Title"/>
+    <meta content="10.1093/bioinformatics/btt149" name="DC.Identifier"/>
+    <meta content="2013-05-15" name="DC.Date"/>
+    <meta content="Oxford University Press" name="DC.Publisher"/>
+    <meta content="Marco Pagni" name="DC.Contributor"/>
+    <meta content="Hélène Niculita-Hirzel" name="DC.Contributor"/>
+    <meta content="Loïc Pellissier" name="DC.Contributor"/>
+    <meta content="Anne Dubuis" name="DC.Contributor"/>
+    <meta content="Ioannis Xenarios" name="DC.Contributor"/>
+    <meta content="Antoine Guisan" name="DC.Contributor"/>
+    <meta content="Ian R. Sanders" name="DC.Contributor"/>
+    <meta content="Jérôme Goudet" name="DC.Contributor"/>
+    <meta content="Nicolas Guex" name="DC.Contributor"/>
+    <meta content="Bioinformatics" name="citation_journal_title"/>
+    <meta content="Bioinformatics" name="citation_journal_abbrev"/>
+    <meta content="1367-4803" name="citation_issn"/>
+    <meta content="1460-2059" name="citation_issn"/>
+    <meta content="Marco Pagni" name="citation_author"/>
+    <meta content="1Vital-IT Group, SIB Swiss Institute of Bioinformatics, 1015 Lausanne, Switzerland, 2Occupational Environment Department, Institute for Work and Health, Universities of Lausanne and Geneva, 1066 Lausanne, Switzerland and 3Department of Ecology and Evolution, University of Lausanne, 1015 Lausanne, Switzerland" name="citation_author_institution"/>
+    <meta content="Hélène Niculita-Hirzel" name="citation_author"/>
+    <meta content="1Vital-IT Group, SIB Swiss Institute of Bioinformatics, 1015 Lausanne, Switzerland, 2Occupational Environment Department, Institute for Work and Health, Universities of Lausanne and Geneva, 1066 Lausanne, Switzerland and 3Department of Ecology and Evolution, University of Lausanne, 1015 Lausanne, Switzerland" name="citation_author_institution"/>
+    <meta content="Loïc Pellissier" name="citation_author"/>
+    <meta content="1Vital-IT Group, SIB Swiss Institute of Bioinformatics, 1015 Lausanne, Switzerland, 2Occupational Environment Department, Institute for Work and Health, Universities of Lausanne and Geneva, 1066 Lausanne, Switzerland and 3Department of Ecology and Evolution, University of Lausanne, 1015 Lausanne, Switzerland" name="citation_author_institution"/>
+    <meta content="Anne Dubuis" name="citation_author"/>
+    <meta content="1Vital-IT Group, SIB Swiss Institute of Bioinformatics, 1015 Lausanne, Switzerland, 2Occupational Environment Department, Institute for Work and Health, Universities of Lausanne and Geneva, 1066 Lausanne, Switzerland and 3Department of Ecology and Evolution, University of Lausanne, 1015 Lausanne, Switzerland" name="citation_author_institution"/>
+    <meta content="Ioannis Xenarios" name="citation_author"/>
+    <meta content="1Vital-IT Group, SIB Swiss Institute of Bioinformatics, 1015 Lausanne, Switzerland, 2Occupational Environment Department, Institute for Work and Health, Universities of Lausanne and Geneva, 1066 Lausanne, Switzerland and 3Department of Ecology and Evolution, University of Lausanne, 1015 Lausanne, Switzerland" name="citation_author_institution"/>
+    <meta content="Antoine Guisan" name="citation_author"/>
+    <meta content="1Vital-IT Group, SIB Swiss Institute of Bioinformatics, 1015 Lausanne, Switzerland, 2Occupational Environment Department, Institute for Work and Health, Universities of Lausanne and Geneva, 1066 Lausanne, Switzerland and 3Department of Ecology and Evolution, University of Lausanne, 1015 Lausanne, Switzerland" name="citation_author_institution"/>
+    <meta content="Ian R. Sanders" name="citation_author"/>
+    <meta content="1Vital-IT Group, SIB Swiss Institute of Bioinformatics, 1015 Lausanne, Switzerland, 2Occupational Environment Department, Institute for Work and Health, Universities of Lausanne and Geneva, 1066 Lausanne, Switzerland and 3Department of Ecology and Evolution, University of Lausanne, 1015 Lausanne, Switzerland" name="citation_author_institution"/>
+    <meta content="Jérôme Goudet" name="citation_author"/>
+    <meta content="1Vital-IT Group, SIB Swiss Institute of Bioinformatics, 1015 Lausanne, Switzerland, 2Occupational Environment Department, Institute for Work and Health, Universities of Lausanne and Geneva, 1066 Lausanne, Switzerland and 3Department of Ecology and Evolution, University of Lausanne, 1015 Lausanne, Switzerland" name="citation_author_institution"/>
+    <meta content="Nicolas Guex" name="citation_author"/>
+    <meta content="1Vital-IT Group, SIB Swiss Institute of Bioinformatics, 1015 Lausanne, Switzerland, 2Occupational Environment Department, Institute for Work and Health, Universities of Lausanne and Geneva, 1066 Lausanne, Switzerland and 3Department of Ecology and Evolution, University of Lausanne, 1015 Lausanne, Switzerland" name="citation_author_institution"/>
+    <meta content="Density-based hierarchical clustering of pyro-sequences on a large scale—the case of fungal ITS1" name="citation_title"/>
+    <meta content="05/15/2013" name="citation_date"/>
+    <meta content="29" name="citation_volume"/>
+    <meta content="10" name="citation_issue"/>
+    <meta content="1268" name="citation_firstpage"/>
+    <meta content="1274" name="citation_lastpage"/>
+    <meta content="29/10/1268" name="citation_id"/>
+    <meta content="bioinfo;29/10/1268" name="citation_mjid"/>
+    <meta content="10.1093/bioinformatics/btt149" name="citation_doi"/>
+    <meta content="http://bioinformatics.oxfordjournals.org/content/29/10/1268.abstract" name="citation_abstract_html_url"/>
+    <meta content="http://bioinformatics.oxfordjournals.org/content/29/10/1268.full" name="citation_fulltext_html_url"/>
+    <meta content="http://bioinformatics.oxfordjournals.org/content/29/10/1268.full.pdf" name="citation_pdf_url"/>
+    <meta content="http://bioinformatics.oxfordjournals.org/content/29/10/1268" name="citation_public_url"/>
+    <meta content="23539304" name="citation_pmid"/>
+    <meta content="Original Paper" name="citation_section"/>
+    <meta content="noarchive,nofollow" name="robots"/>
+    <meta content="noarchive" name="googlebot"/>
+    <link href="/content/29/10/1260.short" rel="prev"/>
+    <link href="/content/29/10/1275.short" rel="next"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <link href="../../stylesheet.css" type="text/css" rel="stylesheet"/>
+<link href="../../page_styles.css" type="text/css" rel="stylesheet"/>
+</head>
+  <body class="calibre"><div class="calibrenavbar">| <a href="../article_1/index.html">Next</a> | <a href="../index.html#article_0">Section Menu</a> | <a href="../../index.html#feed_0">Main Menu</a> | <hr class="calibre6"/>
+</div>
+<div id="pageid-content" class="calibre5" itemscope="itemscope" itemtype="http://schema.org/ScholarlyArticle">
+<p class="hide">
+<a href="#content">
+     Skip Navigation
+    </a>
+</p>
+<div id="secondary_nav" class="calibre5">
+<strong id="page_logo" title="Oxford Journals" class="calibre7">
+<a href="http://www.oxfordjournals.org/">
+<span>
+       Oxford Journals
+      </span>
+</a>
+</strong>
+<ul class="calibrefeedlist">
+<li id="nav_contact_us" title="Contact Us" class="calibre4">
+<a href="http://www.oxfordjournals.org/contact_us.html">
+<span>
+        Contact Us
+       </span>
+</a>
+</li>
+<li id="nav_my_basket" title="My Basket" class="calibre4">
+<a href="https://secure.oxfordjournals.org/basket.html">
+<span>
+        My Basket
+       </span>
+</a>
+</li>
+<li id="nav_my_account" title="My Account" class="calibre4">
+<a href="http://services.oxfordjournals.org/cgi/tslogin?url=http://www.oxfordjournals.org/service/Register">
+<span>
+        My 
+                        
+                        Account
+       </span>
+</a>
+</li>
+</ul>
+</div>
+<div id="header" class="calibre5">
+<h1 id="page_title" title="Bioinformatics" class="calibre8">
+<a href="/" class="calibre9">
+<span class="calibre9">
+       Bioinformatics
+      </span>
+</a>
+</h1>
+</div>
+<div id="primary_nav" class="calibre5">
+<ul class="calibrefeedlist">
+<li id="nav_about_this_journal" title="About This Journal" class="calibre4">
+<a href="http://www.oxfordjournals.org/bioinformatics/about.html">
+<span>
+        About This Journal
+       </span>
+</a>
+</li>
+<li id="nav_contact_this_journal" title="Contact This Journal" class="calibre4">
+<a href="/cgi/feedback/">
+<span>
+        Contact This Journal
+       </span>
+</a>
+</li>
+<li id="nav_subscriptions" title="Subscriptions" class="calibre4">
+<a href="http://www.oxfordjournals.org/bioinformatics/access_purchase/buy_online.html">
+<span>
+        Subscriptions
+       </span>
+</a>
+</li>
+<li id="nav_current_issue" title="Current" class="calibre4">
+<a href="/content/current">
+<span>
+        View Current Issue (Volume 29 Issue 10 May 15, 2013)
+       </span>
+</a>
+</li>
+<li id="nav_archive" title="Archive" class="calibre4">
+<a href="/content/by/year">
+<span>
+        Archive
+       </span>
+</a>
+</li>
+<li id="nav_search" title="Search" class="calibre4">
+<a href="/search">
+<span>
+        Search
+       </span>
+</a>
+</li>
+</ul>
+</div>
+<div id="user_nav" class="calibre5">
+<div class="calibre5">
+<div id="authstring" class="calibre5">
+<ul class="calibrefeedlist">
+<li class="calibre4">
+        Institution:  Journals Dept
+       </li>
+<li class="calibre4">
+<a href="/login?uri=http%3A%2F%2Fbioinformatics.oxfordjournals.org%2Fcontent%2F29%2F10%2F1268.full">
+         Sign In as Personal Subscriber
+        </a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<ul id="site-breadcrumbs" class="calibrefeedlist">
+<li class="calibre4">
+<a href="http://services.oxfordjournals.org/cgi/tslogin?url=http%3A%2F%2Fwww.oxfordjournals.org">
+      Oxford Journals
+     </a>
+</li>
+<li class="calibre4">
+<span>
+<a href="http://www.oxfordjournals.org/subject/life_sciences/">
+       Life Sciences
+      </a>
+</span>
+<span>
+<a href="http://www.oxfordjournals.org/subject/mathematics/">
+       Mathematics &amp; Physical Sciences
+      </a>
+</span>
+</li>
+<li class="calibre4">
+<a href="/">
+      Bioinformatics
+     </a>
+</li>
+<li class="calibre4">
+<a href="/content/29/10.toc">
+<span>
+       Volume 29
+      </span>
+<span>
+       Issue 10
+      </span>
+</a>
+</li>
+<li class="calibre4">
+     Pp.
+     <span>
+      1268-1274.
+     </span>
+</li>
+</ul>
+<div class="calibre5" id="oas_top">
+</div>
+<a name="content">
+</a>
+<div id="h20_page" class="calibre5">
+</div>
+<div id="content-block" class="calibre5">
+<div class="calibre5" itemprop="articleBody">
+<span>
+</span>
+<h1 id="article-title-1" itemprop="headline" class="calibre8">
+      Density-based hierarchical clustering of pyro-sequences on a large scale—the case of fungal ITS1
+     </h1>
+<div class="calibre5">
+<ol id="contrib-group-1" class="contributor-list">
+<li id="contrib-1" itemscope="itemscope" class="calibre4" itemprop="author" itemtype="http://schema.org/Person">
+<span itemprop="name">
+<a href="/search?author1=Marco+Pagni&amp;sortspec=date&amp;submit=Submit">
+          Marco Pagni
+         </a>
+</span>
+<a href="#aff-1" id="xref-aff-1-1">
+<sup class="calibre10">
+          1
+         </sup>
+</a>
+        ,
+       </li>
+<li id="contrib-2" itemscope="itemscope" class="calibre4" itemprop="author" itemtype="http://schema.org/Person">
+<span itemprop="name">
+<a href="/search?author1=H%C3%A9l%C3%A8ne+Niculita-Hirzel&amp;sortspec=date&amp;submit=Submit">
+          Hélène Niculita-Hirzel
+         </a>
+</span>
+<a href="#aff-1" id="xref-aff-1-2">
+<sup class="calibre10">
+          2
+         </sup>
+</a>
+        ,
+       </li>
+<li id="contrib-3" itemscope="itemscope" class="calibre4" itemprop="author" itemtype="http://schema.org/Person">
+<span itemprop="name">
+<a href="/search?author1=Lo%C3%AFc+Pellissier&amp;sortspec=date&amp;submit=Submit">
+          Loïc Pellissier
+         </a>
+</span>
+<a href="#aff-1" id="xref-aff-1-3">
+<sup class="calibre10">
+          3
+         </sup>
+</a>
+        ,
+       </li>
+<li id="contrib-4" itemscope="itemscope" class="calibre4" itemprop="author" itemtype="http://schema.org/Person">
+<span itemprop="name">
+<a href="/search?author1=Anne+Dubuis&amp;sortspec=date&amp;submit=Submit">
+          Anne Dubuis
+         </a>
+</span>
+<a href="#aff-1" id="xref-aff-1-4">
+<sup class="calibre10">
+          3
+         </sup>
+</a>
+        ,
+       </li>
+<li id="contrib-5" itemscope="itemscope" class="calibre4" itemprop="author" itemtype="http://schema.org/Person">
+<span itemprop="name">
+<a href="/search?author1=Ioannis+Xenarios&amp;sortspec=date&amp;submit=Submit">
+          Ioannis Xenarios
+         </a>
+</span>
+<a href="#aff-1" id="xref-aff-1-5">
+<sup class="calibre10">
+          1
+         </sup>
+</a>
+        ,
+       </li>
+<li id="contrib-6" itemscope="itemscope" class="calibre4" itemprop="author" itemtype="http://schema.org/Person">
+<span itemprop="name">
+<a href="/search?author1=Antoine+Guisan&amp;sortspec=date&amp;submit=Submit">
+          Antoine Guisan
+         </a>
+</span>
+<a href="#aff-1" id="xref-aff-1-6">
+<sup class="calibre10">
+          3
+         </sup>
+</a>
+        ,
+       </li>
+<li id="contrib-7" itemscope="itemscope" class="calibre4" itemprop="author" itemtype="http://schema.org/Person">
+<span itemprop="name">
+<a href="/search?author1=Ian+R.+Sanders&amp;sortspec=date&amp;submit=Submit">
+          Ian R. Sanders
+         </a>
+</span>
+<a href="#aff-1" id="xref-aff-1-7">
+<sup class="calibre10">
+          3
+         </sup>
+</a>
+        ,
+       </li>
+<li id="contrib-8" itemscope="itemscope" class="calibre4" itemprop="author" itemtype="http://schema.org/Person">
+<span itemprop="name">
+<a href="/search?author1=J%C3%A9r%C3%B4me+Goudet&amp;sortspec=date&amp;submit=Submit">
+          Jérôme Goudet
+         </a>
+</span>
+<a href="#aff-1" id="xref-aff-1-8">
+<sup class="calibre10">
+          3
+         </sup>
+</a>
+        and
+       </li>
+<li id="contrib-9" class="calibre4">
+<span>
+<a href="/search?author1=Nicolas+Guex&amp;sortspec=date&amp;submit=Submit">
+          Nicolas Guex
+         </a>
+</span>
+<a href="#aff-1" id="xref-aff-1-9">
+<sup class="calibre10">
+          1
+         </sup>
+</a>
+<span>
+         ,
+        </span>
+<a href="#corresp-1" id="xref-corresp-1-1">
+         *
+        </a>
+</li>
+</ol>
+<ol class="contributor-list">
+<li class="calibre4">
+<a name="aff-1" id="aff-1">
+</a>
+<address class="calibre11">
+<sup class="calibre10">
+          1
+         </sup>
+         Vital-IT Group, SIB Swiss Institute of Bioinformatics, 1015 Lausanne, Switzerland,
+         <sup class="calibre10">
+          2
+         </sup>
+         Occupational Environment Department, Institute for Work and Health, Universities of Lausanne and Geneva, 1066 Lausanne, Switzerland
+                           and
+         <sup class="calibre10">
+          3
+         </sup>
+         Department of Ecology and Evolution, University of Lausanne, 1015 Lausanne, Switzerland
+        </address>
+</li>
+</ol>
+<ol class="contributor-list">
+<li id="corresp-1" class="calibre4">
+<a href="#xref-corresp-1-1">
+         ↵
+        </a>
+        *To whom correspondence should be addressed.
+       </li>
+</ol>
+<ul class="calibrefeedlist">
+<li xmlns:hwp="http://schema.highwire.org/Journal" class="calibre4" hwp:start="2012-11-30">
+<span>
+         Received
+        </span>
+        November 30, 2012.
+       </li>
+<li xmlns:hwp="http://schema.highwire.org/Journal" class="calibre4" hwp:start="2013-03-25">
+<span>
+         Revision received
+        </span>
+        March 25, 2013.
+       </li>
+<li xmlns:hwp="http://schema.highwire.org/Journal" class="calibre4" hwp:start="2013-03-26">
+<span>
+         Accepted
+        </span>
+        March 26, 2013.
+       </li>
+</ul>
+</div>
+<div id="abstract-1" itemprop="description" class="calibre5">
+<div class="calibre5">
+<div class="calibre5">
+         
+       </div>
+<a href="#sec-1" title="1 INTRODUCTION">
+<span>
+         Next Section
+        </span>
+</a>
+</div>
+<h2 class="calibre12">
+       Abstract
+      </h2>
+<p id="p-3" class="hide">
+<strong class="calibre7">
+        Motivation:
+       </strong>
+       Analysis of millions of pyro-sequences is currently playing a crucial role in the advance of environmental microbiology.
+                     Taxonomy-independent, i.e. unsupervised, clustering of these sequences is essential for the definition of Operational Taxonomic
+                     Units. For this application, reproducibility and robustness should be the most sought after qualities, but have thus far largely
+                     been overlooked.
+      </p>
+<p id="p-4" class="hide">
+<strong class="calibre7">
+        Results:
+       </strong>
+       More than 1 million hyper-variable internal transcribed spacer 1 (ITS1) sequences of fungal origin have been analyzed. The
+                     ITS1 sequences were first properly extracted from 454 reads using generalized profiles. Then, otupipe, cd-hit-454, ESPRIT-Tree
+                     and DBC454, a new algorithm presented here, were used to analyze the sequences. A numerical assay was developed to measure
+                     the reproducibility and robustness of these algorithms. DBC454 was the most robust, closely followed by ESPRIT-Tree. DBC454
+                     features density-based hierarchical clustering, which complements the other methods by providing insights into the structure
+                     of the data.
+      </p>
+<p id="p-5" class="hide">
+<strong class="calibre7">
+        Availability:
+       </strong>
+       An executable is freely available for non-commercial users at
+       <a href="ftp://ftp.vital-it.ch/tools/dbc454">
+        ftp://ftp.vital-it.ch/tools/dbc454
+       </a>
+       . It is designed to run under MPI on a cluster of 64-bit Linux machines running Red Hat 4.x, or on a multi-core OSX system.
+      </p>
+<p id="p-6" class="hide">
+<strong class="calibre7">
+        Contact:
+       </strong>
+<span>
+<span>
+         dbc454{at}vital-it.ch
+        </span>
+</span>
+       or
+       <span>
+<span>
+         nicolas.guex{at}isb-sib.ch
+        </span>
+</span>
+</p>
+</div>
+<div id="sec-1" class="calibre5">
+<div class="calibre5">
+<a href="#abstract-1" title="Abstract">
+<span>
+         Previous Section
+        </span>
+</a>
+<a href="#sec-2" title="2 METHODS">
+<span>
+         Next Section
+        </span>
+</a>
+</div>
+<h2 class="calibre12">
+       1 INTRODUCTION
+      </h2>
+<p id="p-7" class="hide">
+       Environmental microbiology has advanced greatly in the past few years with the advent of next-generation sequencing technologies.
+                     A microbial community can now be sampled by the exhaustive sequencing of the PCR products obtained from a carefully chosen
+                     pair of primers. Currently, the Roche 454 pyro-sequencing is the favored technology because it produces relatively long and
+                     sufficiently numerous reads at an acceptable cost. However,
+       <em class="calibre13">
+        pyro-sequences
+       </em>
+       suffer from a non-negligible rate of error (
+       <a href="#ref-9" id="xref-ref-9-1">
+        Huse
+        <em class="calibre13">
+         et al.
+        </em>
+        , 2007
+       </a>
+       ), which often affects the sequence regions in which a given nucleotide is repeated several times.
+      </p>
+<p id="p-8" class="hide">
+       In this study, we have used a dataset of the fungal internal transcribed spacer 1 (ITS1) coming from soil samples obtained
+                     from 198 different locations in the western Swiss Alps. Each location represented a 4 m
+       <sup class="calibre10">
+        2
+       </sup>
+       of grassland. The locations were selected by following a random-stratified design and, thus, are distributed over a great
+                     variety of soil types and altitudes. Overall, more than a million pyro-sequences have been obtained, with the aim of identifying
+                     how biotic and abiotic factors influence the fungal diversity at different scales. Ecological results of this study will be
+                     reported elsewhere, the focus of this article being to introduce a novel classification method capable of robustly analyzing
+                     this large-scale dataset.
+      </p>
+<p id="p-9" class="hide">
+       There are currently three taxonomy-independent, i.e. unsupervised, clustering algorithms that can determine Operational Taxonomic
+                     Units (OTUs) on a large scale, say in the range of a million of pyro-sequences. These algorithms are cd-hit-454 (
+       <a href="#ref-12" id="xref-ref-12-1">
+        Niu
+        <em class="calibre13">
+         et al.
+        </em>
+        , 2010
+       </a>
+       ), otupipe (
+       <a href="#ref-6" id="xref-ref-6-1">
+        Edgar, 2010
+       </a>
+       ;
+       <a href="#ref-7" id="xref-ref-7-1">
+        Edgar
+        <em class="calibre13">
+         et al.
+        </em>
+        , 2011
+       </a>
+       ) and ESPRIT-Tree (
+       <a href="#ref-4" id="xref-ref-4-1">
+        Cai and Sun, 2011
+       </a>
+       ). They have been recently reviewed and numerically benchmarked (
+       <a href="#ref-17" id="xref-ref-17-1">
+        Sun
+        <em class="calibre13">
+         et al.
+        </em>
+        , 2012
+       </a>
+       ) in an article that constitutes an excellent introduction to the field of taxonomy-independent microbial community analysis
+                     and that summarizes what is the state of art in the field.
+      </p>
+<p id="p-10" class="hide">
+       Here, we introduce DBC454, a density-based hierarchical clustering algorithm that departs on several points from the previously
+                     mentioned ones. It was designed with the following requirements in mind: it should (i) determine the optimal number of clusters,
+                     (ii) properly separate arbitrarily shaped distributions, (iii) not be affected by the order in which the data are presented,
+                     (iv) be robust and resistant to noise (e.g. not assign outliers to clusters), (v) use intuitive-free parameters, (vi) be capable
+                     of clustering millions of observations in thousands of clusters and (vii) return a solution in a reasonable amount of time.
+      </p>
+<p id="p-11" class="hide">
+       We also introduce a new numerical benchmark for unsupervised clustering algorithms, which measures their robustness with respect
+                     to the errors that are likely to affect the input sequences.
+      </p>
+</div>
+<div id="sec-2" class="calibre5">
+<div class="calibre5">
+<a href="#sec-1" title="1 INTRODUCTION">
+<span>
+         Previous Section
+        </span>
+</a>
+<a href="#sec-8" title="3 RESULTS">
+<span>
+         Next Section
+        </span>
+</a>
+</div>
+<h2 class="calibre12">
+       2 METHODS
+      </h2>
+<div class="calibre5" id="sec-3">
+<h3 class="calibre14">
+        2.1 Source material
+       </h3>
+<p id="p-12" class="hide">
+        Fungal ITS1 sequences were obtained from 198 soil samples gathered from 4 m
+        <sup class="calibre10">
+         2
+        </sup>
+        plots in grasslands along wide soil and altitudinal gradients in the western Swiss Alps (
+        <a href="#ref-5" id="xref-ref-5-1">
+         Dubuis
+         <em class="calibre13">
+          et al.
+         </em>
+         , 2012
+        </a>
+        ). From each plot, five subsamples of 250 mg soil samples were taken, from which DNA was extracted and used for fungi barcoding
+                        using the Roche Genome Sequencer FLX Titanium 454 System. The technical details of this experiment will be described in another
+                        paper. In total, 1 649 376 reads were generated, of which 1 152 121 were full-length ITS1 sequences (see below).
+       </p>
+</div>
+<div class="calibre5" id="sec-4">
+<h3 class="calibre14">
+        2.2 Extraction of full-length fungal ITS1
+       </h3>
+<p id="p-13" class="hide">
+        Two generalized profiles of a length of ∼50 residues were built with the PFTOOLS v2.3 package (
+        <a href="#ref-11" id="xref-ref-11-1">
+         Luthy
+         <em class="calibre13">
+          et al.
+         </em>
+         , 1994
+        </a>
+        ;
+        <a href="#ref-16" id="xref-ref-16-1">
+         Sigrist
+         <em class="calibre13">
+          et al.
+         </em>
+         , 2002
+        </a>
+        ) (
+        <a href="http://web.expasy.org/pftools">
+         http://web.expasy.org/pftools
+        </a>
+        ) to recognize the highly conserved regions that flank the ITS1 regions, located at the end of the 18S rRNA and at the beginning
+                        of the 5.8S rRNA, respectively (
+        <a href="#F1" id="xref-fig-1-1">
+         Fig. 1
+        </a>
+        ). These profiles were manually edited to produce global matches on the profile side and local matches on the sequence side.
+                        In addition, because of the early termination of many pyro-sequences in the 18S region, the profile scoring system at the
+                        corresponding extremity (left of profile 1 on
+        <a href="#F1" id="xref-fig-1-2">
+         Fig. 1
+        </a>
+        ) was modified to permit the termination of the alignment at the end of the sequence while within the profile. As far as we
+                        know, the generalized profile as implemented in the PFTOOLS v2.3 package remains the only sequence alignment method that permits
+                        such a degree of detail in the design of an alignment scoring system for DNA sequences. The two profiles were calibrated on
+                        shuffled 454 reads to determine the most appropriate score thresholds (
+        <a href="#ref-13" id="xref-ref-13-1">
+         Pagni and Jongeneel, 2001
+        </a>
+        ). The pyro-sequences were searched independently with both profiles, and when both were matching on a sequence, the ITS1
+                        was defined as the intervening sequence between them. With this strategy, 1 152 121 full-length ITS1 were recovered, among
+                        which 341 585 were unique, out of the 1 649 376 raw pyro-sequences.
+       </p>
+<div class="calibre5" id="F1">
+<div class="calibre5">
+<a href="1268/F1.expansion.html">
+<img src="1268/F1.small.gif" alt="Fig. 1." class="calibre2"/>
+</a>
+<div class="calibre5">
+<span>
+           View larger version:
+          </span>
+<ul class="calibrefeedlist">
+<li class="calibre4">
+<a href="1268/F1.expansion.html">
+             In this window
+            </a>
+</li>
+<li class="calibre4">
+<a href="1268/F1.expansion.html">
+             In a new window
+            </a>
+</li>
+</ul>
+<ul class="calibrefeedlist">
+<li class="calibre4">
+<a href="/powerpoint/29/10/1268/F1">
+             Download as PowerPoint Slide
+            </a>
+</li>
+</ul>
+</div>
+</div>
+<div class="calibre5">
+<span>
+          Fig. 1.
+         </span>
+<p class="hide" id="p-14">
+          Extraction of ITS1 full-length sequences from the raw 454 reads. Two generalized profiles were built in the two highly conserved
+                              regions flanking the ITS1
+         </p>
+<div class="calibre5">
+</div>
+</div>
+</div>
+<p id="p-15" class="hide">
+        The same profile-based search strategy was applied on the FUN, PLN, ENV and INV sections of the release 109 of the EMBL: both
+                        strands were searched and 127 577 intervening sequences with a length from 1 to 500 nt were retained as ITS1 to constitute
+                        a reference dataset. The biological conclusions drawn with the latter sequences will be discussed in the companion paper.
+       </p>
+<p id="p-16" class="hide">
+        The only drawback of this profile-based extraction is that it rejects the ITS1 that do not have enough of the 18S region sequenced,
+                        i.e. &lt;20 nt. Hence, the longer ITS1 are likely to be under-sampled, given the observed distribution of the lengths of the
+                        raw 454 reads (not shown). In contrast, this eliminates the difficulties linked to the analysis of incomplete sequences, which
+                        is especially relevant here, as one will only use algorithms that rely explicitly or implicitly on
+        <em class="calibre13">
+         global sequence alignments
+        </em>
+        .
+       </p>
+</div>
+<div class="calibre5" id="sec-5">
+<h3 class="calibre14">
+        2.3 Computer programs and parameters
+       </h3>
+<p id="p-17" class="hide">
+        The DBC454 algorithm is presented in Section 3. DBC454 was run using default parameter values (23 steps, using starting and
+                        ending distances of 3.317 and 7.141, respectively). We also tested five alternate starting distance levels (3.464, 3.606,
+                        3.873, 4.000 and 4.243). The resulting partitions of the data are named dbc-s0 for the default parameters and dbc-s1 to dbc-s6
+                        for the alternate starting levels.
+       </p>
+<p id="p-18" class="hide">
+        cd-hit-454 v4.5.4 was run using default parameters, but different values were tested for the sequence identity threshold:
+                        98, 97, 95 and 90%. The resulting partitions of the input data are designated as cdh-98, cdh-97, cdh-95 and cdh-90, respectively.
+       </p>
+<p id="p-19" class="hide">
+        otupipe v9, with usearch v5.1.221, was run using default parameters, and with different values (98, 97, 95 and 90%) for PCTID_ERR,
+                        PCTID_OTU and PCTID_BIN parameters. The resulting partitions of the input data are designated as otu-98, otu-97, otu-95 and
+                        otu-90, respectively.
+       </p>
+<p id="p-20" class="hide">
+        ESPRIT-Tree 11152011 was obtained from the author Yjun Sun and run using default parameters, which produces a hierarchical
+                        clustering with 15 levels. By cutting this hierarchy at different heights, one can obtain 15 different partitions of the data.
+                        These are named etr-00 to etr-14 (from lower to higher levels).
+       </p>
+<p id="p-21" class="hide">
+        The sequences of every cluster were aligned using mafft (
+        <a href="#ref-10" id="xref-ref-10-1">
+         Katoh and Standley, 2013
+        </a>
+        ), and the cluster ‘radius’ was computed as the average of the percent divergences of every sequence pairs in the cluster.
+       </p>
+<p id="p-22" class="hide">
+        Perl and R scripts were extensively and creatively used throughout this study to re-format, glue together and analyze all
+                        the data.
+       </p>
+</div>
+<div class="calibre5" id="sec-6">
+<h3 class="calibre14">
+        2.4 Robustness benchmark
+       </h3>
+<p id="p-23" class="hide">
+        Artificially mutated versions of the ITS1 dataset were created using the msbar program from the EMBOSS suite (
+        <a href="#ref-15" id="xref-ref-15-1">
+         Rice
+         <em class="calibre13">
+          et al.
+         </em>
+         , 2000
+        </a>
+        ). To simulate the errors that occur during the 454 sequencing, we followed the quantitative analysis of
+        <a href="#ref-9" id="xref-ref-9-2">
+         Huse
+         <em class="calibre13">
+          et al.
+         </em>
+         (2007)
+        </a>
+        . Briefly, 18% of the original sequences were randomly selected, and among them, 61% were given a single error, 17% two errors
+                        and 22% three errors. The types of errors introduced were insertions, deletions or substitutions in 46, 33 and 21% of the
+                        cases, respectively. We repeated this procedure five times, to obtain five distinct versions of the mutated dataset.
+       </p>
+<p id="p-24" class="hide">
+        Two different partitions of the same dataset (e.g. from two different algorithms), or the partitions of two related datasets
+                        (e.g. original versus mutated with the same algorithm), were compared by computing the adjusted Rand index (ARI;
+        <a href="#ref-8" id="xref-ref-8-1">
+         Hubert and Arabie, 1985
+        </a>
+        ) with the R package ‘clues’.
+       </p>
+</div>
+<div class="calibre5" id="sec-7">
+<h3 class="calibre14">
+        2.5 Accuracy benchmark
+       </h3>
+<p id="p-25" class="hide">
+        For every algorithm, the 1 152 121 ITS1 were clustered together with the 127 577 reference ITS1 previously extracted from
+                        the EMBL. The taxa of EMBL entries at the species, genus and family ranks were assigned whenever possible using the NCBI taxonomy.
+                        Reference sequences corresponding to environmental samples and uncultured organisms were clustered, but not used to assess
+                        the accuracy.
+       </p>
+</div>
+</div>
+<div id="sec-8" class="calibre5">
+<div class="calibre5">
+<a href="#sec-2" title="2 METHODS">
+<span>
+         Previous Section
+        </span>
+</a>
+<a href="#sec-18" title="4 DISCUSSION">
+<span>
+         Next Section
+        </span>
+</a>
+</div>
+<h2 class="calibre12">
+       3 RESULTS
+      </h2>
+<div class="calibre5" id="sec-9">
+<h3 class="calibre14">
+        3.1 The DBC454 algorithm
+       </h3>
+<div class="calibre5" id="sec-10">
+<h4 class="calibre15">
+         3.1.1 The choice of a metric
+        </h4>
+<p id="p-26" class="hide">
+         The DBC454 algorithm requires that every sequence be represented as a point in an
+         <em class="calibre13">
+          n
+         </em>
+         -dimensional space with integer coordinates. Then, the algorithm relies on the computation of the Euclidian distance between
+                           two points
+         <strong class="calibre7">
+          X
+         </strong>
+         and
+         <strong class="calibre7">
+          Y
+         </strong>
+         , defined by
+         <span id="disp-formula-1">
+<img src="1268/embed/graphic-2.gif" alt="Formula" class="calibre2"/>
+</span>
+</p>
+<p id="p-27" class="hide">
+         Although sequences are often believed to ‘live in some pseudo-metric space’ (
+         <a href="#ref-4" id="xref-ref-4-2">
+          Cai and Sun, 2011
+         </a>
+         ), there is no generally accepted manner to encode a sequence as a point in an
+         <em class="calibre13">
+          n
+         </em>
+         -dimensional space. Regarding our specific problem with fungal ITS1, which are nucleotide sequences with a length between
+                           ∼50 and 300 nt, a relatively simple encoding was investigated and proved a posteriori to be successful.
+        </p>
+<p id="p-28" class="hide">
+         The simplest encoding is certainly to count the numbers of A, C, G and T of a sequence and to represent it as a point in a
+                           four-dimensional space. Obviously, this is a poor encoding, as it is likely that two distinct sequences of the same length
+                           can share the same nucleotide composition. However, this principle of encoding can be improved by increasing the number of
+                           dimensions, for example, by counting the number of adjacent dinucleotides, which encode a sequence as a point in a 16-dimensional
+                           space. The encoding used by DBC454 goes one step further, also counting all the dinucleotide separated by one or two residues.
+                           Thus, every sequence is encoded as a point in a 48-dimensional space. For example, the dinucleotide counts for the sequence
+                           ATAATA are AT = 2, TA = 2, AA = 1; the counts for dinucleotide separated by one nucleotide are A?A = 2, T?A = 1, A?T = 1;
+                           counts for those separated by two nucleotides are A??A = 2, T??T = 1; and all the other counts are zero. In theory, this encoding
+                           strategy does not exclude that two unrelated sequences of the same length can share exactly the same encoding. However, we
+                           have never observed such a case while working with real data. In contrast, the DBC454 encoding has also some interesting properties,
+                           particularly regarding the comparison of pyro-sequences, which are especially prone to insertion/deletion errors that affect
+                           repeated stretches of a given nucleotide. The examples given in
+         <a href="#T1" id="xref-table-wrap-1-1">
+          Table 1
+         </a>
+         illustrate that the metric featured by DBC454 is, for example, less sensitive to this type of errors than a metric based
+                           on pairwise sequence identity. This is also somehow reminiscent of the flowgram comparison of pyro-sequences that have been
+                           used by previous authors (
+         <a href="#ref-14" id="xref-ref-14-1">
+          Quince
+          <em class="calibre13">
+           et al.
+          </em>
+          , 2009
+         </a>
+         ).
+        </p>
+<div id="T1" class="calibre5">
+<div class="calibre5">
+<div class="calibre5">
+<span>
+            View this table:
+           </span>
+<ul class="calibrefeedlist">
+<li class="calibre4">
+<a href="1268/T1.expansion.html">
+              In this window
+             </a>
+</li>
+<li class="calibre4">
+<a href="1268/T1.expansion.html">
+              In a new window
+             </a>
+</li>
+</ul>
+</div>
+</div>
+<div class="calibre5">
+<span>
+           Table 1.
+          </span>
+<p class="hide" id="p-29">
+           Example of distances obtained with the DBC454 metric (see Section 3.1.1) compared with the percent of divergence [100 − percent
+                                 identity (%ID)], when aligning the wild-type sequence with a sequence in which the GGC (underlined) was replaced with various
+                                 short sequences
+          </p>
+<div class="calibre5">
+</div>
+</div>
+</div>
+</div>
+<div class="calibre5" id="sec-11">
+<h4 class="calibre15">
+         3.1.2 Density-based hierarchical clustering
+        </h4>
+<p id="p-31" class="hide">
+         The DBC454 algorithm depends on two essential parameters:
+         <em class="calibre13">
+          N
+         </em>
+         , the minimal number of points that are required to find a valid cluster; and
+         <em class="calibre13">
+          d
+         </em>
+         , the maximal distance between two points for them to be connected together. For a given distance threshold
+         <em class="calibre13">
+          d
+         </em>
+         , all the points that can be connected together will form a valid cluster if their count reaches, or exceeds,
+         <em class="calibre13">
+          N
+         </em>
+         . Taken together, the
+         <em class="calibre13">
+          N
+         </em>
+         and
+         <em class="calibre13">
+          d
+         </em>
+         parameters implicitly specify the
+         <em class="calibre13">
+          density constraint
+         </em>
+         that is placed on the definition of a valid cluster. However, no constraint is placed on the ‘shape’ of a cluster, in that
+                           it can be compact and spherical, doughnut shaped or thread shaped. For DBC454, there is no such thing as a cluster ‘center’
+                           as defined for classical hierarchical clustering algorithms, nor of a cluster seed, as implemented in cd-hit-454 and otupipe.
+                           Furthermore, as all distances are evaluated, independent runs of the algorithm on the same dataset provide the exact same
+                           partition, independently of the sequence order.
+        </p>
+<p id="p-32" class="hide">
+         For
+         <em class="calibre13">
+          d
+         </em>
+         = 0, no clusters are returned, unless a unique sequence is present at least
+         <em class="calibre13">
+          N
+         </em>
+         times in the input dataset. For
+         <em class="calibre13">
+          d
+         </em>
+         = ∞, there exists only a single cluster containing all the sequences. A flowchart of the algorithm is presented in
+         <a href="#F2" id="xref-fig-2-1">
+          Figure 2
+         </a>
+         . The hierarchical clustering starts by providing DBC454 with a low value for
+         <em class="calibre13">
+          d
+         </em>
+         , which is progressively increased by a user-specified amount up to the greatest distance value desired. As
+         <em class="calibre13">
+          d
+         </em>
+         increases, three observations can be made: (i) new clusters with at least
+         <em class="calibre13">
+          N
+         </em>
+         sequences can be discovered; (ii) existing clusters can grow; and (iii) existing clusters can merge. Eventually, a tree of
+                           merge events, i.e. a hierarchical clustering, is obtained, and it is possible to retrace the order (according to
+         <em class="calibre13">
+          d
+         </em>
+         ), in which the clusters have been discovered.
+         <a href="#F3" id="xref-fig-3-1">
+          Figure 3
+         </a>
+         presents a typical example of a clustering hierarchy observed in the ITS1 dataset. In addition, it is possible to retrieve
+                           the level
+         <em class="calibre13">
+          d
+         </em>
+         at which a sequence first entered the classification. This is a convenient way to distinguish the sequences that are representative
+                           of the core of a cluster (i.e. they entered the hierarchy at a low
+         <em class="calibre13">
+          d
+         </em>
+         value), from outlier sequences that entered at a greater
+         <em class="calibre13">
+          d
+         </em>
+         value. When the clustering is stopped at the largest
+         <em class="calibre13">
+          d
+         </em>
+         value, the sequences that have not been attributed to any cluster are considered to be noise.
+        </p>
+<div class="calibre5" id="F2">
+<div class="calibre5">
+<a href="1268/F2.expansion.html">
+<img src="1268/F2.small.gif" alt="Fig. 2." class="calibre2"/>
+</a>
+<div class="calibre5">
+<span>
+            View larger version:
+           </span>
+<ul class="calibrefeedlist">
+<li class="calibre4">
+<a href="1268/F2.expansion.html">
+              In this window
+             </a>
+</li>
+<li class="calibre4">
+<a href="1268/F2.expansion.html">
+              In a new window
+             </a>
+</li>
+</ul>
+<ul class="calibrefeedlist">
+<li class="calibre4">
+<a href="/powerpoint/29/10/1268/F2">
+              Download as PowerPoint Slide
+             </a>
+</li>
+</ul>
+</div>
+</div>
+<div class="calibre5">
+<span>
+           Fig. 2.
+          </span>
+<p class="hide" id="p-33">
+           Algorithm flowchart. A: Encoding of the FASTA sequences using dinucleotide counts (see Section 3.1.1 for details). B: Identify
+                                 new clusters and add sequences to previously identified clusters by single linkage using Euclidian distance cutoff
+           <em class="calibre13">
+            d
+           </em>
+           . C: When any previously identified clusters are merging at the distance cutoff
+           <em class="calibre13">
+            d
+           </em>
+           , record the cluster content before merging, and update the cluster parent–child hierarchy. D: Remove newly identified clusters
+                                 containing less than
+           <em class="calibre13">
+            N
+           </em>
+           sequences. E: Increase the Euclidian distance cutoff
+           <em class="calibre13">
+            d
+           </em>
+           for the next pass. F: Traverse the cluster parent–child merging tree to re-create each cluster discovered in its last state
+                                 before its merging with another cluster (identification of seed clusters). G: Re-assign sequences to closest seed clusters
+                                 (see text for detail)
+          </p>
+<div class="calibre5">
+</div>
+</div>
+</div>
+<div class="calibre5" id="F3">
+<div class="calibre5">
+<a href="1268/F3.expansion.html">
+<img src="1268/F3.small.gif" alt="Fig. 3." class="calibre2"/>
+</a>
+<div class="calibre5">
+<span>
+            View larger version:
+           </span>
+<ul class="calibrefeedlist">
+<li class="calibre4">
+<a href="1268/F3.expansion.html">
+              In this window
+             </a>
+</li>
+<li class="calibre4">
+<a href="1268/F3.expansion.html">
+              In a new window
+             </a>
+</li>
+</ul>
+<ul class="calibrefeedlist">
+<li class="calibre4">
+<a href="/powerpoint/29/10/1268/F3">
+              Download as PowerPoint Slide
+             </a>
+</li>
+</ul>
+</div>
+</div>
+<div class="calibre5">
+<span>
+           Fig. 3.
+          </span>
+<p class="hide" id="p-34">
+           Example of the clustering hierarchy obtained for 5 of the 1199 clusters discovered in the ITS1 dataset. C1–C5: clusters; R1–R6:
+                                 EMBL reference sequences. For each of the 23 levels, the actual clustering distance used during the computation is indicated
+                                 at the bottom of the figure. The area of each circle is proportional to the cluster size, ranging from 102 to 2549 sequences.
+                                 In this example, three clusters are discovered at the lowest level, one at distance 4.359 and one at distance 5.099. The so-called
+                                 seed clusters are represented in gray. They are the larger clusters found in a branch, just before the first merge event,
+                                 and play a pivotal role for the post-assignment of the sequences that enter the classification at a higher level
+          </p>
+<div class="calibre5">
+</div>
+</div>
+</div>
+</div>
+<div class="calibre5" id="sec-12">
+<h4 class="calibre15">
+         3.1.3 Re-assignment to the final partition
+        </h4>
+<p id="p-35" class="hide">
+         The final number of clusters is taken as equal to the number of leaves found in the hierarchical clustering, independently
+                           of the level
+         <em class="calibre13">
+          d
+         </em>
+         at which the leaf has appeared. The sequences placed in the leaf clusters account for only a fraction of all the sequences,
+                           but represent the core of the classification. The cluster sizes tend to increase while climbing every branch of the tree.
+                           The particular clusters found just before their first merging event will be referred to as the
+         <em class="calibre13">
+          seed clusters
+         </em>
+         and are shown in gray in
+         <a href="#F3" id="xref-fig-3-2">
+          Figure 3
+         </a>
+         . At the end of the clustering process, the seed clusters are used to attract and re-assign the sequences that entered the
+                           clustering hierarchy in a branch above the first merge event. More precisely, this re-assignment is based on the shortest
+                           distance between the sequence to re-assign and every sequence already placed in seed clusters.
+        </p>
+<p id="p-36" class="hide">
+         When all the sequences have been assigned to a cluster, or left in the noise, DBC454 can optionally process a set of reference
+                           sequences supplied by the user, and assigns them to the closest cluster at the proper
+         <em class="calibre13">
+          d
+         </em>
+         value. Only reference sequences sufficiently close to an already established cluster are retained, and all the other reference
+                           sequences are rejected as noise. Again, the level at which a reference sequence enters the hierarchy is indicative of how
+                           close this sequence is to the core of the cluster. When taxonomically curated sequences are used for this optional last step,
+                           this allows the annotation of the clusters. By separating the reference sequences (if any) from the main dataset, one ensures
+                           that they will not contribute to the cluster discovery and thus alter the results. However, to ease the comparison of the
+                           algorithms in the accuracy analysis (see below), this feature was not used (e.g. the whole dataset, including the reference
+                           sequences, was clustered all at once).
+        </p>
+</div>
+</div>
+<div class="calibre5" id="sec-13">
+<h3 class="calibre14">
+        3.2 Number of clusters and percentage of classified sequences
+       </h3>
+<p id="p-37" class="hide">
+        The goal of this study was to identify how the environmental factors influence the fungal diversity at a large geographic
+                        scale from a particularly large number of samples. Thus, within this project, it was essential to consider the dominant species
+                        and not the rare ones. In other words, clusters should contain a representative number of members to be worth considering
+                        in subsequent ecological analyses. In our example of ITS1 sequences generated from 198 geographically different sites, we
+                        decided that this minimum number will be 100 (roughly the half of the number of the geographic plots considered in the project).
+                        Note that this number corresponds to &lt;0.01% of the total number of sequences. Thus, for DBC454, the minimal number of sequences
+                        to seed a cluster was set to 100 (
+        <em class="calibre13">
+         N
+        </em>
+        = 100). We have applied the same condition to filter the results of all the other algorithms at the post-processing stage,
+                        i.e. all the sequences from clusters smaller than 100 were pooled as noise.
+       </p>
+<p id="p-38" class="hide">
+<a href="#F4" id="xref-fig-4-1">
+         Figure 4
+        </a>
+        summarizes the number of clusters that was found by each algorithm, as well as the percentage of classified sequences, i.e.
+                        not assigned to the noise. DBC454 and ESPRIT-Tree tend to classify more sequences in a smaller number of clusters than cd-hit-454
+                        and Otupipe. For each algorithm, the number of clusters decreases and the number of classified sequences increases when the
+                        clustering parameters are relaxed. This effect is the least pronounced with DBC454. An analysis of the average radius of the
+                        clusters discovered shows that DBC454 radii are in the range of those obtained with cd-hit-454 and otupipe. ESPRIT-Tree spans
+                        a much larger range of cluster radii.
+       </p>
+<div class="calibre5" id="F4">
+<div class="calibre5">
+<a href="1268/F4.expansion.html">
+<img src="1268/F4.small.gif" alt="Fig. 4." class="calibre2"/>
+</a>
+<div class="calibre5">
+<span>
+           View larger version:
+          </span>
+<ul class="calibrefeedlist">
+<li class="calibre4">
+<a href="1268/F4.expansion.html">
+             In this window
+            </a>
+</li>
+<li class="calibre4">
+<a href="1268/F4.expansion.html">
+             In a new window
+            </a>
+</li>
+</ul>
+<ul class="calibrefeedlist">
+<li class="calibre4">
+<a href="/powerpoint/29/10/1268/F4">
+             Download as PowerPoint Slide
+            </a>
+</li>
+</ul>
+</div>
+</div>
+<div class="calibre5">
+<span>
+          Fig. 4.
+         </span>
+<p class="hide" id="p-39">
+          Number of clusters, percentage of sequences classified and average cluster radius for the various algorithms/parameters tested.
+                              Left: number of clusters containing at least 100 sequences. Right: percentage of the 1 152 122 input sequences classified
+                              in clusters containing at least 100 sequences. The value for the original ITS1 dataset is shown with a white diamond; boxplots
+                              show the values obtained for the five mutated datasets. The average cluster radius for the original ITS1 dataset is shown
+                              with white squares on the right plot
+         </p>
+<div class="calibre5">
+</div>
+</div>
+</div>
+</div>
+<div class="calibre5" id="sec-14">
+<h3 class="calibre14">
+        3.3 Robustness analysis
+       </h3>
+<p id="p-40" class="hide">
+        In our view, the most important criterion to evaluate a method of clustering metagenomic data is
+        <em class="calibre13">
+         robustness
+        </em>
+        . Ideally, if an experiment is repeated, e.g. if the same samples are re-sequenced, one hopes to retrieve exactly the same
+                        cluster structure/OTU definition. In other words, the final partition should be resistant to the errors that actually occur
+                        during the sequencing. To measure this quantitatively, we have designed the following numerical benchmark. Five ‘mutated’
+                        datasets were derived from the original dataset, by introducing typical 454 sequencing errors (
+        <a href="#ref-9" id="xref-ref-9-3">
+         Huse
+         <em class="calibre13">
+          et al.
+         </em>
+         , 2007
+        </a>
+        ). See Section 2 for details. We performed the clustering with each one of the five mutated datasets, and compared the partition
+                        obtained with the original one. The measure of robustness was given by the ARI, which equals 1 when two partitions are identical
+                        and approaches 0 when the partitions are random with respect to each other.
+       </p>
+<p id="p-41" class="hide">
+        As explained earlier, we were only interested in clusters containing at least 100 sequences. Thus, before proceeding with
+                        the ARI computation, two distinct treatments can be applied to the sequences left in the noise: (i) consider the noise as
+                        a single additional cluster; and (ii) reject from the analysis all the sequences that appear in the noise in either one of
+                        the two compared partitions.
+        <a href="#F5" id="xref-fig-5-1">
+         Figure 5
+        </a>
+        A presents the numerical results obtained while considering the noise as a single additional cluster: DBC454 is clearly the
+                        most robust method, but ESPRIT-Tree also achieves a good robustness for some intermediate tree-depth values.
+        <a href="#F5" id="xref-fig-5-2">
+         Figure 5
+        </a>
+        B presents the results, while ignoring the sequences that are unclassified (e.g. appear in the noise) in either one of the
+                        two compared partitions. The ARI values are, on average, improved, but the global picture of the comparison of different algorithms
+                        remains the same. It should be noted that cd-hit-454 and otupipe are especially sensitive to sequencing errors when their
+                        default parameters are used.
+       </p>
+<div class="calibre5" id="F5">
+<div class="calibre5">
+<a href="1268/F5.expansion.html">
+<img src="1268/F5.small.gif" alt="Fig. 5." class="calibre2"/>
+</a>
+<div class="calibre5">
+<span>
+           View larger version:
+          </span>
+<ul class="calibrefeedlist">
+<li class="calibre4">
+<a href="1268/F5.expansion.html">
+             In this window
+            </a>
+</li>
+<li class="calibre4">
+<a href="1268/F5.expansion.html">
+             In a new window
+            </a>
+</li>
+</ul>
+<ul class="calibrefeedlist">
+<li class="calibre4">
+<a href="/powerpoint/29/10/1268/F5">
+             Download as PowerPoint Slide
+            </a>
+</li>
+</ul>
+</div>
+</div>
+<div class="calibre5">
+<span>
+          Fig. 5.
+         </span>
+<p class="hide" id="p-42">
+          Robustness analysis. Each box represents the ARIs of five comparisons of the original partition with the partitions obtained
+                              with the five artificially mutated datasets, for the various algorithms/parameters, as given in Section 2. Above: all clusters
+                              with less than 100 members were attributed to noise, and this was treated as a single additional cluster. Below: sequences
+                              appearing in the noise either in the original dataset or in the mutated dataset were not taken into account
+         </p>
+<div class="calibre5">
+</div>
+</div>
+</div>
+</div>
+<div class="calibre5" id="sec-15">
+<h3 class="calibre14">
+        3.4 Comparison of the different partitions
+       </h3>
+<p id="p-43" class="hide">
+<a href="#F6" id="xref-fig-6-1">
+         Figure 6
+        </a>
+        shows the results of the comparison of the dbc-s0 partition with the partitions obtained with all the other methods. The
+                        DBC454 partitions appear insensitive to the starting distance parameter. Regarding ESPRIT-Tree, the partition etr-04 appears
+                        remarkably similar to dbc-s0 (ARI = 0.88 and 0.95 when noise is or is not considered, respectively). Noticeably, etr-04 was
+                        previously shown to be one of the most robust partitions produced by ESPRIT-Tree (
+        <a href="#F5" id="xref-fig-5-3">
+         Fig. 5
+        </a>
+        ).
+       </p>
+<div class="calibre5" id="F6">
+<div class="calibre5">
+<a href="1268/F6.expansion.html">
+<img src="1268/F6.small.gif" alt="Fig. 6." class="calibre2"/>
+</a>
+<div class="calibre5">
+<span>
+           View larger version:
+          </span>
+<ul class="calibrefeedlist">
+<li class="calibre4">
+<a href="1268/F6.expansion.html">
+             In this window
+            </a>
+</li>
+<li class="calibre4">
+<a href="1268/F6.expansion.html">
+             In a new window
+            </a>
+</li>
+</ul>
+<ul class="calibrefeedlist">
+<li class="calibre4">
+<a href="/powerpoint/29/10/1268/F6">
+             Download as PowerPoint Slide
+            </a>
+</li>
+</ul>
+</div>
+</div>
+<div class="calibre5">
+<span>
+          Fig. 6.
+         </span>
+<p class="hide" id="p-44">
+          Comparison of the dbc-s0 partition of the ITS1 dataset with the partitions obtained with various algorithms/parameters as
+                              described in Section 2. Black plain circle: considering all sequences. White open circle: ignoring sequences that appear in
+                              the noise in either of the two partitions compared
+         </p>
+<div class="calibre5">
+</div>
+</div>
+</div>
+<p id="p-45" class="hide">
+        We have conducted a detailed investigation into the discrepancies that exist between the dbc-s0 and etr-04 partitions. Multiple
+                        sequence alignments of homologous ITS1 were produced and analyzed using phylogenetic trees and multidimensional scaling (
+        <a href="#ref-3" id="xref-ref-3-1">
+         Borg and Groenen, 2005
+        </a>
+        ). These strongly suggest to us that both algorithms are essentially producing coherent classifications of the sequences,
+                        but sometimes they produce clusters with distinct levels of granularity.
+       </p>
+</div>
+<div class="calibre5" id="sec-16">
+<h3 class="calibre14">
+        3.5 Accuracy analysis
+       </h3>
+<p id="p-46" class="hide">
+        Another round of clustering was performed on an extended dataset consisting of the previously investigated ITS1 sequences
+                        plus 127 577 reference ITS1 from the EMBL, for which the taxa at the species, genus and family ranks were obtained from the
+                        NCBI taxonomy. It must be noted that most of the reference ITS1 ended up in the noise, i.e. in clusters with less than 100
+                        members, because they were not present in the investigated environmental samples. To evaluate the relative clustering accuracy,
+                        we focused on the subset of reference sequences that were always classified by every single method/parameters. This represented
+                        a subset of 3365 (62), 3709 (113) and 4022 (1122) sequences (taxa) for family, genus and species, respectively. We used the
+                        NCBI taxonomy as the reference partition, and computed the ARI for each partition. Our results (
+        <a href="#F7" id="xref-fig-7-1">
+         Fig. 7
+        </a>
+        ) show that overall, each method behaves similarly, albeit poorly. In particular, the accuracy achieved at the species rank
+                        is clearly worse than at the other taxonomic ranks. This might reflect the fact that the ITS1 itself, considering the sequencing
+                        errors, is not informative enough to reliably assign the species rank. cdh-98, otu-90 and etr-12 have the best accuracy at
+                        the species, genus and family ranks, respectively. However these partitions are not among the most robust, as shown previously.
+                        We are aware that such an accuracy analysis is delicate, as it depends both on the investigated dataset and on the quality
+                        of the reference taxonomy. This analysis is certainly not devoid of a circularity problem, as part of the reference fungal
+                        taxonomy used here was likely established using numerical methods that convey implicit or explicit assumptions on the definition
+                        of a fungal taxon.
+       </p>
+<div class="calibre5" id="F7">
+<div class="calibre5">
+<a href="1268/F7.expansion.html">
+<img src="1268/F7.small.gif" alt="Fig. 7." class="calibre2"/>
+</a>
+<div class="calibre5">
+<span>
+           View larger version:
+          </span>
+<ul class="calibrefeedlist">
+<li class="calibre4">
+<a href="1268/F7.expansion.html">
+             In this window
+            </a>
+</li>
+<li class="calibre4">
+<a href="1268/F7.expansion.html">
+             In a new window
+            </a>
+</li>
+</ul>
+<ul class="calibrefeedlist">
+<li class="calibre4">
+<a href="/powerpoint/29/10/1268/F7">
+             Download as PowerPoint Slide
+            </a>
+</li>
+</ul>
+</div>
+</div>
+<div class="calibre5">
+<span>
+          Fig. 7.
+         </span>
+<p class="hide" id="p-47">
+          Analysis of the clustering accuracy at the family (white), genus (gray) and species (black) ranks for the various algorithms
+                              tested, using the NCBI taxonomy as an external reference
+         </p>
+<div class="calibre5">
+</div>
+</div>
+</div>
+</div>
+<div class="calibre5" id="sec-17">
+<h3 class="calibre14">
+        3.6 Computation times
+       </h3>
+<p id="p-48" class="hide">
+        The computational complexity of DBC454 is quadratic with the number of sequences and proportional to the number of levels,
+                        in the worst case. The algorithm is fully deterministic and has been parallelized with MPI to run up to 256 CPUs. Actual performance
+                        depends on the nature of the dataset. For the dataset reported in this article, all computation times were determined on Intel
+                        E5540 Xeon CPU at 2.53 GHz. The computation of the partition of the 1 152 121 input sequences by cd-hit-454 and otupipe both
+                        took ∼5 min. The DBC454 computation was executed in parallel on 16 CPUs and took ∼13 min (wall clock time), which actually
+                        corresponds to a total of 3.6 h of CPU to generate a hierarchical classification with 23 different levels (i.e. ∼10 min per
+                        level). ESPRIT-Tree required ∼9 h of CPU to generate a hierarchical classification with 15 levels.
+       </p>
+<p id="p-49" class="hide">
+        When considering the mutated dataset, the average computation times increased by 69% (cd-hit-454), 48% (otupipe), 61% (ESPRIT-tree)
+                        and 90% (DBC454). This can be explained by the number of unique sequences that are increased in the mutated datasets compared
+                        with the original one.
+       </p>
+</div>
+</div>
+<div id="sec-18" class="calibre5">
+<div class="calibre5">
+<a href="#sec-8" title="3 RESULTS">
+<span>
+         Previous Section
+        </span>
+</a>
+<a href="#ack-1" title="ACKNOWLEDGEMENTS">
+<span>
+         Next Section
+        </span>
+</a>
+</div>
+<h2 class="calibre12">
+       4 DISCUSSION
+      </h2>
+<p id="p-50" class="hide">
+       The use of generalized profiles for defining the hyper-variable ITS1 by its highly conserved flanking regions alleviates most
+                     of the sensitivity problems encountered with pattern-based search methods (
+       <a href="#ref-1" id="xref-ref-1-1">
+        Bellemain
+        <em class="calibre13">
+         et al.
+        </em>
+        , 2010
+       </a>
+       ), including sequencing errors, such as indels. In addition, this permits the recovery of all the ITS1 from the EMBL, irrespective
+                     of the particular primers that have been used by the original authors.
+      </p>
+<p id="p-51" class="hide">
+       DBC454 relies on an arbitrarily defined encoding of every sequence as a point in a 48-dimensional space. When this encoding
+                     is used for hierarchical density-based clustering, an especially robust partition of the input sequences is obtained, which
+                     a posteriori corroborates its relevance.
+      </p>
+<p id="p-52" class="hide">
+       DBC454 uses density-based clustering to identify groups of related sequences that are naturally dense in the input dataset.
+                     As a density-based method, DBC454 places no constraints on the cluster shape and radius, and has no concept of a cluster center.
+                     In contrast to all the other algorithms considered here, which remove the redundancy among the sequences as an initial step,
+                     DBC454 explicitly uses this information for the clustering (see the note on ESPRIT-Tree below). One of the unintuitive aspects
+                     of density-based clustering is that its performance tends to improve with the size of the input dataset, contrary to many
+                     other clustering approaches. Our results show that this approach leads to especially robust partitions without being detrimental
+                     to the overall accuracy.
+      </p>
+<p id="p-53" class="hide">
+       This study demonstrates that DBC454 and ESPRIT-tree (at a carefully chosen level) are currently the two most robust methods
+                     for the definition of OTUs in the dataset we have studied. The partitions produced by these two methods are only slightly
+                     different and essentially compatible. The key observation here is that DBC454 and ESPRIT-Tree rely on completely different
+                     algorithmic approaches. This indicates that both methods are actually capable of ‘recognizing’ the same structure in the input
+                     dataset, which is an encouraging result regarding the future reproducibility of the experiments in the field of metagenomics.
+                     It must be noted that the ESPRIT-Tree algorithm also includes a ‘density-sensitive’ computation step, i.e. the weighting scheme
+                     that is used to update the probabilistic sequences at level greater than 0 (
+       <a href="#ref-4" id="xref-ref-4-3">
+        Cai and Sun, 2011
+       </a>
+       ). This might help to explain the convergent results obtained for DBC454 and ESPRIT-Tree.
+      </p>
+<p id="p-54" class="hide">
+       Recently, much attention has been placed on the benefits of ‘denoising’, i.e. correct the suspected sequencing errors of the
+                     pyro-sequences before performing the taxonomy-independent analysis itself (
+       <a href="#ref-2" id="xref-ref-2-1">
+        Bonder
+        <em class="calibre13">
+         et al.
+        </em>
+        , 2012
+       </a>
+       ). Considering their particular sensitivity to the sequencing errors demonstrated here, this recommendation obviously makes
+                     sense when cd-hit-454, otupipe or ESPRIT-Tree (at the lowest level) is used for the clustering analysis. However, the introduction
+                     of an additional pre-processing step implies the optimization of additional parameters and has a cost in terms of CPU, which
+                     is currently prohibitive for large datasets. Instead of requiring two successive steps (‘denoising’ followed by clustering),
+                     we have shown here that the clustering process itself can be used at the same time to produce a robust partition (insensitive
+                     to sequencing errors) and to identify the outlier sequences, i.e. those that were pooled as ‘noise’ in this article.
+      </p>
+</div>
+<div id="ack-1" class="calibre5">
+<div class="calibre5">
+<a href="#sec-18" title="4 DISCUSSION">
+<span>
+         Previous Section
+        </span>
+</a>
+<a href="#fn-group-1" title="Footnotes">
+<span>
+         Next Section
+        </span>
+</a>
+</div>
+<h2 class="calibre12">
+       ACKNOWLEDGEMENTS
+      </h2>
+<p id="p-55" class="hide">
+       We wish to thank the anonymous reviewers for their pertinent and constructive remarks, which helped us to improve this manuscript.
+                     All the computations were performed at the Vital-IT Center for high-performance computing of the SIB Swiss Institute of Bioinformatics
+                     (
+       <a href="http://www.vital-it.ch">
+        http://www.vital-it.ch
+       </a>
+       ).
+      </p>
+<p id="p-56" class="hide">
+<em class="calibre13">
+        Funding
+       </em>
+       : SIB receives financial supports from the
+       <span>
+        Swiss Federal Government
+       </span>
+       through the State Secretariat for Education and Research (SER).
+       <span>
+        Swiss National Science Foundation
+       </span>
+       (
+       <span id="award-id-1">
+        31003A-125145
+       </span>
+       ) and
+       <span>
+        University of Lausanne
+       </span>
+       to A.G.;
+       <span>
+        Swiss National Science Foundation
+       </span>
+       (
+       <span id="award-id-2">
+        PMPDP3-129027
+       </span>
+       to H.N.-H.).
+      </p>
+<p id="p-57" class="hide">
+<em class="calibre13">
+        Conflict of Interest
+       </em>
+       : none declared.
+      </p>
+</div>
+<div id="fn-group-1" class="calibre5">
+<div class="calibre5">
+<a href="#ack-1" title="ACKNOWLEDGEMENTS">
+<span>
+         Previous Section
+        </span>
+</a>
+<a href="#ref-list-1" title="REFERENCES">
+<span>
+         Next Section
+        </span>
+</a>
+</div>
+<h2 class="calibre12">
+       Footnotes
+      </h2>
+<ul class="calibrefeedlist">
+<li id="fn-1" class="calibre4">
+<p id="p-1" class="hide">
+         Associate Editor: Martin Bishop
+        </p>
+</li>
+</ul>
+</div>
+<ul class="calibrefeedlist">
+<li id="copyright-statement-1" class="calibre4">
+       © The Author 2013. Published by Oxford University Press.
+      </li>
+</ul>
+<div id="license-1" class="calibre5">
+<p id="p-2" class="hide">
+       This is an Open Access article distributed under the terms of the Creative Commons Attribution License (http://creativecommons.org/licenses/by/3.0/),
+                     which permits unrestricted reuse, distribution, and reproduction in any medium, provided the original work is properly cited.
+      </p>
+</div>
+<div id="ref-list-1" class="calibre5">
+<div class="calibre5">
+<a href="#fn-group-1" title="Footnotes">
+<span>
+         Previous Section
+        </span>
+</a>
+<div class="calibre5">
+         
+       </div>
+</div>
+<h2 class="calibre12">
+       REFERENCES
+      </h2>
+<ol class="contributor-list">
+<li class="calibre4">
+<span>
+</span>
+<a title="View reference  in text" href="#xref-ref-1-1" id="ref-1">
+         ↵
+        </a>
+<div id="cit-29.10.1268.1" class="calibre5">
+<div class="calibre5">
+<ol class="cit-auth-list">
+<li class="calibre4">
+<span>
+<span>
+              Bellemain
+             </span>
+<span>
+              E
+             </span>
+</span>
+            ,
+           </li>
+<li class="calibre4">
+<span>
+             et al
+            </span>
+</li>
+</ol>
+<cite class="calibre13">
+           .
+           <span>
+            ITS as an environmental DNA barcode for fungi: an in silico approach reveals potential PCR biases
+           </span>
+           .
+           <abbr>
+            BMC Microbiol.
+           </abbr>
+<span>
+            2010
+           </span>
+           ;
+           <span>
+            10
+           </span>
+           :
+           <span>
+            189
+           </span>
+           .
+          </cite>
+</div>
+<div class="calibre5">
+<a href="/external-ref?access_num=10.1186/1471-2180-10-189&amp;link_type=DOI">
+           CrossRef
+          </a>
+<a href="/external-ref?access_num=20618939&amp;link_type=MED">
+           Medline
+          </a>
+</div>
+</div>
+</li>
+<li class="calibre4">
+<span>
+</span>
+<a title="View reference  in text" href="#xref-ref-2-1" id="ref-2">
+         ↵
+        </a>
+<div id="cit-29.10.1268.2" class="calibre5">
+<div class="calibre5">
+<ol class="cit-auth-list">
+<li class="calibre4">
+<span>
+<span>
+              Bonder
+             </span>
+<span>
+              MJ
+             </span>
+</span>
+            ,
+           </li>
+<li class="calibre4">
+<span>
+             et al
+            </span>
+</li>
+</ol>
+<cite class="calibre13">
+           .
+           <span>
+            Comparing clustering and pre-processing in taxonomy analysis
+           </span>
+           .
+           <abbr>
+            Bioinformatics
+           </abbr>
+<span>
+            2012
+           </span>
+           ;
+           <span>
+            28
+           </span>
+           :
+           <span>
+            2891
+           </span>
+           -
+           <span>
+            2897
+           </span>
+           .
+          </cite>
+</div>
+<div class="calibre5">
+<a href="/cgi/ijlink?linkType=ABST&amp;journalCode=bioinfo&amp;resid=28/22/2891">
+<span>
+            Abstract
+           </span>
+<span>
+            /
+           </span>
+<span>
+<span>
+             FREE
+            </span>
+            Full Text
+           </span>
+</a>
+</div>
+</div>
+</li>
+<li class="calibre4">
+<span>
+</span>
+<a title="View reference  in text" href="#xref-ref-3-1" id="ref-3">
+         ↵
+        </a>
+<div id="cit-29.10.1268.3" class="calibre5">
+<div class="calibre5">
+<ol class="cit-auth-list">
+<li class="calibre4">
+<span>
+<span>
+              Borg
+             </span>
+<span>
+              I
+             </span>
+</span>
+            ,
+           </li>
+<li class="calibre4">
+<span>
+<span>
+              Groenen
+             </span>
+<span>
+              PJF
+             </span>
+</span>
+</li>
+</ol>
+<cite class="calibre13">
+           .
+           <span>
+            Modern Multidimensional Scaling Theory and Applications
+           </span>
+           .
+           <span>
+            New York
+           </span>
+           :
+           <span>
+            Springer series in statistics. Springer
+           </span>
+           ;
+           <span>
+            2005
+           </span>
+           .
+          </cite>
+</div>
+<div class="calibre5">
+<a href="http://scholar.google.com/scholar?as_q=&amp;as_epq=Modern%20Multidimensional%20Scaling%20Theory%20and%20Applications&amp;as_oq=&amp;as_eq=&amp;as_occt=any&amp;as_sauthors=Borg&amp;as_publication=&amp;as_ylo=&amp;as_yhi=&amp;btnG=&amp;hl=en&amp;sciui=1&amp;as_sdt=0%2C5" target="_blank">
+           Search Google Scholar
+          </a>
+</div>
+</div>
+</li>
+<li class="calibre4">
+<span>
+</span>
+<a title="View reference  in text" href="#xref-ref-4-1" id="ref-4">
+         ↵
+        </a>
+<div id="cit-29.10.1268.4" class="calibre5">
+<div class="calibre5">
+<ol class="cit-auth-list">
+<li class="calibre4">
+<span>
+<span>
+              Cai
+             </span>
+<span>
+              Y
+             </span>
+</span>
+            ,
+           </li>
+<li class="calibre4">
+<span>
+<span>
+              Sun
+             </span>
+<span>
+              Y
+             </span>
+</span>
+</li>
+</ol>
+<cite class="calibre13">
+           .
+           <span>
+            ESPRIT-Tree: hierarchical clustering analysis of millions of 16S rRNA pyrosequences in quasilinear computational time
+           </span>
+           .
+           <abbr>
+            Nucleic Acids Res.
+           </abbr>
+<span>
+            2011
+           </span>
+           ;
+           <span>
+            39
+           </span>
+           :
+           <span>
+            e95
+           </span>
+           .
+          </cite>
+</div>
+<div class="calibre5">
+<a href="/cgi/ijlink?linkType=ABST&amp;journalCode=nar&amp;resid=39/14/e95">
+<span>
+            Abstract
+           </span>
+<span>
+            /
+           </span>
+<span>
+<span>
+             FREE
+            </span>
+            Full Text
+           </span>
+</a>
+</div>
+</div>
+</li>
+<li class="calibre4">
+<span>
+</span>
+<a title="View reference  in text" href="#xref-ref-5-1" id="ref-5">
+         ↵
+        </a>
+<div id="cit-29.10.1268.5" class="calibre5">
+<div class="calibre5">
+<ol class="cit-auth-list">
+<li class="calibre4">
+<span>
+<span>
+              Dubuis
+             </span>
+<span>
+              A
+             </span>
+</span>
+            ,
+           </li>
+<li class="calibre4">
+<span>
+             et al
+            </span>
+</li>
+</ol>
+<cite class="calibre13">
+           .
+           <span>
+            Improving the prediction of plant species distribution and community composition by adding edaphic to topo-climatic variables
+           </span>
+           .
+           <abbr>
+            J. Veg. Sci.
+           </abbr>
+<span>
+            2012
+           </span>
+           .
+           <span>
+            [Epub ahead of print, doi: 10.1111/jvs.12002, October 29, 2012]
+           </span>
+           .
+          </cite>
+</div>
+<div class="calibre5">
+<a href="http://scholar.google.com/scholar?as_q=&amp;as_epq=Improving%20the%20prediction%20of%20plant%20species%20distribution%20and%20community%20composition%20by%20adding%20edaphic%20to%20topo-climatic%20variables&amp;as_oq=&amp;as_eq=&amp;as_occt=any&amp;as_sauthors=Dubuis&amp;as_publication=&amp;as_ylo=&amp;as_yhi=&amp;btnG=&amp;hl=en&amp;sciui=1&amp;as_sdt=0%2C5" target="_blank">
+           Search Google Scholar
+          </a>
+</div>
+</div>
+</li>
+<li class="calibre4">
+<span>
+</span>
+<a title="View reference  in text" href="#xref-ref-6-1" id="ref-6">
+         ↵
+        </a>
+<div id="cit-29.10.1268.6" class="calibre5">
+<div class="calibre5">
+<ol class="cit-auth-list">
+<li class="calibre4">
+<span>
+<span>
+              Edgar
+             </span>
+<span>
+              RC
+             </span>
+</span>
+</li>
+</ol>
+<cite class="calibre13">
+           .
+           <span>
+            Search and clustering orders of magnitude faster than BLAST
+           </span>
+           .
+           <abbr>
+            Bioinformatics
+           </abbr>
+<span>
+            2010
+           </span>
+           ;
+           <span>
+            26
+           </span>
+           :
+           <span>
+            2460
+           </span>
+           -
+           <span>
+            2461
+           </span>
+           .
+          </cite>
+</div>
+<div class="calibre5">
+<a href="/cgi/ijlink?linkType=ABST&amp;journalCode=bioinfo&amp;resid=26/19/2460">
+<span>
+            Abstract
+           </span>
+<span>
+            /
+           </span>
+<span>
+<span>
+             FREE
+            </span>
+            Full Text
+           </span>
+</a>
+</div>
+</div>
+</li>
+<li class="calibre4">
+<span>
+</span>
+<a title="View reference  in text" href="#xref-ref-7-1" id="ref-7">
+         ↵
+        </a>
+<div id="cit-29.10.1268.7" class="calibre5">
+<div class="calibre5">
+<ol class="cit-auth-list">
+<li class="calibre4">
+<span>
+<span>
+              Edgar
+             </span>
+<span>
+              RC
+             </span>
+</span>
+            ,
+           </li>
+<li class="calibre4">
+<span>
+             et al
+            </span>
+</li>
+</ol>
+<cite class="calibre13">
+           .
+           <span>
+            UCHIME improves sensitivity and speed of chimera detection
+           </span>
+           .
+           <abbr>
+            Bioinformatics
+           </abbr>
+<span>
+            2011
+           </span>
+           ;
+           <span>
+            27
+           </span>
+           :
+           <span>
+            2194
+           </span>
+           -
+           <span>
+            2200
+           </span>
+           .
+          </cite>
+</div>
+<div class="calibre5">
+<a href="/cgi/ijlink?linkType=ABST&amp;journalCode=bioinfo&amp;resid=27/16/2194">
+<span>
+            Abstract
+           </span>
+<span>
+            /
+           </span>
+<span>
+<span>
+             FREE
+            </span>
+            Full Text
+           </span>
+</a>
+</div>
+</div>
+</li>
+<li class="calibre4">
+<span>
+</span>
+<a title="View reference  in text" href="#xref-ref-8-1" id="ref-8">
+         ↵
+        </a>
+<div id="cit-29.10.1268.8" class="calibre5">
+<div class="calibre5">
+<ol class="cit-auth-list">
+<li class="calibre4">
+<span>
+<span>
+              Hubert
+             </span>
+<span>
+              L
+             </span>
+</span>
+            ,
+           </li>
+<li class="calibre4">
+<span>
+<span>
+              Arabie
+             </span>
+<span>
+              P
+             </span>
+</span>
+</li>
+</ol>
+<cite class="calibre13">
+           .
+           <span>
+            Comparing partitions
+           </span>
+           .
+           <abbr>
+            J. Classif.
+           </abbr>
+<span>
+            1985
+           </span>
+           ;
+           <span>
+            2
+           </span>
+           :
+           <span>
+            193
+           </span>
+           -
+           <span>
+            218
+           </span>
+           .
+          </cite>
+</div>
+<div class="calibre5">
+<a href="/external-ref?access_num=10.1007/BF01908075&amp;link_type=DOI">
+           CrossRef
+          </a>
+<a href="/external-ref?access_num=A1985AVF9100003&amp;link_type=ISI">
+           Web of Science
+          </a>
+</div>
+</div>
+</li>
+<li class="calibre4">
+<span>
+</span>
+<a title="View reference  in text" href="#xref-ref-9-1" id="ref-9">
+         ↵
+        </a>
+<div id="cit-29.10.1268.9" class="calibre5">
+<div class="calibre5">
+<ol class="cit-auth-list">
+<li class="calibre4">
+<span>
+<span>
+              Huse
+             </span>
+<span>
+              SM
+             </span>
+</span>
+            ,
+           </li>
+<li class="calibre4">
+<span>
+             et al
+            </span>
+</li>
+</ol>
+<cite class="calibre13">
+           .
+           <span>
+            Accuracy and quality of massively parallel DNA pyrosequencing
+           </span>
+           .
+           <abbr>
+            Genome Biol.
+           </abbr>
+<span>
+            2007
+           </span>
+           ;
+           <span>
+            8
+           </span>
+           :
+           <span>
+            R143
+           </span>
+           .
+          </cite>
+</div>
+<div class="calibre5">
+<a href="/external-ref?access_num=10.1186/gb-2007-8-7-r143&amp;link_type=DOI">
+           CrossRef
+          </a>
+<a href="/external-ref?access_num=17659080&amp;link_type=MED">
+           Medline
+          </a>
+</div>
+</div>
+</li>
+<li class="calibre4">
+<span>
+</span>
+<a title="View reference  in text" href="#xref-ref-10-1" id="ref-10">
+         ↵
+        </a>
+<div id="cit-29.10.1268.10" class="calibre5">
+<div class="calibre5">
+<ol class="cit-auth-list">
+<li class="calibre4">
+<span>
+<span>
+              Katoh
+             </span>
+<span>
+              K
+             </span>
+</span>
+            ,
+           </li>
+<li class="calibre4">
+<span>
+<span>
+              Standley
+             </span>
+<span>
+              DM
+             </span>
+</span>
+</li>
+</ol>
+<cite class="calibre13">
+           .
+           <span>
+            MAFFT multiple sequence alignment software version 7: improvements in performance and usability
+           </span>
+           .
+           <abbr>
+            Mol. Biol. Evol.
+           </abbr>
+<span>
+            2013
+           </span>
+           ;
+           <span>
+            30
+           </span>
+           :
+           <span>
+            772
+           </span>
+           -
+           <span>
+            780
+           </span>
+           .
+          </cite>
+</div>
+<div class="calibre5">
+<a href="/cgi/ijlink?linkType=ABST&amp;journalCode=molbiolevol&amp;resid=30/4/772">
+<span>
+            Abstract
+           </span>
+<span>
+            /
+           </span>
+<span>
+<span>
+             FREE
+            </span>
+            Full Text
+           </span>
+</a>
+</div>
+</div>
+</li>
+<li class="calibre4">
+<span>
+</span>
+<a title="View reference  in text" href="#xref-ref-11-1" id="ref-11">
+         ↵
+        </a>
+<div id="cit-29.10.1268.11" class="calibre5">
+<div class="calibre5">
+<ol class="cit-auth-list">
+<li class="calibre4">
+<span>
+<span>
+              Luthy
+             </span>
+<span>
+              R
+             </span>
+</span>
+            ,
+           </li>
+<li class="calibre4">
+<span>
+<span>
+              Xenarios
+             </span>
+<span>
+              I
+             </span>
+</span>
+            ,
+           </li>
+<li class="calibre4">
+<span>
+<span>
+              Bucher
+             </span>
+<span>
+              P
+             </span>
+</span>
+</li>
+</ol>
+<cite class="calibre13">
+           .
+           <span>
+            Improving the sensitivity of the sequence profile method
+           </span>
+           .
+           <abbr>
+            Protein Sci.
+           </abbr>
+<span>
+            1994
+           </span>
+           ;
+           <span>
+            3
+           </span>
+           :
+           <span>
+            139
+           </span>
+           -
+           <span>
+            146
+           </span>
+           .
+          </cite>
+</div>
+<div class="calibre5">
+<a href="/external-ref?access_num=7511453&amp;link_type=MED">
+           Medline
+          </a>
+<a href="/external-ref?access_num=A1994MT52100017&amp;link_type=ISI">
+           Web of Science
+          </a>
+</div>
+</div>
+</li>
+<li class="calibre4">
+<span>
+</span>
+<a title="View reference  in text" href="#xref-ref-12-1" id="ref-12">
+         ↵
+        </a>
+<div id="cit-29.10.1268.12" class="calibre5">
+<div class="calibre5">
+<ol class="cit-auth-list">
+<li class="calibre4">
+<span>
+<span>
+              Niu
+             </span>
+<span>
+              B
+             </span>
+</span>
+            ,
+           </li>
+<li class="calibre4">
+<span>
+             et al
+            </span>
+</li>
+</ol>
+<cite class="calibre13">
+           .
+           <span>
+            Artificial and natural duplicates in pyrosequencing reads of metagenomic data
+           </span>
+           .
+           <abbr>
+            BMC Bioinformatics
+           </abbr>
+<span>
+            2010
+           </span>
+           ;
+           <span>
+            11
+           </span>
+           :
+           <span>
+            187
+           </span>
+           .
+          </cite>
+</div>
+<div class="calibre5">
+<a href="/external-ref?access_num=10.1186/1471-2105-11-187&amp;link_type=DOI">
+           CrossRef
+          </a>
+<a href="/external-ref?access_num=20388221&amp;link_type=MED">
+           Medline
+          </a>
+</div>
+</div>
+</li>
+<li class="calibre4">
+<span>
+</span>
+<a title="View reference  in text" href="#xref-ref-13-1" id="ref-13">
+         ↵
+        </a>
+<div id="cit-29.10.1268.13" class="calibre5">
+<div class="calibre5">
+<ol class="cit-auth-list">
+<li class="calibre4">
+<span>
+<span>
+              Pagni
+             </span>
+<span>
+              M
+             </span>
+</span>
+            ,
+           </li>
+<li class="calibre4">
+<span>
+<span>
+              Jongeneel
+             </span>
+<span>
+              CV
+             </span>
+</span>
+</li>
+</ol>
+<cite class="calibre13">
+           .
+           <span>
+            Making sense of score statistics for sequence alignments
+           </span>
+           .
+           <abbr>
+            Brief. Bioinfo.
+           </abbr>
+<span>
+            2001
+           </span>
+           ;
+           <span>
+            2
+           </span>
+           :
+           <span>
+            51
+           </span>
+           -
+           <span>
+            67
+           </span>
+           .
+          </cite>
+</div>
+<div class="calibre5">
+<a href="/external-ref?access_num=10.1093/bib/2.1.51&amp;link_type=DOI">
+           CrossRef
+          </a>
+</div>
+</div>
+</li>
+<li class="calibre4">
+<span>
+</span>
+<a title="View reference  in text" href="#xref-ref-14-1" id="ref-14">
+         ↵
+        </a>
+<div id="cit-29.10.1268.14" class="calibre5">
+<div class="calibre5">
+<ol class="cit-auth-list">
+<li class="calibre4">
+<span>
+<span>
+              Quince
+             </span>
+<span>
+              C
+             </span>
+</span>
+            ,
+           </li>
+<li class="calibre4">
+<span>
+             et al
+            </span>
+</li>
+</ol>
+<cite class="calibre13">
+           .
+           <span>
+            Accurate determination of microbial diversity from 454 pyrosequencing data
+           </span>
+           .
+           <abbr>
+            Nat. Methods
+           </abbr>
+<span>
+            2009
+           </span>
+           ;
+           <span>
+            6
+           </span>
+           :
+           <span>
+            639
+           </span>
+           -
+           <span>
+            641
+           </span>
+           .
+          </cite>
+</div>
+<div class="calibre5">
+<a href="/external-ref?access_num=10.1038/nmeth.1361&amp;link_type=DOI">
+           CrossRef
+          </a>
+<a href="/external-ref?access_num=19668203&amp;link_type=MED">
+           Medline
+          </a>
+<a href="/external-ref?access_num=000269382900010&amp;link_type=ISI">
+           Web of Science
+          </a>
+</div>
+</div>
+</li>
+<li class="calibre4">
+<span>
+</span>
+<a title="View reference  in text" href="#xref-ref-15-1" id="ref-15">
+         ↵
+        </a>
+<div id="cit-29.10.1268.15" class="calibre5">
+<div class="calibre5">
+<ol class="cit-auth-list">
+<li class="calibre4">
+<span>
+<span>
+              Rice
+             </span>
+<span>
+              P
+             </span>
+</span>
+            ,
+           </li>
+<li class="calibre4">
+<span>
+<span>
+              Longden
+             </span>
+<span>
+              I
+             </span>
+</span>
+            ,
+           </li>
+<li class="calibre4">
+<span>
+<span>
+              Bleasby
+             </span>
+<span>
+              A
+             </span>
+</span>
+</li>
+</ol>
+<cite class="calibre13">
+           .
+           <span>
+            EMBOSS: the European Molecular Biology Open Software Suite
+           </span>
+           .
+           <abbr>
+            Trends Genet.
+           </abbr>
+<span>
+            2000
+           </span>
+           ;
+           <span>
+            16
+           </span>
+           :
+           <span>
+            276
+           </span>
+           -
+           <span>
+            277
+           </span>
+           .
+          </cite>
+</div>
+<div class="calibre5">
+<a href="/external-ref?access_num=10.1016/S0168-9525(00)02024-2&amp;link_type=DOI">
+           CrossRef
+          </a>
+<a href="/external-ref?access_num=10827456&amp;link_type=MED">
+           Medline
+          </a>
+<a href="/external-ref?access_num=000087457200010&amp;link_type=ISI">
+           Web of Science
+          </a>
+</div>
+</div>
+</li>
+<li class="calibre4">
+<span>
+</span>
+<a title="View reference  in text" href="#xref-ref-16-1" id="ref-16">
+         ↵
+        </a>
+<div id="cit-29.10.1268.16" class="calibre5">
+<div class="calibre5">
+<ol class="cit-auth-list">
+<li class="calibre4">
+<span>
+<span>
+              Sigrist
+             </span>
+<span>
+              CJ
+             </span>
+</span>
+            ,
+           </li>
+<li class="calibre4">
+<span>
+             et al
+            </span>
+</li>
+</ol>
+<cite class="calibre13">
+           .
+           <span>
+            PROSITE: a documented database using patterns and profiles as motif descriptors
+           </span>
+           .
+           <abbr>
+            Brief. Bioinfo.
+           </abbr>
+<span>
+            2002
+           </span>
+           ;
+           <span>
+            3
+           </span>
+           :
+           <span>
+            265
+           </span>
+           -
+           <span>
+            274
+           </span>
+           .
+          </cite>
+</div>
+<div class="calibre5">
+<a href="/external-ref?access_num=10.1093/bib/3.3.265&amp;link_type=DOI">
+           CrossRef
+          </a>
+</div>
+</div>
+</li>
+<li class="calibre4">
+<span>
+</span>
+<a title="View reference  in text" href="#xref-ref-17-1" id="ref-17">
+         ↵
+        </a>
+<div id="cit-29.10.1268.17" class="calibre5">
+<div class="calibre5">
+<ol class="cit-auth-list">
+<li class="calibre4">
+<span>
+<span>
+              Sun
+             </span>
+<span>
+              Y
+             </span>
+</span>
+            ,
+           </li>
+<li class="calibre4">
+<span>
+             et al
+            </span>
+</li>
+</ol>
+<cite class="calibre13">
+           .
+           <span>
+            A large-scale benchmark study of existing algorithms for taxonomy-independent microbial community analysis
+           </span>
+           .
+           <abbr>
+            Brief. Bioinfo.
+           </abbr>
+<span>
+            2012
+           </span>
+           ;
+           <span>
+            13
+           </span>
+           :
+           <span>
+            107
+           </span>
+           -
+           <span>
+            121
+           </span>
+           .
+          </cite>
+</div>
+<div class="calibre5">
+<a href="/external-ref?access_num=10.1093/bib/bbr009&amp;link_type=DOI">
+           CrossRef
+          </a>
+</div>
+</div>
+</li>
+</ol>
+</div>
+<span>
+</span>
+</div>
+<span id="related-urls">
+</span>
+</div>
+<div id="col-2" class="calibre5">
+<div class="calibre5">
+<a href="/content/29/10/1260.short" title="Previous article">
+      « Previous
+     </a>
+<span>
+      |
+     </span>
+<a href="/content/29/10/1275.short" title="Next article">
+      Next Article »
+     </a>
+<span>
+<a href="/content/29/10.toc" title="Table of Contents">
+       Table of Contents
+      </a>
+</span>
+</div>
+<div id="article-cb-main" class="calibre5">
+<div class="calibre5">
+<h3 class="calibre14">
+<span class="calibre9">
+        This Article
+       </span>
+</h3>
+<div class="calibre5">
+<ol class="contributor-list">
+<li class="calibre4">
+<div id="slugline" class="calibre5">
+<cite class="calibre13">
+<abbr class="slug-jnl-abbrev" title="Bioinformatics">
+<nlm:abbrev-journal-title xmlns:nlm="http://schema.highwire.org/NLM/Journal" abbrev-type="publisher">
+             Bioinformatics
+            </nlm:abbrev-journal-title>
+</abbr>
+<span itemprop="datePublished">
+            (2013)
+           </span>
+<span>
+            29
+           </span>
+<span>
+            (10):
+           </span>
+<span>
+            1268-1274.
+           </span>
+<span>
+            doi:
+            <span title="10.1093/bioinformatics/btt149">
+             10.1093/bioinformatics/btt149
+            </span>
+</span>
+</cite>
+<span>
+           First published online:
+           <span>
+            March 28, 2013
+           </span>
+</span>
+</div>
+</li>
+</ol>
+</div>
+<div class="calibre5">
+<ol class="contributor-list">
+<li class="calibre4">
+<span>
+          This article is Open Access
+          <span>
+           OA
+          </span>
+</span>
+</li>
+<li class="calibre4">
+<a href="/content/29/10/1268.abstract" rel="view-abstract">
+          Abstract
+         </a>
+<span>
+</span>
+</li>
+<li class="calibre4">
+<span>
+          »
+          <span>
+           Full Text (HTML)
+          </span>
+</span>
+<span>
+</span>
+</li>
+<li class="calibre4">
+<a href="/content/29/10/1268.full.pdf+html" rel="view-full-text.pdf">
+          Full Text (PDF)
+         </a>
+<span>
+</span>
+</li>
+<li class="calibre4">
+<div class="calibre5">
+<span id="pap-all-versions-label">
+           All Versions of this Article:
+          </span>
+<ol class="cit-auth-list">
+<li class="calibre4">
+<a href="/content/early/2013/03/28/bioinformatics.btt149">
+             btt149v1
+            </a>
+</li>
+<li class="calibre4">
+<a href="/content/early/2013/04/24/bioinformatics.btt149">
+             btt149v2
+            </a>
+</li>
+<li class="calibre4">
+<span>
+             29/10/1268
+            </span>
+<span>
+             most recent
+            </span>
+</li>
+</ol>
+</div>
+</li>
+</ol>
+</div>
+<div id="cb-art-cat" class="calibre5">
+<h4 class="calibre15">
+<span>
+         Classifications
+        </span>
+</h4>
+<ol class="contributor-list">
+<li class="calibre4">
+<ul class="subject-headings">
+<li class="calibre4">
+           Original Paper
+           <ul class="subject-sub-headings">
+<li class="calibre4">
+<a href="/search?tocsectionid=SEQUENCE+ANALYSIS&amp;sortspec=date&amp;submit=Submit">
+              SEQUENCE ANALYSIS
+             </a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+</div>
+<div id="cb-art-svcs" class="calibre5">
+<h4 class="calibre15">
+<span>
+         Services
+        </span>
+</h4>
+<ol class="contributor-list">
+<li class="calibre4">
+<a href="/cgi/alerts/ctalert?alertType=citedby&amp;addAlert=cited_by&amp;cited_by_criteria_resid=bioinfo;29/10/1268&amp;saveAlert=no&amp;return-type=article&amp;return_url=http://bioinformatics.oxfordjournals.org/content/29/10/1268.full">
+          Alert me when cited
+         </a>
+</li>
+<li class="calibre4">
+<a href="/cgi/alerts/ctalert?alertType=correction&amp;addAlert=correction&amp;correction_criteria_value=29/10/1268&amp;saveAlert=no&amp;return-type=article&amp;return_url=http://bioinformatics.oxfordjournals.org/content/29/10/1268.full">
+          Alert me if corrected
+         </a>
+</li>
+<li class="calibre4">
+<a href="/cgi/alerts/ctalert?alertType=eletter&amp;addAlert=eletter&amp;eletter_criteria_value=29/10/1268&amp;saveAlert=no&amp;return-type=article&amp;return_url=http://bioinformatics.oxfordjournals.org/content/29/10/1268.full">
+          Alert me if commented
+         </a>
+</li>
+<li class="calibre4">
+<a href="/search?qbe=bioinfo;btt149&amp;citation=Pagni%20et%20al.%2029%20%2810%29:%201268&amp;submit=yes">
+          Find similar articles
+         </a>
+</li>
+<li class="calibre4">
+<a href="/external-ref?access_num=bioinfo%3B29%2F10%2F1268&amp;link_type=ISI_RELATEDRECORDS" id="cb-isi-similar-articles">
+          Similar articles in Web of Science
+         </a>
+</li>
+<li class="calibre4">
+<a href="/external-ref?access_num=23539304&amp;link_type=MED_NBRS">
+          Similar articles in PubMed
+         </a>
+</li>
+<li class="calibre4">
+<a href="/cgi/folders?action=addtofolder&amp;wherefrom=JOURNALS&amp;wrapped_id=bioinfo;29/10/1268">
+          Add to my archive
+         </a>
+</li>
+<li class="calibre4">
+<a href="/citmgr?gca=bioinfo;29/10/1268">
+          Download citation
+         </a>
+</li>
+<li class="calibre4">
+<a href="https://s100.copyright.com/AppDispatchServlet?publisherName=oup&amp;publication=bioinformatics&amp;title=Density-based%20hierarchical%20clustering%20of%20pyro-sequences%20on%20a%20large%20scale%E2%80%94the%20case%20of%20fungal%20ITS1%3A%20&amp;publicationDate=05%2F15%2F2013&amp;author=Marco%20Pagni%2C%20H%C3%A9l%C3%A8ne%20Niculita-Hirzel%2C%20Lo%C3%AFc%20Pellissier%2C%20Anne%20Dubuis%2C%20Ioannis%20Xenarios%2C%20Antoine%20Guisan%2C%20Ian%20R.%20Sanders%2C%20J%C3%A9r%C3%B4me%20Goudet%2C%20Nicolas%20Guex&amp;copyright=Oxford%20University%20Press&amp;contentID=10.1093%2Fbioinformatics%2Fbtt149&amp;volumeNum=29&amp;issueNum=10&amp;startPage=1268&amp;endPage=1274&amp;orderBeanReset=true" target="_blank">
+          Request Permissions
+         </a>
+</li>
+</ol>
+</div>
+<div id="cb-letter-cit" class="calibre5">
+<h4 class="calibre15">
+<span>
+         Responses
+        </span>
+</h4>
+<ol class="contributor-list">
+<li class="calibre4">
+<a href="/letters/submit/bioinfo;29/10/1268">
+          Submit a response
+         </a>
+</li>
+<li class="calibre4">
+<span>
+          No responses published
+         </span>
+</li>
+</ol>
+</div>
+<div id="cb-art-cit" class="calibre5">
+<h4 class="calibre15">
+<span>
+         Citing Articles
+        </span>
+</h4>
+<ol class="contributor-list">
+<li class="calibre4">
+<a href="/content/29/10/1268.full?cited-by=yes&amp;legid=bioinfo;29/10/1268#cited-by" id="cb-hw-citing-articles">
+          Load citing article information
+         </a>
+</li>
+<li class="calibre4">
+<a href="/cgi/crossref-forward-links/29/10/1268" id="cb-crossref-citing-articles" rel="external-nw">
+          Citing articles via CrossRef
+         </a>
+</li>
+<li class="calibre4">
+<a href="/scopus-links/bioinfo/29/10/1268?access_num=/bioinfo/29/10/1268" id="cb-scopus-citing-articles" rel="external-nw">
+          Citing articles via Scopus
+         </a>
+</li>
+<li class="calibre4">
+<a href="/external-ref?access_num=%2Fbioinfo%2F29%2F10%2F1268&amp;link_type=ISI_CITING&amp;accnum_type=native" id="cb-isi-citing-articles" rel="external-nw">
+          Citing articles via Web of Science
+         </a>
+</li>
+</ol>
+</div>
+<div id="cb-art-gs" class="calibre5">
+<h4 class="calibre15">
+<span>
+         Google Scholar
+        </span>
+</h4>
+<ol class="contributor-list">
+<li class="calibre4">
+<a href="http://scholar.google.com/scholar?q=%22author%3APagni%20author%3AM.%22">
+          Articles by  Pagni, M.
+         </a>
+</li>
+<li class="calibre4">
+<a href="http://scholar.google.com/scholar?q=%22author%3AGuex%20author%3AN.%22">
+          Articles by  Guex, N.
+         </a>
+</li>
+</ol>
+</div>
+<div id="cb-art-pm" class="calibre5">
+<h4 class="calibre15">
+<span>
+         PubMed
+        </span>
+</h4>
+<ol class="contributor-list">
+<li class="calibre4">
+<a href="/external-ref?access_num=23539304&amp;link_type=PUBMED">
+          PubMed citation
+         </a>
+</li>
+<li class="calibre4">
+<a href="/external-ref?access_num=Pagni%20M&amp;link_type=AUTHORSEARCH">
+          Articles by  Pagni, M.
+         </a>
+</li>
+<li class="calibre4">
+<a href="/external-ref?access_num=Niculita-Hirzel%20H&amp;link_type=AUTHORSEARCH">
+          Articles by  Niculita-Hirzel, H.
+         </a>
+</li>
+<li class="calibre4">
+<a href="/external-ref?access_num=Pellissier%20L&amp;link_type=AUTHORSEARCH">
+          Articles by  Pellissier, L.
+         </a>
+</li>
+<li class="calibre4">
+<a href="/external-ref?access_num=Dubuis%20A&amp;link_type=AUTHORSEARCH">
+          Articles by  Dubuis, A.
+         </a>
+</li>
+<li class="calibre4">
+<a href="/external-ref?access_num=Xenarios%20I&amp;link_type=AUTHORSEARCH">
+          Articles by  Xenarios, I.
+         </a>
+</li>
+<li class="calibre4">
+<a href="/external-ref?access_num=Guisan%20A&amp;link_type=AUTHORSEARCH">
+          Articles by  Guisan, A.
+         </a>
+</li>
+<li class="calibre4">
+<a href="/external-ref?access_num=Sanders%20IR&amp;link_type=AUTHORSEARCH">
+          Articles by  Sanders, I. R.
+         </a>
+</li>
+<li class="calibre4">
+<a href="/external-ref?access_num=Goudet%20J&amp;link_type=AUTHORSEARCH">
+          Articles by  Goudet, J.
+         </a>
+</li>
+<li class="calibre4">
+<a href="/external-ref?access_num=Guex%20N&amp;link_type=AUTHORSEARCH">
+          Articles by  Guex, N.
+         </a>
+</li>
+</ol>
+</div>
+<div id="cb-art-rel" class="calibre5">
+<h4 class="calibre15">
+<span>
+         Related Content
+        </span>
+</h4>
+<ol class="contributor-list">
+<li class="calibre4">
+<a href="/content/29/10/1268.full?related-urls=yes&amp;legid=bioinfo;29/10/1268#related-urls" id="cb-related-urls">
+          Load related web page information
+         </a>
+</li>
+</ol>
+</div>
+<div id="cb-art-soc" class="calibre5">
+<h4 class="calibre15">
+<span>
+         Share
+        </span>
+</h4>
+<ol class="contributor-list">
+<li class="calibre4">
+<a href="/email?gca=bioinfo;29/10/1268&amp;current-view-path=/content/29/10/1268.full">
+          Email this article
+         </a>
+</li>
+<li class="calibre4">
+<div class="calibre5">
+<ul class="subject-headings">
+<li class="calibre4">
+<a href="/external-ref?tag_url=http://bioinformatics.oxfordjournals.org/cgi/content/long/29/10/1268&amp;title=Density-based%20hierarchical%20clustering%20of%20pyro-sequences%20on%20a%20large%20scale%E2%80%94the%20case%20of%20fungal%20ITS1+--+Pagni%20et%20al.%2029%20%2810%29%3A%201268+--+bioinformatics&amp;doi=10.1093/bioinformatics/btt149&amp;link_type=CITEULIKE">
+<img src="/shared/img/common/social-bookmarking/citeulike.gif" alt="Add to CiteULike" title="CiteULike" class="calibre2"/>
+</a>
+<span>
+             CiteULike
+            </span>
+</li>
+<li class="calibre4">
+<a href="/external-ref?tag_url=http://bioinformatics.oxfordjournals.org/cgi/content/long/29/10/1268&amp;title=Density-based%20hierarchical%20clustering%20of%20pyro-sequences%20on%20a%20large%20scale%E2%80%94the%20case%20of%20fungal%20ITS1+--+Pagni%20et%20al.%2029%20%2810%29%3A%201268+--+bioinformatics&amp;doi=10.1093/bioinformatics/btt149&amp;link_type=DEL_ICIO_US">
+<img src="/shared/img/common/social-bookmarking/delicious.gif" alt="Add to Delicious" title="Delicious" class="calibre2"/>
+</a>
+<span>
+             Delicious
+            </span>
+</li>
+<li class="calibre4">
+<a href="/external-ref?tag_url=http://bioinformatics.oxfordjournals.org/cgi/content/short/29/10/1268&amp;title=Density-based%20hierarchical%20clustering%20of%20pyro-sequences%20on%20a%20large%20scale%E2%80%94the%20case%20of%20fungal%20ITS1+--+Pagni%20et%20al.%2029%20%2810%29%3A%201268+--+bioinformatics&amp;doi=10.1093/bioinformatics/btt149&amp;link_type=FACEBOOK" rel="external-nw">
+<img src="/shared/img/common/social-bookmarking/facebook.gif" alt="Add to Facebook" title="Facebook" class="calibre2"/>
+</a>
+<span>
+             Facebook
+            </span>
+</li>
+<li class="calibre4">
+<a href="/external-ref?tag_url=http://bioinformatics.oxfordjournals.org/cgi/content/long/29/10/1268&amp;title=Density-based%20hierarchical%20clustering%20of%20pyro-sequences%20on%20a%20large%20scale%E2%80%94the%20case%20of%20fungal%20ITS1+--+Pagni%20et%20al.%2029%20%2810%29%3A%201268+--+bioinformatics&amp;doi=10.1093/bioinformatics/btt149&amp;link_type=GOOGLEPLUS&amp;log_only=yes">
+<img src="/shared/img/common/social-bookmarking/googleplus.jpg" alt="Add to Google+" title="Google+" class="calibre2"/>
+</a>
+<span>
+             Google+
+            </span>
+</li>
+<li class="calibre4">
+<a href="/external-ref?tag_url=http://bioinformatics.oxfordjournals.org/cgi/content/long/29/10/1268&amp;title=Density-based%20hierarchical%20clustering%20of%20pyro-sequences%20on%20a%20large%20scale%E2%80%94the%20case%20of%20fungal%20ITS1+--+Pagni%20et%20al.%2029%20%2810%29%3A%201268+--+bioinformatics&amp;doi=10.1093/bioinformatics/btt149&amp;link_type=MENDELEY">
+<img src="/shared/img/common/social-bookmarking/mendeley.gif" alt="Add to Mendeley" title="Mendeley" class="calibre2"/>
+</a>
+<span>
+             Mendeley
+            </span>
+</li>
+<li class="calibre4">
+<a href="/external-ref?tag_url=http://bioinformatics.oxfordjournals.org/cgi/content/long/29/10/1268&amp;title=Density-based%20hierarchical%20clustering%20of%20pyro-sequences%20on%20a%20large%20scale%E2%80%94the%20case%20of%20fungal%20ITS1+--+Pagni%20et%20al.%2029%20%2810%29%3A%201268+--+bioinformatics&amp;doi=10.1093/bioinformatics/btt149&amp;link_type=TWITTER">
+<img src="/shared/img/common/social-bookmarking/twitter.gif" alt="Add to Twitter" title="Twitter" class="calibre2"/>
+</a>
+<span>
+             Twitter
+            </span>
+</li>
+</ul>
+<p class="hide">
+<a href="/help/social_bookmarks.dtl">
+            What's this?
+           </a>
+</p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="article-dyn-nav" class="calibre5">
+<div class="calibre5">
+<h3 class="calibre14">
+<span class="calibre9">
+        Navigate This Article
+       </span>
+</h3>
+<div id="cb-art-nav" class="calibre5">
+<ol class="contributor-list">
+<li class="calibre4">
+<a href="#content-block">
+          Top
+         </a>
+</li>
+<li class="calibre4">
+<a href="#abstract-1">
+          Abstract
+         </a>
+</li>
+<li class="calibre4">
+<a href="#sec-1">
+          1 INTRODUCTION
+         </a>
+</li>
+<li class="calibre4">
+<a href="#sec-2">
+          2 METHODS
+         </a>
+</li>
+<li class="calibre4">
+<a href="#sec-8">
+          3 RESULTS
+         </a>
+</li>
+<li class="calibre4">
+<a href="#sec-18">
+          4 DISCUSSION
+         </a>
+</li>
+<li class="calibre4">
+<a href="#ack-1">
+          ACKNOWLEDGEMENTS
+         </a>
+</li>
+<li class="calibre4">
+<a href="#fn-group-1">
+          Footnotes
+         </a>
+</li>
+<li class="calibre4">
+<a href="#ref-list-1">
+          REFERENCES
+         </a>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="article-cb-main" class="calibre5">
+<div class="calibre5">
+<div id="cb-art-bn" class="calibre5">
+<h4 class="calibre15">
+<span>
+         People also read [Beta]
+        </span>
+</h4>
+<ul class="calibrefeedlist">
+<li class="calibre4">
+<div id="bnArticleRecs" class="calibre5">
+</div>
+</li>
+<li class="calibre4">
+<p id="bnHelp" class="hide">
+<a href="http://www.oxfordjournals.org/our_journals/help.html">
+           What's this?
+          </a>
+</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="col-3" class="calibre5">
+<div class="calibre5" id="col-3-qs">
+<form action="/search" method="get" class="calibre5">
+<p class="hide">
+       Search this journal:
+      </p>
+<div class="calibre5">
+<input type="text" id="header-qs-input" value="" name="fulltext"/>
+<input type="hidden" name="submit" value="yes"/>
+<input src="/publisher/img/buttons/go.gif" alt="Go" type="image"/>
+<div class="calibre5">
+<a href="/search">
+         Advanced »
+        </a>
+</div>
+</div>
+
+</form></div>
+<div class="calibre5">
+<div class="calibre5" id="sidebar-current-issue">
+<h3 class="calibre14">
+       Current Issue
+      </h3>
+<div class="calibre5">
+<ol class="contributor-list">
+<li class="calibre4">
+<a href="/content/current">
+<span>
+<span>
+            May 15, 2013
+           </span>
+<span>
+            29
+           </span>
+<span>
+            (10)
+           </span>
+</span>
+</a>
+</li>
+</ol>
+</div>
+<div class="calibre5">
+<ol class="contributor-list">
+<li class="calibre4">
+<a href="/content/current">
+<img src="/content/29/10.cover.gif" alt="Bioinformatics" id="cover" class="calibre2"/>
+</a>
+</li>
+</ol>
+</div>
+<div class="calibre5">
+<ol class="contributor-list">
+<li class="calibre4">
+<a href="/cgi/alerts/etoc">
+          Alert me to new issues
+         </a>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="second" class="calibre5">
+<div class="calibre5">
+<div class="calibre5">
+<h2 id="the_journal" title="The Journal" class="calibre12">
+<span class="calibre9">
+         The Journal
+        </span>
+</h2>
+<ul class="calibrefeedlist">
+<li class="calibre4">
+<a href="http://www.oxfordjournals.org/bioinformatics/about.html" title="About this journal">
+          About this journal
+         </a>
+</li>
+<li class="calibre4">
+<a href="/cgi/calendarcontent/index.html?target=hw.dtl" title="Calendar of events">
+          Calendar of events
+         </a>
+</li>
+<li class="calibre4">
+<a href="http://www.oxfordjournals.org/access_purchase/rights_permissions.html" title="Rights &amp; Permissions">
+          Rights &amp; Permissions
+         </a>
+</li>
+<li class="calibre4">
+<a href="HTTP://www.oxfordjournals.org/access_purchase/dispatch_dates.html#CABIOSP" title="Dispatch date of the next issue">
+          Dispatch date of the next issue
+         </a>
+</li>
+<li class="calibre4">
+<a href="http://publicationethics.org/about" title="This journal is a member of the Committee on Publication Ethics (COPE)">
+          This journal is a member of the Committee on Publication Ethics (COPE)
+         </a>
+</li>
+<li class="calibre4">
+<a href="/cgi/eletters?lookup=by_date&amp;days=84&amp;target=hw.dtl" title="Recent Comments">
+          Recent Comments
+         </a>
+</li>
+<li class="calibre4">
+<a href="http://www.oxfordjournals.org/mobile_faqs.html" title="We are mobile – find out more">
+          We are mobile – find out more
+         </a>
+</li>
+</ul>
+<a href="http://www.oxfordjournals.org/page/4638/1">
+<img src="images/img1.jpg" alt="Next Generation Sequencing " class="calibre2"/>
+</a>
+</div>
+<div class="calibre5">
+<h3 class="calibre14">
+        An official journal of
+       </h3>
+<ul class="calibrefeedlist">
+<li class="calibre4">
+<a href="http://www.iscb.org/" title="The International Society for Computational Biology">
+          The International Society for Computational Biology
+         </a>
+</li>
+</ul>
+</div>
+<div class="calibre5">
+<h3 class="calibre14">
+        Impact factor:  5.468
+       </h3>
+</div>
+<div class="calibre5">
+<h3 class="calibre14">
+        Editors-in-Chief
+       </h3>
+<div class="calibre5">
+<div class="calibre5">
+         J Kelso
+        </div>
+<div class="calibre5">
+</div>
+</div>
+<div class="calibre5">
+<div class="calibre5">
+         A Valencia
+        </div>
+<div class="calibre5">
+</div>
+</div>
+<ul class="calibrefeedlist">
+<li class="calibre4">
+<a href="http://www.oxfordjournals.org/bioinformatics/editorial_board.html" title="View full editorial board">
+          View full editorial board
+         </a>
+</li>
+</ul>
+</div>
+<div class="calibre5">
+<h2 id="for_authors" title="For Authors" class="calibre12">
+<span class="calibre9">
+         For Authors
+        </span>
+</h2>
+<ul class="calibrefeedlist">
+<li class="calibre4">
+<a href="http://www.oxfordjournals.org/bioinformatics/for_authors/index.html" title="Instructions to authors">
+          Instructions to authors
+         </a>
+</li>
+<li class="calibre4">
+<a href="http://www.oxfordjournals.org/our_journals/bioinformatics/for_authors/submission_online.html" title="Online submission">
+          Online submission
+         </a>
+</li>
+<li class="calibre4">
+<a href="http://mc.manuscriptcentral.com/bioinformatics" title="Submit Now!">
+          Submit Now!
+         </a>
+</li>
+<li class="calibre4">
+<a href="http://www.oxfordjournals.org/access_purchase/self-archiving_policyb.html" title="Self-archiving policy">
+          Self-archiving policy
+         </a>
+</li>
+</ul>
+<a href="http://www.oxfordjournals.org/oxfordopen/ ">
+<img src="images/img2.png" alt="Open access options for authors - visit Oxford Open" class="calibre2"/>
+</a>
+<a href="http://www.oxfordjournals.org/for_authors/repositories.html">
+<img src="images/img3.jpg" alt="RCUK Wellcome Trust Open Access" class="calibre2"/>
+</a>
+<p class="hide">
+        Open access options for authors - visit
+        <a href="http://www.oxfordjournals.org/oxfordopen/">
+         Oxford Open
+        </a>
+</p>
+<a href="http://publicaccess.nih.gov/submit_process_journals.htm">
+<img src="images/img4.png" alt="PMC Logo" class="calibre2"/>
+</a>
+<ul class="calibrefeedlist">
+<li class="calibre4">
+<a href="http://publicaccess.nih.gov/submit_process_journals.htm" title="This journal enables compliance with the NIH Public Access Policy">
+          This journal enables compliance with the NIH Public Access Policy
+         </a>
+</li>
+</ul>
+</div>
+<div class="calibre5">
+<h2 id="alerting_services" title="Alerting Services" class="calibre12">
+<span class="calibre9">
+         Alerting Services
+        </span>
+</h2>
+<ul class="calibrefeedlist">
+<li class="calibre4">
+<a href="/cgi/alerts/etoc" title="Email table of contents">
+          Email table of contents
+         </a>
+</li>
+<li class="calibre4">
+<a href="/cgi/alerts/etoc" title="Email Advance Access">
+          Email Advance Access
+         </a>
+</li>
+<li class="calibre4">
+<a href="/help/citetrack" title="CiteTrack">
+          CiteTrack
+         </a>
+</li>
+<li class="calibre4">
+<a href="/rss" title="XML RSS feed">
+          XML RSS feed
+         </a>
+</li>
+</ul>
+</div>
+<div class="calibre5">
+<h2 id="corporate_services" title="Corporate Services" class="calibre12">
+<span class="calibre9">
+         Corporate Services
+        </span>
+</h2>
+<ul class="calibrefeedlist">
+<li class="calibre4">
+<a href="http://www.oxfordjournals.org/corporate_services/advertising.html" title="Advertising sales">
+          Advertising sales
+         </a>
+</li>
+<li class="calibre4">
+<a href="http://www.oxfordjournals.org/corporate_services/reprints.html" title="Reprints">
+          Reprints
+         </a>
+</li>
+<li class="calibre4">
+<a href="http://www.oxfordjournals.org/corporate_services/supplements.html" title="Supplements">
+          Supplements
+         </a>
+</li>
+</ul>
+</div>
+<div class="calibre5">
+<h2 class="calibre12">
+        Widget
+       </h2>
+<ul class="calibrefeedlist">
+<li class="calibre4">
+<a href="http://www.oxfordjournals.org/our_journals/bioinformatics/widget.html" title="Get a widget">
+          Get a widget
+         </a>
+</li>
+</ul>
+</div>
+</div>
+<div id="oas_right1" class="calibre5">
+</div>
+</div>
+<div class="calibre5">
+<div class="calibre5">
+<h3 class="calibre14">
+       Most
+      </h3>
+</div>
+<ul class="calibrefeedlist">
+<li class="calibre4">
+<h4 class="calibre15">
+        Most Read
+       </h4>
+<div class="calibre5">
+<ol class="cit-auth-list">
+<li class="calibre4">
+<a href="http://bioinformatics.oxfordjournals.org/cgi/content/short/29/8/965?rss=1&amp;ssource=mfr">
+           An approximate Bayesian approach for mapping paired-end DNA reads to a reference genome
+          </a>
+</li>
+<li class="calibre4">
+<a href="http://bioinformatics.oxfordjournals.org/cgi/content/short/27/15/2156?rss=1&amp;ssource=mfr">
+           The variant call format and VCFtools
+          </a>
+</li>
+<li class="calibre4">
+<a href="http://bioinformatics.oxfordjournals.org/cgi/content/short/29/1/15?rss=1&amp;ssource=mfr">
+           STAR: ultrafast universal RNA-seq aligner
+          </a>
+</li>
+<li class="calibre4">
+<a href="http://bioinformatics.oxfordjournals.org/cgi/content/short/29/8/1072?rss=1&amp;ssource=mfr">
+           QUAST: quality assessment tool for genome assemblies
+          </a>
+</li>
+<li class="calibre4">
+<a href="http://bioinformatics.oxfordjournals.org/cgi/content/short/29/8/1060?rss=1&amp;ssource=mfr">
+           Robust data-driven incorporation of prior knowledge into the inference of dynamic regulatory networks
+          </a>
+</li>
+</ol>
+<a href="http://bioinformatics.oxfordjournals.org/reports/mfr1.dtl">
+         » View all Most Read articles
+        </a>
+</div>
+</li>
+<li class="calibre4">
+<h4 class="calibre15">
+        Most Cited
+       </h4>
+<div class="calibre5">
+<ol class="cit-auth-list">
+<li class="calibre4">
+<a href="http://bioinformatics.oxfordjournals.org/cgi/content/short/27/15/2156?rss=1&amp;ssource=mfc">
+           The variant call format and VCFtools
+          </a>
+</li>
+<li class="calibre4">
+<a href="http://bioinformatics.oxfordjournals.org/cgi/content/short/27/16/2194?rss=1&amp;ssource=mfc">
+           UCHIME improves sensitivity and speed of chimera detection
+          </a>
+</li>
+<li class="calibre4">
+<a href="http://bioinformatics.oxfordjournals.org/cgi/content/short/27/12/1696?rss=1&amp;ssource=mfc">
+           MEME-ChIP: motif analysis of large DNA datasets
+          </a>
+</li>
+<li class="calibre4">
+<a href="http://bioinformatics.oxfordjournals.org/cgi/content/short/27/17/2325?rss=1&amp;ssource=mfc">
+           Identification of novel transcripts in annotated genomes using RNA-Seq
+          </a>
+</li>
+<li class="calibre4">
+<a href="http://bioinformatics.oxfordjournals.org/cgi/content/short/27/11/1571?rss=1&amp;ssource=mfc">
+           Bismark: a flexible aligner and methylation caller for Bisulfite-Seq applications
+          </a>
+</li>
+</ol>
+<a href="http://bioinformatics.oxfordjournals.org/reports/mfc1.dtl">
+         » View all Most Cited articles
+        </a>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="calibre5" id="oas_bottom">
+</div>
+<div id="secondary_footer" class="calibre5">
+<div id="issn" class="calibre5">
+     Online ISSN 1460-2059 - Print ISSN 1367-4803
+    </div>
+<div id="copyright" class="calibre5">
+<a href="http://www.oxfordjournals.org/our_journals/terms.html">
+      Copyright ©
+     </a>
+      
+     <span>
+      2013
+     </span>
+      Oxford University Press
+    </div>
+</div>
+<div id="primary_footer" class="calibre5">
+<div id="site_logo" class="calibre5">
+<strong class="calibre7">
+<span>
+       Oxford Journals
+      </span>
+</strong>
+<em class="calibre13">
+<span>
+       Oxford University Press
+      </span>
+</em>
+</div>
+<div id="third_nav" class="calibre5">
+<ul class="calibrefeedlist">
+<li class="calibre4">
+<a href="http://www.oxfordjournals.org/site_map.html">
+        Site Map
+       </a>
+</li>
+<li class="calibre4">
+<a href="http://www.oxfordjournals.org/legal/privacy_policy.html">
+        Privacy Policy
+       </a>
+</li>
+<li class="calibre4">
+<a href="http://global.oup.com/cookiepolicy/?siteid=journals">
+        Cookie Policy
+       </a>
+</li>
+<li class="calibre4">
+<a href="http://www.oxfordjournals.org/legal/legal_notices.html">
+        Legal Notices
+       </a>
+</li>
+<li class="calibre4">
+<a href="http://www.oxfordjournals.org/faq/">
+        Frequently Asked Questions
+       </a>
+</li>
+</ul>
+</div>
+<div id="other_oup_sites" class="calibre5">
+<form action="http://www.oxfordjournals.org/service/redirect" class="calibre5">
+<div class="calibre5">
+<label for="site_list">
+        Other Oxford University Press sites:
+       </label>
+<select id="site_list" name="url">
+<option value="http://www.oup.com">
+         Oxford University Press
+        </option>
+<option value="http://www.oxfordjournals.org/china/">
+         Oxford Journals China
+        </option>
+<option value="http://www.oxfordjournals.org/japan/">
+         Oxford Journals Japan
+        </option>
+<option value="http://www.oup.com/uk/academic">
+         Academic &amp; Professional books
+        </option>
+<option value="http://www.oup.com/oxed">
+         Children's &amp; Schools Books
+        </option>
+<option value="http://www.oup.com/uk/dictionaries">
+         Dictionaries &amp; Reference
+        </option>
+<option value="http://www.oup.co.uk/newdnb/">
+         Dictionary of National Biography
+        </option>
+<option value="http://www.oup.com/uk/digital_reference">
+         Digital Reference
+        </option>
+<option value="http://www.oup.com/elt/">
+         English Language Teaching
+        </option>
+<option value="http://www.oup.com/uk/textbooks">
+         Higher Education Textbooks
+        </option>
+<option value="http://www.oup.co.uk/ieu/">
+         International Education Unit
+        </option>
+<option value="http://www.oup.com/uk/law">
+         Law
+        </option>
+<option value="http://www.oup.com/uk/medicine">
+         Medicine
+        </option>
+<option value="http://www.oup.com/uk/music">
+         Music
+        </option>
+<option value="http://www.oup.com/online">
+         Online Products &amp; Publishing
+        </option>
+<option value="http://oxfordbibliographiesonline.com">
+         Oxford Bibliographies Online
+        </option>
+<option value="http://oxforddictionaries.com">
+         Oxford Dictionaries Online
+        </option>
+<option value="http://www.oed.com">
+         Oxford English Dictionary
+        </option>
+<option value="http://www.oxfordlanguagedictionaries.com">
+         Oxford Language Dictionaries Online
+        </option>
+<option value="http://www.oxfordscholarship.com">
+         Oxford Scholarship Online
+        </option>
+<option value="http://www.oup.com/uk/reference">
+         Reference
+        </option>
+<option value="http://www.oup.com/uk/rights">
+         Rights and Permissions
+        </option>
+<option value="http://www.oup.com/uk/booksellers">
+         Resources for Retailers &amp; Wholesalers
+        </option>
+<option value="http://www.oup.com/uk/corporate">
+         Resources for the Healthcare Industry
+        </option>
+<option value="http://www.oup.com/vsi">
+         Very Short Introductions
+        </option>
+<option value="http://www.oup.com/worldsclassics">
+         World's Classics
+        </option>
+</select>
+<input src="/resource/image/buttons/go.gif" alt="Go" type="image"/>
+</div>
+
+</form></div>
+</div>
+</div>
+<div class="calibrenavbar">
+<hr class="calibre6"/>
+<p class="calibre16">This article was downloaded by <strong class="calibre7">calibre</strong> from <a href="http://bioinformatics.oxfordjournals.org/content/29/10/1268.full">http://bioinformatics.oxfordjournals.org/content/29/10/1268.full</a></p>
+<br class="calibre5"/><br class="calibre5"/> | <a href="../index.html#article_0">Section Menu</a> | <a href="../../index.html#feed_0">Main Menu</a> | </div>
+</body></html>

@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="calibre_id">
+  <metadata xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:calibre="http://calibre.kovidgoyal.net/2009/metadata">
+    <dc:title>2 Journals [Thu, 16 May 2013]</dc:title>
+    <dc:creator opf:file-as="calibre" opf:role="aut">calibre</dc:creator>
+    <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (0.9.30) [http://calibre-ebook.com]</dc:contributor>
+    <dc:identifier id="calibre_id" opf:scheme="calibre">f29f0207-86b7-4f83-ace9-1c9d0c419fab</dc:identifier>
+    <dc:date>2013-05-16T21:32:39.307976-04:00</dc:date>
+    <dc:language>eng</dc:language>
+    <dc:description>
+
+Articles in this issue: 
+1
+
+2</dc:description>
+    <dc:publisher>calibre</dc:publisher>
+    <meta content="2013-05-16T21:32:39.304490-04:00" name="calibre:timestamp"/>
+    <meta content="periodical:unknown:2 Journals" name="calibre:publication_type"/>
+  </metadata>
+  <manifest>
+    <item href="feed_0/index.html" id="id1" media-type="text/html"/>
+    <item href="feed_0/article_0/index.html" id="id2" media-type="text/html"/>
+    <item href="feed_0/article_0/images/img2.png" id="id3" media-type="image/png"/>
+    <item href="feed_0/article_0/images/img4.png" id="id4" media-type="image/png"/>
+    <item href="feed_0/article_0/images/img3.jpg" id="id5" media-type="image/jpeg"/>
+    <item href="feed_0/article_0/images/img1.jpg" id="id6" media-type="image/jpeg"/>
+    <item href="feed_0/article_0/stylesheets/style16.css" id="id7" media-type="text/css"/>
+    <item href="feed_0/article_0/stylesheets/style15.css" id="id8" media-type="text/css"/>
+    <item href="feed_0/article_1/index.html" id="id9" media-type="text/html"/>
+    <item href="feed_0/article_1/images/img2.png" id="id10" media-type="image/png"/>
+    <item href="feed_0/article_1/images/img1.png" id="id11" media-type="image/png"/>
+    <item href="index.html" id="id12" media-type="text/html"/>
+    <item href="index.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+    <item href="cover.jpg" id="id14" media-type="image/jpeg"/>
+    <item href="mastheadImage.jpg" id="masthead-image" media-type="image/jpeg"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="id12"/>
+    <itemref idref="id1"/>
+    <itemref idref="id2"/>
+    <itemref idref="id9"/>
+  </spine>
+  <guide>
+    <reference href="mastheadImage.jpg" type="masthead" title="Masthead Image"/>
+    <reference href="cover.jpg" type="cover"/>
+    <reference href="cover.jpg" type="other.ms-coverimage-standard"/>
+    <reference href="cover.jpg" type="other.ms-coverimage"/>
+  </guide>
+</package>
