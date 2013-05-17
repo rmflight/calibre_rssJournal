@@ -36,7 +36,11 @@ class BioinformaticsRecipe(BasicNewsRecipe):
 		incTitle = 1
 	
 		for urlI in useURL:
-			current_articles.append({'title': str(incTitle), 'url': urlI.strip(), 'description':'', 'date':''})
+			splitURL = urlI.split("|")
+			if len(splitURL) == 1:
+				current_articles.append({'title': "Article " + str(incTitle), 'url': splitURL[0].strip(), 'description':'', 'date':''})
+			else:
+				current_articles.append({'title': splitURL[0].strip(), 'url':splitURL[1].strip(), 'description':'', 'date':''})
 			incTitle = incTitle + 1
 		return current_articles
 		
