@@ -131,9 +131,9 @@ class BioinformaticsRecipe(BasicNewsRecipe):
 		# this is the actual html of the page we are going to modify
 		working_soup = self.index_to_soup(url)
 		
-		if any(r.search(url) for r in bmcJ):
+		if any(r.search(url) for r in self.bmcJ):
 			self.bmc_images_tables(url, working_soup)
-		elif any(r.search(url) for r in oxfordJ):
+		elif any(r.search(url) for r in self.oxfordJ):
 			self.oxford_images_tables(url, working_soup)
 		
 		self.temp_files.append(PersistentTemporaryFile('_bioinf.html'))
