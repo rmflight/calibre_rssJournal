@@ -11,6 +11,9 @@ class BioinformaticsRecipe(BasicNewsRecipe):
 	language = 'en'
 	articles_are_obfuscated = True
 	
+	bmcJ = [re.compile('biomedcentral'), re.compile('http://www.biology-direct.com/'), re.compile('http://www.biodatamining.org/'), re.compile('http://journal.chemistrycentral.com/')]
+	oxfordJ = [re.compile('oxfordjournals')]
+	
 	#remove_tags_before = dict(attrs={'class':'rounded custom white article full-text'})
 	#remove_tags_after = dict(attrs={'id':'article-body'})
 	
@@ -71,7 +74,16 @@ class BioinformaticsRecipe(BasicNewsRecipe):
 		url_split_char = '/'
 		url_splitup = url.split(url_split_char)
 		
-		for x in xrange(3):
+		# how many parts of the url to pop off to get to the base url
+		# depends on whether it is a biomedcentral article, or another
+		# bmc associated article. This works for BMC Bioinformatics and 
+		# biodata mining at the very least
+		if re.search('biomedcentral', url):
+			nPop = 3
+		else:
+			nPop = 4
+		
+		for x in xrange(nPop):
 			url_splitup.pop(-1) # removes the last three parts of the url
 		
 		image_baseURL = url_split_char.join(url_splitup)
@@ -119,9 +131,9 @@ class BioinformaticsRecipe(BasicNewsRecipe):
 		# this is the actual html of the page we are going to modify
 		working_soup = self.index_to_soup(url)
 		
-		if re.search('biomedcentral', url):
+		if any(r.search(url) for r in bmcJ):
 			self.bmc_images_tables(url, working_soup)
-		elif re.search('oxfordjournals', url):
+		elif any(r.search(url) for r in oxfordJ):
 			self.oxford_images_tables(url, working_soup)
 		
 		self.temp_files.append(PersistentTemporaryFile('_bioinf.html'))
