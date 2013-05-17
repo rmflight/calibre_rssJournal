@@ -1,7 +1,0 @@
-@namespace h "http://www.w3.org/1999/xhtml";
-h|body {
-    font-family: serif
-    }
-h|p.hide, #primary_nav, #secondary_nav {
-    display: none
-    }
