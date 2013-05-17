@@ -6,13 +6,13 @@ import urllib
 
 class BioinformaticsRecipe(BasicNewsRecipe):
   
-	title = u'BMC Journals'
+	title = u'2 Journals'
 	__author__ = 'Robert M Flight'
 	language = 'en'
 	articles_are_obfuscated = True
 	
-	remove_tags_before = dict(attrs={'class':'rounded custom white article full-text'})
-	remove_tags_after = dict(attrs={'id':'article-body'})
+	#remove_tags_before = dict(attrs={'class':'rounded custom white article full-text'})
+	#remove_tags_after = dict(attrs={'id':'article-body'})
 	
 	temp_files = []
 	
@@ -115,11 +115,19 @@ class BioinformaticsRecipe(BasicNewsRecipe):
 	# process each article, doing the tables and images for each one.
 	def get_obfuscated_article(self, url):
 		# this is the actual html of the page we are going to modify
+		if re.search('biomedcentral', url):
+			remove_tags_before = dict(attrs={'class':'rounded custom white article full-text'})
+			remove_tags_after = dict(attrs={'id':'article-body'})
+		elif re.search('oxfordjournals', url):
+			remove_tags_before = dict(attrs={'class':'article fulltext-view'})
+			remove_tags_after = dict(attrs={'id':'related-urls'})
+		
+
 		working_soup = self.index_to_soup(url)
 		
-		self.mod_image_paths(url, working_soup)
+		#self.mod_image_paths(url, working_soup)
 		
-		self.insert_tables(url, working_soup)
+		#self.insert_tables(url, working_soup)
 		
 		self.temp_files.append(PersistentTemporaryFile('_bioinf.html'))
 		#self.temp_files[-1].write(img_mod_soup.prettify())
