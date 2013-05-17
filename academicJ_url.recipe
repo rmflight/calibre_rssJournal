@@ -39,6 +39,32 @@ class BioinformaticsRecipe(BasicNewsRecipe):
 		
 	def oxford_images_tables(self, url, soup):
 		url_split_char = '/'
+		url_splitup = url.split(url_split_char)
+		url_splitup.pop(-1)
+		base_url = url_split_char.join(url_splitup)
+		
+		allImg = soup.findAll('img')
+		
+		for imgTag in allImg:
+			tmpSrc = imgTag['src']
+			tmpSrc = url_split_char.join([base_url, tmpSrc])
+			if re.search('.small.gif', tmpSrc):
+				tmpSrc = re.sub('.small.gif', '.large.jpg', tmpSrc)
+				imgTag['width'] = 600
+				
+			imgTag['src'] = tmpSrc
+			
+		all_tables = soup.findAll('div', 'table-inline')
+		
+		for i_table in all_tables:
+			a_link = i_table.find('a', 'in-nw')
+			
+			table_url = url_split_char.join([base_url, a_link['href']])
+			table_soup = self.index_to_soup(table_url)
+			
+			table_div = table_soup.find('div', 'table-expansion ')
+			
+			i_table.replaceWith(table_div)
 		
 	# modifies the image paths and gets tables for bmc journals	
 	def bmc_images_tables(self, url, soup):
