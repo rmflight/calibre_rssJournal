@@ -2,10 +2,14 @@
 
 In addition to PDF, many research journal articles are made available as HTML files on journal websites. Reading these on e-readers is currently hampered by the way the original html is set up.
 
-This is my attempt to build Calibre RSS feed processing *recipes* that can properly process an RSS feed from a journal article, and then be converted to an epub for viewing on an e-reader.
+This currently parses a set of URL's in a single text file hosted on the web (use the "dl." link for dropbox).
 
-Because my interests are in Bioinformatics, I will be concentrating on the journals *Bioinformatics* and *BMC Bioinformatics* to start. I would appreciate comments and thoughts.
+Currently can handle BMC Journals (tested on BMC Bioinformatics and BioData Mining) and Oxford Journals.
 
-## Dev environment
+## Planned Improvements
 
-I have setup a virtual machine with a source install of Calibre to make the Calibre modules available to the iPython Notebook that I am using to actually develop the recipes. Suggestions are welcome.
+Parse text that includes the title:link
+
+Handle other journals (Pubmed Central, PeerJ, eLife, PNAS, CSHL, Nature, Science, Wiley)
+
+Remove the extra fluff on the HTML page that isn't actually part of the article
