@@ -1,0 +1,72 @@
+from calibre.ptempfile import PersistentTemporaryFile
+from calibre.web.feeds.news import BasicNewsRecipe
+from calibre.ebooks.BeautifulSoup import BeautifulSoup
+import re
+import urllib
+
+class BioinfoRecipe(BasicNewsRecip):
+	
+	keepArticles = [re.compile('')]
+	
+	
+	# this is the parser for bioinformatics journals in the form of pure urls.
+	# assume that different recipes will change the keepArticles to be a different regex
+	def bioinfo_parse_articles(self,url):
+		urlFile = urllib.urlopen(url)
+		useURL = urlFile.readlines()
+		current_articles = []
+	
+		incTitle = 1
+	
+		for urlI in useURL:
+			if any(r.search(urlI) for r in self.keepArticles):
+				splitURL = urlI.split("|")
+				if len(splitURL) == 1:
+					current_articles.append({'title': "Article " + str(incTitle), 'url': splitURL[0].strip(), 'description':'', 'date':''})
+				else:
+					current_articles.append({'title': splitURL[0].strip(), 'url':splitURL[1].strip(), 'description':'', 'date':''})
+				incTitle = incTitle + 1
+		return current_articles
+
+class OxfordRecipe(BioinfoRecipe):
+  
+	title = u'Oxford Journals'
+	__author__ = 'Robert M Flight'
+	language = 'en'
+	articles_are_obfuscated = True
+	
+	keepArticles = [re.compile('oxfordjournals')]
+	
+	match_regexps = ["expansion.html"]
+	
+	# this does the parsing of the text file with the URLs. Please change this to your own hosted text file
+	def parse_index(self):
+		feeds = []
+		for title, url in [('Journal Articles', 'https://dl.dropbox.com/s/xflux6a6sq9szxi/testSimpleBioFeeds.txt')]:
+			articles = self.bioinfo_parse_articles(url)
+			if articles:
+				feeds.append((title, articles))
+			print feeds
+		return feeds
+	
+
+
+
+class BMCRecipe(BasicNewsRecipe):
+  
+	title = u'BMC Journals'
+	__author__ = 'Robert M Flight'
+	language = 'en'
+	articles_are_obfuscated = True
+	
+	bmcJ = [re.compile('biomedcentral'), re.compile('http://www.biology-direct.com/'), re.compile('http://www.biodatamining.org/'), re.compile('http://journal.chemistrycentral.com/')]
+	
+	# this does the parsing of the text file with the URLs. Please change this to your own hosted text file
+	def parse_index(self):
+		feeds = []
+		for title, url in [('Journal Articles', 'https://dl.dropbox.com/s/xflux6a6sq9szxi/testSimpleBioFeeds.txt')]:
+			articles = self.bioinfo_parse_articles(url)
+			if articles:
+				feeds.append((title, articles))
+			print feeds
+		return feeds
