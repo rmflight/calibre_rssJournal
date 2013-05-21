@@ -31,7 +31,7 @@ class OxfordRecipe(BasicNewsRecipe):
 	# this does the parsing of the text file with the URLs. Please change this to your own hosted text file
 	def parse_index(self):
 		feeds = []
-		for title, url in [('Oxford Articles', 'https://dl.dropboxusercontent.com/s/wwwp60oxha6p78e/articles2read.txt')]:
+		for title, url in [('Oxford Articles', 'https://dl.dropbox.com/s/njj43rjb3tzkt7i/breakOxford.txt')]:
 			articles = self.bioinfo_parse_articles(url)
 			if articles:
 				feeds.append((title, articles))
@@ -75,32 +75,43 @@ class OxfordRecipe(BasicNewsRecipe):
 		
 		all_tables = soup.findAll('div', 'table pos-float')
 		for iTable in all_tables:
-			if iTable.parent is None:
-				a_link = iTable.find('a', 'in-nw')
+			
+			a_link = iTable.find('a', 'in-nw')
+			
+			#print "this is the table link: " + a_link['href']
+			
+			
+			table_file = open(a_link['href'], 'r').read()
+			table_soup = BeautifulSoup(table_file)
+			
+			table_div = []
+			
+			try:
+				table_div = table_soup.findAll('div', 'table-expansion')[0]
+			except:
+				print "no space didn't work!"
 				
-				print "this is the table link: " + a_link['href']
+			try:
+				table_div = table_soup.findAll('div', 'table-expansion ')[0]
+			except:
+				print "with space didn't work!"
+			
+			#print repr(table_div)
+			
+			table_href = a_link['href']
+			split_ref = table_href.split(url_split_char)
+			for i in xrange(2):
+				use_loc = split_ref.pop(-1)
 				
-				
-				table_file = open(a_link['href'], 'r').read()
-				table_soup = BeautifulSoup(table_file)
-				
-				table_div = table_soup.find('div', 'table-expansion ')
-				
-				table_href = a_link['href']
-				split_ref = table_href.split(url_split_char)
-				for i in xrange(2):
-					use_loc = split_ref.pop(-1)
-					
-				#print "This is the url I want: " + use_loc
-				
-				table_img = table_soup.findAll('img', 'inline-graphic')
-				for iImg in table_img:
-					full_link = url_split_char.join([beg_link, use_loc, iImg['src']])
-					iImg['src'] = full_link
-					print "Here are table graphics:" + iImg['src']
-				
+			#print "This is the url I want: " + use_loc
+			
+			table_img = table_soup.findAll('img', 'inline-graphic')
+			for iImg in table_img:
+				full_link = url_split_char.join([beg_link, use_loc, iImg['src']])
+				iImg['src'] = full_link
+				print "Here are table graphics:" + iImg['src']
+			
+			if len(table_div) != 0:
 				iTable.replaceWith(table_div)
-			else:
-				print "This was a problem node:" + repr(iTable)
 		
 		return soup
