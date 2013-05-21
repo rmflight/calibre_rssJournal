@@ -13,20 +13,21 @@ import urllib
 	# assume that different recipes will change the keepArticles to be a different regex
 
 
-class OxfordRecipe(BasicNewsRecipe):
+class BMCRecipe(BasicNewsRecipe):
   
 	title = u'BMC Journals'
 	__author__ = 'Robert M Flight'
 	language = 'en'
 	#articles_are_obfuscated = True
 	
-	remove_tags_before = dict(attrs={'class':'article fulltext-view'})
-	remove_tags_after = dict(attrs={'id':'related-urls'})
+	no_stylesheets = True
+	keep_only_tags = dict(attrs={'class':'rounded custom white article full-text'})
+	#remove_tags_after = dict(attrs={'class':'rounded custom white article'})
 	
 	keepArticles = [re.compile('biomedcentral'), re.compile('http://www.biology-direct.com/'), re.compile('http://www.biodatamining.org/'), re.compile('http://journal.chemistrycentral.com/')]
 	
-	match_regexps = [r'expansion.html']
-	recursions = 2
+	#match_regexps = [r'table']
+	#recursions = 2
 	
 	# this does the parsing of the text file with the URLs. Please change this to your own hosted text file
 	def parse_index(self):
@@ -57,67 +58,54 @@ class OxfordRecipe(BasicNewsRecipe):
 					useTitle = splitURL[0].strip()
 				
 				useURL = useURL + "?fmt_math=no"	
-				current_articles.append({'title': useTitle, 'url':useTitle, 'description':'', 'date':''})
+				current_articles.append({'title': useTitle, 'url':useURL, 'description':'', 'date':''})
 				incTitle = incTitle + 1
 		return current_articles
 		
 	def preprocess_html(self, soup):
 		
-		allImg = soup.findAll('img')
+		allFigures = soup.findAll('div', 'fig')
 		
-		for imgTag in allImg:
+		for figDiv in allFigures:
+			imgTag = figDiv('img')[0]
 			tmpSrc = imgTag['src']
-			if re.search('.small.gif', tmpSrc):
-				tmpSrc = re.sub('.small.gif', '.large.jpg', tmpSrc)
-				imgTag['width'] = 600
+			#tmpSrc = url_split_char.join([base_url, tmpSrc])
+			if re.search('.gif', tmpSrc):
+				tmpSrc = re.sub('.gif', '.jpg', tmpSrc)
 				
 			imgTag['src'] = tmpSrc
+			
+			
+		allTables = soup.findAll('div', 'table')
+		for iTable in allTables:
+			
+			a_link = iTable.find('a')['href']
+			
+			table_soup = self.index_to_soup(a_link)
+			real_table = table_soup.find('table')
+			iTable.replaceWith(real_table)
+			#print repr(table_soup)		
 		
 		return soup
 		
-	def postprocess_html(self, soup, first_fetch):
-		url_split_char = '/'
-		beg_link = "links"
-		
-		all_tables = soup.findAll('div', 'table pos-float')
-		for iTable in all_tables:
+	#def postprocess_html(self, soup, first_fetch):
+				
+		#all_tables = soup.findAll('div', 'table')
+		#for iTable in all_tables:
 			
-			a_link = iTable.find('a', 'in-nw')
+			#a_link = iTable.find('a')
 			
 			#print "this is the table link: " + a_link['href']
 			
 			
-			table_file = open(a_link['href'], 'r').read()
-			table_soup = BeautifulSoup(table_file)
+			#table_file = open(a_link['href'], 'r').read()
+			#table_soup = BeautifulSoup(table_file)
+			#print repr(table_soup)
 			
-			table_div = []
+			#real_table = table_soup.find('table')
 			
-			try:
-				table_div = table_soup.findAll('div', 'table-expansion')[0]
-			except:
-				print "no space didn't work!"
-				
-			try:
-				table_div = table_soup.findAll('div', 'table-expansion ')[0]
-			except:
-				print "with space didn't work!"
+			#print "this is the table to replace with:" + repr(real_table)
 			
-			#print repr(table_div)
-			
-			table_href = a_link['href']
-			split_ref = table_href.split(url_split_char)
-			for i in xrange(2):
-				use_loc = split_ref.pop(-1)
-				
-			#print "This is the url I want: " + use_loc
-			
-			table_img = table_soup.findAll('img', 'inline-graphic')
-			for iImg in table_img:
-				full_link = url_split_char.join([beg_link, use_loc, iImg['src']])
-				iImg['src'] = full_link
-				print "Here are table graphics:" + iImg['src']
-			
-			if len(table_div) != 0:
-				iTable.replaceWith(table_div)
+			#iTable.replaceWith(real_table)
 		
-		return soup
+		#return soup
