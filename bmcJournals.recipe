@@ -15,7 +15,7 @@ import urllib
 
 class OxfordRecipe(BasicNewsRecipe):
   
-	title = u'Oxford Journals'
+	title = u'BMC Journals'
 	__author__ = 'Robert M Flight'
 	language = 'en'
 	#articles_are_obfuscated = True
@@ -23,7 +23,7 @@ class OxfordRecipe(BasicNewsRecipe):
 	remove_tags_before = dict(attrs={'class':'article fulltext-view'})
 	remove_tags_after = dict(attrs={'id':'related-urls'})
 	
-	keepArticles = [re.compile('oxfordjournals')]
+	keepArticles = [re.compile('biomedcentral'), re.compile('http://www.biology-direct.com/'), re.compile('http://www.biodatamining.org/'), re.compile('http://journal.chemistrycentral.com/')]
 	
 	match_regexps = [r'expansion.html']
 	recursions = 2
@@ -31,7 +31,7 @@ class OxfordRecipe(BasicNewsRecipe):
 	# this does the parsing of the text file with the URLs. Please change this to your own hosted text file
 	def parse_index(self):
 		feeds = []
-		for title, url in [('Oxford Articles', 'https://dl.dropbox.com/s/wwwp60oxha6p78e/articles2read.txt')]:
+		for title, url in [('BMC Articles', 'https://dl.dropbox.com/s/wwwp60oxha6p78e/articles2read.txt')]:
 			articles = self.bioinfo_parse_articles(url)
 			if articles:
 				feeds.append((title, articles))
@@ -42,6 +42,7 @@ class OxfordRecipe(BasicNewsRecipe):
 		urlFile = urllib.urlopen(url)
 		useURL = urlFile.readlines()
 		current_articles = []
+		
 
 		incTitle = 1
 
@@ -49,9 +50,14 @@ class OxfordRecipe(BasicNewsRecipe):
 			if any(r.search(urlI) for r in self.keepArticles):
 				splitURL = urlI.split("|")
 				if len(splitURL) == 1:
-					current_articles.append({'title': "Article " + str(incTitle), 'url': splitURL[0].strip(), 'description':'', 'date':''})
+					useURL = splitURL[0].strip()
+					useTitle = "Article" + str(incTitle)
 				else:
-					current_articles.append({'title': splitURL[0].strip(), 'url':splitURL[1].strip(), 'description':'', 'date':''})
+					useURL = splitURL[1].strip()
+					useTitle = splitURL[0].strip()
+				
+				useURL = useURL + "?fmt_math=no"	
+				current_articles.append({'title': useTitle, 'url':useTitle, 'description':'', 'date':''})
 				incTitle = incTitle + 1
 		return current_articles
 		
