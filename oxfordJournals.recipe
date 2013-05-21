@@ -4,20 +4,31 @@ from calibre.ebooks.BeautifulSoup import BeautifulSoup
 import re
 import urllib
 
-#class BioinfoRecipe(BasicNewsRecipe):
-	
-	#keepArticles = [re.compile('')]
-	
-	
-	# this is the parser for bioinformatics journals in the form of pure urls.
-	# assume that different recipes will change the keepArticles to be a different regex
+# the goal with this recipe (and others I'm writing) is that a reader of 
+# academic journals frequently has a list of articles to read, from a variety of journals.
+# Based on this workflow, this recipe assumes a single file with the titles and urls of 
+# the articles in question, separated by the pipe |
+#
+# eg Article of interest|url.of.the.article
+#
+# This file is set in "articleFile" below
+#
+# Oxford Journal articles are defined by hosting at var.oxfordjournals.com
 
-
+# this recipe assumes that there is a text file hosted somewhere (articleFile)
+# where each line is either a url, or a title|url pair (title and url separated by a pipe)
+# These are the articles you actually want to read.
 class OxfordRecipe(BasicNewsRecipe):
   
 	title = u'Oxford Journals'
 	__author__ = 'Robert M Flight'
 	language = 'en'
+	__date__ = '21 May 2013'
+	__version__ = '1.0'
+	language = 'en'
+	__license__ = 'GPL v3'
+	
+	articleFile = 'https://dl.dropbox.com/s/wwwp60oxha6p78e/articles2read.txt'
 	#articles_are_obfuscated = True
 	
 	remove_tags_before = dict(attrs={'class':'article fulltext-view'})
@@ -31,7 +42,7 @@ class OxfordRecipe(BasicNewsRecipe):
 	# this does the parsing of the text file with the URLs. Please change this to your own hosted text file
 	def parse_index(self):
 		feeds = []
-		for title, url in [('Oxford Articles', 'https://dl.dropbox.com/s/wwwp60oxha6p78e/articles2read.txt')]:
+		for title, url in [('Oxford Articles', self.articleFile)]:
 			articles = self.bioinfo_parse_articles(url)
 			if articles:
 				feeds.append((title, articles))
@@ -86,6 +97,7 @@ class OxfordRecipe(BasicNewsRecipe):
 			
 			table_div = []
 			
+			# this is needed because some tables use different classes
 			try:
 				table_div = table_soup.findAll('div', 'table-expansion')[0]
 			except:
