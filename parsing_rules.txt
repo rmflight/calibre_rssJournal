@@ -86,3 +86,15 @@ there are methods in calibre that might be useful
             for tag in soup.findAll(**kwds):
                 tag.extract()
         return self.preprocess_html_ext(soup)
+
+
+
+PubmedCentral
+
+Hmmm, there are issues with PMC, due to how different journals provide the raw data. However, there are links to download the epub. I could
+probably create a recipe that simply downloads the epubs from PMC.
+Tables
+<div class='table-wrap ....'>, pop the last part of URL off, get the 
+
+http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2386255/table/pone-0002265-t001/?report=thumb
+http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2386255/bin/pone.0002265.t001.jpg
