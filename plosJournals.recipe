@@ -32,7 +32,7 @@ class PLOSRecipe(BasicNewsRecipe):
 	#articles_are_obfuscated = True
 	
 	#no_stylesheets = True
-	keep_only_tags = dict(attrs={'class':'rounded custom white article full-text'})
+	keep_only_tags = dict(attrs={'class':['header', 'article']})
 		
 	keepArticles = [re.compile('plos')]
 	
@@ -42,7 +42,7 @@ class PLOSRecipe(BasicNewsRecipe):
 	# this does the parsing of the text file with the URLs. Please change this to your own hosted text file
 	def parse_index(self):
 		feeds = []
-		for title, url in [('BMC Articles', self.articleFile)]:
+		for title, url in [('PLOS Articles', self.articleFile)]:
 			articles = self.bioinfo_parse_articles(url)
 			if articles:
 				feeds.append((title, articles))
@@ -67,7 +67,6 @@ class PLOSRecipe(BasicNewsRecipe):
 					useURL = splitURL[1].strip()
 					useTitle = splitURL[0].strip()
 				
-				useURL = useURL + "?fmt_math=no"	
 				current_articles.append({'title': useTitle, 'url':useURL, 'description':'', 'date':''})
 				incTitle = incTitle + 1
 		return current_articles
@@ -82,7 +81,7 @@ class PLOSRecipe(BasicNewsRecipe):
 			tmpSrc = imgTag['src']
 			#tmpSrc = url_split_char.join([base_url, tmpSrc])
 			if re.search('PNG', tmpSrc):
-				tmpSrc = re.sub('PNG_I', 'PNG_L', tmpSrc)
+				tmpSrc = re.sub('PNG_I', 'PNG_M', tmpSrc)
 				
 			imgTag['src'] = tmpSrc
 		
