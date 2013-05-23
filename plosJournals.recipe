@@ -13,17 +13,17 @@ import urllib
 #
 # This file is set in "articleFile" below
 #
-# BMC articles are defined by their URLs, if one is missing you may need to add it
+# PLOS articles are defined by their URLs, if one is missing you may need to add it
 
 # this recipe assumes that there is a text file hosted somewhere (articleFile)
 # where each line is either a url, or a title|url pair (title and url separated by a pipe)
 # These are the articles you actually want to read.
 
-class BMCRecipe(BasicNewsRecipe):
+class PLOSRecipe(BasicNewsRecipe):
   
-	title = u'BMC Journals'
+	title = u'PLOS Journals'
 	__author__ = 'Robert M Flight'
-	__date__ = '21 May 2013'
+	__date__ = '23 May 2013'
 	__version__ = '1.0'
 	language = 'en'
 	__license__ = 'GPL v3'
@@ -31,10 +31,10 @@ class BMCRecipe(BasicNewsRecipe):
 	articleFile = 'http://rmflight.github.io/calibre_rssJournal/testJournals.txt'
 	#articles_are_obfuscated = True
 	
-	no_stylesheets = True
+	#no_stylesheets = True
 	keep_only_tags = dict(attrs={'class':'rounded custom white article full-text'})
 		
-	keepArticles = [re.compile('biomedcentral'), re.compile('http://www.biology-direct.com/'), re.compile('http://www.biodatamining.org/'), re.compile('http://journal.chemistrycentral.com/')]
+	keepArticles = [re.compile('plos')]
 	
 	#match_regexps = [r'table']
 	#recursions = 2
@@ -74,27 +74,17 @@ class BMCRecipe(BasicNewsRecipe):
 		
 	def preprocess_html(self, soup):
 		
-		allFigures = soup.findAll('div', 'fig')
+		# in contrast to other recipes, PLOS uses png images for both images and tables
+		allFigures = soup.findAll('div', 'img')
 		
 		for figDiv in allFigures:
 			imgTag = figDiv('img')[0]
 			tmpSrc = imgTag['src']
 			#tmpSrc = url_split_char.join([base_url, tmpSrc])
-			if re.search('.gif', tmpSrc):
-				tmpSrc = re.sub('.gif', '.jpg', tmpSrc)
+			if re.search('PNG', tmpSrc):
+				tmpSrc = re.sub('PNG_I', 'PNG_L', tmpSrc)
 				
 			imgTag['src'] = tmpSrc
-			
-			
-		allTables = soup.findAll('div', 'table')
-		for iTable in allTables:
-			
-			a_link = iTable.find('a')['href']
-			
-			table_soup = self.index_to_soup(a_link)
-			real_table = table_soup.find('table')
-			iTable.replaceWith(real_table)
-			#print repr(table_soup)		
 		
 		return soup
 		
