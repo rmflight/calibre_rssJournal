@@ -1,0 +1,121 @@
+from calibre.ptempfile import PersistentTemporaryFile
+from calibre.web.feeds.news import BasicNewsRecipe
+from calibre.ebooks.BeautifulSoup import BeautifulSoup
+import re
+import urllib
+
+# the goal with this recipe (and others I'm writing) is that a reader of 
+# academic journals frequently has a list of articles to read, from a variety of journals.
+# Based on this workflow, this recipe assumes a single file with the titles and urls of 
+# the articles in question, separated by the pipe |
+#
+# eg Article of interest|url.of.the.article
+#
+# This file is set in "articleFile" below
+#
+# BMC articles are defined by their URLs, if one is missing you may need to add it
+
+# this recipe assumes that there is a text file hosted somewhere (articleFile)
+# where each line is either a url, or a title|url pair (title and url separated by a pipe)
+# These are the articles you actually want to read.
+
+class BMCRecipe(BasicNewsRecipe):
+  
+	title = u'BMC Journals'
+	__author__ = 'Robert M Flight'
+	__date__ = '21 May 2013'
+	__version__ = '1.0'
+	language = 'en'
+	__license__ = 'GPL v3'
+	
+	articleFile = 'http://rmflight.github.io/calibre_rssJournal/testJournals.txt'
+	#articles_are_obfuscated = True
+	
+	no_stylesheets = True
+	keep_only_tags = dict(attrs={'class':'rounded custom white article full-text'})
+		
+	keepArticles = [re.compile('biomedcentral'), re.compile('http://www.biology-direct.com/'), re.compile('http://www.biodatamining.org/'), re.compile('http://journal.chemistrycentral.com/')]
+	
+	#match_regexps = [r'table']
+	#recursions = 2
+	
+	# this does the parsing of the text file with the URLs. Please change this to your own hosted text file
+	def parse_index(self):
+		feeds = []
+		for title, url in [('BMC Articles', self.articleFile)]:
+			articles = self.bioinfo_parse_articles(url)
+			if articles:
+				feeds.append((title, articles))
+			print feeds
+		return feeds
+		
+	def bioinfo_parse_articles(self,url):
+		urlFile = urllib.urlopen(url)
+		useURL = urlFile.readlines()
+		current_articles = []
+		
+
+		incTitle = 1
+
+		for urlI in useURL:
+			if any(r.search(urlI) for r in self.keepArticles):
+				splitURL = urlI.split("|")
+				if len(splitURL) == 1:
+					useURL = splitURL[0].strip()
+					useTitle = "Article" + str(incTitle)
+				else:
+					useURL = splitURL[1].strip()
+					useTitle = splitURL[0].strip()
+				
+				useURL = useURL + "?fmt_math=no"	
+				current_articles.append({'title': useTitle, 'url':useURL, 'description':'', 'date':''})
+				incTitle = incTitle + 1
+		return current_articles
+		
+	def preprocess_html(self, soup):
+		
+		allFigures = soup.findAll('div', 'fig')
+		
+		for figDiv in allFigures:
+			imgTag = figDiv('img')[0]
+			tmpSrc = imgTag['src']
+			#tmpSrc = url_split_char.join([base_url, tmpSrc])
+			if re.search('.gif', tmpSrc):
+				tmpSrc = re.sub('.gif', '.jpg', tmpSrc)
+				
+			imgTag['src'] = tmpSrc
+			
+			
+		allTables = soup.findAll('div', 'table')
+		for iTable in allTables:
+			
+			a_link = iTable.find('a')['href']
+			
+			table_soup = self.index_to_soup(a_link)
+			real_table = table_soup.find('table')
+			iTable.replaceWith(real_table)
+			#print repr(table_soup)		
+		
+		return soup
+		
+	#def postprocess_html(self, soup, first_fetch):
+				
+		#all_tables = soup.findAll('div', 'table')
+		#for iTable in all_tables:
+			
+			#a_link = iTable.find('a')
+			
+			#print "this is the table link: " + a_link['href']
+			
+			
+			#table_file = open(a_link['href'], 'r').read()
+			#table_soup = BeautifulSoup(table_file)
+			#print repr(table_soup)
+			
+			#real_table = table_soup.find('table')
+			
+			#print "this is the table to replace with:" + repr(real_table)
+			
+			#iTable.replaceWith(real_table)
+		
+		#return soup
