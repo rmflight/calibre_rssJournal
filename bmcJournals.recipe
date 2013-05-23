@@ -28,7 +28,7 @@ class BMCRecipe(BasicNewsRecipe):
 	language = 'en'
 	__license__ = 'GPL v3'
 	
-	articleFile = 'https://dl.dropbox.com/s/wwwp60oxha6p78e/articles2read.txt'
+	articleFile = 'http://rmflight.github.io/calibre_rssJournal/testJournals.txt'
 	#articles_are_obfuscated = True
 	
 	no_stylesheets = True
