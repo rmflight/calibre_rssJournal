@@ -3,4 +3,5 @@ Combining MEDLINE and publisher data to create parallel corpora for the automati
 Investigating the concordance of Gene Ontology terms reveals the intra- and inter-platform reproducibility of enrichment analysis|http://www.biomedcentral.com/1471-2105/14/143
 OKVAR-Boost: a novel boosting algorithm to infer nonlinear dynamics and interactions in gene regulatory networks|http://bioinformatics.oxfordjournals.org/content/29/11/1416.full
 NetworkPrioritizer: a versatile tool for network-based prioritization of candidate disease genes or other molecules|http://bioinformatics.oxfordjournals.org/content/29/11/1471.full
-
+Expression Patterns of Killer Cell Immunoglobulin-Like Receptors (KIR) of NK-Cell and T-Cell Subsets in Old World Monkeys|http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0064936
+Hybrid Equation/Agent-Based Model of Ischemia-Induced Hyperemia and Pressure Ulcer Formation Predicts Greater Propensity to Ulcerate in Subjects with Spinal Cord Injury|http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003070
