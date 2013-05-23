@@ -4,19 +4,15 @@ In addition to PDF, many research journal articles are made available as HTML fi
 
 This currently parses a set of URL's in a single text file hosted on the web (use the "dl." link for dropbox).
 
-This file would contain an article on each line like this:
+An example file for examination and testing is provide [here](http://rmflight.github.io/calibre_rssJournal/testJournals.txt)
 
-Iterative rank-order normalization of gene expression microarray data|http://www.biomedcentral.com/1471-2105/14/153
+## Currently Supported
 
-Combining MEDLINE and publisher data to create parallel corpora for the automatic translation of biomedical text|http://www.biomedcentral.com/1471-2105/14/146
+PLOS
 
-Investigating the concordance of Gene Ontology terms reveals the intra- and inter-platform reproducibility of enrichment analysis|http://www.biomedcentral.com/1471-2105/14/143
+Oxford Journals
 
-OKVAR-Boost: a novel boosting algorithm to infer nonlinear dynamics and interactions in gene regulatory networks|http://bioinformatics.oxfordjournals.org/content/29/11/1416.full
-
-NetworkPrioritizer: a versatile tool for network-based prioritization of candidate disease genes or other molecules|http://bioinformatics.oxfordjournals.org/content/29/11/1471.full
-
-Currently can handle BMC Journals (tested on BMC Bioinformatics and BioData Mining) and Oxford Journals.
+BMC Journals
 
 ## Planned Improvements
 
