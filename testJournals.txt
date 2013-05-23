@@ -5,3 +5,5 @@ OKVAR-Boost: a novel boosting algorithm to infer nonlinear dynamics and interact
 NetworkPrioritizer: a versatile tool for network-based prioritization of candidate disease genes or other molecules|http://bioinformatics.oxfordjournals.org/content/29/11/1471.full
 Expression Patterns of Killer Cell Immunoglobulin-Like Receptors (KIR) of NK-Cell and T-Cell Subsets in Old World Monkeys|http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0064936
 Hybrid Equation/Agent-Based Model of Ischemia-Induced Hyperemia and Pressure Ulcer Formation Predicts Greater Propensity to Ulcerate in Subjects with Spinal Cord Injury|http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003070
+Structural analysis of Stc1 provides insights into the coupling of RNAi and chromatin modification|http://www.pnas.org/content/110/21/E1879.full
+Green Revolution research saved an estimated 18 to 27 million hectares from being brought into agricultural|http://www.pnas.org/content/110/21/8363.full
