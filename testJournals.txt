@@ -7,3 +7,7 @@ Expression Patterns of Killer Cell Immunoglobulin-Like Receptors (KIR) of NK-Cel
 Hybrid Equation/Agent-Based Model of Ischemia-Induced Hyperemia and Pressure Ulcer Formation Predicts Greater Propensity to Ulcerate in Subjects with Spinal Cord Injury|http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003070
 Structural analysis of Stc1 provides insights into the coupling of RNAi and chromatin modification|http://www.pnas.org/content/110/21/E1879.full
 Green Revolution research saved an estimated 18 to 27 million hectares from being brought into agricultural|http://www.pnas.org/content/110/21/8363.full
+Pif1 family helicases suppress genome instability at G-quadruplex motifs|http://www.nature.com/nature/journal/v497/n7450/full/nature12149.html
+Interhemispheric asymmetry of olfactory input-dependent neuronal specification in the adult brain|http://www.nature.com/neuro/journal/vaop/ncurrent/full/nn.3409.html
+Structural biology: Tiny enzyme uses context to succeed|http://www.nature.com/nature/journal/v497/n7450/full/nature12245.html
+An alien named Tim|http://www.nature.com/nature/journal/v497/n7450/full/497530a.html
