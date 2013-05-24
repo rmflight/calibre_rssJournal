@@ -14,6 +14,8 @@ Oxford Journals
 
 BMC Journals
 
+PNAS (note that a subscription will be required to test the recipe with the urls on the example page)
+
 ## Planned Improvements
 
 Handle other journals (Pubmed Central (this might be through download of the epub versions that PMC is making available), PeerJ, eLife, PNAS, CSHL, Nature, Science, Wiley)
